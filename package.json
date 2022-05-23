@@ -14,8 +14,7 @@
     "scripts": {
         "wdio": "wdio run wdio.conf.js",
         "allure:serve": "npx allure serve allure-results",
-        "allure:generate": "npx allure generate allure-results --clean",
-        "report": "allure generate allure-results/ --clean"
+        "allure:generate": "npx allure generate allure-results --clean"
     },
     "dependencies": {
         "allure-commandline": "^2.17.2"
