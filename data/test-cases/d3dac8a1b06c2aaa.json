@@ -1,12 +1,12 @@
 {
-  "uid" : "6a539fdf32861d8a",
+  "uid" : "d3dac8a1b06c2aaa",
   "name" : "should login with valid credentials",
   "fullName" : "My Login application.should login with valid credentials",
-  "historyId" : "28e7e95ab9dea7c7a8f12d1ed229a857",
+  "historyId" : "11ac3078f2fe869b5b67564bcdee0b0",
   "time" : {
-    "start" : 1653297773110,
-    "stop" : 1653297774790,
-    "duration" : 1680
+    "start" : 1653295405413,
+    "stop" : 1653295407858,
+    "duration" : 2445
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -46,25 +46,15 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-101.0.4951.64"
+    "value" : "chrome-101.0.4951.67"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "4e8d119ba7e36472",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653297773100,
-        "stop" : 1653297774792,
-        "duration" : 1692
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6a539fdf32861d8a.json",
-  "parameterValues" : [ "chrome-101.0.4951.64" ]
+  "source" : "d3dac8a1b06c2aaa.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
 }
