@@ -16,27 +16,15 @@ jobs:
      #  - run: npm config set script-shell "G:\Git\bin\bash.exe"
       - name: run test
         run: npm run wdio # Our name of the headless script
-      # - name: Copy History
-      #   if: always()
-      #   run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history
       - name: Create Report
-      if: always()
+        if: always()
       # trying to save history of previous runs if it is exists
-      run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && npm run report
-    - uses: actions/upload-artifact@v1
-      if: always()
-      with:
-        name: allure-report
-        path: ./allure-report
-      # - name: Generate Report
-      #   if: always()
-      #   run: npm run allure:generate # Name of the allure generate script
-      # - name: Upload Results
-      #   uses: actions/upload-artifact@v1
-      #   if: always()
-      #   with:
-      #     name: allure-results
-      #     path: ./allure-results # Name of the folder with allure results                    
+        run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && npm run report
+      - uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: allure-report
+          path: ./allure-report                  
       - name: Publishing Allure artifact to Github Actions
         uses: actions/upload-artifact@v2
         if: always()
