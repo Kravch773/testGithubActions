@@ -1,18 +1,22 @@
 {
-  "uid" : "ebad5acb79d84935",
+  "uid" : "5f2ec0ee91114ba",
   "name" : "should login with valid credentials",
   "fullName" : "My Login application.should login with valid credentials",
-  "historyId" : "11ac3078f2fe869b5b67564bcdee0b0",
+  "historyId" : "28e7e95ab9dea7c7a8f12d1ed229a857",
   "time" : {
-    "start" : 1653291227906,
-    "stop" : 1653291230282,
-    "duration" : 2376
+    "start" : 1653293890504,
+    "stop" : 1653293891890,
+    "duration" : 1386
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -42,7 +46,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-101.0.4951.67"
+    "value" : "chrome-101.0.4951.64"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -50,25 +54,17 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "592d7c7eff007b11",
+      "uid" : "64b235005672cbb9",
       "status" : "passed",
       "time" : {
-        "start" : 1653290914181,
-        "stop" : 1653290919156,
-        "duration" : 4975
-      }
-    }, {
-      "uid" : "e7bc06084b245455",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653288981469,
-        "stop" : 1653288986459,
-        "duration" : 4990
+        "start" : 1653293890500,
+        "stop" : 1653293891949,
+        "duration" : 1449
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ebad5acb79d84935.json",
-  "parameterValues" : [ "chrome-101.0.4951.67" ]
+  "source" : "5f2ec0ee91114ba.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
 }
