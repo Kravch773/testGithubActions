@@ -12,7 +12,7 @@
         "wdio-chromedriver-service": "^7.3.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js",
+        "assignmentsTabs": "./node_modules/.bin/wdio ./wdio.conf.js --suite assignmentsTabs",
         "allure:serve": "npx allure serve allure-results",
         "allure:generate": "npx allure generate allure-results --clean"
     },

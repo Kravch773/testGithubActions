@@ -23,6 +23,30 @@ exports.config = {
     specs: [
         './test/specs/**/*.js'
     ],
+    suites: {
+        need_analysis: [
+            './test/specs/Assignment/need_analysis/13.*.spec.ts',
+        ],
+        assigneeOptions: [
+            './test/specs/Assignment/options/*.spec.ts'
+        ],
+        assignments_assigneeTab: [
+            './test/specs/Assignment/assignee/*.spec.ts'
+        ],
+        assignmentsTabs: [
+            './test/specs/Assignment/AssignmentTabs/*.js'
+        ],
+        clientPageTabs: [
+            './test/specs/ClientPage/*.spec.ts'
+        ],
+        client_SetupPage: [
+            './test/specs/ClientPage/SetupPage/*.spec.ts'
+        ],
+        initiatedServices: [
+            './test/specs/Assignment/InitiatedServices/*/*.spec.ts'
+        ]
+
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
