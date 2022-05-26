@@ -1,12 +1,12 @@
 {
-  "uid" : "4a3acfdcb1377f33",
+  "uid" : "6869f005bf4b6c01",
   "name" : "should login with valid credentials",
   "fullName" : "My Login application.should login with valid credentials",
   "historyId" : "11ac3078f2fe869b5b67564bcdee0b0",
   "time" : {
-    "start" : 1653295437215,
-    "stop" : 1653295439643,
-    "duration" : 2428
+    "start" : 1653545824261,
+    "stop" : 1653545829566,
+    "duration" : 5305
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 10,
+  "retriesCount" : 12,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -27,7 +27,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-0"
   }, {
     "name" : "suite",
     "value" : "My Login application"
@@ -54,7 +54,15 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "4d9f7f5a7507036e",
+      "uid" : "9151e3cd8e41846b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653545824261,
+        "stop" : 1653545829432,
+        "duration" : 5171
+      }
+    }, {
+      "uid" : "5bb9fe3bf06a3b58",
       "status" : "passed",
       "time" : {
         "start" : 1653295437215,
@@ -62,7 +70,15 @@
         "duration" : 2368
       }
     }, {
-      "uid" : "106a5f11f0247d92",
+      "uid" : "1d1bad70bcf2c49e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653295437215,
+        "stop" : 1653295439643,
+        "duration" : 2428
+      }
+    }, {
+      "uid" : "d8a5ca1657abb5ac",
       "status" : "passed",
       "time" : {
         "start" : 1653295405413,
@@ -70,7 +86,7 @@
         "duration" : 2408
       }
     }, {
-      "uid" : "7ee93adabb0a2a98",
+      "uid" : "dacc83c7d438dadc",
       "status" : "passed",
       "time" : {
         "start" : 1653295405413,
@@ -78,15 +94,7 @@
         "duration" : 2445
       }
     }, {
-      "uid" : "c291c9916f44178",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653295379026,
-        "stop" : 1653295381417,
-        "duration" : 2391
-      }
-    }, {
-      "uid" : "5b4efdab197614b",
+      "uid" : "aa7bb3b07df36c6",
       "status" : "passed",
       "time" : {
         "start" : 1653295379026,
@@ -94,7 +102,15 @@
         "duration" : 2438
       }
     }, {
-      "uid" : "4d6188dc692176fc",
+      "uid" : "3c745224438308bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653295379026,
+        "stop" : 1653295381417,
+        "duration" : 2391
+      }
+    }, {
+      "uid" : "629dcb171b996318",
       "status" : "passed",
       "time" : {
         "start" : 1653295020517,
@@ -102,7 +118,7 @@
         "duration" : 4941
       }
     }, {
-      "uid" : "f7e2b044c0b6da1f",
+      "uid" : "97adf5451cdcf7f0",
       "status" : "passed",
       "time" : {
         "start" : 1653295020517,
@@ -110,7 +126,7 @@
         "duration" : 4903
       }
     }, {
-      "uid" : "b926df7da06c21fe",
+      "uid" : "3d00f06fbc7f4f1d",
       "status" : "passed",
       "time" : {
         "start" : 1653291227906,
@@ -118,7 +134,7 @@
         "duration" : 2376
       }
     }, {
-      "uid" : "a81af2236cde9bf8",
+      "uid" : "c34afd66f12d4f1d",
       "status" : "passed",
       "time" : {
         "start" : 1653290914181,
@@ -126,7 +142,7 @@
         "duration" : 4975
       }
     }, {
-      "uid" : "884018aef7d326e",
+      "uid" : "56c4e156518bb506",
       "status" : "passed",
       "time" : {
         "start" : 1653288981469,
@@ -135,8 +151,27 @@
       }
     } ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "efd1ef819da3e8a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653545824261,
+          "stop" : 1653545829566,
+          "duration" : 5305
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "4a3acfdcb1377f33.json",
+  "source" : "6869f005bf4b6c01.json",
   "parameterValues" : [ "chrome-101.0.4951.67" ]
 }
