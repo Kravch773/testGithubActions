@@ -30,11 +30,10 @@ jobs:
         run: npm run allure:generate # Name of the allure generate script
       - name: Upload Results
         uses: actions/upload-artifact@v1
-        working-directory: ${{env.working-directory}}
         if: always()
         with:
           name: allure-results
-          path: allure-results # Name of the folder with allure results                    
+          path: ./autoTests/allure-results # Name of the folder with allure results                    
       - name: Publishing Allure artifact to Github Actions
         uses: actions/upload-artifact@v2
         if: always()
