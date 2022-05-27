@@ -329,11 +329,18 @@ class commonElements {
     public async getDropDownValueText(dropDownElement = this.dropDownElement): Promise<string> {
         return await Page.getElementText(`//option[@value="${await Page.getElementValue(dropDownElement)}"]`);
     }
-    public async getCurrentDate(): Promise<string> {
+    public async getCurrentDate(isGitAction = false): Promise<string> {
         let today = new Date()
-        if (today.getMonth() + 1 < 10) { var date = today.getDate() + ".0" + (today.getMonth() + 1) + "." + today.getFullYear(); }
-        else { var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear(); }
-        return date;
+        if (isGitAction == true) {
+            var date = (today.getMonth() + 1) + "/" + today.getDate() + "/" + (today.getFullYear().toString().substring(-2));
+            return date;
+        }
+        if (isGitAction == false) {
+            if (today.getMonth() + 1 < 10) { var date = today.getDate() + ".0" + (today.getMonth() + 1) + "." + today.getFullYear(); }
+            else { var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear(); }
+            return date;
+        }
+
     }
     public async getCurrentDateNo0InMonth(): Promise<string> {
         let today = new Date()
