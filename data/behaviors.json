@@ -1,192 +1,22 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "should login with valid credentials",
-    "uid" : "60dce0afac7e2ed6",
+    "uid" : "efd1ef819da3e8a2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1653561334861,
-      "stop" : 1653561337209,
-      "duration" : 2348
+      "start" : 1653545824261,
+      "stop" : 1653545829566,
+      "duration" : 5305
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 16,
+    "retriesCount" : 12,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-101.0.4951.67" ]
-  }, {
-    "name" : "Go to Assignee documents tab and check label",
-    "uid" : "39675f0cda01d0d1",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653571363182,
-      "stop" : 1653571377625,
-      "duration" : 14443
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-101.0.4951.67" ]
-  }, {
-    "name" : "Verify add document form",
-    "uid" : "dd1013c05452d27b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653571377625,
-      "stop" : 1653571389093,
-      "duration" : 11468
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : true,
-    "parameters" : [ "chrome-101.0.4951.67" ]
-  }, {
-    "name" : "Verify edit documents form",
-    "uid" : "8d0dee689b4515a4",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653571389094,
-      "stop" : 1653571409054,
-      "duration" : 19960
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : true,
-    "parameters" : [ "chrome-101.0.4951.67" ]
-  }, {
-    "name" : "Verify remove documents",
-    "uid" : "7805f641a7539fe0",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653571409056,
-      "stop" : 1653571416015,
-      "duration" : 6959
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : true,
-    "parameters" : [ "chrome-101.0.4951.67" ]
-  }, {
-    "name" : "Verify unsupported file error",
-    "uid" : "64e7d8bf625eae95",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653571416015,
-      "stop" : 1653571418442,
-      "duration" : 2427
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : true,
-    "parameters" : [ "chrome-101.0.4951.67" ]
-  }, {
-    "name" : "Go to Assignee documents tab and check label",
-    "uid" : "76e057b29568e85b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653632561231,
-      "stop" : 1653632576241,
-      "duration" : 15010
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-101.0.4951.64" ]
-  }, {
-    "name" : "Verify add document form",
-    "uid" : "7df855c93666",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1653632576242,
-      "stop" : 1653632587992,
-      "duration" : 11750
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-101.0.4951.64" ]
-  }, {
-    "name" : "Verify edit documents form",
-    "uid" : "882ab97a8f51b27a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653632588002,
-      "stop" : 1653632607559,
-      "duration" : 19557
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-101.0.4951.64" ]
-  }, {
-    "name" : "Verify remove documents",
-    "uid" : "ac7eb956f312231e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653632607560,
-      "stop" : 1653632614515,
-      "duration" : 6955
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-101.0.4951.64" ]
-  }, {
-    "name" : "Verify unsupported file error",
-    "uid" : "5e5099c779bc9e4a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653632614515,
-      "stop" : 1653632617001,
-      "duration" : 2486
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-101.0.4951.64" ]
-  } ],
-  "name" : "behaviors"
+  } ]
 }
