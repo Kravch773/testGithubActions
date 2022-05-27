@@ -1,10 +1,11 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "My Login application",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "736445b0069ca30d",
+      "uid" : "fb03e64a3025e9ea",
       "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
       "status" : "passed",
       "time" : {
@@ -25,7 +26,7 @@
     "name" : "Assignments documents page test",
     "children" : [ {
       "name" : "Go to Assignee documents tab and check label",
-      "uid" : "4d23783cd8da995e",
+      "uid" : "51bf497bbbb37457",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
       "status" : "passed",
       "time" : {
@@ -42,7 +43,7 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "Verify add document form",
-      "uid" : "fb84b2a7b70c668d",
+      "uid" : "14f298ccbad62989",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
       "status" : "passed",
       "time" : {
@@ -59,7 +60,7 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "Verify edit documents form",
-      "uid" : "ad94ee4815906f1e",
+      "uid" : "78efbd50c966c75f",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
       "status" : "passed",
       "time" : {
@@ -76,7 +77,7 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "Verify remove documents",
-      "uid" : "51cfa701f1109605",
+      "uid" : "6c11ff0594ff5d7",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
       "status" : "passed",
       "time" : {
@@ -93,7 +94,7 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "Verify unsupported file error",
-      "uid" : "b16244b2a5afe4de",
+      "uid" : "6505647c38a76589",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
       "status" : "passed",
       "time" : {
@@ -110,13 +111,13 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "Go to Assignee documents tab and check label",
-      "uid" : "94b43c34e9c4b8df",
+      "uid" : "d0560dd1340dbcc1",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
       "status" : "passed",
       "time" : {
-        "start" : 1653653163506,
-        "stop" : 1653653179324,
-        "duration" : 15818
+        "start" : 1653654096898,
+        "stop" : 1653654112605,
+        "duration" : 15707
       },
       "flaky" : false,
       "newFailed" : false,
@@ -127,13 +128,13 @@
       "parameters" : [ "chrome-101.0.4951.64" ]
     }, {
       "name" : "Verify add document form",
-      "uid" : "7c1a36f15a88955b",
+      "uid" : "b70ec130d5887e76",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1653653179324,
-        "stop" : 1653653191149,
-        "duration" : 11825
+        "start" : 1653654112605,
+        "stop" : 1653654123444,
+        "duration" : 10839
       },
       "flaky" : false,
       "newFailed" : false,
@@ -144,13 +145,13 @@
       "parameters" : [ "chrome-101.0.4951.64" ]
     }, {
       "name" : "Verify edit documents form",
-      "uid" : "40efb3e4101f4133",
+      "uid" : "1a67f096bcc3d3c5",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
       "status" : "passed",
       "time" : {
-        "start" : 1653653191149,
-        "stop" : 1653653211866,
-        "duration" : 20717
+        "start" : 1653654123446,
+        "stop" : 1653654143786,
+        "duration" : 20340
       },
       "flaky" : false,
       "newFailed" : false,
@@ -161,13 +162,13 @@
       "parameters" : [ "chrome-101.0.4951.64" ]
     }, {
       "name" : "Verify remove documents",
-      "uid" : "b00effb29ed2189d",
+      "uid" : "59e6768183ea5f9e",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
       "status" : "passed",
       "time" : {
-        "start" : 1653653211868,
-        "stop" : 1653653218431,
-        "duration" : 6563
+        "start" : 1653654143787,
+        "stop" : 1653654150748,
+        "duration" : 6961
       },
       "flaky" : false,
       "newFailed" : false,
@@ -178,13 +179,13 @@
       "parameters" : [ "chrome-101.0.4951.64" ]
     }, {
       "name" : "Verify unsupported file error",
-      "uid" : "674ee15379fa1a7a",
+      "uid" : "11168d9911e9855c",
       "parentUid" : "9eec218717d70ee91a7d5bff59c26c2d",
       "status" : "passed",
       "time" : {
-        "start" : 1653653218431,
-        "stop" : 1653653220954,
-        "duration" : 2523
+        "start" : 1653654150748,
+        "stop" : 1653654153188,
+        "duration" : 2440
       },
       "flaky" : false,
       "newFailed" : false,
@@ -195,6 +196,5 @@
       "parameters" : [ "chrome-101.0.4951.64" ]
     } ],
     "uid" : "9eec218717d70ee91a7d5bff59c26c2d"
-  } ],
-  "name" : "suites"
+  } ]
 }
