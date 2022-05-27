@@ -1,16 +1,18 @@
 {
-  "uid" : "c2dee0e2f12328ee",
-  "name" : "should login with valid credentials",
-  "fullName" : "My Login application.should login with valid credentials",
-  "historyId" : "11ac3078f2fe869b5b67564bcdee0b0",
+  "uid" : "1700925eb972f59d",
+  "name" : "Verify add document form",
+  "fullName" : "Assignments documents page test.Verify add document form",
+  "historyId" : "59b58c4b7837cbc77c3482fe1b3c360e",
   "time" : {
-    "start" : 1653291227906,
-    "stop" : 1653291230282,
-    "duration" : 2376
+    "start" : 1653570872850,
+    "stop" : 1653570872941,
+    "duration" : 91
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "broken",
+  "statusMessage" : "ENOENT: no such file or directory, open 'D:\\Ghactionstest2\\testGithubActions\\autoTests\\testFiles\\QAtest.docx'",
+  "statusTrace" : "Error: ENOENT: no such file or directory, open 'D:\\Ghactionstest2\\testGithubActions\\autoTests\\testFiles\\QAtest.docx'",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -30,16 +32,16 @@
     "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "My Login application"
+    "value" : "Assignments documents page test"
   }, {
     "name" : "testClass",
-    "value" : "My Login application"
+    "value" : "Assignments documents page test"
   }, {
     "name" : "testMethod",
-    "value" : "should login with valid credentials"
+    "value" : "Verify add document form"
   }, {
     "name" : "package",
-    "value" : "My Login application"
+    "value" : "Assignments documents page test"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -55,6 +57,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c2dee0e2f12328ee.json",
+  "source" : "1700925eb972f59d.json",
   "parameterValues" : [ "chrome-101.0.4951.67" ]
 }

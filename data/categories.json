@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"27.05.2022\"\n                Received string:    \"5/27/22, 6:23 AM\"",
+      "children" : [ {
+        "name" : "Verify add document form",
+        "uid" : "7df855c93666",
+        "parentUid" : "1e5f15f24998252f09b7541b56d07f0e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653632576242,
+          "stop" : 1653632587992,
+          "duration" : 11750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.64" ]
+      } ],
+      "uid" : "1e5f15f24998252f09b7541b56d07f0e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
 }
