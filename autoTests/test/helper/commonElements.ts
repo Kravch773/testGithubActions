@@ -332,7 +332,7 @@ class commonElements {
     public async getCurrentDate(isGitAction = false): Promise<string> {
         let today = new Date()
         if (isGitAction == true) {
-            var date = (today.getMonth() + 1) + "/" + today.getDate() + "/" + ((today.getFullYear().toString()).substring(-2));
+            var date = (today.getMonth() + 1) + "/" + today.getDate() + "/" + ((today.getFullYear().toString()).substring(2));
             return date;
         }
         if (isGitAction == false) {
@@ -340,7 +340,6 @@ class commonElements {
             else { var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear(); }
             return date;
         }
-
     }
     public async getCurrentDateNo0InMonth(): Promise<string> {
         let today = new Date()
