@@ -18,12 +18,12 @@ jobs:
         working-directory: ${{env.working-directory}} 
         run: npm ci
      #  - run: npm config set script-shell "G:\Git\bin\bash.exe"
-      - name: run test
+      - name: run assignments_assigneeTab
         working-directory: ${{env.working-directory}}
-        run: npm run assignmentsTabs # Our name of the headless script
+        run: npm run assignmentsTabs:headless # name of the headless script
       - name: Copy History
         if: always()
-        run: cp -r $(pwd)/docs/history/. $(pwd)/autoTests/allure-results/history
+        run: cp -r $(pwd)/docs/qaReport/history/. $(pwd)/autoTests/allure-results/history
       - name: Generate Report
         working-directory: ${{env.working-directory}}
         if: always()
@@ -46,4 +46,3 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: autoTests/allure-report # The folder the action should deploy.
-          # workspace: './autoTests'
