@@ -1,27 +1,11 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Verify remove documents",
-      "uid" : "8099a6875ed6366b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653897274082,
-        "stop" : 1653897281125,
-        "duration" : 7043
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.64" ]
-    }, {
       "name" : "Verify edit documents form",
-      "uid" : "90670efc76f28bc9",
+      "uid" : "70e1bbedf31bb463",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -37,25 +21,8 @@
       "retriesStatusChange" : true,
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
-      "name" : "should login with valid credentials",
-      "uid" : "64e35e707c2adc9b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653295405413,
-        "stop" : 1653295407858,
-        "duration" : 2445
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
       "name" : "Verify add document form",
-      "uid" : "c82d020adc5a3e9a",
+      "uid" : "bd5579452479678c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -71,178 +38,8 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
-      "name" : "should login with valid credentials",
-      "uid" : "b56619dc45d80048",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653561334861,
-        "stop" : 1653561337209,
-        "duration" : 2348
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 16,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "44d4ce26dc225cb8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653545824261,
-        "stop" : 1653545829566,
-        "duration" : 5305
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "47221c2c3ea7e951",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653295020517,
-        "stop" : 1653295025420,
-        "duration" : 4903
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "Verify unsupported file error",
-      "uid" : "fc3bbad218ffd41a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653897281125,
-        "stop" : 1653897283673,
-        "duration" : 2548
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.64" ]
-    }, {
-      "name" : "Go to Assignee documents tab and check label",
-      "uid" : "4efd722bb7c31693",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653570857165,
-        "stop" : 1653570872849,
-        "duration" : 15684
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "Verify add document form",
-      "uid" : "bd1c4a6900479c48",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653897242097,
-        "stop" : 1653897253822,
-        "duration" : 11725
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.64" ]
-    }, {
-      "name" : "Verify unsupported file error",
-      "uid" : "be1f73f37d6ca9bb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653571416015,
-        "stop" : 1653571418442,
-        "duration" : 2427
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "Verify add document form",
-      "uid" : "60855e65f1ab6c16",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653571377625,
-        "stop" : 1653571389093,
-        "duration" : 11468
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "Verify edit documents form",
-      "uid" : "58472bd33da2fe7f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653897253822,
-        "stop" : 1653897274082,
-        "duration" : 20260
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.64" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "cf04a3729fbde379",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653288981469,
-        "stop" : 1653288986459,
-        "duration" : 4990
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
       "name" : "Verify remove documents",
-      "uid" : "f019e0cca4f679f0",
+      "uid" : "1922a0e2ad8abdfc",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -259,109 +56,24 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "Verify unsupported file error",
-      "uid" : "525669d4edcfd6d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1653570897985,
-        "stop" : 1653570912988,
-        "duration" : 15003
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "4e826ac7c4a98895",
+      "uid" : "ad9e486d00ca1a8b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1653290914181,
-        "stop" : 1653290919156,
-        "duration" : 4975
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "Go to Assignee documents tab and check label",
-      "uid" : "92cb3d645f7b4aa1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653571363182,
-        "stop" : 1653571377625,
-        "duration" : 14443
+        "start" : 1653571416015,
+        "stop" : 1653571418442,
+        "duration" : 2427
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
       "retriesCount" : 1,
-      "retriesStatusChange" : false,
+      "retriesStatusChange" : true,
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "502d8d3aa09bbbee",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653295437215,
-        "stop" : 1653295439583,
-        "duration" : 2368
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "66df8ce5bb029b5b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653561067540,
-        "stop" : 1653561069899,
-        "duration" : 2359
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "Verify remove documents",
-      "uid" : "ea69529840833e8b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1653570887962,
-        "stop" : 1653570897985,
-        "duration" : 10023
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "2cbcab84764426a5",
+      "uid" : "17d441f0c922b96f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -378,47 +90,13 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "5389b5c1de62c39c",
+      "uid" : "ffb1769f225dd645",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1653561041071,
-        "stop" : 1653561046012,
-        "duration" : 4941
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "Go to Assignee documents tab and check label",
-      "uid" : "7f82d14e86d7b32b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653897226585,
-        "stop" : 1653897242096,
-        "duration" : 15511
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.64" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "5d671b9416d3fb11",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653291227906,
-        "stop" : 1653291230282,
-        "duration" : 2376
+        "start" : 1653295020517,
+        "stop" : 1653295025420,
+        "duration" : 4903
       },
       "flaky" : false,
       "newFailed" : false,
@@ -429,7 +107,41 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "a44172b0d2a320b2",
+      "uid" : "ec307e4f0e919992",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653290914181,
+        "stop" : 1653290919156,
+        "duration" : 4975
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "407042fde918abf0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653295437215,
+        "stop" : 1653295439583,
+        "duration" : 2368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "a8bb8bcdc9258be1",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -445,8 +157,25 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
+      "name" : "Verify unsupported file error",
+      "uid" : "823969ad000ed04b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653570897985,
+        "stop" : 1653570912988,
+        "duration" : 15003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
       "name" : "Verify edit documents form",
-      "uid" : "789f04c8418b5394",
+      "uid" : "3adecfb27b9eede6",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -461,13 +190,285 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "dc48e28ca160d855",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653291227906,
+        "stop" : 1653291230282,
+        "duration" : 2376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "Verify unsupported file error",
+      "uid" : "2d7c382bad619872",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653897768285,
+        "stop" : 1653897770761,
+        "duration" : 2476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.64" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "9235ad6710ba658",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653545824261,
+        "stop" : 1653545829566,
+        "duration" : 5305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "Go to Assignee documents tab and check label",
+      "uid" : "94f4ff1d35df74c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653570857165,
+        "stop" : 1653570872849,
+        "duration" : 15684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "Verify edit documents form",
+      "uid" : "9f340bf46dc48394",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653897741230,
+        "stop" : 1653897761684,
+        "duration" : 20454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.64" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "e7549cd3b29bbe12",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653561067540,
+        "stop" : 1653561069899,
+        "duration" : 2359
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "Go to Assignee documents tab and check label",
+      "uid" : "89c93d2d104b7074",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653571363182,
+        "stop" : 1653571377625,
+        "duration" : 14443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "Verify add document form",
+      "uid" : "c77fa40b4d256f9c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653897729949,
+        "stop" : 1653897741229,
+        "duration" : 11280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.64" ]
+    }, {
+      "name" : "Verify remove documents",
+      "uid" : "9d767bf48301ffa5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653570887962,
+        "stop" : 1653570897985,
+        "duration" : 10023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "d0eb8398dad7c650",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653288981469,
+        "stop" : 1653288986459,
+        "duration" : 4990
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f5b07bbb1be91b88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653561041071,
+        "stop" : 1653561046012,
+        "duration" : 4941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "Verify add document form",
+      "uid" : "56c678c5ffd9ea6a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653571377625,
+        "stop" : 1653571389093,
+        "duration" : 11468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "8a9053a9da5ddd51",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653295405413,
+        "stop" : 1653295407858,
+        "duration" : 2445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "Verify remove documents",
+      "uid" : "f4a74d852e5f6eea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653897761685,
+        "stop" : 1653897768285,
+        "duration" : 6600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.64" ]
+    }, {
+      "name" : "Go to Assignee documents tab and check label",
+      "uid" : "9ac1c22507a9043",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653897714031,
+        "stop" : 1653897729949,
+        "duration" : 15918
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.64" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b39000f568c23ef9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653561334861,
+        "stop" : 1653561337209,
+        "duration" : 2348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
     "name" : "0-1",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "edb8828aef3205b",
+      "uid" : "bff4af8ce1e1e1f4",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
@@ -484,41 +485,7 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "cf0cc6d653daf082",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653295020517,
-        "stop" : 1653295025458,
-        "duration" : 4941
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "e62a39d45c077e46",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653295405413,
-        "stop" : 1653295407821,
-        "duration" : 2408
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.67" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "14c0a837641623",
+      "uid" : "a00c12df8610446c",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
@@ -535,7 +502,7 @@
       "parameters" : [ "chrome-101.0.4951.67" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "c51f9b1143cee7ca",
+      "uid" : "7b0c274c7eeaee9a",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
@@ -550,8 +517,41 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "1a7fc6845b6a0019",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653295405413,
+        "stop" : 1653295407821,
+        "duration" : 2408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f8ecb4205ddb5efa",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653295020517,
+        "stop" : 1653295025458,
+        "duration" : 4941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
     } ],
     "uid" : "27fa874cadc1574e37a07abb440963bd"
-  } ],
-  "name" : "timeline"
+  } ]
 }
