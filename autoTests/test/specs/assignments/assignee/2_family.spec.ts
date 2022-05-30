@@ -55,7 +55,7 @@ describe('Client Corporate structure page test', () => {
     });
     it('Verify add Partner form ', async () => {
         await assigneePage.clickAddPersonBtn();
-        await assigneePage.setAdditionalMember(personType_2, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, dateOfBirthValue_1, maritalStatusValue_1, emailValue_1, mobilePhoneValue_1, workPhoneValue_1, homePhoneValue_1, notesValue_1);
+        await assigneePage.setAdditionalMember(personType_2, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, await commonElements.createGitDateFormat(dateOfBirthValue_1), maritalStatusValue_1, emailValue_1, mobilePhoneValue_1, workPhoneValue_1, homePhoneValue_1, notesValue_1);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(addedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(addedPersonMsg);
@@ -77,7 +77,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_1);
     });
     it('Verify Edit Partner form ', async () => {
-        await assigneePage.setAdditionalMember(personType_2, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, dateOfBirthValue_2, maritalStatusValue_2, emailValue_2, mobilePhoneValue_2, workPhoneValue_2, homePhoneValue_2, notesValue_2);
+        await assigneePage.setAdditionalMember(personType_2, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, await commonElements.createGitDateFormat(dateOfBirthValue_2), maritalStatusValue_2, emailValue_2, mobilePhoneValue_2, workPhoneValue_2, homePhoneValue_2, notesValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(updatedPersonMsg);
@@ -108,7 +108,7 @@ describe('Client Corporate structure page test', () => {
     });
     it('Verify Other person form ', async () => {
         await assigneePage.clickAddPersonBtn();
-        await assigneePage.setAdditionalMember(personType_3, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, dateOfBirthValue_1, maritalStatusValue_1, emailValue_1, mobilePhoneValue_1, workPhoneValue_1, homePhoneValue_1, notesValue_1);
+        await assigneePage.setAdditionalMember(personType_3, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, await commonElements.createGitDateFormat(dateOfBirthValue_1), maritalStatusValue_1, emailValue_1, mobilePhoneValue_1, workPhoneValue_1, homePhoneValue_1, notesValue_1);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(addedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(addedPersonMsg);
@@ -130,7 +130,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_1);
     });
     it('Verify Other person Edit', async () => {
-        await assigneePage.setAdditionalMember(personType_3, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, dateOfBirthValue_2, maritalStatusValue_2, emailValue_2, mobilePhoneValue_2, workPhoneValue_2, homePhoneValue_2, notesValue_2);
+        await assigneePage.setAdditionalMember(personType_3, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, await commonElements.createGitDateFormat(dateOfBirthValue_2), maritalStatusValue_2, emailValue_2, mobilePhoneValue_2, workPhoneValue_2, homePhoneValue_2, notesValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(updatedPersonMsg);
@@ -161,7 +161,7 @@ describe('Client Corporate structure page test', () => {
     });
     it('Verify Child person form ', async () => {
         await assigneePage.clickAddPersonBtn();
-        await assigneePage.setChildMember(personType_1, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, dateOfBirthValue_1, notesValue_1);
+        await assigneePage.setChildMember(personType_1, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, await commonElements.createGitDateFormat(dateOfBirthValue_1), notesValue_1);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(addedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(addedPersonMsg);
@@ -178,7 +178,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_1);
     });
     it('Verify child person Edit', async () => {
-        await assigneePage.setChildMember(personType_1, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, dateOfBirthValue_2, notesValue_2);
+        await assigneePage.setChildMember(personType_1, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, await commonElements.createGitDateFormat(dateOfBirthValue_2), notesValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(updatedPersonMsg);

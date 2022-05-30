@@ -164,21 +164,21 @@ describe('Asignee Overview page test', () => {
     });
     it('Assignee dateOfBirth input', async () => {
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_1);
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_1));
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
-        expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, dateOfBirthValue_1)).toBe(true);
+        expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, await commonElements.createGitDateFormat(dateOfBirthValue_1))).toBe(true);
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_2);
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
         await commonElements.clickCancelBtn();
-        expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, dateOfBirthValue_1)).toBe(true);
+        expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, await commonElements.createGitDateFormat(dateOfBirthValue_2))).toBe(true);
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_2);
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
-        expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, dateOfBirthValue_2)).toBe(true);
+        expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, await commonElements.createGitDateFormat(dateOfBirthValue_2))).toBe(true);
     });
     it('Assignee marialStatus input', async () => {
         await assigneePage.clickEditBtnByLabel(maritalStatusLabel);
