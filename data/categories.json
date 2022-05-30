@@ -6,13 +6,13 @@
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Assignee dateOfBirth input",
-        "uid" : "43fce996a97f02da",
+        "uid" : "62815bac7ba0c6b7",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1653905051704,
-          "stop" : 1653905074430,
-          "duration" : 22726
+          "start" : 1653907744823,
+          "stop" : 1653907761077,
+          "duration" : 16254
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
         "parameters" : [ "chrome-101.0.4951.64" ]
       }, {
         "name" : "Verify Other person form ",
-        "uid" : "5d6ab69dbd5bd79d",
+        "uid" : "fcaa85f1355cfc9a",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1653905212999,
-          "stop" : 1653905228003,
-          "duration" : 15004
+          "start" : 1653907903467,
+          "stop" : 1653907918469,
+          "duration" : 15002
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +40,13 @@
         "parameters" : [ "chrome-101.0.4951.64" ]
       }, {
         "name" : "Verify Child person form ",
-        "uid" : "61dac004eb5eb09e",
+        "uid" : "58c694dde836c52",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1653905238920,
-          "stop" : 1653905253922,
-          "duration" : 15002
+          "start" : 1653907929625,
+          "stop" : 1653907944631,
+          "duration" : 15006
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,16 +62,16 @@
   }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"12.11.1990\"\n                Received: \"12/11/1990\"",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11/25/1990\"\n                Received: \"11/19/1990\"",
       "children" : [ {
         "name" : "Verify add Partner form ",
-        "uid" : "a12cc96793cbc5c0",
-        "parentUid" : "b6adb426dd133439944f3ed944496c51",
+        "uid" : "77b17c7663730ce2",
+        "parentUid" : "4d1645327c0da11df02a88ff24052c10",
         "status" : "failed",
         "time" : {
-          "start" : 1653905189366,
-          "stop" : 1653905202067,
-          "duration" : 12701
+          "start" : 1653907879062,
+          "stop" : 1653907892114,
+          "duration" : 13052
         },
         "flaky" : false,
         "newFailed" : false,
@@ -81,35 +81,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.64" ]
       } ],
-      "uid" : "b6adb426dd133439944f3ed944496c51"
+      "uid" : "4d1645327c0da11df02a88ff24052c10"
     }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11.10.1982\"\n                Received: \"11/10/1982\"",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"10/27/1982\"\n                Received: \"10/19/1982\"",
       "children" : [ {
         "name" : "Verify Edit Partner form ",
-        "uid" : "3f4bd4f771012544",
-        "parentUid" : "18ab3b3d6278c3e2b9864e203b0ae5c3",
+        "uid" : "b0f46f1b5f1282f9",
+        "parentUid" : "cf4147a5854bc62d29844ea9437428d0",
         "status" : "failed",
         "time" : {
-          "start" : 1653905202067,
-          "stop" : 1653905212999,
-          "duration" : 10932
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify Other person Edit",
-        "uid" : "cc76d47e41ee7813",
-        "parentUid" : "18ab3b3d6278c3e2b9864e203b0ae5c3",
-        "status" : "failed",
-        "time" : {
-          "start" : 1653905228003,
-          "stop" : 1653905238920,
-          "duration" : 10917
+          "start" : 1653907892114,
+          "stop" : 1653907903466,
+          "duration" : 11352
         },
         "flaky" : false,
         "newFailed" : false,
@@ -120,13 +103,13 @@
         "parameters" : [ "chrome-101.0.4951.64" ]
       }, {
         "name" : "Verify child person Edit",
-        "uid" : "4d5561393a03853",
-        "parentUid" : "18ab3b3d6278c3e2b9864e203b0ae5c3",
+        "uid" : "dde83882bbc0a379",
+        "parentUid" : "cf4147a5854bc62d29844ea9437428d0",
         "status" : "failed",
         "time" : {
-          "start" : 1653905253922,
-          "stop" : 1653905264391,
-          "duration" : 10469
+          "start" : 1653907944632,
+          "stop" : 1653907955241,
+          "duration" : 10609
         },
         "flaky" : false,
         "newFailed" : false,
@@ -136,18 +119,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.64" ]
       } ],
-      "uid" : "18ab3b3d6278c3e2b9864e203b0ae5c3"
+      "uid" : "cf4147a5854bc62d29844ea9437428d0"
     }, {
-      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"30.05.2022\"\n                Received string:    \"5/30/22, 10:08 AM\"",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Other\"\n                Received: \"Child\"",
       "children" : [ {
-        "name" : "Verify add document form",
-        "uid" : "234c47bddd24a998",
-        "parentUid" : "0280e5a7dcd0d37487d584e45f575614",
+        "name" : "Verify Other person Edit",
+        "uid" : "1946a3f58eebcda7",
+        "parentUid" : "ed936e37c1aadd1ebd1c2f5e942c13cf",
         "status" : "failed",
         "time" : {
-          "start" : 1653905322552,
-          "stop" : 1653905333150,
-          "duration" : 10598
+          "start" : 1653907918469,
+          "stop" : 1653907929623,
+          "duration" : 11154
         },
         "flaky" : false,
         "newFailed" : false,
@@ -157,7 +140,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.64" ]
       } ],
-      "uid" : "0280e5a7dcd0d37487d584e45f575614"
+      "uid" : "ed936e37c1aadd1ebd1c2f5e942c13cf"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
