@@ -26,6 +26,7 @@ const userPermision_2 = "Assignee"
 const addedFileMsg = "The document upload was successful. Thank you."
 const fileUpdateMsg = `The document '${fileName}' was updated successfully. Thank you.`
 const fileDelMsg = ` The document was removed successfully`
+const isGitActionTest = true
 
 describe('Assignments documents page test', () => {
 
@@ -58,7 +59,7 @@ describe('Assignments documents page test', () => {
         expect(await documentsPage.getAssigneeDocCategoryTextByName(fileName)).toBe(categoryType_1);
         expect(await documentsPage.getAssigneeDocTypeTextByName(fileName)).toBe(docType_1.toUpperCase());
         expect(await documentsPage.isDocumentTagDisplayed(fileName, relatedServices_1)).toBe(true);
-        expect(await documentsPage.getDateTextByFileName(fileName)).toContain(await commonElements.getCurrentDate(true));
+        expect(await documentsPage.getDateTextByFileName(fileName)).toContain(await commonElements.getCurrentDate(isGitActionTest));
         expect(await documentsPage.getUploaderTextByFileName(fileName)).toBe(uploader);
         expect(await documentsPage.getUserPermisonStatus(userPermision_1, fileName)).toBe(false);
         expect(await documentsPage.getUserPermisonStatus(userPermision_2, fileName)).toBe(false);

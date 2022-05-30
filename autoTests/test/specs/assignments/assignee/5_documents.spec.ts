@@ -9,7 +9,7 @@ const qaClientId = "330"
 const assignmentId = "K2-31970"
 const categoryType_1 = "Contract"
 const categoryType_2 = "Policy"
-const categoryType_3= "Photo"
+const categoryType_3 = "Photo"
 const categoryType_4 = "Passport/ID"
 const categoryType_5 = "Feedback"
 const filePath = "../autoTests/testFiles/QAtest.docx"
@@ -21,6 +21,7 @@ const userPermision_2 = "Assignee"
 const addedFileMsg = "The document upload was successful. Thank you."
 const fileUpdateMsg = `The document '${fileName}' was updated successfully. Thank you.`
 const fileDelMsg = 'The document was removed successfully'
+const isGitActionTest = true
 //add service test
 describe('Client Corporate structure page test', () => {
 
@@ -52,7 +53,7 @@ describe('Client Corporate structure page test', () => {
         expect(await commonElements.isPopupMsgDisplayed(addedFileMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(addedFileMsg);
         expect(await documentsPage.getCategoryTextByFileName(fileName)).toBe(categoryType_1)
-        expect(await documentsPage.getDateTextByFileName(fileName)).toContain(await commonElements.getCurrentDate())
+        expect(await documentsPage.getDateTextByFileName(fileName)).toContain(await commonElements.getCurrentDate(isGitActionTest))
         expect(await documentsPage.getUploaderTextByFileName(fileName)).toBe(clientName)
         expect(await documentsPage.getUserPermisonStatus(userPermision_1, fileName)).toBe(false)
         expect(await documentsPage.getUserPermisonStatus(userPermision_2, fileName)).toBe(false)
@@ -96,13 +97,13 @@ describe('Client Corporate structure page test', () => {
         await commonElements.clickSaveBtn();
         expect(await commonElements.isErrorPopUpMsgDisplayed()).toBe(true);
         await commonElements.clickCancelBtn();
-       
+
     });
     it('Verify remove btn', async () => {
         expect(await assigneePage.getDocQty()).toBe(1);
-        await assigneePage.clickRemoveDocBtnByName(fileName,"no");
+        await assigneePage.clickRemoveDocBtnByName(fileName, "no");
         expect(await assigneePage.getDocQty()).toBe(1);
-        await assigneePage.clickRemoveDocBtnByName(fileName,"yes");
+        await assigneePage.clickRemoveDocBtnByName(fileName, "yes");
         expect(await commonElements.isPopupMsgDisplayed(fileDelMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(fileDelMsg);
     });

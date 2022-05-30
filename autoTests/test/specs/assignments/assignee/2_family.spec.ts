@@ -19,8 +19,8 @@ const genderValue_1 = "Male"
 const genderValue_2 = "Female"
 const nationalityValue_1 = "American"
 const nationalityValue_2 = "British"
-const dateOfBirthValue_1 = "12.11.1990"
-const dateOfBirthValue_2 = "11.10.1982"
+const dateOfBirthValue_1 = "25.11.1990"
+const dateOfBirthValue_2 = "27.10.1982"
 const maritalStatusValue_1 = "Single"
 const maritalStatusValue_2 = "Married"
 const emailValue_1 = "QatestMail@qamail.com"
@@ -68,7 +68,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_1);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_1);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_1);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_1);
+        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_1);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_1);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_1);
@@ -90,7 +90,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_2);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_2);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_2);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_2);
+        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_2));
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_2);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_2);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_2);
@@ -121,7 +121,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_1);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_1);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_1);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_1);
+        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_1);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_1);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_1);
@@ -143,7 +143,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_2);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_2);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_2);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_2);
+        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_2));
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_2);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_2);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_2);
@@ -174,7 +174,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_1);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_1);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_1);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_1);
+        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_1);
     });
     it('Verify child person Edit', async () => {
@@ -191,7 +191,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_2);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_2);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_2);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_2);
+        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_2));
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
