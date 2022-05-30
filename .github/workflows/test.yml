@@ -46,13 +46,13 @@ jobs:
       #   with:
       #     branch: gh-pages # The branch the action should deploy to.
       #     folder: autoTests/allure-report # The folder the action should deploy.
-      - name: Deploy report
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        if: always()
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: allure-report # The folder the action should deploy.
-          target-folder: docs
+      # - name: Deploy report
+      #   uses: JamesIves/github-pages-deploy-action@4.1.4
+      #   if: always()
+      #   with:
+      #     branch: gh-pages # The branch the action should deploy to.
+      #     folder: allure-report # The folder the action should deploy.
+      #     target-folder: docs
       - name: Pushes docs to another repository
         uses: cpina/github-action-push-to-another-repository@v1.3
         if: always()
@@ -63,3 +63,4 @@ jobs:
           destination-github-username: 'Kravch773' # Your username
           destination-repository-name: 'testGithubActions' # Name of your repo
           user-email: ivankravchk0@gmail.com # Your email
+          branch: gh-pages # The branch the action should deploy to.
