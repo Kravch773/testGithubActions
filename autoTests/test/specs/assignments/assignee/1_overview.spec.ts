@@ -169,7 +169,7 @@ describe('Asignee Overview page test', () => {
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
-        expect(await Page.getElementText('//label[text()=" Date of birth "]/../..//field-text-value[contains(text(),"")]')).toBe(dateOfBirthValue_1)
+        expect(await Page.getElementText('//label[text()=" Date of birth "]/../..//field-text-value[contains(text(),"")]')).toBe("dateOfBirthValue_1")
         // expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, await commonElements.createGitDateFormat(dateOfBirthValue_1))).toBe(true);
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
         await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
