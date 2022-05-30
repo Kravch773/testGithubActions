@@ -1,0 +1,62 @@
+{
+  "uid" : "4190a15e14e38cea",
+  "name" : "Assignee subsidiary input",
+  "fullName" : "Asignee Overview page test.Assignee subsidiary input",
+  "historyId" : "fb4287ff47fc26c6149b3199f1c904cd",
+  "time" : {
+    "start" : 1653900228269,
+    "stop" : 1653900243778,
+    "duration" : 15509
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest2\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest2\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testClass",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Assignee subsidiary input"
+  }, {
+    "name" : "package",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.62"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4190a15e14e38cea.json",
+  "parameterValues" : [ "chrome-102.0.5005.62" ]
+}
