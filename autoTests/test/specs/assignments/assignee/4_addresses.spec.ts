@@ -1,6 +1,6 @@
 import commonElements from '../../../helper/commonElements';
 import passSignIn from '../../../helper/passSignIn';
-import AssigneePage from '../../../pageobjects/assignment/Assignee.page';
+import assigneePage from '../../../pageobjects/assignment/assignee.page';
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 
@@ -39,50 +39,50 @@ xdescribe('Client Corporate structure page test', () => {
         await assignmentsPage.clickAssignmentsTab();
         await assignmentsPage.setIdAssigneeInputValue(assignmentId);
         await assignmentsPage.clickAssignmentById(assignmentId);
-        await AssigneePage.clickAssigneeTab();
-        await AssigneePage.clickAddressTab();
-        expect(await AssigneePage.getAssigneeLabelText()).toBe("Addresses");
+        await assigneePage.clickAssigneeTab();
+        await assigneePage.clickAddressTab();
+        expect(await assigneePage.getAssigneeLabelText()).toBe("Addresses");
     });
     it('Verify address form ', async () => {
-        await AssigneePage.clickAddAddressBtn();
-        await AssigneePage.setAddress(addressName_1,address1_1,address2_1,address3_1,address4_1,city_1,state_1,postalCode_1,country_1)
+        await assigneePage.clickAddAddressBtn();
+        await assigneePage.setAddress(addressName_1,address1_1,address2_1,address3_1,address4_1,city_1,state_1,postalCode_1,country_1)
         await commonElements.clickSaveBtn();
-        await AssigneePage.clickAddressEditBtnByName(addressName_1);
-        expect(await AssigneePage.getAddressNameValue()).toBe(addressName_1);
-        expect(await AssigneePage.getAddressValue(1)).toBe(address1_1);
-        expect(await AssigneePage.getAddressValue(2)).toBe(address2_1);
-        expect(await AssigneePage.getAddressValue(3)).toBe(address3_1);
-        expect(await AssigneePage.getAddressValue(1)).toBe(address4_1);
-        expect(await AssigneePage.getCityValue()).toBe(city_1);
-        expect(await AssigneePage.getStateValue()).toBe(state_1);
-        expect(await AssigneePage.getCountryValue()).toBe(country_1);
+        await assigneePage.clickAddressEditBtnByName(addressName_1);
+        expect(await assigneePage.getAddressNameValue()).toBe(addressName_1);
+        expect(await assigneePage.getAddressValue(1)).toBe(address1_1);
+        expect(await assigneePage.getAddressValue(2)).toBe(address2_1);
+        expect(await assigneePage.getAddressValue(3)).toBe(address3_1);
+        expect(await assigneePage.getAddressValue(1)).toBe(address4_1);
+        expect(await assigneePage.getCityValue()).toBe(city_1);
+        expect(await assigneePage.getStateValue()).toBe(state_1);
+        expect(await assigneePage.getCountryValue()).toBe(country_1);
         await commonElements.clickCancelBtn();
     });
     it('Verify pet Edit form ', async () => {
-        await AssigneePage.clickAddressEditBtnByName(addressName_1);
-        await AssigneePage.setAddress(addressName_2,address1_2,address2_2,address3_2,address4_2,city_2,state_2,postalCode_2,country_2)
+        await assigneePage.clickAddressEditBtnByName(addressName_1);
+        await assigneePage.setAddress(addressName_2,address1_2,address2_2,address3_2,address4_2,city_2,state_2,postalCode_2,country_2)
         await commonElements.clickCancelBtn();
-        await AssigneePage.clickAddressEditBtnByName(addressName_1);
-        expect(await AssigneePage.getAddressNameValue()).toBe(addressName_1);
-        expect(await AssigneePage.getAddressValue(1)).toBe(address1_1);
-        expect(await AssigneePage.getAddressValue(2)).toBe(address2_1);
-        expect(await AssigneePage.getAddressValue(3)).toBe(address3_1);
-        expect(await AssigneePage.getAddressValue(1)).toBe(address4_1);
-        expect(await AssigneePage.getCityValue()).toBe(city_1);
-        expect(await AssigneePage.getStateValue()).toBe(state_1);
-        expect(await AssigneePage.getCountryValue()).toBe(country_1);
+        await assigneePage.clickAddressEditBtnByName(addressName_1);
+        expect(await assigneePage.getAddressNameValue()).toBe(addressName_1);
+        expect(await assigneePage.getAddressValue(1)).toBe(address1_1);
+        expect(await assigneePage.getAddressValue(2)).toBe(address2_1);
+        expect(await assigneePage.getAddressValue(3)).toBe(address3_1);
+        expect(await assigneePage.getAddressValue(1)).toBe(address4_1);
+        expect(await assigneePage.getCityValue()).toBe(city_1);
+        expect(await assigneePage.getStateValue()).toBe(state_1);
+        expect(await assigneePage.getCountryValue()).toBe(country_1);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(updateAddressMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(updateAddressMsg);
-        await AssigneePage.clickAddressEditBtnByName(addressName_1);
-        expect(await AssigneePage.getAddressNameValue()).toBe(addressName_1);
-        expect(await AssigneePage.getAddressValue(1)).toBe(address1_1);
-        expect(await AssigneePage.getAddressValue(2)).toBe(address2_1);
-        expect(await AssigneePage.getAddressValue(3)).toBe(address3_1);
-        expect(await AssigneePage.getAddressValue(1)).toBe(address4_1);
-        expect(await AssigneePage.getCityValue()).toBe(city_1);
-        expect(await AssigneePage.getStateValue()).toBe(state_1);
-        expect(await AssigneePage.getCountryValue()).toBe(country_1);
+        await assigneePage.clickAddressEditBtnByName(addressName_1);
+        expect(await assigneePage.getAddressNameValue()).toBe(addressName_1);
+        expect(await assigneePage.getAddressValue(1)).toBe(address1_1);
+        expect(await assigneePage.getAddressValue(2)).toBe(address2_1);
+        expect(await assigneePage.getAddressValue(3)).toBe(address3_1);
+        expect(await assigneePage.getAddressValue(1)).toBe(address4_1);
+        expect(await assigneePage.getCityValue()).toBe(city_1);
+        expect(await assigneePage.getStateValue()).toBe(state_1);
+        expect(await assigneePage.getCountryValue()).toBe(country_1);
         await commonElements.clickCancelBtn();
        
     });

@@ -1,6 +1,6 @@
 import commonElements from '../../../helper/commonElements';
 import passSignIn from '../../../helper/passSignIn';
-import AssigneePage from '../../../pageobjects/assignment/Assignee.page';
+import assigneePage from '../../../pageobjects/assignment/assignee.page';
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 import documentsPage from '../../../pageobjects/clients/documents.page';
@@ -34,9 +34,9 @@ describe('Client Corporate structure page test', () => {
         await assignmentsPage.clickAssignmentsTab();
         await assignmentsPage.setIdAssigneeInputValue(assignmentId);
         await assignmentsPage.clickAssignmentById(assignmentId);
-        await AssigneePage.clickAssigneeTab();
-        await AssigneePage.clickDocumentsTab();
-        expect(await AssigneePage.getDocumentsLabelText()).toBe("Assignee documents");
+        await assigneePage.clickAssigneeTab();
+        await assigneePage.clickDocumentsTab();
+        expect(await assigneePage.getDocumentsLabelText()).toBe("Assignee documents");
     });
 
     it('Verify add document form', async () => {
@@ -99,10 +99,10 @@ describe('Client Corporate structure page test', () => {
        
     });
     it('Verify remove btn', async () => {
-        expect(await AssigneePage.getDocQty()).toBe(1);
-        await AssigneePage.clickRemoveDocBtnByName(fileName,"no");
-        expect(await AssigneePage.getDocQty()).toBe(1);
-        await AssigneePage.clickRemoveDocBtnByName(fileName,"yes");
+        expect(await assigneePage.getDocQty()).toBe(1);
+        await assigneePage.clickRemoveDocBtnByName(fileName,"no");
+        expect(await assigneePage.getDocQty()).toBe(1);
+        await assigneePage.clickRemoveDocBtnByName(fileName,"yes");
         expect(await commonElements.isPopupMsgDisplayed(fileDelMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(fileDelMsg);
     });
