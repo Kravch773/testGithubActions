@@ -1,12 +1,12 @@
 {
-  "uid" : "b7f6ac82cba4fd50",
-  "name" : "Verify unsupported file error",
-  "fullName" : "Assignments documents page test.Verify unsupported file error",
-  "historyId" : "1e5e15a1530c3e819cb0177a3d6e789e",
+  "uid" : "4930c53ace21618",
+  "name" : "Verify remove documents",
+  "fullName" : "Assignments documents page test.Verify remove documents",
+  "historyId" : "7ea89693fd0e24e7148da5de774a846e",
   "time" : {
-    "start" : 1653898489476,
-    "stop" : 1653898491959,
-    "duration" : 2483
+    "start" : 1653571409056,
+    "stop" : 1653571416015,
+    "duration" : 6959
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,8 +15,8 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
-  "retriesStatusChange" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -36,7 +36,7 @@
     "value" : "Assignments documents page test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify unsupported file error"
+    "value" : "Verify remove documents"
   }, {
     "name" : "package",
     "value" : "Assignments documents page test"
@@ -46,17 +46,26 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-101.0.4951.64"
+    "value" : "chrome-101.0.4951.67"
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "8c01c2bd4ba3ebe3",
+      "status" : "broken",
+      "statusDetails" : "element (\"//document-link\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1653570887962,
+        "stop" : 1653570897985,
+        "duration" : 10023
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b7f6ac82cba4fd50.json",
-  "parameterValues" : [ "chrome-101.0.4951.64" ]
+  "source" : "4930c53ace21618.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
 }

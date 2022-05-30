@@ -1,12 +1,12 @@
 {
-  "uid" : "a4426e8fe0d322b6",
-  "name" : "Go to Assignee documents tab and check label",
-  "fullName" : "Assignments documents page test.Go to Assignee documents tab and check label",
-  "historyId" : "24e33bc29fda940170e8cce74bc2750a",
+  "uid" : "ff07df4d94549dfc",
+  "name" : "Verify edit documents form",
+  "fullName" : "Assignments documents page test.Verify edit documents form",
+  "historyId" : "8f9a6152de70866fafc0b780592adff3",
   "time" : {
-    "start" : 1653571363182,
-    "stop" : 1653571377625,
-    "duration" : 14443
+    "start" : 1653571389094,
+    "stop" : 1653571409054,
+    "duration" : 19960
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -16,7 +16,7 @@
   "newBroken" : false,
   "newPassed" : false,
   "retriesCount" : 1,
-  "retriesStatusChange" : false,
+  "retriesStatusChange" : true,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -36,7 +36,7 @@
     "value" : "Assignments documents page test"
   }, {
     "name" : "testMethod",
-    "value" : "Go to Assignee documents tab and check label"
+    "value" : "Verify edit documents form"
   }, {
     "name" : "package",
     "value" : "Assignments documents page test"
@@ -54,17 +54,18 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "42ffe05a2db759f0",
-      "status" : "passed",
+      "uid" : "7f7c8526283938c8",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
       "time" : {
-        "start" : 1653570857165,
-        "stop" : 1653570872849,
-        "duration" : 15684
+        "start" : 1653570872943,
+        "stop" : 1653570887961,
+        "duration" : 15018
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a4426e8fe0d322b6.json",
+  "source" : "ff07df4d94549dfc.json",
   "parameterValues" : [ "chrome-101.0.4951.67" ]
 }

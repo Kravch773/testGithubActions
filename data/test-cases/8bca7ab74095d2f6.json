@@ -1,22 +1,24 @@
 {
-  "uid" : "537465234034927c",
+  "uid" : "8bca7ab74095d2f6",
   "name" : "Verify unsupported file error",
   "fullName" : "Assignments documents page test.Verify unsupported file error",
   "historyId" : "62cb8a5d817358937ae98be17e0e1234",
   "time" : {
-    "start" : 1653571416015,
-    "stop" : 1653571418442,
-    "duration" : 2427
+    "start" : 1653570897985,
+    "stop" : 1653570912988,
+    "duration" : 15003
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest2\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest2\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
-  "retriesStatusChange" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -49,23 +51,12 @@
     "value" : "chrome-101.0.4951.67"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "5ff8ff9af7b5ac70",
-      "status" : "broken",
-      "statusDetails" : "waitUntil condition timed out after 15000ms",
-      "time" : {
-        "start" : 1653570897985,
-        "stop" : 1653570912988,
-        "duration" : 15003
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "537465234034927c.json",
+  "source" : "8bca7ab74095d2f6.json",
   "parameterValues" : [ "chrome-101.0.4951.67" ]
 }

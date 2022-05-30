@@ -1,12 +1,12 @@
 {
-  "uid" : "3a03fd9df6a0634e",
-  "name" : "Verify remove documents",
-  "fullName" : "Assignments documents page test.Verify remove documents",
-  "historyId" : "7ea89693fd0e24e7148da5de774a846e",
+  "uid" : "25f32e2aac89e30a",
+  "name" : "Verify add document form",
+  "fullName" : "Assignments documents page test.Verify add document form",
+  "historyId" : "59b58c4b7837cbc77c3482fe1b3c360e",
   "time" : {
-    "start" : 1653571409056,
-    "stop" : 1653571416015,
-    "duration" : 6959
+    "start" : 1653571377625,
+    "stop" : 1653571389093,
+    "duration" : 11468
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -36,7 +36,7 @@
     "value" : "Assignments documents page test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify remove documents"
+    "value" : "Verify add document form"
   }, {
     "name" : "package",
     "value" : "Assignments documents page test"
@@ -54,18 +54,18 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "f84b98b42b757baa",
+      "uid" : "d9fe71a9fcedd219",
       "status" : "broken",
-      "statusDetails" : "element (\"//document-link\") still not displayed after 10000ms",
+      "statusDetails" : "ENOENT: no such file or directory, open 'D:\\Ghactionstest2\\testGithubActions\\autoTests\\testFiles\\QAtest.docx'",
       "time" : {
-        "start" : 1653570887962,
-        "stop" : 1653570897985,
-        "duration" : 10023
+        "start" : 1653570872850,
+        "stop" : 1653570872941,
+        "duration" : 91
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3a03fd9df6a0634e.json",
+  "source" : "25f32e2aac89e30a.json",
   "parameterValues" : [ "chrome-101.0.4951.67" ]
 }
