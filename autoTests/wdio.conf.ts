@@ -32,7 +32,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/Assignment/options/*.spec.ts'
         ],
         assignments_assigneeTab: [
-            './test/specs/Assignment/assignee/*.spec.ts'
+            './test/specs/assignments/assignee/*.spec.ts'
         ],
         assignmentsTabs: [
             './test/specs/assignments/assignment_tabs/*.spec.ts'
