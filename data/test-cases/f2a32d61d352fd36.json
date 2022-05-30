@@ -1,0 +1,68 @@
+{
+  "uid" : "f2a32d61d352fd36",
+  "name" : "Assignee dateOfBirth input",
+  "fullName" : "Asignee Overview page test.Assignee dateOfBirth input",
+  "historyId" : "5161a25fe92ec37e947f0ab7b55aeeee",
+  "time" : {
+    "start" : 1653915513932,
+    "stop" : 1653915530080,
+    "duration" : 16148
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testClass",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Assignee dateOfBirth input"
+  }, {
+    "name" : "package",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f2a32d61d352fd36.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}
