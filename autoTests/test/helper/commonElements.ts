@@ -333,13 +333,13 @@ class commonElements {
         let today = new Date()
         if (today.getMonth() + 1 < 10) { var date = today.getDate() + ".0" + (today.getMonth() + 1) + "." + today.getFullYear(); }
         else { var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear(); }
-        if (isGitActionTest == true) { this.createGitDateFormat(date); }
+        if (isGitActionTest == true) { await this.createGitDateFormat(date); }
         return date;
     }
     public async getCurrentDateNo0Format(isGitActionTest = false): Promise<string> {
         let today = new Date()
         var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear();
-        if (isGitActionTest == true) { this.createGitDateFormat(date); }
+        if (isGitActionTest == true) { await this.createGitDateFormat(date); }
         return date;
     }
     public async addDays(date, days) {
@@ -352,14 +352,14 @@ class commonElements {
         today = await this.addDays(today, addDays)
         if (today.getMonth() + 1 < 10) { var date = today.getDate() + ".0" + (today.getMonth() + 1) + "." + today.getFullYear(); }
         else { var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear(); }
-        if (isGitActionTest == true) { this.createGitDateFormat(date); }
+        if (isGitActionTest == true) { await this.createGitDateFormat(date); }
         return date;
     }
     public async getCurrentDatePlusDaysNo0Format(addDays, isGitActionTest = false): Promise<string> {
         let today = new Date()
         today = await this.addDays(today, addDays)
-        var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear();
-        if (isGitActionTest == true) { this.createGitDateFormat(date); }
+        var date =  today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear();
+        if (isGitActionTest == true) { await this.createGitDateFormat(date); }
         return date;
     }
     public async setAddress(address1, address2, address3, address4, city, state, postalCode, country): Promise<void> {
