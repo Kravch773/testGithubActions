@@ -171,6 +171,7 @@ describe('Asignee Overview page test', () => {
         // await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
         await browser.pause(4000)
         expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, await commonElements.createGitDateFormat(dateOfBirthValue_1))).toBe(true);
+        await browser.pause(4000)
         // await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
         // await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
         // await commonElements.clickCancelBtn();
