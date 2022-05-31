@@ -1,0 +1,68 @@
+{
+  "uid" : "6ef789514bc1ab8",
+  "name" : "Verify service Recurring Purchase Orders",
+  "fullName" : "Language Training Service, test.Verify service Recurring Purchase Orders",
+  "historyId" : "b3b1715a7c893cc804b4c2bfc535c7e5",
+  "time" : {
+    "start" : 1653992926447,
+    "stop" : 1653992926450,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "commonElements_1.default.getCurrentDateNo0InMonth is not a function",
+  "statusTrace" : "TypeError: commonElements_1.default.getCurrentDateNo0InMonth is not a function\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:266:46\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:14:53)\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:8:71\n                    at new Promise (<anonymous>)\n                    at __awaiter (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:4:12)\n                    at Context.<anonymous> (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:265:52)\n                    at Context.executeAsync (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Recurring Purchase Orders"
+  }, {
+    "name" : "package",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ef789514bc1ab8.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}
