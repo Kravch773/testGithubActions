@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11/12/1990\"\n                Received: \"//label[text()=\\\" Date of birth \\\"]/../..//field-text-value[contains(text(),\\\"\\\")]\"",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11/12/1990\"\n                Received: \"11/12/90\"",
       "children" : [ {
         "name" : "Assignee dateOfBirth input",
-        "uid" : "855f0fdc44183cb1",
-        "parentUid" : "41444b4739287e1764b311bdc14703fd",
+        "uid" : "7108743a363d49f",
+        "parentUid" : "451456a8ece04bd1e3314fe50e260e0f",
         "status" : "failed",
         "time" : {
-          "start" : 1653979935706,
-          "stop" : 1653979945556,
-          "duration" : 9850
+          "start" : 1653980852601,
+          "stop" : 1653980861503,
+          "duration" : 8902
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,7 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.64" ]
       } ],
-      "uid" : "41444b4739287e1764b311bdc14703fd"
+      "uid" : "451456a8ece04bd1e3314fe50e260e0f"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
