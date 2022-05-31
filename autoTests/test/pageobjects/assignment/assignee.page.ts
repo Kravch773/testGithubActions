@@ -163,6 +163,9 @@ class assigneePage {
         await Page.scrollElementIntoViewTop(this.getEditBtnByLabel(label))
         await Page.click(this.getEditBtnByLabel(label));
     }
+    public async getOverviewFieldValueByLabel(label):Promise<string>{
+        return await Page.getElementText(this.getFieldValueByLabel(label,""))
+    } 
     public async isFieldValueUpdatedByLabel(label, value): Promise<boolean> {
         return await Page.isElementDisplayed(this.getFieldValueByLabel(label, value));
     }

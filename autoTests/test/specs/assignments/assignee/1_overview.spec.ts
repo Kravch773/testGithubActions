@@ -168,16 +168,16 @@ describe('Asignee Overview page test', () => {
         await commonElements.clearAndSetDateValue(assigneePage.dobInput, await commonElements.createGitDateFormat(dateOfBirthValue_1));
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
-        expect(await assigneePage.getFieldValueByLabel(dateofbirthLabel,"")).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
+        expect(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel)).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
         await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
         await commonElements.clickCancelBtn();
-        expect(await assigneePage.getFieldValueByLabel(dateofbirthLabel,"")).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
+        expect(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel)).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
         await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
-        expect(await assigneePage.getFieldValueByLabel(dateofbirthLabel,"")).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_2));
+        expect(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel)).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_2));
     });
     // it('Assignee marialStatus input', async () => {
     //     await assigneePage.clickEditBtnByLabel(maritalStatusLabel);
