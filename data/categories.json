@@ -6,13 +6,13 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"31.05.2022\"\n                Received: \"5/31/22\"",
       "children" : [ {
         "name" : "Verify Initiate service partner",
-        "uid" : "6ae63a8b50c3c684",
+        "uid" : "12ccf6a3a6f201f6",
         "parentUid" : "7bf49c49ba7ee9eb2eb2164c9584ca42",
         "status" : "failed",
         "time" : {
-          "start" : 1653994653782,
-          "stop" : 1653994661210,
-          "duration" : 7428
+          "start" : 1653995559681,
+          "stop" : 1653995567528,
+          "duration" : 7847
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,145 +23,6 @@
         "parameters" : [ "chrome-101.0.4951.64" ]
       } ],
       "uid" : "7bf49c49ba7ee9eb2eb2164c9584ca42"
-    }, {
-      "name" : "expect(11/12/22).toContain([object Promise]) // indexOf\n                \n                Matcher error: expected value must be a string if received value is a string\n                \n                Expected has type:  object\n                Expected has value: {}\n                Received has type:  string\n                Received has value: \"11/12/22\"",
-      "children" : [ {
-        "name" : "Verify Temp accommodation (Destination) Needs analysis form",
-        "uid" : "f2ed333de820e39e",
-        "parentUid" : "ce2233db8f0a6bf92aac3d23c2e0a105",
-        "status" : "failed",
-        "time" : {
-          "start" : 1653994741746,
-          "stop" : 1653994754181,
-          "duration" : 12435
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify Edit Temp accommodation (Destination) Needs analysis form",
-        "uid" : "873b31cebd43c52b",
-        "parentUid" : "ce2233db8f0a6bf92aac3d23c2e0a105",
-        "status" : "failed",
-        "time" : {
-          "start" : 1653994754182,
-          "stop" : 1653994759874,
-          "duration" : 5692
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      } ],
-      "uid" : "ce2233db8f0a6bf92aac3d23c2e0a105"
-    }, {
-      "name" : "expect(11/12/22, 12:05 PM).toContain([object Promise]) // indexOf\n                \n                Matcher error: expected value must be a string if received value is a string\n                \n                Expected has type:  object\n                Expected has value: {}\n                Received has type:  string\n                Received has value: \"11/12/22, 12:05 PM\"",
-      "children" : [ {
-        "name" : "Verify Temp accommodation (Origin) Needs analysis form",
-        "uid" : "a36288d2dfe4949",
-        "parentUid" : "f74a926d5b9a6df31b51a263ad7d9e12",
-        "status" : "failed",
-        "time" : {
-          "start" : 1653994777979,
-          "stop" : 1653994790045,
-          "duration" : 12066
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify Edit Temp accommodation (Origin) Needs analysis form",
-        "uid" : "6426fa6546c9de1f",
-        "parentUid" : "f74a926d5b9a6df31b51a263ad7d9e12",
-        "status" : "failed",
-        "time" : {
-          "start" : 1653994790046,
-          "stop" : 1653994795794,
-          "duration" : 5748
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      } ],
-      "uid" : "f74a926d5b9a6df31b51a263ad7d9e12"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"05/31/2022\"\n                Received: \"5/31/22\"",
-      "children" : [ {
-        "name" : "Verify Initiate service partner",
-        "uid" : "4e86d0e13b11b239",
-        "parentUid" : "bdc86f7d5ed1c7d1dbb6b1dd5cfcb5b8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1653994859265,
-          "stop" : 1653994866687,
-          "duration" : 7422
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      } ],
-      "uid" : "bdc86f7d5ed1c7d1dbb6b1dd5cfcb5b8"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"testStreet11\"\n                Received: \"testStreet12\"",
-      "children" : [ {
-        "name" : "Verify edit form Accommodation witout saving ",
-        "uid" : "1e5888893d1ad882",
-        "parentUid" : "3a5da0c365a22fb0db097ba6865ab7ef",
-        "status" : "failed",
-        "time" : {
-          "start" : 1653994899986,
-          "stop" : 1653994907944,
-          "duration" : 7958
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      } ],
-      "uid" : "3a5da0c365a22fb0db097ba6865ab7ef"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: {}\n                Received: \"7/20/2022\"",
-      "children" : [ {
-        "name" : "Verify edit form Accommodation with saving ",
-        "uid" : "361e68554c52b107",
-        "parentUid" : "f9ef2871ae4e684001f44bd1d9dcf220",
-        "status" : "failed",
-        "time" : {
-          "start" : 1653994907944,
-          "stop" : 1653994915815,
-          "duration" : 7871
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      } ],
-      "uid" : "f9ef2871ae4e684001f44bd1d9dcf220"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   }, {
@@ -170,30 +31,13 @@
       "name" : "ENOENT: no such file or directory, open '/Ascent ts/testFiles/QAtest.docx'",
       "children" : [ {
         "name" : "Verify service documents",
-        "uid" : "a29c52f4dc11dcd7",
+        "uid" : "eab8bac77cd107ca",
         "parentUid" : "f98bb6ab3af2153efb83198451a75d67",
         "status" : "broken",
         "time" : {
-          "start" : 1653994674166,
-          "stop" : 1653994677243,
-          "duration" : 3077
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify service documents",
-        "uid" : "4b21878e2bae044e",
-        "parentUid" : "f98bb6ab3af2153efb83198451a75d67",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653994915816,
-          "stop" : 1653994918464,
-          "duration" : 2648
+          "start" : 1653995580366,
+          "stop" : 1653995583773,
+          "duration" : 3407
         },
         "flaky" : false,
         "newFailed" : false,
@@ -208,13 +52,13 @@
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service PurchaseOrder",
-        "uid" : "219e120a9c248515",
+        "uid" : "d537c33e0ba7075d",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1653994677245,
-          "stop" : 1653994692251,
-          "duration" : 15006
+          "start" : 1653995583775,
+          "stop" : 1653995598778,
+          "duration" : 15003
         },
         "flaky" : false,
         "newFailed" : false,
@@ -225,12 +69,12 @@
         "parameters" : [ "chrome-101.0.4951.64" ]
       }, {
         "name" : "Verify service Sales Order",
-        "uid" : "c5c85d76331aae25",
+        "uid" : "b6781283b14227a5",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1653994692251,
-          "stop" : 1653994707253,
+          "start" : 1653995598778,
+          "stop" : 1653995613780,
           "duration" : 15002
         },
         "flaky" : false,
@@ -242,114 +86,12 @@
         "parameters" : [ "chrome-101.0.4951.64" ]
       }, {
         "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "408dd45073f6da8b",
+        "uid" : "dd8a8daf74195a78",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1653994707253,
-          "stop" : 1653994722257,
-          "duration" : 15004
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify Accommodation form",
-        "uid" : "ae334e77d3ffb50c",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653994879650,
-          "stop" : 1653994899985,
-          "duration" : 20335
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify service PurchaseOrder",
-        "uid" : "a53aaf719b8000bb",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653994918465,
-          "stop" : 1653994933469,
-          "duration" : 15004
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify service Sales Order",
-        "uid" : "a5d3fb2446cff6ec",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653994933469,
-          "stop" : 1653994948471,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "3347be964518ca95",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653994948471,
-          "stop" : 1653994963474,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify Lease extensions",
-        "uid" : "9158eb19e1102ff5",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653994963474,
-          "stop" : 1653994978477,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.64" ]
-      }, {
-        "name" : "Verify Lease extensions remove and no require fields msg error ",
-        "uid" : "e4384a6773e1f423",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653994978478,
-          "stop" : 1653994993480,
+          "start" : 1653995613780,
+          "stop" : 1653995628782,
           "duration" : 15002
         },
         "flaky" : false,
