@@ -8,6 +8,7 @@ import tempAcomodationPage from '../../../../pageobjects/assignment/services/tem
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
+const isGitActionTest = true
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const serviceName = "Temp. accommodation (Destination)"
@@ -24,12 +25,12 @@ const country_1 = "United Kingdom"
 const country_2 = "United States"
 const contactPerson_1 = "Test Assignee (assignee)"
 const contactPerson_2 = "Test Partner (partner)"
-const startDate_1 = "12.7.2022"
-const startDate_2 = "22.7.2022"
-const endDate_1 = "31.7.2022"
-const endDate_2 = "31.7.2022"
-const vacateDue_1 = "19.7.2022"
-const vacateDue_2 = "24.7.2022"
+const startDate_1 = commonElements.createGitDateFormat(commonElements.getCurrentDate(),isGitActionTest);
+const startDate_2 = commonElements.createGitDateFormat(commonElements.getCurrentDatePlusDays(10),isGitActionTest);
+const endDate_1 = commonElements.createGitDateFormat(commonElements.getCurrentDatePlusDays(10),isGitActionTest);
+const endDate_2 = commonElements.createGitDateFormat(commonElements.getCurrentDatePlusDays(20),isGitActionTest);
+const vacateDue_1 = commonElements.createGitDateFormat(commonElements.getCurrentDatePlusDays(22),isGitActionTest);
+const vacateDue_2 = commonElements.createGitDateFormat(commonElements.getCurrentDatePlusDays(25),isGitActionTest);
 const rentCurrency_1 = "USD"
 const rentCurrency_2 = "EUR"
 const rentAmount_1 = "2550"
@@ -43,15 +44,15 @@ const purchaseOrderDetails_2 = ["Roebuck Removals", "Temp Accomodation Destinati
 const salesOrderDetails_1 = ["Temp Accommodation Parking", "225", "descript1", "22.5.2022"]
 const salesOrderDetails_2 = ["Temp Accommodation Parking", "565", "2descript", "12.7.2022"]
 const recurringPODetails = ["Roebuck Removals ", "K2 Disbursement Fee", "USD - US Dollar", "50", "Weekly", "testDescrpt1"]
-const negotiatedDate_1 = "17.11.2022"
-const negotiatedDate_2 = "26.11.2022"
-const newEndDate_1 = "12.10.2022"
-const newEndDate_2 = "11.12.2022"
+const negotiatedDate_1 = commonElements.createGitDateFormat(commonElements.getCurrentDate(),isGitActionTest);
+const negotiatedDate_2 = commonElements.createGitDateFormat(commonElements.getCurrentDatePlusDays(2),isGitActionTest);
+const newEndDate_1 = commonElements.createGitDateFormat(commonElements.getCurrentDatePlusDays(7),isGitActionTest);
+const newEndDate_2 = commonElements.createGitDateFormat(commonElements.getCurrentDatePlusDays(14),isGitActionTest);
 const reason_1 = "testReason"
 const reason_2 = "ReasonTest"
 const extensionConfirm_1 = true
 const extensionConfirm_2 = false
-const isGitActionTest = true
+
 
 describe('Temp Accommodation(Origin) Service, test', () => {
 
@@ -99,7 +100,7 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         await initiatedServicesPage.clickInitiatePartnerBtn();
         await initiatedServicesPage.clickSendEmailBtn();
         expect(await initiatedServicesPage.isInitiateServiceMsgDisplayed()).toBe(true);
-        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(await commonElements.getCurrentDate(isGitActionTest));
+        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(await commonElements.createGitDateFormat(await commonElements.getCurrentDate(),isGitActionTest));
     });
     it('Verify remove service partner', async () => {
         await initiatedServicesPage.clickRemovePartnerWithConfirm("no");
@@ -182,7 +183,7 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         await initiatedServicesPage.clickAddServiceDocuments();
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
-        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(await commonElements.getCurrentDate(isGitActionTest));
+        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(await commonElements.createGitDateFormat(await commonElements.getCurrentDate(),isGitActionTest));
         await initiatedServicesPage.removeServiceDocument();
         expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
         await addServiceDocument.removeDocumentByName();
@@ -260,8 +261,8 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
     });
     it('Verify service Recurring Purchase Orders', async () => {
-        let startDate = await commonElements.getCurrentDateNo0InMonth();
-        let endDate = await commonElements.getCurrentDatePlusDaysNo0InMonth(8);
+        let startDate = await commonElements.createGitDateFormat(await commonElements.getCurrentDateNo0Format(),isGitActionTest);
+        let endDate = await commonElements.createGitDateFormat(await commonElements.getCurrentDatePlusDaysNo0Format(8),isGitActionTest);
         await financeTransactions.clickAddRecurringPOBtn();
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
@@ -273,7 +274,7 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[1])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(await financeTransactions.formRecurringPOPartnerCost(recurringPODetails[2], recurringPODetails[3]))).toBe(true);
-        expect(await financeTransactions.isRecurringPOLabelDisplayed(await commonElements.getCurrentDate(isGitActionTest))).toBe(true);
+        expect(await financeTransactions.isRecurringPOLabelDisplayed(startDate)).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[5])).toBe(true);
         await financeTransactions.cancelRecurringPO();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
