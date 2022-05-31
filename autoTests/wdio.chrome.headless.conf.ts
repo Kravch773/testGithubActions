@@ -44,6 +44,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/client_page/setup_page/*.spec.ts'
         ],
         initiatedServices: [
+    
             './test/specs/assignments/initiated_services/*/*.spec.ts'
         ]
 
