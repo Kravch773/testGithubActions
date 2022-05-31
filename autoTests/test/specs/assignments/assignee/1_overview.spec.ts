@@ -165,21 +165,23 @@ describe('Asignee Overview page test', () => {
     // });
     it('Assignee dateOfBirth input', async () => {
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_1));
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput, await commonElements.createGitDateFormat(dateOfBirthValue_1));
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
+        // expect(await commonElements.isPopupMsgDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
+        // await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
+        await browser.pause(4000)
         expect(await Page.getElementText('//label[text()=" Date of birth "]/../..//field-text-value[contains(text(),"")]')).toBe("dateOfBirthValue_1")
+        await browser.pause(4000)
         // expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, await commonElements.createGitDateFormat(dateOfBirthValue_1))).toBe(true);
-        await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
-        await commonElements.clickCancelBtn();
+        // await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
+        // await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
+        // await commonElements.clickCancelBtn();
         // expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, await commonElements.createGitDateFormat(dateOfBirthValue_2))).toBe(true);
-        await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
-        await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
+        // await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
+        // await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
+        // await commonElements.clickSaveBtn();
+        // expect(await commonElements.isPopupMsgDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
+        // await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
         // expect(await assigneePage.isFieldValueUpdatedByLabel(dateofbirthLabel, await commonElements.createGitDateFormat(dateOfBirthValue_2))).toBe(true);
     });
     // it('Assignee marialStatus input', async () => {
