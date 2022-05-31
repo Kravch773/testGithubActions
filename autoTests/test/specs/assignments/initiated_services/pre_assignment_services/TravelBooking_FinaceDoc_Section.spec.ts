@@ -16,7 +16,7 @@ const salesOrderDetails_2 = ["Travel Booking - Other", "565", "2descript", "12.7
 const recurringPODetails = ["Roebuck Removals ", "K2 Disbursement Fee", "USD - US Dollar", "50", "Weekly", "testDescrpt1"]
 const isGitActionTest = true
 
-describe('Travel booking Service, documents and finance test', () => {
+xdescribe('Travel booking Service, documents and finance test', () => {
 
     before(async () => {
         await passSignIn.signIn();
@@ -41,9 +41,9 @@ describe('Travel booking Service, documents and finance test', () => {
         await initiatedServicesPage.clickAddServiceDocuments();
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
-        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(await commonElements.getCurrentDate(isGitActionTest));
+        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(await commonElements.createGitDateFormat(await commonElements.getCurrentDate(),isGitActionTest));
         await initiatedServicesPage.removeServiceDocument();
-        expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
+        expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true); 
         await addServiceDocument.removeDocumentByName();
     });
     it('Verify service PurchaseOrder', async () => {
@@ -119,8 +119,8 @@ describe('Travel booking Service, documents and finance test', () => {
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
     });
     it('Verify service Recurring Purchase Orders', async () => {
-        let startDate = await commonElements.getCurrentDateNo0InMonth();
-        let endDate = await commonElements.getCurrentDatePlusDaysNo0InMonth(8);
+        let startDate = await commonElements.getCurrentDateNo0Format();
+        let endDate = await commonElements.getCurrentDatePlusDaysNo0Format(8);
         await financeTransactions.clickAddRecurringPOBtn();
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
@@ -132,7 +132,7 @@ describe('Travel booking Service, documents and finance test', () => {
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[1])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(await financeTransactions.formRecurringPOPartnerCost(recurringPODetails[2], recurringPODetails[3]))).toBe(true);
-        expect(await financeTransactions.isRecurringPOLabelDisplayed(await commonElements.getCurrentDate(isGitActionTest))).toBe(true);
+        expect(await financeTransactions.isRecurringPOLabelDisplayed(await commonElements.createGitDateFormat(await commonElements.getCurrentDate(),isGitActionTest))).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[5])).toBe(true);
         await financeTransactions.cancelRecurringPO();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);

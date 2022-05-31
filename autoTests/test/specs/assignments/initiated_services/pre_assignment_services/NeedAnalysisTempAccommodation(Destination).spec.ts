@@ -37,7 +37,7 @@ const payingPersonType_2 = "ASSIGNEE"
 const needAnalysisUpdMsg = "Temporary accommodation (Destination) details have been updated. Thank you."
 
 
-describe('Temp Accommodation(Destination) Service, Need Analysis Section test', () => {
+xdescribe('Temp Accommodation(Destination) Service, Need Analysis Section test', () => {
 
     before(async () => {
         await passSignIn.signIn();
