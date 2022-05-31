@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "waitUntil condition timed out after 15000ms",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11/12/1990\"\n                Received: \"//label[text()=\\\" Date of birth \\\"]/../..//field-text-value[contains(text(),\\\"\\\")]\"",
       "children" : [ {
         "name" : "Assignee dateOfBirth input",
-        "uid" : "93a673a060f09557",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
+        "uid" : "855f0fdc44183cb1",
+        "parentUid" : "41444b4739287e1764b311bdc14703fd",
+        "status" : "failed",
         "time" : {
-          "start" : 1653979365147,
-          "stop" : 1653979386874,
-          "duration" : 21727
+          "start" : 1653979935706,
+          "stop" : 1653979945556,
+          "duration" : 9850
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,8 +22,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.64" ]
       } ],
-      "uid" : "7a32765981bcc7398deb824e5d577aab"
+      "uid" : "41444b4739287e1764b311bdc14703fd"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
 }
