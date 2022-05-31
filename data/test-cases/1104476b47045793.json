@@ -1,0 +1,77 @@
+{
+  "uid" : "1104476b47045793",
+  "name" : "Verify service Sales Order",
+  "fullName" : "Temp Accommodation(Origin) Service, test.Verify service Sales Order",
+  "historyId" : "4ec1d08927fbd761af61a038e1b9ead",
+  "time" : {
+    "start" : 1653988748117,
+    "stop" : 1653988763120,
+    "duration" : 15003
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Sales Order"
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "33e590ec24a59e6b",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1653988542429,
+        "stop" : 1653988557431,
+        "duration" : 15002
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1104476b47045793.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}
