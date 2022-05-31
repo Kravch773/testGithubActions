@@ -1,0 +1,68 @@
+{
+  "uid" : "873b31cebd43c52b",
+  "name" : "Verify Edit Temp accommodation (Destination) Needs analysis form",
+  "fullName" : "Temp Accommodation(Destination) Service, Need Analysis Section test.Verify Edit Temp accommodation (Destination) Needs analysis form",
+  "historyId" : "2e707bb6f606fb9cbf3886df8ba7006e",
+  "time" : {
+    "start" : 1653994754182,
+    "stop" : 1653994759874,
+    "duration" : 5692
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(11/12/22).toContain([object Promise]) // indexOf\n                \n                Matcher error: expected value must be a string if received value is a string\n                \n                Expected has type:  object\n                Expected has value: {}\n                Received has type:  string\n                Received has value: \"11/12/22\"",
+  "statusTrace" : "Error: expect(11/12/22).toContain([object Promise]) // indexOf\n                \n                Matcher error: expected value must be a string if received value is a string\n                \n                Expected has type:  object\n                Expected has value: {}\n                Received has type:  string\n                Received has value: \"11/12/22\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/NeedAnalysisTempAccommodation(Destination).spec.ts:80:116\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/NeedAnalysisTempAccommodation(Destination).spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/NeedAnalysisTempAccommodation(Destination).spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/NeedAnalysisTempAccommodation(Destination).spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Destination) Service, Need Analysis Section test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Destination) Service, Need Analysis Section test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Edit Temp accommodation (Destination) Needs analysis form"
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Destination) Service, Need Analysis Section test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "873b31cebd43c52b.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}
