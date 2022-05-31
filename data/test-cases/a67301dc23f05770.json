@@ -1,0 +1,71 @@
+{
+  "uid" : "a67301dc23f05770",
+  "name" : "Assignee subsidiary input",
+  "fullName" : "Asignee Overview page test.Assignee subsidiary input",
+  "historyId" : "fb4287ff47fc26c6149b3199f1c904cd",
+  "time" : {
+    "start" : 1653903934792,
+    "stop" : 1653903949158,
+    "duration" : 14366
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testClass",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Assignee subsidiary input"
+  }, {
+    "name" : "package",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.62"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bb17558bc4673a25",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1653900228269,
+        "stop" : 1653900243778,
+        "duration" : 15509
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a67301dc23f05770.json",
+  "parameterValues" : [ "chrome-102.0.5005.62" ]
+}
