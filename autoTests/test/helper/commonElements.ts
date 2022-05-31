@@ -408,7 +408,7 @@ class commonElements {
         for (var i = 0; i < newPhoneArr.length; i++) { newPhone += newPhoneArr[i]; }
         return newPhone;
     }
-    public async createGitDateFormat(date, fullYear = false): Promise<string> {
+    public async createGitDateFormat(date, fullYear = true): Promise<string> {
         let newDateArr = date.split(".");
         if (fullYear == true) {
             let newPhone = newDateArr[1] + "/" + newDateArr[0] + "/" + newDateArr[2];
