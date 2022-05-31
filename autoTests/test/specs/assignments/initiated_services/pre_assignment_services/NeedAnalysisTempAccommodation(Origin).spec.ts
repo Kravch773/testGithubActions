@@ -5,16 +5,17 @@ import needAnalysisPage from '../../../../pageobjects/assignment/needAnalysis.pa
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
+const isGitActionTest = true
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const serviceName = "Temp. accommodation (Origin)"
 const tempAccommodationQuestionLabel = ["Arrival date,", "Accomodation needed", "If you are paying yourself,", "Preferred accommodation locations", "Number of bedrooms", "Number of bathrooms", "Do you require any additional", "Are you or any of your", "Who will be paying"]
 const budgetAnswerLabel = "Budget"
 const needAnalysisUpdMsg = "Temporary accommodation (Origin) details have been updated. Thank you."
-const arrivalDate_1 = "11.12.2022"
-const arrivalDate_2 = "22.11.2022"
-const accomodationDate_1 = "20.12.2022"
-const accomodationDate_2 = "22.11.2022"
+const arrivalDate_1 = commonElements.getCurrentDateNo0Format(isGitActionTest)
+const arrivalDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest)
+const accomodationDate_1 = commonElements.getCurrentDatePlusDaysNo0Format(12,isGitActionTest)
+const accomodationDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(15,isGitActionTest)
 const currency_1 = "USD"
 const currency_2 = "EUR"
 const currencyValue_1 = "2 000"
@@ -37,7 +38,7 @@ const payingPersonType_1 = "CLIENT"
 const payingPersonType_2 = "ASSIGNEE"
 
 
-xdescribe('Temp Accommodation(Origin) Service, Need Analysis Section test', () => {
+describe('Temp Accommodation(Origin) Service, Need Analysis Section test', () => {
 
     before(async () => {
         await passSignIn.signIn();

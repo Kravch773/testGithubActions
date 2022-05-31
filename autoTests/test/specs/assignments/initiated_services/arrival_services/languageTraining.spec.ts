@@ -8,6 +8,7 @@ import languageTrainingPage from '../../../../pageobjects/assignment/services/la
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
+const isGitActionTest = true 
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const serviceName = "Language training"
@@ -38,10 +39,10 @@ const typeOfDelivery_1 = "Group"
 const typeOfDelivery_2 = "Individual"
 const notes_1 = "testNote1"
 const notes_2 = "testNote2"
-const purchaseOrderDetails_1 = ["Roebuck Removals ", "Language Training - Other", "USD - US Dollar", "500", "testDescrpt1", "17.5.2022"]
-const purchaseOrderDetails_2 = ["Roebuck Removals", "Language Training - Other", "EUR - Euro", "800", "descrpt2", "22.5.2022"]
-const salesOrderDetails_1 = ["Language Training - Other", "225", "descript1", "22.5.2022"]
-const salesOrderDetails_2 = ["Language Training - Other", "565", "2descript", "12.7.2022"]
+const purchaseOrderDetails_1 = ["Roebuck Removals ", "Language Training - Other", "USD - US Dollar", "500", "testDescrpt1", commonElements.getCurrentDate(isGitActionTest)]
+const purchaseOrderDetails_2 = ["Roebuck Removals", "Language Training - Other", "EUR - Euro", "800", "descrpt2", commonElements.getCurrentDatePlusDays(8,isGitActionTest)]
+const salesOrderDetails_1 = ["Language Training - Other", "225", "descript1", commonElements.getCurrentDate(isGitActionTest)]
+const salesOrderDetails_2 = ["Language Training - Other", "565", "2descript", commonElements.getCurrentDatePlusDays(8,isGitActionTest)]
 const recurringPODetails = ["Roebuck Removals ", "Language Training - Other", "USD - US Dollar", "50", "Weekly", "testDescrpt1"]
 
 describe('Language Training Service, test', () => {
@@ -263,8 +264,8 @@ describe('Language Training Service, test', () => {
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
     });
     it('Verify service Recurring Purchase Orders', async () => {
-        let startDate = await commonElements.getCurrentDateNo0InMonth();
-        let endDate = await commonElements.getCurrentDatePlusDaysNo0InMonth(8);
+        let startDate = await commonElements.getCurrentDateNo0Format(isGitActionTest);
+        let endDate = await commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest);
         await financeTransactions.clickAddRecurringPOBtn();
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
@@ -276,7 +277,7 @@ describe('Language Training Service, test', () => {
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[1])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(await financeTransactions.formRecurringPOPartnerCost(recurringPODetails[2], recurringPODetails[3]))).toBe(true);
-        expect(await financeTransactions.isRecurringPOLabelDisplayed(await commonElements.getCurrentDate())).toBe(true);
+        expect(await financeTransactions.isRecurringPOLabelDisplayed(await commonElements.getCurrentDate(isGitActionTest))).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[5])).toBe(true);
         await financeTransactions.cancelRecurringPO();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);

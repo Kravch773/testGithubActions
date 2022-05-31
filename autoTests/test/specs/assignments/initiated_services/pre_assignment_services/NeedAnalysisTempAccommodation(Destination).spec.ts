@@ -5,14 +5,15 @@ import needAnalysisPage from '../../../../pageobjects/assignment/needAnalysis.pa
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
+const isGitActionTest =true 
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const serviceName = "Temp. accommodation (Destination)"
 const budgetAnswerLabel = "Budget"
-const arrivalDate_1 = "11.12.2022"
-const arrivalDate_2 = "22.11.2022"
-const accomodationDate_1 = "20.12.2022"
-const accomodationDate_2 = "22.11.2022"
+const arrivalDate_1 = commonElements.getCurrentDateNo0Format(isGitActionTest)
+const arrivalDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest)
+const accomodationDate_1 = commonElements.getCurrentDatePlusDaysNo0Format(12,isGitActionTest)
+const accomodationDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(15,isGitActionTest)
 const accommodationLocations_1 = "testLoc1"
 const accommodationLocations_2 = "testLoc2"
 const numOfbedrooms_1 = "2"
@@ -37,7 +38,7 @@ const payingPersonType_2 = "ASSIGNEE"
 const needAnalysisUpdMsg = "Temporary accommodation (Destination) details have been updated. Thank you."
 
 
-xdescribe('Temp Accommodation(Destination) Service, Need Analysis Section test', () => {
+describe('Temp Accommodation(Destination) Service, Need Analysis Section test', () => {
 
     before(async () => {
         await passSignIn.signIn();

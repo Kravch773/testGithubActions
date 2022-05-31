@@ -329,16 +329,17 @@ class commonElements {
     public async getDropDownValueText(dropDownElement = this.dropDownElement): Promise<string> {
         return await Page.getElementText(`//option[@value="${await Page.getElementValue(dropDownElement)}"]`);
     }
-    public async getCurrentDate(): Promise<string> {
+    public async getCurrentDate(isGitActionTest = false): Promise<string> {
         let today = new Date()
         if (today.getMonth() + 1 < 10) { var date = today.getDate() + ".0" + (today.getMonth() + 1) + "." + today.getFullYear(); }
         else { var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear(); }
+        if (isGitActionTest == true) { this.createGitDateFormat(date); }
         return date;
-
     }
-    public async getCurrentDateNo0Format(): Promise<string> {
+    public async getCurrentDateNo0Format(isGitActionTest = false): Promise<string> {
         let today = new Date()
         var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear();
+        if (isGitActionTest == true) { this.createGitDateFormat(date); }
         return date;
     }
     public async addDays(date, days) {
@@ -346,17 +347,19 @@ class commonElements {
         result.setDate(result.getDate() + days);
         return result;
     }
-    public async getCurrentDatePlusDays(addDays): Promise<string> {
+    public async getCurrentDatePlusDays(addDays, isGitActionTest = false): Promise<string> {
         let today = new Date()
         today = await this.addDays(today, addDays)
         if (today.getMonth() + 1 < 10) { var date = today.getDate() + ".0" + (today.getMonth() + 1) + "." + today.getFullYear(); }
         else { var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear(); }
+        if (isGitActionTest == true) { this.createGitDateFormat(date); }
         return date;
     }
-    public async getCurrentDatePlusDaysNo0Format(addDays): Promise<string> {
+    public async getCurrentDatePlusDaysNo0Format(addDays, isGitActionTest = false): Promise<string> {
         let today = new Date()
         today = await this.addDays(today, addDays)
         var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear();
+        if (isGitActionTest == true) { this.createGitDateFormat(date); }
         return date;
     }
     public async setAddress(address1, address2, address3, address4, city, state, postalCode, country): Promise<void> {
@@ -403,20 +406,16 @@ class commonElements {
         for (var i = 0; i < newPhoneArr.length; i++) { newPhone += newPhoneArr[i]; }
         return newPhone;
     }
-    public async createGitDateFormat(date, isGitActionTest = true, fullYear = true): Promise<string> {
-        if (isGitActionTest == true) {
-            let newDateArr = date.split(".");
-            if (fullYear == true) {
-                let newPhone = newDateArr[1] + "/" + newDateArr[0] + "/" + newDateArr[2];
-                return newPhone;
-            }
-            if (fullYear == false) {
-                let newPhone = newDateArr[1] + "/" + newDateArr[0] + "/" + (newDateArr[2].substring(2));
-                return newPhone;
-            }
+    public async createGitDateFormat(date, fullYear = false): Promise<string> {
+        let newDateArr = date.split(".");
+        if (fullYear == true) {
+            let newPhone = newDateArr[1] + "/" + newDateArr[0] + "/" + newDateArr[2];
+            return newPhone;
         }
-        else { return date; }
-
+        if (fullYear == false) {
+            let newPhone = newDateArr[1] + "/" + newDateArr[0] + "/" + (newDateArr[2].substring(2));
+            return newPhone;
+        }
     }
 }
 export default new commonElements();
