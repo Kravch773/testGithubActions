@@ -408,10 +408,18 @@ class commonElements {
         for (var i = 0; i < newPhoneArr.length; i++) { newPhone += newPhoneArr[i]; }
         return newPhone;
     }
-    public async createGitDateFormat(date): Promise<string> {
+    public async createGitDateFormat(date, fullYear = false): Promise<string> {
         let newDateArr = date.split(".");
-        let newPhone = newDateArr[1] + "/" + newDateArr[0] + "/" + newDateArr[2];
-        return newPhone;
+        if (fullYear == true) {
+            let newPhone = newDateArr[1] + "/" + newDateArr[0] + "/" + newDateArr[2];
+            return newPhone;
+        }
+        if (fullYear == false) {
+            let newPhone = newDateArr[1] + "/" + newDateArr[0] + "/" + (newDateArr[2].substring(2));
+            return newPhone;
+        }
+
+
     }
 }
 export default new commonElements();
