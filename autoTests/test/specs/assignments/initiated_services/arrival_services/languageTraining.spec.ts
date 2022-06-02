@@ -277,7 +277,7 @@ describe('Language Training Service, test', () => {
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[1])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(await financeTransactions.formRecurringPOPartnerCost(recurringPODetails[2], recurringPODetails[3]))).toBe(true);
-        expect(await financeTransactions.isRecurringPOLabelDisplayed(await commonElements.getCurrentDate(isGitActionTest))).toBe(true);
+        expect(await financeTransactions.getRecurringPOPaymentDueLabel()).toBe(await commonElements.getCurrentDateNo0Format(isGitActionTest));
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[5])).toBe(true);
         await financeTransactions.cancelRecurringPO();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);

@@ -68,6 +68,9 @@ class addServiceDocument {
     public getRecurringPOLabel(labelText): string {
         return `//transactions-purchases-recurring-po//tr//*[contains(text(),"${labelText}")]`
     }
+    get recurringPOPaymentDueLabel(): string {
+        return ` "//transactions-purchases-recurring-po//tr//date/time"`
+    }
     public async clickAddPurchaseOrderBtn(): Promise<void> {
         await Page.click(this.addPurchaseOrderBtn)
     }
@@ -174,6 +177,9 @@ class addServiceDocument {
     }
     public async isRecurringPOLabelDisplayed(labelText): Promise<boolean> {
         return await Page.isElementDisplayed(this.getRecurringPOLabel(labelText));
+    }
+    public async getRecurringPOPaymentDueLabel():Promise<string>{
+        return await Page.getElementText(this.recurringPOPaymentDueLabel);
     }
     public async formRecurringPOPartnerCost(fullCurrency, amount): Promise<string> {
         let currency = fullCurrency.split(" - ");
