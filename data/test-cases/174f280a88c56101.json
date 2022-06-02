@@ -1,21 +1,23 @@
 {
-  "uid" : "58bd1a211d3e22b4",
+  "uid" : "174f280a88c56101",
   "name" : "Verify service Recurring Purchase Orders",
   "fullName" : "Language Training Service, test.Verify service Recurring Purchase Orders",
-  "historyId" : "a70d301bd2067638537ca5ab98ab95b9",
+  "historyId" : "f9c1ad17bf4e60c41dc9695f099c4cb8",
   "time" : {
-    "start" : 1654165317454,
-    "stop" : 1654165340869,
-    "duration" : 23415
+    "start" : 1654170683979,
+    "stop" : 1654170698980,
+    "duration" : 15001
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -46,25 +48,21 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.63"
+    "value" : "chrome-102.0.5005.61"
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "61cb1d1039261067",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164919506,
-        "stop" : 1654164942462,
-        "duration" : 22956
-      }
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
     } ],
-    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "58bd1a211d3e22b4.json",
-  "parameterValues" : [ "chrome-102.0.5005.63" ]
+  "source" : "174f280a88c56101.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
 }
