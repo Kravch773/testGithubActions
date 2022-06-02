@@ -1,0 +1,157 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654164728276' stop='1654164942462'>
+    <name>Language Training Service, test</name>
+    <title>Language Training Service, test</title>
+    <test-cases>
+        <test-case start='1654164728276' status='passed' stop='1654164749337'>
+            <name>Go to Services / Language training tab and check label</name>
+            <title>Go to Services / Language training tab and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654164749338' status='passed' stop='1654164783887'>
+            <name>Verify language training form</name>
+            <title>Verify language training form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654164783888' status='passed' stop='1654164789544'>
+            <name>Verify language training edit form witout saving </name>
+            <title>Verify language training edit form witout saving </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654164789544' status='passed' stop='1654164801805'>
+            <name>Verify language training edit form with saving </name>
+            <title>Verify language training edit form with saving </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654164801806' status='passed' stop='1654164809179'>
+            <name>Verify Initiate service partner</name>
+            <title>Verify Initiate service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654164809179' status='passed' stop='1654164822066'>
+            <name>Verify remove service partner</name>
+            <title>Verify remove service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654164822068' status='broken' stop='1654164849861'>
+            <name>Verify service documents</name>
+            <title>Verify service documents</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654164849862' status='passed' stop='1654164884744'>
+            <name>Verify service PurchaseOrder</name>
+            <title>Verify service PurchaseOrder</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654164884745' status='passed' stop='1654164919504'>
+            <name>Verify service Sales Order</name>
+            <title>Verify service Sales Order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654164919506' status='passed' stop='1654164942462'>
+            <name>Verify service Recurring Purchase Orders</name>
+            <title>Verify service Recurring Purchase Orders</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
