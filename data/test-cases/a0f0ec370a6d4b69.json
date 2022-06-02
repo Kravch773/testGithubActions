@@ -1,12 +1,12 @@
 {
-  "uid" : "8919c0b5ba68dba8",
-  "name" : "Go to Services / Language training tab and check label",
-  "fullName" : "Language Training Service, test.Go to Services / Language training tab and check label",
-  "historyId" : "ffde71604dafd483283dd14e9f6718e",
+  "uid" : "a0f0ec370a6d4b69",
+  "name" : "Verify remove service partner",
+  "fullName" : "Language Training Service, test.Verify remove service partner",
+  "historyId" : "2a215d9f54314dff5b78cf51170cb269",
   "time" : {
-    "start" : 1654164728276,
-    "stop" : 1654164749337,
-    "duration" : 21061
+    "start" : 1654169963564,
+    "stop" : 1654169976406,
+    "duration" : 12842
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Go to Services / Language training tab and check label"
+    "value" : "Verify remove service partner"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -46,15 +46,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.63"
+    "value" : "chrome-102.0.5005.61"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8919c0b5ba68dba8.json",
-  "parameterValues" : [ "chrome-102.0.5005.63" ]
+  "source" : "a0f0ec370a6d4b69.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
 }

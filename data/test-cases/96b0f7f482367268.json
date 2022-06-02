@@ -1,12 +1,12 @@
 {
-  "uid" : "327b4d541786919d",
-  "name" : "Verify Initiate service partner",
-  "fullName" : "Language Training Service, test.Verify Initiate service partner",
-  "historyId" : "d6e6d8b88a0792b5980a13be8c853d5c",
+  "uid" : "96b0f7f482367268",
+  "name" : "Verify language training edit form witout saving ",
+  "fullName" : "Language Training Service, test.Verify language training edit form witout saving ",
+  "historyId" : "cf8765b53964a41872854eefa6be4110",
   "time" : {
-    "start" : 1654164801806,
-    "stop" : 1654164809179,
-    "duration" : 7373
+    "start" : 1654165183890,
+    "stop" : 1654165189585,
+    "duration" : 5695
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify Initiate service partner"
+    "value" : "Verify language training edit form witout saving "
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -49,12 +49,22 @@
     "value" : "chrome-102.0.5005.63"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "48b52a0fd8ba8112",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654164783888,
+        "stop" : 1654164789544,
+        "duration" : 5656
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "327b4d541786919d.json",
+  "source" : "96b0f7f482367268.json",
   "parameterValues" : [ "chrome-102.0.5005.63" ]
 }

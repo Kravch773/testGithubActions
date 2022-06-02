@@ -1,12 +1,12 @@
 {
-  "uid" : "b25a5851673340c9",
-  "name" : "Verify language training form",
-  "fullName" : "Language Training Service, test.Verify language training form",
-  "historyId" : "3caf242f5dce8883771c605cf5d0660a",
+  "uid" : "ab2dfeb4e23fe937",
+  "name" : "Verify service documents",
+  "fullName" : "Language Training Service, test.Verify service documents",
+  "historyId" : "33e31a931f267454217e682b9bafd798",
   "time" : {
-    "start" : 1654165150697,
-    "stop" : 1654165183889,
-    "duration" : 33192
+    "start" : 1654165221578,
+    "stop" : 1654165247999,
+    "duration" : 26421
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -16,7 +16,7 @@
   "newBroken" : false,
   "newPassed" : false,
   "retriesCount" : 1,
-  "retriesStatusChange" : false,
+  "retriesStatusChange" : true,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify language training form"
+    "value" : "Verify service documents"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -54,17 +54,18 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "7cfe95c3e887fffb",
-      "status" : "passed",
+      "uid" : "788c09bf8ff734a0",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
       "time" : {
-        "start" : 1654164749338,
-        "stop" : 1654164783887,
-        "duration" : 34549
+        "start" : 1654164822068,
+        "stop" : 1654164849861,
+        "duration" : 27793
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b25a5851673340c9.json",
+  "source" : "ab2dfeb4e23fe937.json",
   "parameterValues" : [ "chrome-102.0.5005.63" ]
 }

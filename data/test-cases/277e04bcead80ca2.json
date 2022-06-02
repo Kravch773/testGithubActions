@@ -1,12 +1,12 @@
 {
-  "uid" : "40167e7d2e61320f",
-  "name" : "Verify remove service partner",
-  "fullName" : "Language Training Service, test.Verify remove service partner",
-  "historyId" : "971211917dd9cd78da984760c741f83a",
+  "uid" : "277e04bcead80ca2",
+  "name" : "Verify Initiate service partner",
+  "fullName" : "Language Training Service, test.Verify Initiate service partner",
+  "historyId" : "9fb6e22f5c7c6066ace1cc918ef47657",
   "time" : {
-    "start" : 1654164809179,
-    "stop" : 1654164822066,
-    "duration" : 12887
+    "start" : 1654169955736,
+    "stop" : 1654169963564,
+    "duration" : 7828
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify remove service partner"
+    "value" : "Verify Initiate service partner"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -46,15 +46,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.63"
+    "value" : "chrome-102.0.5005.61"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "40167e7d2e61320f.json",
-  "parameterValues" : [ "chrome-102.0.5005.63" ]
+  "source" : "277e04bcead80ca2.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
 }
