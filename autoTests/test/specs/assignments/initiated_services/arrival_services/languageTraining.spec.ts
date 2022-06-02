@@ -167,7 +167,7 @@ describe('Language Training Service, test', () => {
         await initiatedServicesPage.clickInitiatePartnerBtn();
         await initiatedServicesPage.clickSendEmailBtn();
         expect(await initiatedServicesPage.isInitiateServiceMsgDisplayed()).toBe(true);
-        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(commonElements.getCurrentDate(isGitActionTest));
+        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(commonElements.getCurrentDateNo0Format(isGitActionTest,false));
     });
     it('Verify remove service partner', async () => {
         await initiatedServicesPage.clickRemovePartnerWithConfirm("no");
@@ -186,7 +186,7 @@ describe('Language Training Service, test', () => {
         await initiatedServicesPage.clickAddServiceDocuments();
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
-        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(commonElements.getCurrentDate(isGitActionTest));
+        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(commonElements.getCurrentDateNo0Format(isGitActionTest,false));
         await initiatedServicesPage.removeServiceDocument();
         expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
         await addServiceDocument.removeDocumentByName();
