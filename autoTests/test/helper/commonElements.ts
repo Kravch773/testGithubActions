@@ -410,39 +410,57 @@ class commonElements {
     public createGitDateFormat(date, fullYear = false): string {
         let newDateArr = date.split(".");
         if (fullYear == true) {
-            let newDate = newDateArr[1] + "/" + newDateArr[0] + "/" + newDateArr[2];
+            let newDate = newDateArr[1] + "." + newDateArr[0] + "." + newDateArr[2];
             return newDate;
         }
         if (fullYear == false) {
-            let newDate = newDateArr[1] + "/" + newDateArr[0] + "/" + (newDateArr[2].substring(2));
+            let newDate = newDateArr[1] + "." + newDateArr[0] + "." + (newDateArr[2].substring(2));
             return newDate;
         }
     }
-    public async createStandartDateFormat(date, isGitActionTest = false): Promise<string> {
-        if (isGitActionTest == true) {
-            let newDateArr = await date.split("/");
-            if (newDateArr[0] <= 9 && newDateArr[1] <= 9) {
-                let newDate = "0" + (newDateArr[0]) + "/0" + newDateArr[1] + "/" + newDateArr[2];
-                return newDate;
-            }
-            if (newDateArr[0] <= 9 && newDateArr[1] >= 10) {
-                let newDate = "0" + (newDateArr[0]) + "/" + newDateArr[1] + "/" + newDateArr[2];
-                return newDate;
-            }
-            else { return date; }
+    // public async createStandartDateFormat(date, isGitActionTest = false): Promise<string> {
+    //     if (isGitActionTest == true) {
+    //         let newDateArr = await date.split("/");
+    //         if (newDateArr[0] <= 9 && newDateArr[1] <= 9) {
+    //             let newDate = "0" + (newDateArr[0]) + "/0" + newDateArr[1] + "/" + newDateArr[2];
+    //             return newDate;
+    //         }
+    //         if (newDateArr[0] <= 9 && newDateArr[1] >= 10) {
+    //             let newDate = "0" + (newDateArr[0]) + "/" + newDateArr[1] + "/" + newDateArr[2];
+    //             return newDate;
+    //         }
+    //         else { return date; }
+    //     }
+    //     if (isGitActionTest == false) {
+    //         let newDateArr = await date.split(".");
+    //         if (newDateArr[1] <= 9 && newDateArr[0] <= 9) {
+    //             let newDate = "0" + newDateArr[0] + ".0" + (newDateArr[1]) + "." + newDateArr[2];
+    //             return newDate;
+    //         }
+    //         if (newDateArr[1] <= 9 && newDateArr[0] >= 10) {
+    //             let newDate = newDateArr[0] + ".0" + (newDateArr[1]) + "." + newDateArr[2];
+    //             return newDate;
+    //         }
+    //         else { return date; }
+    //     }
+    // }
+    public async createStandartDateForm(date, isGithubTest): Promise<string> {
+        if (isGithubTest == true) {
+            var newDateArr = await date.split("/");
+            if (newDateArr[0] <= 9 && newDateArr[0].length == 2) { newDateArr[0] = newDateArr[0].substring(1) }
+            if (newDateArr[1] <= 9 && newDateArr[1].length == 2) { newDateArr[1] = newDateArr[1].substring(1) }
+            if (newDateArr[2].length == 2) { newDateArr[2] = "20" + newDateArr[2] }
+            var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
         }
-        if (isGitActionTest == false) {
-            let newDateArr = await date.split(".");
-            if (newDateArr[1] <= 9 && newDateArr[0] <= 9) {
-                let newDate = "0" + newDateArr[0] + ".0" + (newDateArr[1]) + "." + newDateArr[2];
-                return newDate;
-            }
-            if (newDateArr[1] <= 9 && newDateArr[0] >= 10) {
-                let newDate = newDateArr[0] + ".0" + (newDateArr[1]) + "." + newDateArr[2];
-                return newDate;
-            }
-            else { return date; }
+        if (isGithubTest == false) {
+            var newDateArr = await date.split(".");
+            if (newDateArr[0] <= 9 && newDateArr[0].length == 2) { newDateArr[0] = newDateArr[0].substring(1) }
+            if (newDateArr[1] <= 9 && newDateArr[1].length == 2) { newDateArr[1] = newDateArr[1].substring(1) }
+            if (newDateArr[2].length == 2) { newDateArr[2] = "20" + newDateArr[2] }
+            var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
+
         }
+        return newDate;
     }
 
 }
