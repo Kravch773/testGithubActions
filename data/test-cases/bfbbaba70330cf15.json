@@ -1,5 +1,5 @@
 {
-  "uid" : "5049aa3ac9751f0d",
+  "uid" : "bfbbaba70330cf15",
   "name" : "Verify service documents",
   "fullName" : "Language Training Service, test.Verify service documents",
   "historyId" : "33e31a931f267454217e682b9bafd798",
@@ -61,8 +61,28 @@
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d4aa5ec8a167151a",
+        "status" : "broken",
+        "statusDetails" : "waitUntil condition timed out after 15000ms",
+        "time" : {
+          "start" : 1654159795776,
+          "stop" : 1654159823110,
+          "duration" : 27334
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "5049aa3ac9751f0d.json",
+  "source" : "bfbbaba70330cf15.json",
   "parameterValues" : [ "chrome-102.0.5005.63" ]
 }

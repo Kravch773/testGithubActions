@@ -1,12 +1,12 @@
 {
-  "uid" : "69888f8a7780183",
-  "name" : "Verify language training form",
-  "fullName" : "Language Training Service, test.Verify language training form",
-  "historyId" : "c2c2b2a9163c290742b74c1773654ea5",
+  "uid" : "3aab9d897e711a9",
+  "name" : "Verify Initiate service partner",
+  "fullName" : "Language Training Service, test.Verify Initiate service partner",
+  "historyId" : "d6e6d8b88a0792b5980a13be8c853d5c",
   "time" : {
-    "start" : 1654160967455,
-    "stop" : 1654161004048,
-    "duration" : 36593
+    "start" : 1654159775627,
+    "stop" : 1654159782975,
+    "duration" : 7348
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify language training form"
+    "value" : "Verify Initiate service partner"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -46,7 +46,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.61"
+    "value" : "chrome-102.0.5005.63"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -55,8 +55,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1814750c79a50eaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654159775627,
+          "stop" : 1654159782975,
+          "duration" : 7348
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "69888f8a7780183.json",
-  "parameterValues" : [ "chrome-102.0.5005.61" ]
+  "source" : "3aab9d897e711a9.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
 }

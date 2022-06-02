@@ -1,12 +1,12 @@
 {
-  "uid" : "58e874a6f5bbf6d5",
-  "name" : "Verify language training form",
-  "fullName" : "Language Training Service, test.Verify language training form",
-  "historyId" : "3caf242f5dce8883771c605cf5d0660a",
+  "uid" : "1c5da72ca655fc6c",
+  "name" : "Verify service Sales Order",
+  "fullName" : "Language Training Service, test.Verify service Sales Order",
+  "historyId" : "4702079c83fb6d9587f44bce1d8780a5",
   "time" : {
-    "start" : 1654159721577,
-    "stop" : 1654159757318,
-    "duration" : 35741
+    "start" : 1654159857861,
+    "stop" : 1654159891096,
+    "duration" : 33235
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify language training form"
+    "value" : "Verify service Sales Order"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -55,8 +55,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6372bc7e3c2974b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654159857861,
+          "stop" : 1654159891096,
+          "duration" : 33235
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "58e874a6f5bbf6d5.json",
+  "source" : "1c5da72ca655fc6c.json",
   "parameterValues" : [ "chrome-102.0.5005.63" ]
 }
