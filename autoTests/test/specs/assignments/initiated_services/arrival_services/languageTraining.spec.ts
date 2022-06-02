@@ -186,7 +186,7 @@ describe('Language Training Service, test', () => {
         await initiatedServicesPage.clickAddServiceDocuments();
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
-        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(await commonElements.getCurrentDate(isGitActionTest));
+        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(commonElements.getCurrentDate(isGitActionTest));
         await initiatedServicesPage.removeServiceDocument();
         expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
         await addServiceDocument.removeDocumentByName();

@@ -329,19 +329,19 @@ class commonElements {
     public async getDropDownValueText(dropDownElement = this.dropDownElement): Promise<string> {
         return await Page.getElementText(`//option[@value="${await Page.getElementValue(dropDownElement)}"]`);
     }
-    public getCurrentDate(isGitActionTest = false): string {
+    public getCurrentDate(isGitActionTest): string {
         let today = new Date()
         if (today.getMonth() <= 9) { var month = "0" + (today.getMonth() + 1) }
         if (today.getMonth() >= 10) { var month = (today.getMonth() + 1).toString() }
         if (today.getDate() <= 9) { var date = "0" + (today.getDate()) }
         var todayDate = date + "." + month + "." + today.getFullYear();
-        if (isGitActionTest == true) { this.createGitDateFormat(todayDate); }
+        if (isGitActionTest == true) { todayDate = this.createGitDateFormat(todayDate); }
         return todayDate;
     }
     public getCurrentDateNo0Format(isGitActionTest = false): string {
         let today = new Date()
         var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear();
-        if (isGitActionTest == true) { this.createGitDateFormat(date); }
+        if (isGitActionTest == true) { date = this.createGitDateFormat(date); }
         return date;
     }
     public addDays(date, days) {
@@ -354,14 +354,14 @@ class commonElements {
         today = this.addDays(today, addDays)
         if (today.getMonth() + 1 < 10) { var date = today.getDate() + ".0" + (today.getMonth() + 1) + "." + today.getFullYear(); }
         else { var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear(); }
-        if (isGitActionTest == true) { this.createGitDateFormat(date); }
+        if (isGitActionTest == true) { date = this.createGitDateFormat(date); }
         return date;
     }
     public getCurrentDatePlusDaysNo0Format(addDays, isGitActionTest = false): string {
         let today = new Date()
         today = this.addDays(today, addDays)
         var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear();
-        if (isGitActionTest == true) { this.createGitDateFormat(date); }
+        if (isGitActionTest == true) { date = this.createGitDateFormat(date); }
         return date;
     }
     public async setAddress(address1, address2, address3, address4, city, state, postalCode, country): Promise<void> {
@@ -407,7 +407,7 @@ class commonElements {
         for (var i = 0; i < newPhoneArr.length; i++) { newPhone += newPhoneArr[i]; }
         return newPhone;
     }
-    public async createGitDateFormat(date, fullYear = false): Promise<string> {
+    public createGitDateFormat(date, fullYear = false): string {
         let newDateArr = date.split(".");
         if (fullYear == true) {
             let newDate = newDateArr[1] + "/" + newDateArr[0] + "/" + newDateArr[2];
