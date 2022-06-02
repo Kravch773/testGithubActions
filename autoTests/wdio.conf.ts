@@ -44,7 +44,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/ClientPage/SetupPage/*.spec.ts'
         ],
         initiatedServices: [
-            './test/specs/assignments/initiated_services/pre_assignment_services/TempAccommodation(Origin).spec.ts'
+            './test/specs/assignments/initiated_services/arrival_services/*.spec.ts'
         ]
         
     },
