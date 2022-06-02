@@ -8,7 +8,7 @@ import tempAcomodationPage from '../../../../pageobjects/assignment/services/tem
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
-const isGitActionTest = true
+const isGitActionTest = passSignIn.isGithubTest
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const serviceName = "Temp. accommodation (Destination)"
@@ -100,7 +100,7 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         await initiatedServicesPage.clickInitiatePartnerBtn();
         await initiatedServicesPage.clickSendEmailBtn();
         expect(await initiatedServicesPage.isInitiateServiceMsgDisplayed()).toBe(true);
-        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(await commonElements.createGitDateFormat(await commonElements.getCurrentDate(),isGitActionTest));
+        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(commonElements.getCurrentDate(isGitActionTest));
     });
     it('Verify remove service partner', async () => {
         await initiatedServicesPage.clickRemovePartnerWithConfirm("no");
@@ -183,7 +183,7 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         await initiatedServicesPage.clickAddServiceDocuments();
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
-        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(await commonElements.createGitDateFormat(await commonElements.getCurrentDate(),isGitActionTest));
+        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(commonElements.getCurrentDate(isGitActionTest));
         await initiatedServicesPage.removeServiceDocument();
         expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
         await addServiceDocument.removeDocumentByName();
@@ -261,8 +261,8 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
     });
     it('Verify service Recurring Purchase Orders', async () => {
-        let startDate = await commonElements.createGitDateFormat(await commonElements.getCurrentDateNo0Format(),isGitActionTest);
-        let endDate = await commonElements.createGitDateFormat(await commonElements.getCurrentDatePlusDaysNo0Format(8),isGitActionTest);
+        let startDate = await commonElements.getCurrentDateNo0Format(isGitActionTest);
+        let endDate = await commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest);
         await financeTransactions.clickAddRecurringPOBtn();
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
@@ -274,12 +274,11 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[1])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(await financeTransactions.formRecurringPOPartnerCost(recurringPODetails[2], recurringPODetails[3]))).toBe(true);
-        expect(await financeTransactions.isRecurringPOLabelDisplayed(startDate)).toBe(true);
+        expect(await financeTransactions.isRecurringPOLabelDisplayed(commonElements.getCurrentDate(isGitActionTest))).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[5])).toBe(true);
         await financeTransactions.cancelRecurringPO();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
     });
-
     it('Verify Lease extensions', async () => {
         await tempAcomodationPage.clickAddExtension();
         await tempAcomodationPage.setLeaseExtensions(negotiatedDate_1, newEndDate_1, rentCurrency_1, rentAmount_1, rentPaymentTerm_1, reason_1, extensionConfirm_1);

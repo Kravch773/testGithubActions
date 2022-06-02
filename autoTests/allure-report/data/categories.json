@@ -1,5 +1,64 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "waitUntil condition timed out after 15000ms",
+      "children" : [ {
+        "name" : "Verify service PurchaseOrder",
+        "uid" : "e8b13c37caeeaed3",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653996367783,
+          "stop" : 1653996391637,
+          "duration" : 23854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.62" ]
+      }, {
+        "name" : "Verify service Sales Order",
+        "uid" : "5553d01fdc354528",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653996391637,
+          "stop" : 1653996406638,
+          "duration" : 15001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.62" ]
+      }, {
+        "name" : "Verify service Recurring Purchase Orders",
+        "uid" : "f50322907713af3e",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653996406638,
+          "stop" : 1653996421648,
+          "duration" : 15010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.62" ]
+      } ],
+      "uid" : "7a32765981bcc7398deb824e5d577aab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

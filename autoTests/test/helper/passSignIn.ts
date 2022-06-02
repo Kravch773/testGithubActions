@@ -1,6 +1,9 @@
 import loginPage from "../pageobjects/login.page";
 
 class passSignIn {
+    public get isGithubTest():boolean{
+        return false;
+    }
 
     public async signIn(): Promise<void> {
         await loginPage.openLoginURL();

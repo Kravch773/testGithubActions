@@ -5,7 +5,7 @@ import needAnalysisPage from '../../../../pageobjects/assignment/needAnalysis.pa
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
-const isGitActionTest = true
+const isGitActionTest = passSignIn.isGithubTest
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const serviceName = "Temp. accommodation (Origin)"
@@ -62,8 +62,8 @@ describe('Temp Accommodation(Origin) Service, Need Analysis Section test', () =>
         await commonElements.clickDialogWindowSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(needAnalysisUpdMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(needAnalysisUpdMsg);
-        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[0])).toContain(arrivalDate_1);
-        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[1])).toBe(accomodationDate_1);
+        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[0])).toContain(await commonElements.createStandartDateFormat(arrivalDate_1,isGitActionTest));
+        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[1])).toContain(await commonElements.createStandartDateFormat(accomodationDate_1,isGitActionTest));
         expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(budgetAnswerLabel)).toContain(currencyValue_1);
         expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(budgetAnswerLabel)).toContain(currencyTerm_1);
         expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[3])).toContain(accommodationLocations_1);
@@ -77,8 +77,8 @@ describe('Temp Accommodation(Origin) Service, Need Analysis Section test', () =>
         await initiatedServicesPage.clickNeedAnalysisServiceEditBtn();
         await needAnalysisPage.setTempAccommodationOrigin(tempAccommodationQuestionLabel, arrivalDate_2, accomodationDate_2, currency_2, currencyValue_2, currencyTerm_2, accommodationLocations_2, numOfbedrooms_2, numOfbathrooms_2, additionalItems_2, familySmokers_2, payingPerson_2);
         await commonElements.clickDialogWindowCancelBtn();
-        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[0])).toContain(arrivalDate_1);
-        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[1])).toBe(accomodationDate_1);
+        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[0])).toContain(await commonElements.createStandartDateFormat(arrivalDate_1,isGitActionTest));
+        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[1])).toContain(await commonElements.createStandartDateFormat(accomodationDate_1,isGitActionTest));
         expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(budgetAnswerLabel)).toContain(currencyValue_1);
         expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(budgetAnswerLabel)).toContain(currencyTerm_1);
         expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[3])).toContain(accommodationLocations_1);
@@ -94,8 +94,8 @@ describe('Temp Accommodation(Origin) Service, Need Analysis Section test', () =>
         await commonElements.clickDialogWindowSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(needAnalysisUpdMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(needAnalysisUpdMsg);
-        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[0])).toContain(arrivalDate_2);
-        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[1])).toBe(accomodationDate_2);
+        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[0])).toContain(await commonElements.createStandartDateFormat(arrivalDate_2,isGitActionTest));
+        expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[1])).toContain(await commonElements.createStandartDateFormat(accomodationDate_2,isGitActionTest));
         expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(budgetAnswerLabel)).toContain(currencyValue_2);
         expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(budgetAnswerLabel)).toContain(currencyTerm_2);
         expect(await initiatedServicesPage.getServiceAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[3])).toContain(accommodationLocations_2);
