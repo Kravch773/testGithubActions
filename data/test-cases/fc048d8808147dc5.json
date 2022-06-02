@@ -1,0 +1,68 @@
+{
+  "uid" : "fc048d8808147dc5",
+  "name" : "Verify remove service partner",
+  "fullName" : "Language Training Service, test.Verify remove service partner",
+  "historyId" : "2a215d9f54314dff5b78cf51170cb269",
+  "time" : {
+    "start" : 1654159696813,
+    "stop" : 1654159697095,
+    "duration" : 282
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:174:72\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:5:58)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify remove service partner"
+  }, {
+    "name" : "package",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fc048d8808147dc5.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}
