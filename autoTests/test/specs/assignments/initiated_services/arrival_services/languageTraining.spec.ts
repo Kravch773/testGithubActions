@@ -8,7 +8,7 @@ import languageTrainingPage from '../../../../pageobjects/assignment/services/la
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
-const isGitActionTest = passSignIn.isGithubTest; 
+const isGitActionTest = passSignIn.isGithubTest;
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const serviceName = "Language training"
@@ -39,10 +39,10 @@ const typeOfDelivery_1 = "Group"
 const typeOfDelivery_2 = "Individual"
 const notes_1 = "testNote1"
 const notes_2 = "testNote2"
-const purchaseOrderDetails_1 = ["Roebuck Removals ", "Language Training - Other", "USD - US Dollar", "500", "testDescrpt1",commonElements.getCurrentDateNo0Format(isGitActionTest)]
-const purchaseOrderDetails_2 = ["Roebuck Removals", "Language Training - Other", "EUR - Euro", "800", "descrpt2", commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest)]
-const salesOrderDetails_1 = ["Language Training - Other", "225", "descript1",  commonElements.getCurrentDateNo0Format(isGitActionTest)]
-const salesOrderDetails_2 = ["Language Training - Other", "565", "2descript", commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest)]
+const purchaseOrderDetails_1 = ["Roebuck Removals ", "Language Training - Other", "USD - US Dollar", "500", "testDescrpt1", commonElements.getCurrentDateNo0Format(isGitActionTest)]
+const purchaseOrderDetails_2 = ["Roebuck Removals", "Language Training - Other", "EUR - Euro", "800", "descrpt2", commonElements.getCurrentDatePlusDaysNo0Format(8, isGitActionTest)]
+const salesOrderDetails_1 = ["Language Training - Other", "225", "descript1", commonElements.getCurrentDateNo0Format(isGitActionTest)]
+const salesOrderDetails_2 = ["Language Training - Other", "565", "2descript", commonElements.getCurrentDatePlusDaysNo0Format(8, isGitActionTest)]
 const recurringPODetails = ["Roebuck Removals ", "Language Training - Other", "USD - US Dollar", "50", "Weekly", "testDescrpt1"]
 
 describe('Language Training Service, test', () => {
@@ -167,7 +167,7 @@ describe('Language Training Service, test', () => {
         await initiatedServicesPage.clickInitiatePartnerBtn();
         await initiatedServicesPage.clickSendEmailBtn();
         expect(await initiatedServicesPage.isInitiateServiceMsgDisplayed()).toBe(true);
-        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(await commonElements.getCurrentDate());
+        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(await commonElements.getCurrentDate(isGitActionTest));
     });
     it('Verify remove service partner', async () => {
         await initiatedServicesPage.clickRemovePartnerWithConfirm("no");
@@ -186,7 +186,7 @@ describe('Language Training Service, test', () => {
         await initiatedServicesPage.clickAddServiceDocuments();
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
-        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(await commonElements.getCurrentDate());
+        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(await commonElements.getCurrentDate(isGitActionTest));
         await initiatedServicesPage.removeServiceDocument();
         expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
         await addServiceDocument.removeDocumentByName();
@@ -265,13 +265,13 @@ describe('Language Training Service, test', () => {
     });
     it('Verify service Recurring Purchase Orders', async () => {
         let startDate = commonElements.getCurrentDateNo0Format(isGitActionTest);
-        let endDate = commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest);
+        let endDate = commonElements.getCurrentDatePlusDaysNo0Format(8, isGitActionTest);
         await financeTransactions.clickAddRecurringPOBtn();
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.clickAddRecurringPOBtn();
-        await financeTransactions.setRecurringPO(recurringPODetails, commonElements.getCurrentDateNo0Format(isGitActionTest), commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest));
+        await financeTransactions.setRecurringPO(recurringPODetails, startDate, endDate);
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isTransactionsAddedMsgDispayed()).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);

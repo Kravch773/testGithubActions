@@ -1,7 +1,7 @@
 import assigneePage from "../pageobjects/assignment/assignee.page";
 import documentsPage from "../pageobjects/clients/documents.page";
 import commonElements from "./commonElements";
-const defFilePath = "/Ascent ts/testFiles/QAtest.docx"
+const defFilePath = "../autoTests/testFiles/QAtest.docx"
 const defFileName = "QAtest.docx"
 const defFAssigneeId = "31970"
 class addServiceDocument {
