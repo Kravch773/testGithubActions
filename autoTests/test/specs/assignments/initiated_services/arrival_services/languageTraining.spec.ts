@@ -167,7 +167,7 @@ describe('Language Training Service, test', () => {
         await initiatedServicesPage.clickInitiatePartnerBtn();
         await initiatedServicesPage.clickSendEmailBtn();
         expect(await initiatedServicesPage.isInitiateServiceMsgDisplayed()).toBe(true);
-        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(await commonElements.getCurrentDate(isGitActionTest));
+        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(commonElements.getCurrentDate(isGitActionTest));
     });
     it('Verify remove service partner', async () => {
         await initiatedServicesPage.clickRemovePartnerWithConfirm("no");
