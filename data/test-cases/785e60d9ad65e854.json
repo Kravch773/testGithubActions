@@ -1,12 +1,12 @@
 {
-  "uid" : "a3ec77904e23b46c",
-  "name" : "Verify remove service partner",
-  "fullName" : "Language Training Service, test.Verify remove service partner",
-  "historyId" : "971211917dd9cd78da984760c741f83a",
+  "uid" : "785e60d9ad65e854",
+  "name" : "Verify service documents",
+  "fullName" : "Language Training Service, test.Verify service documents",
+  "historyId" : "33e31a931f267454217e682b9bafd798",
   "time" : {
-    "start" : 1654165208701,
-    "stop" : 1654165221578,
-    "duration" : 12877
+    "start" : 1654165221578,
+    "stop" : 1654165247999,
+    "duration" : 26421
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -16,7 +16,7 @@
   "newBroken" : false,
   "newPassed" : false,
   "retriesCount" : 1,
-  "retriesStatusChange" : false,
+  "retriesStatusChange" : true,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify remove service partner"
+    "value" : "Verify service documents"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -54,17 +54,18 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "362d6ae7da50a930",
-      "status" : "passed",
+      "uid" : "46180e53c96e987d",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
       "time" : {
-        "start" : 1654164809179,
-        "stop" : 1654164822066,
-        "duration" : 12887
+        "start" : 1654164822068,
+        "stop" : 1654164849861,
+        "duration" : 27793
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a3ec77904e23b46c.json",
+  "source" : "785e60d9ad65e854.json",
   "parameterValues" : [ "chrome-102.0.5005.63" ]
 }

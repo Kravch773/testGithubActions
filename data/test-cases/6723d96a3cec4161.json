@@ -1,16 +1,18 @@
 {
-  "uid" : "e2c81e089c725207",
+  "uid" : "6723d96a3cec4161",
   "name" : "Verify service Recurring Purchase Orders",
   "fullName" : "Language Training Service, test.Verify service Recurring Purchase Orders",
-  "historyId" : "a70d301bd2067638537ca5ab98ab95b9",
+  "historyId" : "f9c1ad17bf4e60c41dc9695f099c4cb8",
   "time" : {
-    "start" : 1654164919506,
-    "stop" : 1654164942462,
-    "duration" : 22956
+    "start" : 1654165784667,
+    "stop" : 1654165799668,
+    "duration" : 15001
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -46,15 +48,21 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.63"
+    "value" : "chrome-102.0.5005.61"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
-    "categories" : [ ],
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "e2c81e089c725207.json",
-  "parameterValues" : [ "chrome-102.0.5005.63" ]
+  "source" : "6723d96a3cec4161.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
 }
