@@ -20,12 +20,12 @@ jobs:
       - name: run assignments_assigneeTab
         working-directory: ${{env.working-directory}}
         run: npm run initiatedServices:headless # name of the headless script
-      - name: Copy History
-        if: always()
-        run: cp -r $(pwd)/docs/history/. $(pwd)/autoTests/allure-results/history
-      - name: Generate Report
-        working-directory: ${{env.working-directory}}
-        if: always()
+      # - name: Copy History
+      #   if: always()
+      #   run: cp -r $(pwd)/docs/history/. $(pwd)/autoTests/allure-results/history
+      # - name: Generate Report
+      #   working-directory: ${{env.working-directory}}
+      #   if: always()
         run: npm run allure:generate # Name of the allure generate script
       - name: Upload Results
         uses: actions/upload-artifact@v1
