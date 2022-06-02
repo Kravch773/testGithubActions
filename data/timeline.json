@@ -3,218 +3,82 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Verify service PurchaseOrder",
-      "uid" : "1d9afbdb0e32bb5b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654171060300,
-        "stop" : 1654171096464,
-        "duration" : 36164
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify remove service partner",
-      "uid" : "c06c8392c9811f69",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654171020248,
-        "stop" : 1654171033105,
-        "duration" : 12857
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "d89be36a271ca4af",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654165221578,
-        "stop" : 1654165247999,
-        "duration" : 26421
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Go to Services / Language training tab and check label",
-      "uid" : "bacfdbcb6a72930c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654170939060,
-        "stop" : 1654170957443,
-        "duration" : 18383
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "b3211bd8fa77b2d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164884745,
-        "stop" : 1654164919504,
-        "duration" : 34759
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify language training edit form witout saving ",
-      "uid" : "7408c1b25fce200f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654170993108,
-        "stop" : 1654170999439,
-        "duration" : 6331
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "711bad8d6b9d0c41",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654171096465,
-        "stop" : 1654171131802,
-        "duration" : 35337
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to Services / Language training tab and check label",
-      "uid" : "1cc8d1c200aa653b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654165133855,
-        "stop" : 1654165150697,
-        "duration" : 16842
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify remove service partner",
-      "uid" : "541ac88b02200b1a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654165208701,
-        "stop" : 1654165221578,
-        "duration" : 12877
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify language training form",
-      "uid" : "42be00c5e9ae7c00",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164749338,
-        "stop" : 1654164783887,
-        "duration" : 34549
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify Initiate service partner",
-      "uid" : "3c3be0023c75aab0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654165201383,
-        "stop" : 1654165208700,
-        "duration" : 7317
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify service PurchaseOrder",
-      "uid" : "b9590135a43f659",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654165248000,
-        "stop" : 1654165283278,
-        "duration" : 35278
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
       "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "6ad6187f1b55d286",
+      "uid" : "c2706a70fec372aa",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1654171131804,
-        "stop" : 1654171148117,
-        "duration" : 16313
+        "start" : 1654172088152,
+        "stop" : 1654172105261,
+        "duration" : 17109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify service documents",
+      "uid" : "679cd5f7ad55905c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171990773,
+        "stop" : 1654172017743,
+        "duration" : 26970
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify remove service partner",
+      "uid" : "3c74bd05bb839e7b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171977899,
+        "stop" : 1654171990772,
+        "duration" : 12873
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Go to Services / Language training tab and check label",
+      "uid" : "b6ac5a439dd73c3d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171899091,
+        "stop" : 1654171915689,
+        "duration" : 16598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify language training edit form witout saving ",
+      "uid" : "b23ed5c363206673",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171951642,
+        "stop" : 1654171958082,
+        "duration" : 6440
       },
       "flaky" : false,
       "newFailed" : false,
@@ -225,30 +89,64 @@
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
       "name" : "Verify language training edit form with saving ",
-      "uid" : "ff90211160843a04",
+      "uid" : "dc32107241b28b25",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1654165189585,
-        "stop" : 1654165201381,
-        "duration" : 11796
+        "start" : 1654171958083,
+        "stop" : 1654171970496,
+        "duration" : 12413
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
+      "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
-      "name" : "Verify language training form",
-      "uid" : "fc429af6954cbe95",
+      "name" : "Verify Initiate service partner",
+      "uid" : "dd3ab4b6111d54c5",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1654170957443,
-        "stop" : 1654170993107,
-        "duration" : 35664
+        "start" : 1654171970496,
+        "stop" : 1654171977899,
+        "duration" : 7403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify language training form",
+      "uid" : "5a74ddfe39802b96",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171915690,
+        "stop" : 1654171951641,
+        "duration" : 35951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "381934992f4d02e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654172053826,
+        "stop" : 1654172088151,
+        "duration" : 34325
       },
       "flaky" : false,
       "newFailed" : false,
@@ -259,64 +157,13 @@
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
       "name" : "Verify service PurchaseOrder",
-      "uid" : "7d75e02d5185406c",
+      "uid" : "13236af0a0137e37",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1654164849862,
-        "stop" : 1654164884744,
-        "duration" : 34882
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "c87654459ba423b8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654165317454,
-        "stop" : 1654165340869,
-        "duration" : 23415
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "dc8118cca0d1a023",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164919506,
-        "stop" : 1654164942462,
-        "duration" : 22956
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify Initiate service partner",
-      "uid" : "5ed63f689459ca56",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654171011884,
-        "stop" : 1654171020248,
-        "duration" : 8364
+        "start" : 1654172017743,
+        "stop" : 1654172053825,
+        "duration" : 36082
       },
       "flaky" : false,
       "newFailed" : false,
@@ -325,193 +172,6 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify language training edit form witout saving ",
-      "uid" : "6a33783263b80f62",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654165183890,
-        "stop" : 1654165189585,
-        "duration" : 5695
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify language training edit form with saving ",
-      "uid" : "5785e44ba1261657",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164789544,
-        "stop" : 1654164801805,
-        "duration" : 12261
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Go to Services / Language training tab and check label",
-      "uid" : "76028b8abf53bdf9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164728276,
-        "stop" : 1654164749337,
-        "duration" : 21061
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "853a864a4394e39f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654165283281,
-        "stop" : 1654165317452,
-        "duration" : 34171
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify language training form",
-      "uid" : "e188150a807bd38e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654165150697,
-        "stop" : 1654165183889,
-        "duration" : 33192
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify remove service partner",
-      "uid" : "d5793b4444ce072d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164809179,
-        "stop" : 1654164822066,
-        "duration" : 12887
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "d4924e808a7d7923",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1654164822068,
-        "stop" : 1654164849861,
-        "duration" : 27793
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify language training edit form with saving ",
-      "uid" : "e149b189802ef70f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654170999439,
-        "stop" : 1654171011884,
-        "duration" : 12445
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "3a9723660cf71130",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654171033105,
-        "stop" : 1654171060300,
-        "duration" : 27195
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Initiate service partner",
-      "uid" : "a30aad90d34dc89d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164801806,
-        "stop" : 1654164809179,
-        "duration" : 7373
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify language training edit form witout saving ",
-      "uid" : "5db9763c5d4199e0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164783888,
-        "stop" : 1654164789544,
-        "duration" : 5656
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   } ],
