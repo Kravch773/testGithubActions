@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6/2/2022\"\n                Received: \"6/2/22\"",
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"6.2.2022\"\n                Received string:    \"6.2.22, 1:20 PM\"",
       "children" : [ {
-        "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "c2706a70fec372aa",
-        "parentUid" : "16180e81b5ce056b80030b9edb765d8d",
+        "name" : "Verify service documents",
+        "uid" : "171cfe62976e67aa",
+        "parentUid" : "32057b84aecdce441ce7428a092f512d",
         "status" : "failed",
         "time" : {
-          "start" : 1654172088152,
-          "stop" : 1654172105261,
-          "duration" : 17109
+          "start" : 1654175996530,
+          "stop" : 1654176012337,
+          "duration" : 15807
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,7 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "16180e81b5ce056b80030b9edb765d8d"
+      "uid" : "32057b84aecdce441ce7428a092f512d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
