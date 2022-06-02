@@ -69,7 +69,7 @@ class addServiceDocument {
         return `//transactions-purchases-recurring-po//tr//*[contains(text(),"${labelText}")]`
     }
     get recurringPOPaymentDueLabel(): string {
-        return ` "//transactions-purchases-recurring-po//tr//date/time"`
+        return `//transactions-purchases-recurring-po//tr//date/time`
     }
     public async clickAddPurchaseOrderBtn(): Promise<void> {
         await Page.click(this.addPurchaseOrderBtn)
