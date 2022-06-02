@@ -1,12 +1,13 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service PurchaseOrder",
-        "uid" : "45975465e74629b6",
+        "uid" : "3c3a400ffc002ca8",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -23,7 +24,7 @@
         "parameters" : [ "chrome-102.0.5005.62" ]
       }, {
         "name" : "Verify service Sales Order",
-        "uid" : "48dc6020fbe8ffb2",
+        "uid" : "fc5d8dd265fb126a",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -40,7 +41,7 @@
         "parameters" : [ "chrome-102.0.5005.62" ]
       }, {
         "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "3eeced0056828170",
+        "uid" : "2d32ae2c29c7f04b",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -56,48 +57,14 @@
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-102.0.5005.62" ]
       }, {
-        "name" : "Verify language training edit form witout saving ",
-        "uid" : "aee3592b4892c2a9",
+        "name" : "Verify remove service partner",
+        "uid" : "923a43530b0b1429",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654159619916,
-          "stop" : 1654159634919,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify language training edit form with saving ",
-        "uid" : "ed825f88d8508fbf",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159634920,
-          "stop" : 1654159649923,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify Initiate service partner",
-        "uid" : "6953a5c255a0750",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159649923,
-          "stop" : 1654159664926,
-          "duration" : 15003
+          "start" : 1654159663445,
+          "stop" : 1654159685817,
+          "duration" : 22372
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,30 +75,13 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       }, {
         "name" : "Verify service documents",
-        "uid" : "f4ff8f7672640ad1",
+        "uid" : "1df66a4546b542ef",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654159675151,
-          "stop" : 1654159704663,
-          "duration" : 29512
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify service PurchaseOrder",
-        "uid" : "c8ce8d741f8e8c07",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159704663,
-          "stop" : 1654159719666,
-          "duration" : 15003
+          "start" : 1654159685818,
+          "stop" : 1654159714497,
+          "duration" : 28679
         },
         "flaky" : false,
         "newFailed" : false,
@@ -142,12 +92,12 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       }, {
         "name" : "Verify service Sales Order",
-        "uid" : "35278f98ebfabdad",
+        "uid" : "a6d58484afa7dbe1",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654159719666,
-          "stop" : 1654159734669,
+          "start" : 1654159733672,
+          "stop" : 1654159748675,
           "duration" : 15003
         },
         "flaky" : false,
@@ -159,13 +109,13 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       }, {
         "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "e73c1e93b25a62c4",
+        "uid" : "f7470e20ac321fd",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654159734669,
-          "stop" : 1654159749674,
-          "duration" : 15005
+          "start" : 1654159748676,
+          "stop" : 1654159763678,
+          "duration" : 15002
         },
         "flaky" : false,
         "newFailed" : false,
@@ -176,50 +126,74 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
       "uid" : "7a32765981bcc7398deb824e5d577aab"
-    }, {
-      "name" : "element (\"//label[text()=\" Native language \"]/../../..//k2-select\") still not displayed after 10000ms",
-      "children" : [ {
-        "name" : "Verify language training form",
-        "uid" : "8b702287e908347f",
-        "parentUid" : "dcc2e92ce0ed3b3fc2ad1cb478e213d7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159580445,
-          "stop" : 1654159619913,
-          "duration" : 39468
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "dcc2e92ce0ed3b3fc2ad1cb478e213d7"
-    }, {
-      "name" : "element (\"//span[@class=\"hidden-xs\"][text()=\"no\"]\") still not displayed after 10000ms",
-      "children" : [ {
-        "name" : "Verify remove service partner",
-        "uid" : "503c5db595e13c0",
-        "parentUid" : "967807bf65544f74dcb1020f3ec7db05",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159664927,
-          "stop" : 1654159675151,
-          "duration" : 10224
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "967807bf65544f74dcb1020f3ec7db05"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"testStreet11\"\n                Received: \"\"",
+      "children" : [ {
+        "name" : "Verify language training edit form witout saving ",
+        "uid" : "adec93cc36db56fe",
+        "parentUid" : "c6e69ff5a9415c2d0c0f32ed13c635fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654159625085,
+          "stop" : 1654159631932,
+          "duration" : 6847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "c6e69ff5a9415c2d0c0f32ed13c635fb"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"02.06.2022\"\n                Received: \"6/2/22\"",
+      "children" : [ {
+        "name" : "Verify Initiate service partner",
+        "uid" : "978c939b88332d59",
+        "parentUid" : "4a31c661e03a0cc62c3458ed72b9db70",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654159648995,
+          "stop" : 1654159663445,
+          "duration" : 14450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "4a31c661e03a0cc62c3458ed72b9db70"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"2.6.2022\"\n                Received: \"2/6/2022\"",
+      "children" : [ {
+        "name" : "Verify service PurchaseOrder",
+        "uid" : "bd322c8bfd73de44",
+        "parentUid" : "9413e15c3e32f19226b390d376fe13b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654159714498,
+          "stop" : 1654159733671,
+          "duration" : 19173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "9413e15c3e32f19226b390d376fe13b0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
