@@ -6,7 +6,7 @@
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service documents",
-        "uid" : "bfbbaba70330cf15",
+        "uid" : "fa4dcd6b8f569174",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -23,13 +23,13 @@
         "parameters" : [ "chrome-102.0.5005.63" ]
       }, {
         "name" : "Verify service documents",
-        "uid" : "ee8429f8a1f7806b",
+        "uid" : "65eee1ee6f3f3634",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654161468413,
-          "stop" : 1654161495788,
-          "duration" : 27375
+          "start" : 1654164014659,
+          "stop" : 1654164042197,
+          "duration" : 27538
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,12 +40,12 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       }, {
         "name" : "Verify service Sales Order",
-        "uid" : "232a7398d404fe0c",
+        "uid" : "f050924cd3c4baa0",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654161512446,
-          "stop" : 1654161527449,
+          "start" : 1654164058682,
+          "stop" : 1654164073685,
           "duration" : 15003
         },
         "flaky" : false,
@@ -57,13 +57,13 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       }, {
         "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "cc9aed0399e13f98",
+        "uid" : "613d774722368570",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654161527449,
-          "stop" : 1654161542452,
-          "duration" : 15003
+          "start" : 1654164073687,
+          "stop" : 1654164088692,
+          "duration" : 15005
         },
         "flaky" : false,
         "newFailed" : false,
@@ -79,16 +79,16 @@
   }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"02.06.2022\"\n                Received: \"6/2/22\"",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"06/02/22\"\n                Received: \"6/2/22\"",
       "children" : [ {
         "name" : "Verify Initiate service partner",
-        "uid" : "700caf1d438ad7ae",
-        "parentUid" : "4a31c661e03a0cc62c3458ed72b9db70",
+        "uid" : "14cbfced5583a64c",
+        "parentUid" : "6a981f480d08f5076573208684864a89",
         "status" : "failed",
         "time" : {
-          "start" : 1654161448124,
-          "stop" : 1654161455507,
-          "duration" : 7383
+          "start" : 1654163993786,
+          "stop" : 1654164001724,
+          "duration" : 7938
         },
         "flaky" : false,
         "newFailed" : false,
@@ -98,18 +98,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "4a31c661e03a0cc62c3458ed72b9db70"
+      "uid" : "6a981f480d08f5076573208684864a89"
     }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"2.6.2022\"\n                Received: \"2/6/2022\"",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6/2/22\"\n                Received: \"6/2/2022\"",
       "children" : [ {
         "name" : "Verify service PurchaseOrder",
-        "uid" : "4b18f5ea21f0adf5",
-        "parentUid" : "9413e15c3e32f19226b390d376fe13b0",
+        "uid" : "3460d4edd160c174",
+        "parentUid" : "2d452d4c4683d93ef0c6fee9d703054f",
         "status" : "failed",
         "time" : {
-          "start" : 1654161495788,
-          "stop" : 1654161512445,
-          "duration" : 16657
+          "start" : 1654164042197,
+          "stop" : 1654164058682,
+          "duration" : 16485
         },
         "flaky" : false,
         "newFailed" : false,
@@ -119,7 +119,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "9413e15c3e32f19226b390d376fe13b0"
+      "uid" : "2d452d4c4683d93ef0c6fee9d703054f"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

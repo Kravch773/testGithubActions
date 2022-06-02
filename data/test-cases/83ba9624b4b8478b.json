@@ -1,18 +1,16 @@
 {
-  "uid" : "ee8429f8a1f7806b",
-  "name" : "Verify service documents",
-  "fullName" : "Language Training Service, test.Verify service documents",
-  "historyId" : "fcc9eedb30d9a77ba95dbc9c40c3153f",
+  "uid" : "83ba9624b4b8478b",
+  "name" : "Verify language training edit form witout saving ",
+  "fullName" : "Language Training Service, test.Verify language training edit form witout saving ",
+  "historyId" : "fb480bb1e2d64f004070d48e1e89e7c2",
   "time" : {
-    "start" : 1654161468413,
-    "stop" : 1654161495788,
-    "duration" : 27375
+    "start" : 1654163974520,
+    "stop" : 1654163980820,
+    "duration" : 6300
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "broken",
-  "statusMessage" : "waitUntil condition timed out after 15000ms",
-  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -38,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify service documents"
+    "value" : "Verify language training edit form witout saving "
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -56,13 +54,9 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ee8429f8a1f7806b.json",
+  "source" : "83ba9624b4b8478b.json",
   "parameterValues" : [ "chrome-102.0.5005.61" ]
 }

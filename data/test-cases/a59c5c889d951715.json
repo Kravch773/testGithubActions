@@ -1,18 +1,16 @@
 {
-  "uid" : "cc9aed0399e13f98",
-  "name" : "Verify service Recurring Purchase Orders",
-  "fullName" : "Language Training Service, test.Verify service Recurring Purchase Orders",
-  "historyId" : "f9c1ad17bf4e60c41dc9695f099c4cb8",
+  "uid" : "a59c5c889d951715",
+  "name" : "Verify language training edit form with saving ",
+  "fullName" : "Language Training Service, test.Verify language training edit form with saving ",
+  "historyId" : "a55c16bbd99c08d731e8298a5256491f",
   "time" : {
-    "start" : 1654161527449,
-    "stop" : 1654161542452,
-    "duration" : 15003
+    "start" : 1654163980820,
+    "stop" : 1654163993785,
+    "duration" : 12965
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "broken",
-  "statusMessage" : "waitUntil condition timed out after 15000ms",
-  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -38,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify service Recurring Purchase Orders"
+    "value" : "Verify language training edit form with saving "
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -56,13 +54,9 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cc9aed0399e13f98.json",
+  "source" : "a59c5c889d951715.json",
   "parameterValues" : [ "chrome-102.0.5005.61" ]
 }

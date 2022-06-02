@@ -1,18 +1,18 @@
 {
-  "uid" : "700caf1d438ad7ae",
+  "uid" : "14cbfced5583a64c",
   "name" : "Verify Initiate service partner",
   "fullName" : "Language Training Service, test.Verify Initiate service partner",
   "historyId" : "9fb6e22f5c7c6066ace1cc918ef47657",
   "time" : {
-    "start" : 1654161448124,
-    "stop" : 1654161455507,
-    "duration" : 7383
+    "start" : 1654163993786,
+    "stop" : 1654164001724,
+    "duration" : 7938
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "failed",
-  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"02.06.2022\"\n                Received: \"6/2/22\"",
-  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"02.06.2022\"\n                Received: \"6/2/22\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:170:71\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"06/02/22\"\n                Received: \"6/2/22\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"06/02/22\"\n                Received: \"6/2/22\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:170:71\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -63,6 +63,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "700caf1d438ad7ae.json",
+  "source" : "14cbfced5583a64c.json",
   "parameterValues" : [ "chrome-102.0.5005.61" ]
 }

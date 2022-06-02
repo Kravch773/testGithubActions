@@ -1,12 +1,12 @@
 {
-  "uid" : "1123c8ab8e2a582e",
-  "name" : "Verify language training form",
-  "fullName" : "Language Training Service, test.Verify language training form",
-  "historyId" : "c2c2b2a9163c290742b74c1773654ea5",
+  "uid" : "56fd9317a9fc251",
+  "name" : "Go to Services / Language training tab and check label",
+  "fullName" : "Language Training Service, test.Go to Services / Language training tab and check label",
+  "historyId" : "ffde71604dafd483283dd14e9f6718e",
   "time" : {
-    "start" : 1654161394534,
-    "stop" : 1654161429741,
-    "duration" : 35207
+    "start" : 1654159702196,
+    "stop" : 1654159721576,
+    "duration" : 19380
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify language training form"
+    "value" : "Go to Services / Language training tab and check label"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -46,7 +46,7 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.61"
+    "value" : "chrome-102.0.5005.63"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -55,8 +55,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a535232aec899fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654159702196,
+          "stop" : 1654159721576,
+          "duration" : 19380
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "1123c8ab8e2a582e.json",
-  "parameterValues" : [ "chrome-102.0.5005.61" ]
+  "source" : "56fd9317a9fc251.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
 }

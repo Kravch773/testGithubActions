@@ -1,16 +1,18 @@
 {
-  "uid" : "ee5e71d6ce504f4",
-  "name" : "Verify remove service partner",
-  "fullName" : "Language Training Service, test.Verify remove service partner",
-  "historyId" : "2a215d9f54314dff5b78cf51170cb269",
+  "uid" : "f050924cd3c4baa0",
+  "name" : "Verify service Sales Order",
+  "fullName" : "Language Training Service, test.Verify service Sales Order",
+  "historyId" : "89a876143761778c4a10bd864d2f549c",
   "time" : {
-    "start" : 1654161455507,
-    "stop" : 1654161468411,
-    "duration" : 12904
+    "start" : 1654164058682,
+    "stop" : 1654164073685,
+    "duration" : 15003
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -36,7 +38,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify remove service partner"
+    "value" : "Verify service Sales Order"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -54,9 +56,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "ee5e71d6ce504f4.json",
+  "source" : "f050924cd3c4baa0.json",
   "parameterValues" : [ "chrome-102.0.5005.61" ]
 }
