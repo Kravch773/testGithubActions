@@ -1,12 +1,12 @@
 {
-  "uid" : "a6ebd49bf84d72c0",
-  "name" : "Go to Services / Language training tab and check label",
-  "fullName" : "Language Training Service, test.Go to Services / Language training tab and check label",
-  "historyId" : "ffde71604dafd483283dd14e9f6718e",
+  "uid" : "711bad8d6b9d0c41",
+  "name" : "Verify service Sales Order",
+  "fullName" : "Language Training Service, test.Verify service Sales Order",
+  "historyId" : "89a876143761778c4a10bd864d2f549c",
   "time" : {
-    "start" : 1654164728276,
-    "stop" : 1654164749337,
-    "duration" : 21061
+    "start" : 1654171096465,
+    "stop" : 1654171131802,
+    "duration" : 35337
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Go to Services / Language training tab and check label"
+    "value" : "Verify service Sales Order"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -46,15 +46,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.63"
+    "value" : "chrome-102.0.5005.61"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a6ebd49bf84d72c0.json",
-  "parameterValues" : [ "chrome-102.0.5005.63" ]
+  "source" : "711bad8d6b9d0c41.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "dbca1479db2ccf03",
+  "uid" : "dc8118cca0d1a023",
   "name" : "Verify service Recurring Purchase Orders",
   "fullName" : "Language Training Service, test.Verify service Recurring Purchase Orders",
   "historyId" : "a70d301bd2067638537ca5ab98ab95b9",
   "time" : {
-    "start" : 1654165317454,
-    "stop" : 1654165340869,
-    "duration" : 23415
+    "start" : 1654164919506,
+    "stop" : 1654164942462,
+    "duration" : 22956
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -49,22 +49,12 @@
     "value" : "chrome-102.0.5005.63"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "e0e00549d592c528",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164919506,
-        "stop" : 1654164942462,
-        "duration" : 22956
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dbca1479db2ccf03.json",
+  "source" : "dc8118cca0d1a023.json",
   "parameterValues" : [ "chrome-102.0.5005.63" ]
 }

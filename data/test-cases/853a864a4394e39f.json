@@ -1,12 +1,12 @@
 {
-  "uid" : "20c20300baeed27d",
-  "name" : "Go to Services / Language training tab and check label",
-  "fullName" : "Language Training Service, test.Go to Services / Language training tab and check label",
-  "historyId" : "919968e0cc133c335ad97726036b5b30",
+  "uid" : "853a864a4394e39f",
+  "name" : "Verify service Sales Order",
+  "fullName" : "Language Training Service, test.Verify service Sales Order",
+  "historyId" : "4702079c83fb6d9587f44bce1d8780a5",
   "time" : {
-    "start" : 1654170543810,
-    "stop" : 1654170562070,
-    "duration" : 18260
+    "start" : 1654165283281,
+    "stop" : 1654165317452,
+    "duration" : 34171
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Go to Services / Language training tab and check label"
+    "value" : "Verify service Sales Order"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -46,17 +46,25 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.61"
+    "value" : "chrome-102.0.5005.63"
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "b3211bd8fa77b2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654164884745,
+        "stop" : 1654164919504,
+        "duration" : 34759
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "20c20300baeed27d.json",
-  "parameterValues" : [ "chrome-102.0.5005.61" ]
+  "source" : "853a864a4394e39f.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
 }

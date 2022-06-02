@@ -1,0 +1,68 @@
+{
+  "uid" : "6ad6187f1b55d286",
+  "name" : "Verify service Recurring Purchase Orders",
+  "fullName" : "Language Training Service, test.Verify service Recurring Purchase Orders",
+  "historyId" : "f9c1ad17bf4e60c41dc9695f099c4cb8",
+  "time" : {
+    "start" : 1654171131804,
+    "stop" : 1654171148117,
+    "duration" : 16313
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6/2/2022\"\n                Received: \"6/2/22\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6/2/2022\"\n                Received: \"6/2/22\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:280:9\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/arrival_services/languageTraining.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Recurring Purchase Orders"
+  }, {
+    "name" : "package",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ad6187f1b55d286.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

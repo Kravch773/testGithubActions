@@ -1,12 +1,12 @@
 {
-  "uid" : "ca8fde2d2c2a5fe8",
-  "name" : "Verify service PurchaseOrder",
-  "fullName" : "Language Training Service, test.Verify service PurchaseOrder",
-  "historyId" : "f309a92759954fdb12068751f535a548",
+  "uid" : "d5793b4444ce072d",
+  "name" : "Verify remove service partner",
+  "fullName" : "Language Training Service, test.Verify remove service partner",
+  "historyId" : "971211917dd9cd78da984760c741f83a",
   "time" : {
-    "start" : 1654165248000,
-    "stop" : 1654165283278,
-    "duration" : 35278
+    "start" : 1654164809179,
+    "stop" : 1654164822066,
+    "duration" : 12887
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify service PurchaseOrder"
+    "value" : "Verify remove service partner"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -49,22 +49,12 @@
     "value" : "chrome-102.0.5005.63"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "31910909010013b7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164849862,
-        "stop" : 1654164884744,
-        "duration" : 34882
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ca8fde2d2c2a5fe8.json",
+  "source" : "d5793b4444ce072d.json",
   "parameterValues" : [ "chrome-102.0.5005.63" ]
 }
