@@ -6,7 +6,7 @@
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service PurchaseOrder",
-        "uid" : "666634dd7773911a",
+        "uid" : "1f1bff0faf7639f0",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -23,7 +23,7 @@
         "parameters" : [ "chrome-102.0.5005.62" ]
       }, {
         "name" : "Verify service Sales Order",
-        "uid" : "9ef8489946cc012f",
+        "uid" : "6537dc62244e6771",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -40,7 +40,7 @@
         "parameters" : [ "chrome-102.0.5005.62" ]
       }, {
         "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "783a7a5828ab6ec4",
+        "uid" : "cb9e4a9142ecff23",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -56,31 +56,14 @@
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-102.0.5005.62" ]
       }, {
-        "name" : "Verify service PurchaseOrder",
-        "uid" : "d1ea3d9f2d4d1133",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654158158325,
-          "stop" : 1654158173329,
-          "duration" : 15004
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
         "name" : "Verify service Sales Order",
-        "uid" : "99d65430148b3804",
+        "uid" : "f0625b31d179fbf4",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654158173329,
-          "stop" : 1654158188331,
-          "duration" : 15002
+          "start" : 1654159148534,
+          "stop" : 1654159163539,
+          "duration" : 15005
         },
         "flaky" : false,
         "newFailed" : false,
@@ -91,13 +74,13 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       }, {
         "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "e30e5bab7f50441",
+        "uid" : "8fa2ea0afc1ebe76",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654158188331,
-          "stop" : 1654158203336,
-          "duration" : 15005
+          "start" : 1654159163539,
+          "stop" : 1654159178541,
+          "duration" : 15002
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,27 +91,6 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
       "uid" : "7a32765981bcc7398deb824e5d577aab"
-    }, {
-      "name" : "ENOENT: no such file or directory, open '/Ascent ts/testFiles/QAtest.docx'",
-      "children" : [ {
-        "name" : "Verify service documents",
-        "uid" : "8810c50754e4e738",
-        "parentUid" : "f98bb6ab3af2153efb83198451a75d67",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654158154954,
-          "stop" : 1654158158323,
-          "duration" : 3369
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "f98bb6ab3af2153efb83198451a75d67"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
@@ -137,13 +99,13 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"02.06.2022\"\n                Received: \"6/2/22\"",
       "children" : [ {
         "name" : "Verify Initiate service partner",
-        "uid" : "f5a61c7cb59bda68",
+        "uid" : "61f131fd38447539",
         "parentUid" : "4a31c661e03a0cc62c3458ed72b9db70",
         "status" : "failed",
         "time" : {
-          "start" : 1654158134359,
-          "stop" : 1654158141851,
-          "duration" : 7492
+          "start" : 1654159096574,
+          "stop" : 1654159103967,
+          "duration" : 7393
         },
         "flaky" : false,
         "newFailed" : false,
@@ -154,6 +116,48 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
       "uid" : "4a31c661e03a0cc62c3458ed72b9db70"
+    }, {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"02.06.2022\"\n                Received string:    \"6/2/22, 8:38 AM\"",
+      "children" : [ {
+        "name" : "Verify service documents",
+        "uid" : "6f1b5609ebb33272",
+        "parentUid" : "56d4bdf7c9f31519e0b7ec4f2832ff25",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654159116909,
+          "stop" : 1654159131899,
+          "duration" : 14990
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "56d4bdf7c9f31519e0b7ec4f2832ff25"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"2.6.2022\"\n                Received: \"2/6/2022\"",
+      "children" : [ {
+        "name" : "Verify service PurchaseOrder",
+        "uid" : "7bb715ddb2625b07",
+        "parentUid" : "9413e15c3e32f19226b390d376fe13b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654159131900,
+          "stop" : 1654159148534,
+          "duration" : 16634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "9413e15c3e32f19226b390d376fe13b0"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
