@@ -1,0 +1,68 @@
+{
+  "uid" : "8810c50754e4e738",
+  "name" : "Verify service documents",
+  "fullName" : "Language Training Service, test.Verify service documents",
+  "historyId" : "fcc9eedb30d9a77ba95dbc9c40c3153f",
+  "time" : {
+    "start" : 1654158154954,
+    "stop" : 1654158158323,
+    "duration" : 3369
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "ENOENT: no such file or directory, open '/Ascent ts/testFiles/QAtest.docx'",
+  "statusTrace" : "Error: ENOENT: no such file or directory, open '/Ascent ts/testFiles/QAtest.docx'",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service documents"
+  }, {
+    "name" : "package",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8810c50754e4e738.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}
