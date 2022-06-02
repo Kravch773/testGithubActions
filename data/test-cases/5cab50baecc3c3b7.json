@@ -1,12 +1,12 @@
 {
-  "uid" : "ab5251e8585ff25f",
-  "name" : "Go to Services / Language training tab and check label",
-  "fullName" : "Language Training Service, test.Go to Services / Language training tab and check label",
-  "historyId" : "ffde71604dafd483283dd14e9f6718e",
+  "uid" : "5cab50baecc3c3b7",
+  "name" : "Verify language training edit form with saving ",
+  "fullName" : "Language Training Service, test.Verify language training edit form with saving ",
+  "historyId" : "a55c16bbd99c08d731e8298a5256491f",
   "time" : {
-    "start" : 1654164728276,
-    "stop" : 1654164749337,
-    "duration" : 21061
+    "start" : 1654166541206,
+    "stop" : 1654166553406,
+    "duration" : 12200
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Go to Services / Language training tab and check label"
+    "value" : "Verify language training edit form with saving "
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -46,15 +46,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.63"
+    "value" : "chrome-102.0.5005.61"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ab5251e8585ff25f.json",
-  "parameterValues" : [ "chrome-102.0.5005.63" ]
+  "source" : "5cab50baecc3c3b7.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
 }

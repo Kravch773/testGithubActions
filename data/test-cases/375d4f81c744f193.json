@@ -1,12 +1,12 @@
 {
-  "uid" : "e5b0b0526d13074f",
-  "name" : "Verify Initiate service partner",
-  "fullName" : "Language Training Service, test.Verify Initiate service partner",
-  "historyId" : "d6e6d8b88a0792b5980a13be8c853d5c",
+  "uid" : "375d4f81c744f193",
+  "name" : "Verify service Recurring Purchase Orders",
+  "fullName" : "Language Training Service, test.Verify service Recurring Purchase Orders",
+  "historyId" : "a70d301bd2067638537ca5ab98ab95b9",
   "time" : {
-    "start" : 1654165201383,
-    "stop" : 1654165208700,
-    "duration" : 7317
+    "start" : 1654164919506,
+    "stop" : 1654164942462,
+    "duration" : 22956
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -36,7 +36,7 @@
     "value" : "Language Training Service, test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify Initiate service partner"
+    "value" : "Verify service Recurring Purchase Orders"
   }, {
     "name" : "package",
     "value" : "Language Training Service, test"
@@ -49,22 +49,12 @@
     "value" : "chrome-102.0.5005.63"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "cfa2eeee41f77cbc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654164801806,
-        "stop" : 1654164809179,
-        "duration" : 7373
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e5b0b0526d13074f.json",
+  "source" : "375d4f81c744f193.json",
   "parameterValues" : [ "chrome-102.0.5005.63" ]
 }
