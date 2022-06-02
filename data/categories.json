@@ -5,65 +5,14 @@
     "children" : [ {
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
-        "name" : "Verify service PurchaseOrder",
-        "uid" : "127a43ed2f073e44",
+        "name" : "Verify service documents",
+        "uid" : "5049aa3ac9751f0d",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1653996367783,
-          "stop" : 1653996391637,
-          "duration" : 23854
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.62" ]
-      }, {
-        "name" : "Verify service Sales Order",
-        "uid" : "d7022bcc31c4e7ce",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653996391637,
-          "stop" : 1653996406638,
-          "duration" : 15001
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.62" ]
-      }, {
-        "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "95f542acde2b09a1",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653996406638,
-          "stop" : 1653996421648,
-          "duration" : 15010
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.62" ]
-      }, {
-        "name" : "Verify language training form",
-        "uid" : "347b2f082a8e318e",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159658204,
-          "stop" : 1654159697643,
-          "duration" : 39439
+          "start" : 1654159795776,
+          "stop" : 1654159823110,
+          "duration" : 27334
         },
         "flaky" : false,
         "newFailed" : false,
@@ -71,15 +20,15 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
+        "parameters" : [ "chrome-102.0.5005.63" ]
       }, {
-        "name" : "Verify language training edit form witout saving ",
-        "uid" : "472bdefeaa3f946f",
+        "name" : "Verify service Sales Order",
+        "uid" : "9a885064f43bbd85",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654159697644,
-          "stop" : 1654159712648,
+          "start" : 1654161076446,
+          "stop" : 1654161091450,
           "duration" : 15004
         },
         "flaky" : false,
@@ -90,82 +39,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       }, {
-        "name" : "Verify language training edit form with saving ",
-        "uid" : "b860d149d8ebd411",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159712648,
-          "stop" : 1654159727650,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify Initiate service partner",
-        "uid" : "f129967de6b0f084",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159727651,
-          "stop" : 1654159742654,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify service documents",
-        "uid" : "241ad55758520450",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159742948,
-          "stop" : 1654159771946,
-          "duration" : 28998
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify service Sales Order",
-        "uid" : "bba3bad42ebb6cbe",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654159789240,
-          "stop" : 1654159804242,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
         "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "a1d78da41ec15",
+        "uid" : "c0478a0c2162ced4",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654159804242,
-          "stop" : 1654159819244,
-          "duration" : 15002
+          "start" : 1654161091450,
+          "stop" : 1654161106456,
+          "duration" : 15006
         },
         "flaky" : false,
         "newFailed" : false,
@@ -181,16 +62,16 @@
   }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"02.06.2022\"\n                Received: \"6/2/22\"",
       "children" : [ {
-        "name" : "Verify remove service partner",
-        "uid" : "c9cc5241fecbac9",
-        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
+        "name" : "Verify Initiate service partner",
+        "uid" : "42c931e35091aab4",
+        "parentUid" : "4a31c661e03a0cc62c3458ed72b9db70",
         "status" : "failed",
         "time" : {
-          "start" : 1654159742654,
-          "stop" : 1654159742948,
-          "duration" : 294
+          "start" : 1654161023755,
+          "stop" : 1654161031239,
+          "duration" : 7484
         },
         "flaky" : false,
         "newFailed" : false,
@@ -200,18 +81,39 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "19a176217a26805f0d44bbfda36ce55c"
+      "uid" : "4a31c661e03a0cc62c3458ed72b9db70"
+    }, {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"02.06.2022\"\n                Received string:    \"6/2/22, 9:10 AM\"",
+      "children" : [ {
+        "name" : "Verify service documents",
+        "uid" : "8378b5a3c6373096",
+        "parentUid" : "eeead8288fc8cc820c211e4289f286df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654161044376,
+          "stop" : 1654161059536,
+          "duration" : 15160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "eeead8288fc8cc820c211e4289f286df"
     }, {
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"2.6.2022\"\n                Received: \"2/6/2022\"",
       "children" : [ {
         "name" : "Verify service PurchaseOrder",
-        "uid" : "7168cdf033264e0f",
+        "uid" : "11a3018cda347f68",
         "parentUid" : "9413e15c3e32f19226b390d376fe13b0",
         "status" : "failed",
         "time" : {
-          "start" : 1654159771947,
-          "stop" : 1654159789239,
-          "duration" : 17292
+          "start" : 1654161059537,
+          "stop" : 1654161076445,
+          "duration" : 16908
         },
         "flaky" : false,
         "newFailed" : false,
