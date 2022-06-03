@@ -66,7 +66,7 @@ class initiatedServicesPage {
         return '//h2[text()="Needs analysis data"]/../../../..//a[@class="toggle pull-right"]'
     }
     public getPartnerByName(partnerName): string {
-        return `//vendor-initiation-search//h3[contains(text(),"${partnerName}")]`
+        return `//vendor-initiation-search//h3//span[contains(text(),"${partnerName}")]`
     }
     public getServiceTabByName(serviceName): string {
         return `//a[contains(@href,"services")][contains(text(),"${serviceName}")]`

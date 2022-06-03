@@ -66,7 +66,7 @@ describe('Language Training Service, test', () => {
         await familyMembers.addFamilyMember();
         await initiatedServicesPage.clickAddPartnerToServiceBtn();
         await commonElements.setInputValue(partnerName_1, commonElements.partnerNameInput);
-        await browser.pause(2000); // No partner after clicking search btn
+        await browser.pause(4000); // No partner after clicking search btn
         await initiatedServicesPage.clickSearchBtn();
         await initiatedServicesPage.clickPartnerByName(partnerName_1);
         await initiatedServicesPage.clickAddPartnerBtn();

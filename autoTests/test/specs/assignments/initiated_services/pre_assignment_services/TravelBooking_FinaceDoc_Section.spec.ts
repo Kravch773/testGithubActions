@@ -18,7 +18,7 @@ const salesOrderDetails_2 = ["Travel Booking - Other", "565", "2descript", commo
 const recurringPODetails = ["Roebuck Removals ", "K2 Disbursement Fee", "USD - US Dollar", "50", "Weekly", "testDescrpt1"]
 
 
-describe('Travel booking Service, documents and finance test', () => {
+xdescribe('Travel booking Service, documents and finance test', () => {
 
     before(async () => {
         await passSignIn.signIn();

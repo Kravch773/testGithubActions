@@ -54,7 +54,7 @@ const extensionConfirm_1 = true
 const extensionConfirm_2 = false
 
 
-describe('Temp Accommodation(Origin) Service, test', () => {
+xdescribe('Temp Accommodation(Origin) Service, test', () => {
 
     before(async () => {
         await passSignIn.signIn();
