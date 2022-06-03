@@ -46,7 +46,7 @@ const salesOrderDetails_1 = ["Language Training - Other", "225", "descript1", co
 const salesOrderDetails_2 = ["Language Training - Other", "565", "2descript", commonElements.getCurrentDatePlusDaysNo0Format(8)]
 const recurringPODetails = ["Roebuck Removals ", "Language Training - Other", "USD - US Dollar", "50", "Weekly", "testDescrpt1"]
 
-describe('Language Training Service, test', () => {
+xdescribe('Language Training Service, test', () => {
 
     before(async () => {
         await passSignIn.signIn();
