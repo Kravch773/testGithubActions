@@ -1,4 +1,5 @@
 import Page from "../pageobjects/Page";
+import passSignIn from "./passSignIn";
 
 class commonElements {
     public get inputField(): string {
@@ -329,7 +330,7 @@ class commonElements {
     public async getDropDownValueText(dropDownElement = this.dropDownElement): Promise<string> {
         return await Page.getElementText(`//option[@value="${await Page.getElementValue(dropDownElement)}"]`);
     }
-    public getCurrentDate(isGitActionTest, fullYear = true): string {
+    public getCurrentDate(isGitActionTest = passSignIn.isGithubTest, fullYear = true): string {
         let today = new Date()
         if (today.getMonth() <= 9) { var month = "0" + (today.getMonth() + 1) }
         if (today.getMonth() >= 10) { var month = (today.getMonth() + 1).toString() }
@@ -338,7 +339,7 @@ class commonElements {
         if (isGitActionTest == true) { todayDate = this.createGitDateFormat(todayDate, fullYear); }
         return todayDate;
     }
-    public getCurrentDateNo0Format(isGitActionTest = false, fullYear = true): string {
+    public getCurrentDateNo0Format(isGitActionTest = passSignIn.isGithubTest, fullYear = true): string {
         let today = new Date()
         var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear();
         if (isGitActionTest == true) { date = this.createGitDateFormat(date, fullYear); }
@@ -349,7 +350,7 @@ class commonElements {
         result.setDate(result.getDate() + days);
         return result;
     }
-    public getCurrentDatePlusDays(addDays, isGitActionTest = false, fullYear = true): string {
+    public getCurrentDatePlusDays(addDays, isGitActionTest = passSignIn.isGithubTest, fullYear = true): string {
         let today = new Date()
         today = this.addDays(today, addDays)
         if (today.getMonth() + 1 < 10) { var date = today.getDate() + ".0" + (today.getMonth() + 1) + "." + today.getFullYear(); }
@@ -357,7 +358,7 @@ class commonElements {
         if (isGitActionTest == true) { date = this.createGitDateFormat(date, fullYear); }
         return date;
     }
-    public getCurrentDatePlusDaysNo0Format(addDays, isGitActionTest = false, fullYear = true): string {
+    public getCurrentDatePlusDaysNo0Format(addDays, isGitActionTest = passSignIn.isGithubTest, fullYear = true): string {
         let today = new Date()
         today = this.addDays(today, addDays)
         var date = today.getDate() + "." + (today.getMonth() + 1) + "." + today.getFullYear();
@@ -444,7 +445,7 @@ class commonElements {
     //         else { return date; }
     //     }
     // }
-    public async createStandartDateForm(date, isGithubTest): Promise<string> {
+    public async createStandartDateForm(date, isGithubTest=passSignIn.isGithubTest): Promise<string> {
         if (isGithubTest == true) {
             var newDateArr = await date.split("/");
             if (newDateArr[0] <= 9 && newDateArr[0].length == 2) { newDateArr[0] = newDateArr[0].substring(1) }
@@ -453,6 +454,7 @@ class commonElements {
             if (newDateArr[2].length >= 5) {
                 let yearArr = newDateArr[2].split(",")
                 if (yearArr[0].length == 2) { newDateArr[2] = "20" + yearArr[0] }
+                else { newDateArr[2] = yearArr[0] }
             }
             var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
         }
@@ -462,11 +464,11 @@ class commonElements {
             if (newDateArr[1] <= 9 && newDateArr[1].length == 2) { newDateArr[1] = newDateArr[1].substring(1) }
             if (newDateArr[2].length == 2) { newDateArr[2] = "20" + newDateArr[2] }
             if (newDateArr[2].length >= 5) {
-                let yearArr = newDateArr[2].split(",")
+                var yearArr = newDateArr[2].split(",")
                 if (yearArr[0].length == 2) { newDateArr[2] = "20" + yearArr[0] }
+                else { newDateArr[2] = yearArr[0] }
             }
             var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
-
         }
         return newDate;
     }

@@ -8,8 +8,7 @@ import languageTrainingPage from '../../../../pageobjects/assignment/services/la
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
-const isGitActionTest = passSignIn.isGithubTest;
-const currentDate = commonElements.getCurrentDateNo0Format(isGitActionTest)
+const currentDate = commonElements.getCurrentDateNo0Format()
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const serviceName = "Language training"
@@ -46,7 +45,7 @@ const salesOrderDetails_1 = ["Language Training - Other", "225", "descript1", co
 const salesOrderDetails_2 = ["Language Training - Other", "565", "2descript", commonElements.getCurrentDatePlusDaysNo0Format(8)]
 const recurringPODetails = ["Roebuck Removals ", "Language Training - Other", "USD - US Dollar", "50", "Weekly", "testDescrpt1"]
 
-xdescribe('Language Training Service, test', () => {
+describe('Language Training Service, test', () => {
 
     before(async () => {
         await passSignIn.signIn();
@@ -169,7 +168,7 @@ xdescribe('Language Training Service, test', () => {
         await initiatedServicesPage.clickInitiatePartnerBtn();
         await initiatedServicesPage.clickSendEmailBtn();
         expect(await initiatedServicesPage.isInitiateServiceMsgDisplayed()).toBe(true);
-        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getInitiatedPartnerDate(), isGitActionTest)).toBe(currentDate)
+        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getInitiatedPartnerDate())).toBe(currentDate)
     });
     it('Verify remove service partner', async () => {
         await initiatedServicesPage.clickRemovePartnerWithConfirm("no");
@@ -188,7 +187,7 @@ xdescribe('Language Training Service, test', () => {
         await initiatedServicesPage.clickAddServiceDocuments();
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
-        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getDocumentUploadDate(), isGitActionTest)).toContain(currentDate)
+        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getDocumentUploadDate())).toContain(currentDate)
         await initiatedServicesPage.removeServiceDocument();
         expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
         await addServiceDocument.removeDocumentByName();
@@ -208,7 +207,7 @@ xdescribe('Language Training Service, test', () => {
         expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_1[2])
         expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_1[3])
         expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_1[4])
-        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue(), isGitActionTest)).toBe(purchaseOrderDetails_1[5])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_1[5])
         await financeTransactions.editPurchaseOrder(purchaseOrderDetails_2);
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.clickEditPurchaseOrderBtn();
@@ -217,7 +216,7 @@ xdescribe('Language Training Service, test', () => {
         expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_1[2])
         expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_1[3])
         expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_1[4])
-        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue(), isGitActionTest)).toBe(purchaseOrderDetails_1[5])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_1[5])
         await financeTransactions.editPurchaseOrder(purchaseOrderDetails_2);
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isPurchaseTransactionUpdMsgDispayed()).toBe(true)
@@ -227,7 +226,7 @@ xdescribe('Language Training Service, test', () => {
         expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_2[2])
         expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_2[3])
         expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_2[4])
-        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue(), isGitActionTest)).toBe(purchaseOrderDetails_2[5])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_2[5])
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.cancelPurchaseOrder();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
@@ -245,14 +244,14 @@ xdescribe('Language Training Service, test', () => {
         expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_1[0])
         expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_1[1])
         expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_1[2])
-        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue(), isGitActionTest)).toBe(salesOrderDetails_1[3])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_1[3])
         await financeTransactions.editSalesOrder(salesOrderDetails_2);
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.clickEditSalesOrderBtn();
         expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_1[0])
         expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_1[1])
         expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_1[2])
-        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue(), isGitActionTest)).toBe(salesOrderDetails_1[3])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_1[3])
         await financeTransactions.editSalesOrder(salesOrderDetails_2);
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isSalesOrderUpdMsgDispayed()).toBe(true);
@@ -260,14 +259,14 @@ xdescribe('Language Training Service, test', () => {
         expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_2[0])
         expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_2[1])
         expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_2[2])
-        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue(), isGitActionTest)).toBe(salesOrderDetails_2[3])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_2[3])
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.cancelSalesOrder();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
     });
     it('Verify service Recurring Purchase Orders', async () => {
-        let startDate = commonElements.getCurrentDateNo0Format(isGitActionTest);
-        let endDate = commonElements.getCurrentDatePlusDaysNo0Format(8, isGitActionTest);
+        let startDate = commonElements.getCurrentDateNo0Format();
+        let endDate = commonElements.getCurrentDatePlusDaysNo0Format(8);
         await financeTransactions.clickAddRecurringPOBtn();
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
@@ -279,7 +278,7 @@ xdescribe('Language Training Service, test', () => {
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[1])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(await financeTransactions.formRecurringPOPartnerCost(recurringPODetails[2], recurringPODetails[3]))).toBe(true);
-        expect(await commonElements.createStandartDateForm(await financeTransactions.getRecurringPOPaymentDueLabel(), isGitActionTest)).toBe(currentDate)
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getRecurringPOPaymentDueLabel())).toBe(currentDate)
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[5])).toBe(true);
         await financeTransactions.cancelRecurringPO();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
