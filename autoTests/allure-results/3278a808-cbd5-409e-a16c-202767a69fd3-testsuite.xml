@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654248640543' stop='1654248696460'>
+    <name>Assignments documents page test</name>
+    <title>Assignments documents page test</title>
+    <test-cases>
+        <test-case start='1654248640543' status='passed' stop='1654248656581'>
+            <name>Go to Assignee documents tab and check label</name>
+            <title>Go to Assignee documents tab and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654248656582' status='failed' stop='1654248667813'>
+            <name>Verify add document form</name>
+            <title>Verify add document form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toContain(expected) // indexOf
+                
+                Expected substring: "03.06.2022"
+                Received string:    "3.6.2022"</message>
+                <stack-trace>Error: expect(received).toContain(expected) // indexOf
+                
+                Expected substring: "03.06.2022"
+                Received string:    "3.6.2022"
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\assignment_tabs\assignment_documents.spec.ts:61:114
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\assignment_tabs\assignment_documents.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\assignment_tabs\assignment_documents.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\assignment_tabs\assignment_documents.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654248667814' status='passed' stop='1654248687110'>
+            <name>Verify edit documents form</name>
+            <title>Verify edit documents form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654248687112' status='passed' stop='1654248694057'>
+            <name>Verify remove documents</name>
+            <title>Verify remove documents</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654248694057' status='passed' stop='1654248696460'>
+            <name>Verify unsupported file error</name>
+            <title>Verify unsupported file error</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
