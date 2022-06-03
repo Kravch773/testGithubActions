@@ -3,14 +3,14 @@
   "children" : [ {
     "name" : "Language Training Service, test",
     "children" : [ {
-      "name" : "Go to Services / Language training tab and check label",
-      "uid" : "5a4bb88d11506167",
+      "name" : "Verify language training edit form witout saving ",
+      "uid" : "44e3ad15297c1886",
       "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1654238186054,
-        "stop" : 1654238203977,
-        "duration" : 17923
+        "start" : 1654239602058,
+        "stop" : 1654239602058,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -18,16 +18,33 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
+      "parameters" : [ ]
+    }, {
+      "name" : "Go to Services / Language training tab and check label",
+      "uid" : "6d6552efc8ab48a4",
+      "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239602058,
+        "stop" : 1654239602058,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
     }, {
       "name" : "Verify language training form",
-      "uid" : "c262258bbbbb7c95",
+      "uid" : "376c9d53f839d4a3",
       "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1654238203978,
-        "stop" : 1654238240803,
-        "duration" : 36825
+        "start" : 1654239602058,
+        "stop" : 1654239602058,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -35,50 +52,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify language training edit form witout saving ",
-      "uid" : "6ff304d0ecf14bb4",
-      "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654238240804,
-        "stop" : 1654238246843,
-        "duration" : 6039
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify language training edit form with saving ",
-      "uid" : "6611a1ad84b46037",
-      "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654238246843,
-        "stop" : 1654238259043,
-        "duration" : 12200
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
+      "parameters" : [ ]
     }, {
       "name" : "Verify Initiate service partner",
-      "uid" : "6349bf943e6ba12c",
+      "uid" : "a0fd6db80c72764a",
       "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1654238259043,
-        "stop" : 1654238266426,
-        "duration" : 7383
+        "start" : 1654239602058,
+        "stop" : 1654239602058,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -86,16 +69,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
+      "parameters" : [ ]
     }, {
       "name" : "Verify remove service partner",
-      "uid" : "42bc19778ef8ea87",
+      "uid" : "e4bb8da359a1b1fb",
       "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1654238266426,
-        "stop" : 1654238279258,
-        "duration" : 12832
+        "start" : 1654239602058,
+        "stop" : 1654239602058,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -103,33 +86,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "af0901bfb9267108",
-      "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654238279258,
-        "stop" : 1654238306849,
-        "duration" : 27591
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
+      "parameters" : [ ]
     }, {
       "name" : "Verify service PurchaseOrder",
-      "uid" : "f22c9c0b08f1b96e",
+      "uid" : "1d02df4fb5add4ce",
       "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1654238306850,
-        "stop" : 1654238341944,
-        "duration" : 35094
+        "start" : 1654239602058,
+        "stop" : 1654239602058,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -137,16 +103,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
+      "parameters" : [ ]
     }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "8e1f730a0fda4cb6",
+      "name" : "Verify service documents",
+      "uid" : "18b3a3d03e3aac25",
       "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1654238341945,
-        "stop" : 1654238375828,
-        "duration" : 33883
+        "start" : 1654239602058,
+        "stop" : 1654239602058,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -154,16 +120,33 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify language training edit form with saving ",
+      "uid" : "e901ef5a3bb2e5fa",
+      "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239602058,
+        "stop" : 1654239602058,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
     }, {
       "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "333a80ecf10558f7",
+      "uid" : "d9fd5029083055b0",
       "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1654238375829,
-        "stop" : 1654238400560,
-        "duration" : 24731
+        "start" : 1654239602059,
+        "stop" : 1654239602059,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -171,20 +154,37 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "9c2c4eefbe356bd5",
+      "parentUid" : "d1df9456fb9e92618c064fe2b643eddd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239602059,
+        "stop" : 1654239602059,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
     } ],
     "uid" : "d1df9456fb9e92618c064fe2b643eddd"
   }, {
     "name" : "Temp Accommodation(Destination) Service, Need Analysis Section test",
     "children" : [ {
       "name" : "Go to Services / Temp accommodation (Destination) tab and check label",
-      "uid" : "df8a8b2ce4a1b30f",
+      "uid" : "81dcca13c3ef031b",
       "parentUid" : "ca5c46325677309213ad12deff79c442",
       "status" : "passed",
       "time" : {
-        "start" : 1654238402753,
-        "stop" : 1654238419606,
-        "duration" : 16853
+        "start" : 1654239605438,
+        "stop" : 1654239625993,
+        "duration" : 20555
       },
       "flaky" : false,
       "newFailed" : false,
@@ -195,30 +195,13 @@
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
       "name" : "Verify Temp accommodation (Destination) Needs analysis form",
-      "uid" : "78ec82b6fc207c03",
+      "uid" : "857b40d9eecb7f77",
       "parentUid" : "ca5c46325677309213ad12deff79c442",
       "status" : "failed",
       "time" : {
-        "start" : 1654238419606,
-        "stop" : 1654238431597,
-        "duration" : 11991
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Edit Temp accommodation (Destination) Needs analysis form",
-      "uid" : "bd91d26f8c0dc4b2",
-      "parentUid" : "ca5c46325677309213ad12deff79c442",
-      "status" : "failed",
-      "time" : {
-        "start" : 1654238431599,
-        "stop" : 1654238437365,
-        "duration" : 5766
+        "start" : 1654239625993,
+        "stop" : 1654239639738,
+        "duration" : 13745
       },
       "flaky" : false,
       "newFailed" : false,
@@ -233,13 +216,13 @@
     "name" : "Temp Accommodation(Origin) Service, Need Analysis Section test",
     "children" : [ {
       "name" : "Go to Services / Temp accommodation (Origin) tab and check label",
-      "uid" : "1f4166880e5868ed",
+      "uid" : "e8c2504f020981f",
       "parentUid" : "dfb093e7de08a75dae36d40cbe311b44",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1654238439550,
-        "stop" : 1654238455010,
-        "duration" : 15460
+        "start" : 1654239642704,
+        "stop" : 1654239642704,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -247,33 +230,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Temp accommodation (Origin) Needs analysis form",
-      "uid" : "a424db95d0202e4d",
-      "parentUid" : "dfb093e7de08a75dae36d40cbe311b44",
-      "status" : "failed",
-      "time" : {
-        "start" : 1654238455010,
-        "stop" : 1654238466966,
-        "duration" : 11956
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
+      "parameters" : [ ]
     }, {
       "name" : "Verify Edit Temp accommodation (Origin) Needs analysis form",
-      "uid" : "b367b6454eed72d0",
+      "uid" : "d23a674f9d676add",
       "parentUid" : "dfb093e7de08a75dae36d40cbe311b44",
-      "status" : "failed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1654238466967,
-        "stop" : 1654238472736,
-        "duration" : 5769
+        "start" : 1654239642704,
+        "stop" : 1654239642704,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -281,121 +247,36 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Temp accommodation (Origin) Needs analysis form",
+      "uid" : "4ff4b430c799e188",
+      "parentUid" : "dfb093e7de08a75dae36d40cbe311b44",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239642704,
+        "stop" : 1654239642704,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
     } ],
     "uid" : "dfb093e7de08a75dae36d40cbe311b44"
   }, {
     "name" : "Temp Accommodation(Origin) Service, test",
     "children" : [ {
-      "name" : "Verify Lease extensions",
-      "uid" : "f9b8b05cd2c1d48a",
+      "name" : "Verify Temp accommodation (Origin) Initiation details form",
+      "uid" : "95ea1ced1d091c6",
       "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify edit form Accommodation with saving ",
-      "uid" : "f26ddcf485f96556",
-      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "88e59db71e8cab5c",
-      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify remove service partner",
-      "uid" : "30c01d13eb451346",
-      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify edit form Accommodation witout saving ",
-      "uid" : "1d7e861aa814ec8a",
-      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify Lease extensions remove and no require fields msg error ",
-      "uid" : "337ffe150ffb88da",
-      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify Initiate service partner",
-      "uid" : "b3c31f53fdc2046e",
-      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
+        "start" : 1654239649210,
+        "stop" : 1654239649210,
         "duration" : 0
       },
       "flaky" : false,
@@ -407,12 +288,12 @@
       "parameters" : [ ]
     }, {
       "name" : "Go to Services / Temp accommodation (Origin) tab and check label",
-      "uid" : "638dd6a7a6caf7c2",
+      "uid" : "a7be36bc5d09dbd",
       "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
+        "start" : 1654239649210,
+        "stop" : 1654239649210,
         "duration" : 0
       },
       "flaky" : false,
@@ -423,13 +304,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Verify service documents",
-      "uid" : "de7a06a5375f495",
+      "name" : "Verify Initiate service partner",
+      "uid" : "afc83f421c0ddd52",
       "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
+        "start" : 1654239649210,
+        "stop" : 1654239649210,
         "duration" : 0
       },
       "flaky" : false,
@@ -440,13 +321,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Verify Temp accommodation (Origin) Initiation details form",
-      "uid" : "9543b37b1dd0246",
+      "name" : "Verify remove service partner",
+      "uid" : "e39f12d8a0d41477",
       "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
+        "start" : 1654239649210,
+        "stop" : 1654239649210,
         "duration" : 0
       },
       "flaky" : false,
@@ -458,12 +339,80 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "9547604bcadbecf6",
+      "uid" : "e774315c2d355572",
       "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
+        "start" : 1654239649211,
+        "stop" : 1654239649211,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "58c570ae4407ed7f",
+      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239649211,
+        "stop" : 1654239649211,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify edit form Accommodation witout saving ",
+      "uid" : "c1538cf966421784",
+      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239649211,
+        "stop" : 1654239649211,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Lease extensions remove and no require fields msg error ",
+      "uid" : "2af000f204aa257c",
+      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239649211,
+        "stop" : 1654239649211,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Lease extensions",
+      "uid" : "a15f9d618fd46a",
+      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239649211,
+        "stop" : 1654239649211,
         "duration" : 0
       },
       "flaky" : false,
@@ -475,12 +424,29 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify Accommodation form",
-      "uid" : "9f2946d2def850d7",
+      "uid" : "53b7abd8b59119a4",
       "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
+        "start" : 1654239649211,
+        "stop" : 1654239649211,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify edit form Accommodation with saving ",
+      "uid" : "c4292edd0874b15c",
+      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239649211,
+        "stop" : 1654239649211,
         "duration" : 0
       },
       "flaky" : false,
@@ -492,12 +458,29 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify service PurchaseOrder",
-      "uid" : "21cda689034ffbab",
+      "uid" : "cf1a6938258ff23b",
       "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238477463,
-        "stop" : 1654238477463,
+        "start" : 1654239649211,
+        "stop" : 1654239649211,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify service documents",
+      "uid" : "900150ab5d216b7c",
+      "parentUid" : "4c42483d6ed4b5ae802a1f2a86921d5b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239649211,
+        "stop" : 1654239649211,
         "duration" : 0
       },
       "flaky" : false,
@@ -512,13 +495,13 @@
   }, {
     "name" : "Travel booking Service, documents and finance test",
     "children" : [ {
-      "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "e8c4ab9efe13ec9e",
+      "name" : "Verify service documents",
+      "uid" : "b346b2524dfacf6c",
       "parentUid" : "4e60d275d9126c2bb81c29e5406df919",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238479659,
-        "stop" : 1654238479659,
+        "start" : 1654239652158,
+        "stop" : 1654239652158,
         "duration" : 0
       },
       "flaky" : false,
@@ -530,29 +513,12 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify service PurchaseOrder",
-      "uid" : "6a34ff9551acc1eb",
+      "uid" : "2cb419106900e40a",
       "parentUid" : "4e60d275d9126c2bb81c29e5406df919",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238479659,
-        "stop" : 1654238479659,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "225562c697215cec",
-      "parentUid" : "4e60d275d9126c2bb81c29e5406df919",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654238479659,
-        "stop" : 1654238479659,
+        "start" : 1654239652158,
+        "stop" : 1654239652158,
         "duration" : 0
       },
       "flaky" : false,
@@ -564,12 +530,29 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify service Sales Order",
-      "uid" : "a674f97a9c99845c",
+      "uid" : "520fce79aa4e6427",
       "parentUid" : "4e60d275d9126c2bb81c29e5406df919",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238479659,
-        "stop" : 1654238479659,
+        "start" : 1654239652158,
+        "stop" : 1654239652158,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify service Recurring Purchase Orders",
+      "uid" : "e4676650380ee286",
+      "parentUid" : "4e60d275d9126c2bb81c29e5406df919",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654239652158,
+        "stop" : 1654239652158,
         "duration" : 0
       },
       "flaky" : false,
@@ -581,13 +564,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Go to Services / Travel booking tab and check label",
-      "uid" : "ae259f4111eaa796",
+      "uid" : "ee38f4599f56cff4",
       "parentUid" : "4e60d275d9126c2bb81c29e5406df919",
       "status" : "skipped",
       "time" : {
-        "start" : 1654238481586,
-        "stop" : 1654238481586,
-        "duration" : 0
+        "start" : 1654239654736,
+        "stop" : 1654239654737,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
