@@ -37,7 +37,7 @@ const payingPersonType_1 = "CLIENT"
 const payingPersonType_2 = "ASSIGNEE"
 
 
-xdescribe('Temp Accommodation(Origin) Service, Need Analysis Section test', () => {
+describe('Temp Accommodation(Origin) Service, Need Analysis Section test', () => {
 
     before(async () => {
         await passSignIn.signIn();

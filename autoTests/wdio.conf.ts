@@ -29,10 +29,10 @@ export const config: WebdriverIO.Config = {
             './test/specs/Assignment/need_analysis/13.*.spec.ts',
         ],//
         assigneeOptions: [
-            './test/specs/Assignment/options/*.spec.ts'
+            './test/specs/assignments/options/*.spec.ts'
         ],
         assignments_assigneeTab: [
-            './test/specs/assignments/assignee/1*.spec.ts'
+            './test/specs/assignments/assignee/*.spec.ts'
         ],
         assignmentsTabs: [
             './test/specs/assignments/assignment_tabs/*.spec.ts'
@@ -44,7 +44,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/ClientPage/SetupPage/*.spec.ts'
         ],
         initiatedServices: [
-            './test/specs/assignments/initiated_services/pre_assignment_services/NeedAnalysisTempAccommodation(Origin).spec.ts'
+            './test/specs/assignments/initiated_services/*/*.spec.ts'
         ]
         
     },

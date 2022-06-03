@@ -408,44 +408,21 @@ class commonElements {
         for (var i = 0; i < newPhoneArr.length; i++) { newPhone += newPhoneArr[i]; }
         return newPhone;
     }
-    public createGitDateFormat(date, fullYear = false): string {
-        let newDateArr = date.split(".");
-        if (fullYear == true) {
-            let newDate = newDateArr[1] + "." + newDateArr[0] + "." + newDateArr[2];
-            return newDate;
+    public createGitDateFormat(date, fullYear = false, isGitActionTest = passSignIn.isGithubTest): string {
+        if (isGitActionTest == true) {
+            let newDateArr = date.split(".");
+            if (fullYear == true) {
+                let newDate = newDateArr[1] + "." + newDateArr[0] + "." + newDateArr[2];
+                return newDate;
+            }
+            if (fullYear == false) {
+                let newDate = newDateArr[1] + "." + newDateArr[0] + "." + (newDateArr[2].substring(2));
+                return newDate;
+            }
         }
-        if (fullYear == false) {
-            let newDate = newDateArr[1] + "." + newDateArr[0] + "." + (newDateArr[2].substring(2));
-            return newDate;
-        }
+        else { return date; }
     }
-    // public async createStandartDateFormat(date, isGitActionTest = false): Promise<string> {
-    //     if (isGitActionTest == true) {
-    //         let newDateArr = await date.split("/");
-    //         if (newDateArr[0] <= 9 && newDateArr[1] <= 9) {
-    //             let newDate = "0" + (newDateArr[0]) + "/0" + newDateArr[1] + "/" + newDateArr[2];
-    //             return newDate;
-    //         }
-    //         if (newDateArr[0] <= 9 && newDateArr[1] >= 10) {
-    //             let newDate = "0" + (newDateArr[0]) + "/" + newDateArr[1] + "/" + newDateArr[2];
-    //             return newDate;
-    //         }
-    //         else { return date; }
-    //     }
-    //     if (isGitActionTest == false) {
-    //         let newDateArr = await date.split(".");
-    //         if (newDateArr[1] <= 9 && newDateArr[0] <= 9) {
-    //             let newDate = "0" + newDateArr[0] + ".0" + (newDateArr[1]) + "." + newDateArr[2];
-    //             return newDate;
-    //         }
-    //         if (newDateArr[1] <= 9 && newDateArr[0] >= 10) {
-    //             let newDate = newDateArr[0] + ".0" + (newDateArr[1]) + "." + newDateArr[2];
-    //             return newDate;
-    //         }
-    //         else { return date; }
-    //     }
-    // }
-    public async createStandartDateForm(date, isGithubTest=passSignIn.isGithubTest): Promise<string> {
+    public async createStandartDateForm(date, isGithubTest = passSignIn.isGithubTest): Promise<string> {
         if (isGithubTest == true) {
             var newDateArr = await date.split("/");
             if (newDateArr[0] <= 9 && newDateArr[0].length == 2) { newDateArr[0] = newDateArr[0].substring(1) }

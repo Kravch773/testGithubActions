@@ -19,8 +19,8 @@ const genderValue_1 = "Male"
 const genderValue_2 = "Female"
 const nationalityValue_1 = "American"
 const nationalityValue_2 = "British"
-const dateOfBirthValue_1 = "25.11.1990"
-const dateOfBirthValue_2 = "27.10.1982"
+const dateOfBirthValue_1 = commonElements.createGitDateFormat("25.11.1990")
+const dateOfBirthValue_2 = commonElements.createGitDateFormat("27.10.1982")
 const maritalStatusValue_1 = "Single"
 const maritalStatusValue_2 = "Married"
 const emailValue_1 = "QatestMail@qamail.com"
@@ -55,7 +55,7 @@ describe('Client Corporate structure page test', () => {
     });
     it('Verify add Partner form ', async () => {
         await assigneePage.clickAddPersonBtn();
-        await assigneePage.setAdditionalMember(personType_2, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, await commonElements.createGitDateFormat(dateOfBirthValue_1), maritalStatusValue_1, emailValue_1, mobilePhoneValue_1, workPhoneValue_1, homePhoneValue_1, notesValue_1);
+        await assigneePage.setAdditionalMember(personType_2, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, dateOfBirthValue_1, maritalStatusValue_1, emailValue_1, mobilePhoneValue_1, workPhoneValue_1, homePhoneValue_1, notesValue_1);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(addedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(addedPersonMsg);
@@ -68,7 +68,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_1);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_1);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_1);
-        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
+        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_1);
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_1);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_1);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_1);
@@ -77,7 +77,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_1);
     });
     it('Verify Edit Partner form ', async () => {
-        await assigneePage.setAdditionalMember(personType_2, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, await commonElements.createGitDateFormat(dateOfBirthValue_2), maritalStatusValue_2, emailValue_2, mobilePhoneValue_2, workPhoneValue_2, homePhoneValue_2, notesValue_2);
+        await assigneePage.setAdditionalMember(personType_2, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, dateOfBirthValue_2, maritalStatusValue_2, emailValue_2, mobilePhoneValue_2, workPhoneValue_2, homePhoneValue_2, notesValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(updatedPersonMsg);
@@ -90,7 +90,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_2);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_2);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_2);
-        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_2));
+        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_2);
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_2);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_2);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_2);
@@ -108,7 +108,7 @@ describe('Client Corporate structure page test', () => {
     });
     it('Verify Other person form ', async () => {
         await assigneePage.clickAddPersonBtn();
-        await assigneePage.setAdditionalMember(personType_3, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, await commonElements.createGitDateFormat(dateOfBirthValue_1), maritalStatusValue_1, emailValue_1, mobilePhoneValue_1, workPhoneValue_1, homePhoneValue_1, notesValue_1);
+        await assigneePage.setAdditionalMember(personType_3, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, dateOfBirthValue_1, maritalStatusValue_1, emailValue_1, mobilePhoneValue_1, workPhoneValue_1, homePhoneValue_1, notesValue_1);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(addedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(addedPersonMsg);
@@ -121,7 +121,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_1);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_1);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_1);
-        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
+        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_1);
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_1);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_1);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_1);
@@ -130,7 +130,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_1);
     });
     it('Verify Other person Edit', async () => {
-        await assigneePage.setAdditionalMember(personType_3, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, await commonElements.createGitDateFormat(dateOfBirthValue_2), maritalStatusValue_2, emailValue_2, mobilePhoneValue_2, workPhoneValue_2, homePhoneValue_2, notesValue_2);
+        await assigneePage.setAdditionalMember(personType_3, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, dateOfBirthValue_2, maritalStatusValue_2, emailValue_2, mobilePhoneValue_2, workPhoneValue_2, homePhoneValue_2, notesValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(updatedPersonMsg);
@@ -143,7 +143,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_2);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_2);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_2);
-        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_2));
+        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_2);
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_2);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_2);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_2);
@@ -161,7 +161,7 @@ describe('Client Corporate structure page test', () => {
     });
     it('Verify Child person form ', async () => {
         await assigneePage.clickAddPersonBtn();
-        await assigneePage.setChildMember(personType_1, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, await commonElements.createGitDateFormat(dateOfBirthValue_1), notesValue_1);
+        await assigneePage.setChildMember(personType_1, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, dateOfBirthValue_1, notesValue_1);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(addedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(addedPersonMsg);
@@ -174,11 +174,11 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_1);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_1);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_1);
-        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1));
+        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_1);
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_1);
     });
     it('Verify child person Edit', async () => {
-        await assigneePage.setChildMember(personType_1, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, await commonElements.createGitDateFormat(dateOfBirthValue_2), notesValue_2);
+        await assigneePage.setChildMember(personType_1, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, dateOfBirthValue_2, notesValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(updatedPersonMsg);
@@ -191,7 +191,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_2);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_2);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_2);
-        expect(await assigneePage.getDobInputValue()).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_2));
+        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_2);
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);

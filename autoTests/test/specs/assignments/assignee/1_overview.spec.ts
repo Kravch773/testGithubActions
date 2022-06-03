@@ -3,7 +3,6 @@ import passSignIn from '../../../helper/passSignIn';
 import assigneePage from '../../../pageobjects/assignment/assignee.page';
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
-import Page from '../../../pageobjects/Page';
 
 const qaClientId = "330"
 const assignmentId = "K2-31970"
@@ -25,8 +24,8 @@ const nationalityLabel = "Nationality"
 const nationalityValue_1 = "American"
 const nationalityValue_2 = "British"
 const dateofbirthLabel = "Date of birth"
-const dateOfBirthValue_1 = "12.11.1990"
-const dateOfBirthValue_2 = "11.10.1982"
+const dateOfBirthValue_1 = commonElements.createGitDateFormat("12.11.1990")
+const dateOfBirthValue_2 = commonElements.createGitDateFormat("11.10.1982") 
 const maritalStatusLabel = "Marital status"
 const maritalStatusValue_1 = "Single"
 const maritalStatusValue_2 = "Married"
@@ -165,19 +164,19 @@ describe('Asignee Overview page test', () => {
     });
     it('Assignee dateOfBirth input', async () => {
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput, await commonElements.createGitDateFormat(dateOfBirthValue_1));
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_1);
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
-        expect(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel)).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1,false));
+        expect(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel)).toBe(dateOfBirthValue_1);
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_2);
         await commonElements.clickCancelBtn();
-        expect(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel)).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_1,false));
+        expect(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel)).toBe(dateOfBirthValue_1);
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,await commonElements.createGitDateFormat(dateOfBirthValue_2));
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
-        expect(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel)).toBe(await commonElements.createGitDateFormat(dateOfBirthValue_2,false));
+        expect(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel)).toBe(dateOfBirthValue_2);
     });
     it('Assignee marialStatus input', async () => {
         await assigneePage.clickEditBtnByLabel(maritalStatusLabel);

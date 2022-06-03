@@ -42,8 +42,7 @@ describe('Client Corporate structure page test', () => {
         await assigneePage.clickAddPetsBtn();
         await assigneePage.setPet(petName_1,type_1,breed_1,age_1,weight_1,notes_1);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(petAddedMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(petAddedMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(petAddedMsg)).toBe(true);
         await assigneePage.clickPetEditBtnByName(petName_1);
         expect(await assigneePage.getPetNameValue()).toBe(petName_1);
         expect(await assigneePage.getPetTypeValue()).toBe(type_1);
@@ -67,8 +66,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getNoteInputValue()).toBe(notes_1);
         await assigneePage.setPet(petName_2,type_2,breed_2,age_2,weight_2,notes_2);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(updatedPetMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(updatedPetMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(updatedPetMsg)).toBe(true);
         await assigneePage.clickPetEditBtnByName(petName_2);
         expect(await assigneePage.getPetNameValue()).toBe(petName_2);
         expect(await assigneePage.getPetTypeValue()).toBe(type_2);
@@ -78,7 +76,6 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getNoteInputValue()).toBe(notes_2);
         await commonElements.clickCancelBtn();
         await assigneePage.clickPetRemoveBtnByName(petName_2);
-        expect(await commonElements.isPopupMsgDisplayed(removedPetMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(removedPetMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(removedPetMsg)).toBe(true);
     });
 });

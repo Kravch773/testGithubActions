@@ -53,7 +53,7 @@ describe('Client Corporate structure page test', () => {
         expect(await commonElements.isPopupMsgDisplayed(addedFileMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(addedFileMsg);
         expect(await documentsPage.getCategoryTextByFileName(fileName)).toBe(categoryType_1)
-        expect(await documentsPage.getDateTextByFileName(fileName)).toContain(await commonElements.getCurrentDate(isGitActionTest))
+        expect(await commonElements.createStandartDateForm(await documentsPage.getDateTextByFileName(fileName))).toContain(commonElements.getCurrentDateNo0Format())
         expect(await documentsPage.getUploaderTextByFileName(fileName)).toBe(clientName)
         expect(await documentsPage.getUserPermisonStatus(userPermision_1, fileName)).toBe(false)
         expect(await documentsPage.getUserPermisonStatus(userPermision_2, fileName)).toBe(false)

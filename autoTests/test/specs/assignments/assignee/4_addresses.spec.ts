@@ -72,8 +72,7 @@ xdescribe('Client Corporate structure page test', () => {
         expect(await assigneePage.getStateValue()).toBe(state_1);
         expect(await assigneePage.getCountryValue()).toBe(country_1);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(updateAddressMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(updateAddressMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(updateAddressMsg)).toBe(true);
         await assigneePage.clickAddressEditBtnByName(addressName_1);
         expect(await assigneePage.getAddressNameValue()).toBe(addressName_1);
         expect(await assigneePage.getAddressValue(1)).toBe(address1_1);
