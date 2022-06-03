@@ -8,7 +8,6 @@ import tempAcomodationPage from '../../../../pageobjects/assignment/services/tem
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
-const isGitActionTest = passSignIn.isGithubTest
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const serviceName = "Temp. accommodation (Destination)"
@@ -25,12 +24,12 @@ const country_1 = "United Kingdom"
 const country_2 = "United States"
 const contactPerson_1 = "Test Assignee (assignee)"
 const contactPerson_2 = "Test Partner (partner)"
-const startDate_1 = commonElements.getCurrentDateNo0Format(isGitActionTest)
-const startDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest)
-const endDate_1 = commonElements.getCurrentDatePlusDaysNo0Format(12,isGitActionTest)
-const endDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(16,isGitActionTest)
-const vacateDue_1 = commonElements.getCurrentDatePlusDaysNo0Format(20,isGitActionTest)
-const vacateDue_2 = commonElements.getCurrentDatePlusDaysNo0Format(30,isGitActionTest)
+const startDate_1 = commonElements.getCurrentDateNo0Format()
+const startDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(8)
+const endDate_1 = commonElements.getCurrentDatePlusDaysNo0Format(12)
+const endDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(16)
+const vacateDue_1 = commonElements.getCurrentDatePlusDaysNo0Format(20)
+const vacateDue_2 = commonElements.getCurrentDatePlusDaysNo0Format(30)
 const rentCurrency_1 = "USD"
 const rentCurrency_2 = "EUR"
 const rentAmount_1 = "2550"
@@ -44,17 +43,17 @@ const purchaseOrderDetails_2 = ["Roebuck Removals", "Temp Accomodation Destinati
 const salesOrderDetails_1 = ["Temp Accommodation Parking", "225", "descript1", startDate_1]
 const salesOrderDetails_2 = ["Temp Accommodation Parking", "565", "2descript", startDate_2]
 const recurringPODetails = ["Roebuck Removals ", "K2 Disbursement Fee", "USD - US Dollar", "50", "Weekly", "testDescrpt1"]
-const negotiatedDate_1 = commonElements.getCurrentDateNo0Format(isGitActionTest)
-const negotiatedDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(7,isGitActionTest)
-const newEndDate_1 = commonElements.getCurrentDatePlusDaysNo0Format(14,isGitActionTest)
-const newEndDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(28,isGitActionTest);
+const negotiatedDate_1 = commonElements.getCurrentDateNo0Format()
+const negotiatedDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(7)
+const newEndDate_1 = commonElements.getCurrentDatePlusDaysNo0Format(14)
+const newEndDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(28);
 const reason_1 = "testReason"
 const reason_2 = "ReasonTest"
 const extensionConfirm_1 = true
 const extensionConfirm_2 = false
 
 
-xdescribe('Temp Accommodation(Origin) Service, test', () => {
+describe('Temp Accommodation(Origin) Service, test', () => {
 
     before(async () => {
         await passSignIn.signIn();
@@ -100,7 +99,7 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         await initiatedServicesPage.clickInitiatePartnerBtn();
         await initiatedServicesPage.clickSendEmailBtn();
         expect(await initiatedServicesPage.isInitiateServiceMsgDisplayed()).toBe(true);
-        expect(await initiatedServicesPage.getInitiatedPartnerDate()).toBe(commonElements.getCurrentDate(isGitActionTest));
+        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getInitiatedPartnerDate())).toBe(startDate_1)
     });
     it('Verify remove service partner', async () => {
         await initiatedServicesPage.clickRemovePartnerWithConfirm("no");
@@ -124,9 +123,9 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         expect(await commonElements.getCityValue()).toBe(city_1);
         expect(await commonElements.getPostalCodeValue()).toBe(postalCode_1);
         expect(await commonElements.getCountryValue()).toBe(country_1);
-        expect(await commonElements.getStartDateValue()).toBe(startDate_1);
-        expect(await commonElements.getEndDateValue()).toBe(endDate_1);
-        expect(await tempAcomodationPage.getVacateDueValue()).toBe(vacateDue_1);
+        expect(await commonElements.createStandartDateForm(await commonElements.getStartDateValue())).toBe(startDate_1);
+        expect(await commonElements.createStandartDateForm(await commonElements.getEndDateValue())).toBe(endDate_1);
+        expect(await commonElements.createStandartDateForm(await tempAcomodationPage.getVacateDueValue())).toBe(vacateDue_1);
         expect(await tempAcomodationPage.getRentCurrencyValue()).toBe(rentCurrency_1);
         expect(await tempAcomodationPage.getRentCurrencyAmountValue()).toBe(rentAmount_1);
         expect(await tempAcomodationPage.getRentPaymentTermValue()).toBe(rentPaymentTerm_1);
@@ -144,9 +143,9 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         expect(await commonElements.getCityValue()).toBe(city_1);
         expect(await commonElements.getPostalCodeValue()).toBe(postalCode_1);
         expect(await commonElements.getCountryValue()).toBe(country_1);
-        expect(await commonElements.getStartDateValue()).toBe(startDate_1);
-        expect(await commonElements.getEndDateValue()).toBe(endDate_1);
-        expect(await tempAcomodationPage.getVacateDueValue()).toBe(vacateDue_1);
+        expect(await commonElements.createStandartDateForm(await commonElements.getStartDateValue())).toBe(startDate_1);
+        expect(await commonElements.createStandartDateForm(await commonElements.getEndDateValue())).toBe(endDate_1);
+        expect(await commonElements.createStandartDateForm(await tempAcomodationPage.getVacateDueValue())).toBe(vacateDue_1);
         expect(await tempAcomodationPage.getRentCurrencyValue()).toBe(rentCurrency_1);
         expect(await tempAcomodationPage.getRentCurrencyAmountValue()).toBe(rentAmount_1);
         expect(await tempAcomodationPage.getRentPaymentTermValue()).toBe(rentPaymentTerm_1);
@@ -165,9 +164,9 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         expect(await commonElements.getCityValue()).toBe(city_2);
         expect(await commonElements.getPostalCodeValue()).toBe(postalCode_2);
         expect(await commonElements.getCountryValue()).toBe(country_2);
-        expect(await commonElements.getStartDateValue()).toBe(startDate_2);
-        expect(await commonElements.getEndDateValue()).toBe(endDate_2);
-        expect(await tempAcomodationPage.getVacateDueValue()).toBe(vacateDue_2);
+        expect(await commonElements.createStandartDateForm(await commonElements.getStartDateValue())).toBe(startDate_2);
+        expect(await commonElements.createStandartDateForm(await commonElements.getEndDateValue())).toBe(endDate_2);
+        expect(await commonElements.createStandartDateForm(await tempAcomodationPage.getVacateDueValue())).toBe(vacateDue_2);
         expect(await tempAcomodationPage.getRentCurrencyValue()).toBe(rentCurrency_2);
         expect(await tempAcomodationPage.getRentCurrencyAmountValue()).toBe(rentAmount_2);
         expect(await tempAcomodationPage.getRentPaymentTermValue()).toBe(rentPaymentTerm_2);
@@ -183,7 +182,7 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         await initiatedServicesPage.clickAddServiceDocuments();
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
-        expect(await initiatedServicesPage.getDocumentUploadDate()).toContain(commonElements.getCurrentDate(isGitActionTest));
+        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getDocumentUploadDate())).toContain(startDate_1)
         await initiatedServicesPage.removeServiceDocument();
         expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
         await addServiceDocument.removeDocumentByName();
@@ -203,7 +202,7 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_1[2])
         expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_1[3])
         expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_1[4])
-        expect(await financeTransactions.getPaymentDueValue()).toBe(purchaseOrderDetails_1[5])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_1[5])
         await financeTransactions.editPurchaseOrder(purchaseOrderDetails_2);
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.clickEditPurchaseOrderBtn();
@@ -212,7 +211,7 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_1[2])
         expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_1[3])
         expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_1[4])
-        expect(await financeTransactions.getPaymentDueValue()).toBe(purchaseOrderDetails_1[5])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_1[5])
         await financeTransactions.editPurchaseOrder(purchaseOrderDetails_2);
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isPurchaseTransactionUpdMsgDispayed()).toBe(true)
@@ -222,7 +221,7 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_2[2])
         expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_2[3])
         expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_2[4])
-        expect(await financeTransactions.getPaymentDueValue()).toBe(purchaseOrderDetails_2[5])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_2[5])
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.cancelPurchaseOrder();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
@@ -240,14 +239,14 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_1[0])
         expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_1[1])
         expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_1[2])
-        expect(await financeTransactions.getInvoicingDateValue()).toBe(salesOrderDetails_1[3])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_1[3])
         await financeTransactions.editSalesOrder(salesOrderDetails_2);
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.clickEditSalesOrderBtn();
         expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_1[0])
         expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_1[1])
         expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_1[2])
-        expect(await financeTransactions.getInvoicingDateValue()).toBe(salesOrderDetails_1[3])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_1[3])
         await financeTransactions.editSalesOrder(salesOrderDetails_2);
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isSalesOrderUpdMsgDispayed()).toBe(true);
@@ -255,26 +254,25 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_2[0])
         expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_2[1])
         expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_2[2])
-        expect(await financeTransactions.getInvoicingDateValue()).toBe(salesOrderDetails_2[3])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_2[3])
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.cancelSalesOrder();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
     });
     it('Verify service Recurring Purchase Orders', async () => {
-        let startDate = await commonElements.getCurrentDateNo0Format(isGitActionTest);
-        let endDate = await commonElements.getCurrentDatePlusDaysNo0Format(8,isGitActionTest);
+        let endDate = commonElements.getCurrentDatePlusDaysNo0Format(8);
         await financeTransactions.clickAddRecurringPOBtn();
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.clickAddRecurringPOBtn();
-        await financeTransactions.setRecurringPO(recurringPODetails, startDate, endDate);
+        await financeTransactions.setRecurringPO(recurringPODetails, startDate_1, endDate);
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isTransactionsAddedMsgDispayed()).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[1])).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(await financeTransactions.formRecurringPOPartnerCost(recurringPODetails[2], recurringPODetails[3]))).toBe(true);
-        expect(await financeTransactions.isRecurringPOLabelDisplayed(commonElements.getCurrentDate(isGitActionTest))).toBe(true);
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getRecurringPOPaymentDueLabel())).toBe(startDate_1)
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[5])).toBe(true);
         await financeTransactions.cancelRecurringPO();
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
@@ -285,8 +283,8 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         await commonElements.clickDialogWindowSaveBtn();
         expect(await tempAcomodationPage.isLeaseExtensionsSubmitMsgDisplayed()).toBe(true)
         await tempAcomodationPage.clickEditExtensionsBtn();
-        expect(await tempAcomodationPage.getNegotiatedDate()).toBe(negotiatedDate_1);
-        expect(await tempAcomodationPage.getNewEndDate()).toBe(newEndDate_1);
+        expect(await commonElements.createStandartDateForm(await tempAcomodationPage.getNegotiatedDate())).toBe(negotiatedDate_1);
+        expect(await commonElements.createStandartDateForm(await tempAcomodationPage.getNewEndDate())).toBe(newEndDate_1);
         expect(await tempAcomodationPage.getDialogWindowRentCurrencyAmountValue()).toBe(rentAmount_1);
         expect(await tempAcomodationPage.getDialogWindowRentCurrencyValue()).toBe(rentCurrency_1);
         expect(await tempAcomodationPage.getDialogWindowRentPaymentTermValue()).toBe(rentPaymentTerm_1);
@@ -295,8 +293,8 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         await tempAcomodationPage.setLeaseExtensions(negotiatedDate_2, newEndDate_2, rentCurrency_2, rentAmount_2, rentPaymentTerm_2, reason_2, extensionConfirm_2);
         await commonElements.clickDialogWindowCancelBtn();
         await tempAcomodationPage.clickEditExtensionsBtn();
-        expect(await tempAcomodationPage.getNegotiatedDate()).toBe(negotiatedDate_1);
-        expect(await tempAcomodationPage.getNewEndDate()).toBe(newEndDate_1);
+        expect(await commonElements.createStandartDateForm(await tempAcomodationPage.getNegotiatedDate())).toBe(negotiatedDate_1);
+        expect(await commonElements.createStandartDateForm(await tempAcomodationPage.getNewEndDate())).toBe(newEndDate_1);
         expect(await tempAcomodationPage.getDialogWindowRentCurrencyAmountValue()).toBe(rentAmount_1);
         expect(await tempAcomodationPage.getDialogWindowRentCurrencyValue()).toBe(rentCurrency_1);
         expect(await tempAcomodationPage.getDialogWindowRentPaymentTermValue()).toBe(rentPaymentTerm_1);
@@ -306,8 +304,8 @@ xdescribe('Temp Accommodation(Origin) Service, test', () => {
         await commonElements.clickDialogWindowSaveBtn();
         expect(await tempAcomodationPage.isLeaseExtensionsUpdMsgDisplayed()).toBe(true)
         await tempAcomodationPage.clickEditExtensionsBtn();
-        expect(await tempAcomodationPage.getNegotiatedDate()).toBe(negotiatedDate_2);
-        expect(await tempAcomodationPage.getNewEndDate()).toBe(newEndDate_2);
+        expect(await commonElements.createStandartDateForm(await tempAcomodationPage.getNegotiatedDate())).toBe(negotiatedDate_2);
+        expect(await commonElements.createStandartDateForm(await tempAcomodationPage.getNewEndDate())).toBe(newEndDate_2);
         expect(await tempAcomodationPage.getDialogWindowRentCurrencyAmountValue()).toBe(rentAmount_2);
         expect(await tempAcomodationPage.getDialogWindowRentCurrencyValue()).toBe(rentCurrency_2);
         expect(await tempAcomodationPage.getDialogWindowRentPaymentTermValue()).toBe(rentPaymentTerm_2);;

@@ -45,7 +45,7 @@ const salesOrderDetails_1 = ["Language Training - Other", "225", "descript1", co
 const salesOrderDetails_2 = ["Language Training - Other", "565", "2descript", commonElements.getCurrentDatePlusDaysNo0Format(8)]
 const recurringPODetails = ["Roebuck Removals ", "Language Training - Other", "USD - US Dollar", "50", "Weekly", "testDescrpt1"]
 
-describe('Language Training Service, test', () => {
+xdescribe('Language Training Service, test', () => {
 
     before(async () => {
         await passSignIn.signIn();
@@ -265,14 +265,13 @@ describe('Language Training Service, test', () => {
         expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
     });
     it('Verify service Recurring Purchase Orders', async () => {
-        let startDate = commonElements.getCurrentDateNo0Format();
         let endDate = commonElements.getCurrentDatePlusDaysNo0Format(8);
         await financeTransactions.clickAddRecurringPOBtn();
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
         await commonElements.clickDialogWindowCancelBtn();
         await financeTransactions.clickAddRecurringPOBtn();
-        await financeTransactions.setRecurringPO(recurringPODetails, startDate, endDate);
+        await financeTransactions.setRecurringPO(recurringPODetails, currentDate, endDate);
         await commonElements.clickDialogWindowSaveBtn();
         expect(await financeTransactions.isTransactionsAddedMsgDispayed()).toBe(true);
         expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
