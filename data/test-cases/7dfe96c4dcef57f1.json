@@ -1,0 +1,87 @@
+{
+  "uid" : "7dfe96c4dcef57f1",
+  "name" : "Verify edit form Accommodation witout saving ",
+  "fullName" : "Temp Accommodation(Origin) Service, test.Verify edit form Accommodation witout saving ",
+  "historyId" : "5da80cc5e77961b8e972a546f92278bf",
+  "time" : {
+    "start" : 1654246520503,
+    "stop" : 1654246528683,
+    "duration" : 8180
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit form Accommodation witout saving "
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "90425c799a75f73d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654246245700,
+        "stop" : 1654246255435,
+        "duration" : 9735
+      }
+    }, {
+      "uid" : "fdbd5d8d49655fea",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1654245094488,
+        "stop" : 1654245109492,
+        "duration" : 15004
+      }
+    }, {
+      "uid" : "f82469a8de630457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654244844804,
+        "stop" : 1654244853506,
+        "duration" : 8702
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7dfe96c4dcef57f1.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}
