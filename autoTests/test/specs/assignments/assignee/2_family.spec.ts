@@ -68,7 +68,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_1);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_1);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_1);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_1);
+        expect(await commonElements.createStandartDateForm(await assigneePage.getDobInputValue())).toBe(dateOfBirthValue_1);
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_1);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_1);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_1);
@@ -90,7 +90,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_2);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_2);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_2);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_2);
+        expect(await commonElements.createStandartDateForm(await assigneePage.getDobInputValue())).toBe(dateOfBirthValue_2);
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_2);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_2);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_2);
@@ -121,7 +121,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_1);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_1);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_1);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_1);
+        expect(await commonElements.createStandartDateForm(await assigneePage.getDobInputValue())).toBe(dateOfBirthValue_1);
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_1);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_1);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_1);
@@ -143,7 +143,7 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_2);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_2);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_2);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_2);
+        expect(await commonElements.createStandartDateForm(await assigneePage.getDobInputValue())).toBe(dateOfBirthValue_2);
         expect(await assigneePage.getMaritalDDValue()).toBe(maritalStatusValue_2);
         expect(await assigneePage.getEmailInputValue()).toBe(emailValue_2);
         expect(await assigneePage.getMobileInputValue()).toBe(mobilePhoneValue_2);
@@ -151,20 +151,17 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getHomePInputValue()).toBe(homePhoneValue_2);
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_2);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(updatedPersonMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(updatedPersonMsg)).toBe(true);
         await assigneePage.clickAssigneeTab();
         await assigneePage.clickFamilyTab();
         await assigneePage.clickFamilyRemoveBtnByName(firstNameValue_2, lastNameValue_2);
-        expect(await commonElements.isPopupMsgDisplayed(removedPersonMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(removedPersonMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(removedPersonMsg)).toBe(true);
     });
     it('Verify Child person form ', async () => {
         await assigneePage.clickAddPersonBtn();
         await assigneePage.setChildMember(personType_1, titleValue_1, firstNameValue_1, lastNameValue_1, genderValue_1, nationalityValue_1, dateOfBirthValue_1, notesValue_1);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(addedPersonMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(addedPersonMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(addedPersonMsg)).toBe(true);
         await assigneePage.clickAssigneeTab();
         await assigneePage.clickFamilyTab();
         await assigneePage.clickFamilyEditBtnByName(firstNameValue_1, lastNameValue_1);
@@ -174,14 +171,13 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_1);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_1);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_1);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_1);
+        expect(await commonElements.createStandartDateForm(await assigneePage.getDobInputValue())).toBe(dateOfBirthValue_1);
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_1);
     });
     it('Verify child person Edit', async () => {
         await assigneePage.setChildMember(personType_1, titleValue_2, firstNameValue_2, lastNameValue_2, genderValue_2, nationalityValue_2, dateOfBirthValue_2, notesValue_2);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(updatedPersonMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(updatedPersonMsg)).toBe(true);
         await assigneePage.clickAssigneeTab();
         await assigneePage.clickFamilyTab();
         await assigneePage.clickFamilyEditBtnByName(firstNameValue_2, lastNameValue_2);
@@ -191,16 +187,14 @@ describe('Client Corporate structure page test', () => {
         expect(await assigneePage.getLastNameInputValue()).toContain(lastNameValue_2);
         expect(await assigneePage.getGenderDDValue()).toBe(genderValue_2);
         expect(await assigneePage.getNationalityInputValue()).toBe(nationalityValue_2);
-        expect(await assigneePage.getDobInputValue()).toBe(dateOfBirthValue_2);
+        expect(await commonElements.createStandartDateForm(await assigneePage.getDobInputValue())).toBe(dateOfBirthValue_2);
         expect(await assigneePage.getNoteInputValue()).toBe(notesValue_2);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(updatedPersonMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(updatedPersonMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(updatedPersonMsg)).toBe(true);
         await assigneePage.clickAssigneeTab();
         await assigneePage.clickFamilyTab();
         await assigneePage.clickFamilyRemoveBtnByName(firstNameValue_2, lastNameValue_2);
-        expect(await commonElements.isPopupMsgDisplayed(removedPersonMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(removedPersonMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(removedPersonMsg)).toBe(true);
     });
 
 });
