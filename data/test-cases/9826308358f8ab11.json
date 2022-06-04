@@ -1,0 +1,68 @@
+{
+  "uid" : "9826308358f8ab11",
+  "name" : "Verify child person Edit",
+  "fullName" : "Client Corporate structure page test.Verify child person Edit",
+  "historyId" : "ab3f0b8589b31c6061e49ef209c3cd47",
+  "time" : {
+    "start" : 1654332857732,
+    "stop" : 1654332867927,
+    "duration" : 10195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"10.27.82\"\n                Received: \"10/27/1982\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"10.27.82\"\n                Received: \"10/27/1982\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/assignee/2_family.spec.ts:194:55\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/assignee/2_family.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/assignee/2_family.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/assignee/2_family.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Client Corporate structure page test"
+  }, {
+    "name" : "testClass",
+    "value" : "Client Corporate structure page test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify child person Edit"
+  }, {
+    "name" : "package",
+    "value" : "Client Corporate structure page test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9826308358f8ab11.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

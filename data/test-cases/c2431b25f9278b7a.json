@@ -1,0 +1,68 @@
+{
+  "uid" : "c2431b25f9278b7a",
+  "name" : "Assignee dateOfBirth input",
+  "fullName" : "Asignee Overview page test.Assignee dateOfBirth input",
+  "historyId" : "7daa7449e1c4d9eb0c2f4e2901f639db",
+  "time" : {
+    "start" : 1654332670332,
+    "stop" : 1654332677625,
+    "duration" : 7293
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11.12.90\"\n                Received: \"11/12/90\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11.12.90\"\n                Received: \"11/12/90\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/assignee/1_overview.spec.ts:170:83\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/assignee/1_overview.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/assignee/1_overview.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/assignee/1_overview.spec.ts:5:58)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testClass",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Assignee dateOfBirth input"
+  }, {
+    "name" : "package",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c2431b25f9278b7a.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}
