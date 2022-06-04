@@ -176,7 +176,7 @@ describe('Asignee Overview page test', () => {
         await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
-        expect(await commonElements.createStandartDateForm(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel))).toBe(dateOfBirthValue_2);
+        expect(await commonElements.createStandartDateForm(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel))).toBe(dateOfBirthValue_);
     });
     it('Assignee marialStatus input', async () => {
         await assigneePage.clickEditBtnByLabel(maritalStatusLabel);
