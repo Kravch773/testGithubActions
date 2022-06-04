@@ -18,7 +18,6 @@ class needAnalysisPage {
     }
     public getAnalysisAnswerByLabel(label): string {
         return `//simple-tab/div[not(@hidden)]//strong[contains(text(),"${label}")]/../field-spec-value/span`
-        // return `//assignment-analysis-answer/strong[text()="${label}:"]/../field-spec-value/span`
     }
     public getNeedAnalysisInputByLabel(label): string {
         return `//label[contains(text(),"${label}")]/../../..//input`
@@ -212,14 +211,10 @@ class needAnalysisPage {
         await this.setNeedAnalysisDateByLabel(visaApprovalDate, assignmentQuestionLabel[7]);
     }
     public async setSchoolSearchPlaning(schoolQuestionLabel, schoolSearchDate, tourPerson_1, tourPerson_2, address, city, state, postalCode, country, currency, currencyValue, currencyTerm, payingPerson, tourpersonState_1, tourpersonState_2): Promise<void> {
-        await this.setNeedAnalysisDateByLabel(schoolSearchDate, schoolQuestionLabel[0]);
+        await commonElements.setDateValue_2(this.getNeedAnalysisInputByLabel(schoolQuestionLabel[0]),commonElements.addressLine1Input,schoolSearchDate)
         await this.setNeedAnalysisChbByLabel(tourpersonState_1, tourPerson_1, schoolQuestionLabel[1]);
         await this.setNeedAnalysisChbByLabel(tourpersonState_2, tourPerson_2, schoolQuestionLabel[1]);
-        await commonElements.setInputValue(address, this.getAddressInput());
-        await commonElements.setInputValue(city, this.getCityInput());
-        await commonElements.setInputValue(state, this.getStateInput());
-        await commonElements.setInputValue(postalCode, this.getPostalCodeInput());
-        await this.setNeedAnalysisSelectByLabel(country, "");
+        await commonElements.setAddress(address[0],address[1],address[2],address[3],city,state,postalCode,country);
         await this.setNeedAnalysisSelectByLabel(currency, schoolQuestionLabel[3]);
         await this.setNeedAnalysisInputByLabel(currencyValue, schoolQuestionLabel[3]);
         await this.setNeedAnalysisDropDownByLabel(currencyTerm, schoolQuestionLabel[3])
@@ -275,13 +270,12 @@ class needAnalysisPage {
         await this.setNeedAnalysisTextareaByLabel(orientationLocations, orientationQuestionLabel[3])
     }
     public async setHomePlanningDetails(homePlanningQuestionLabel, orientationDate, tourPerson_1, tourPerson_2, homeSearchPlace, currentHome): Promise<void> {
-        await this.setNeedAnalysisDateByLabel(orientationDate, homePlanningQuestionLabel[0]);
+        await commonElements.setDateValue_2(this.getNeedAnalysisInputByLabel(homePlanningQuestionLabel[0]),this.getNeedAnalysisTextareaByLabel(homePlanningQuestionLabel[2]),orientationDate)
         await this.setNeedAnalysisChbByLabel(true, tourPerson_1, homePlanningQuestionLabel[1]);
         await this.setNeedAnalysisChbByLabel(false, tourPerson_2, homePlanningQuestionLabel[1]);
         await this.setNeedAnalysisTextareaByLabel(homeSearchPlace, homePlanningQuestionLabel[2]);
         await this.setNeedAnalysisTextareaByLabel(currentHome, homePlanningQuestionLabel[3]);
     }
-
     public async gethomePropertySpecificsText_3(): Promise<string> {
         return await Page.getElementText(this.homePropertySpecificsLabel_3);
     }
@@ -317,7 +311,7 @@ class needAnalysisPage {
     public async setSaleAssistanceDetails(saleAssistanceQuestionLabel, state, kindOfHome, purchaseDate, currency, currencyValue, currencyTerm, ageOfhome, numOfbedrooms, numOfbathrooms, cityWater, typeOfheating, homeLand, periodHomeSale, otherDetails): Promise<void> {
         await this.clickNeedAnalysisRadioBtnByLabel(state, saleAssistanceQuestionLabel[0]);
         await this.setNeedAnalysisDropDownByLabel(kindOfHome, saleAssistanceQuestionLabel[1]);
-        // await this.setNeedAnalysisDateByLabel(purchaseDate,saleAssistanceQuestionLabel[2]);
+        await this.setNeedAnalysisDateByLabel(purchaseDate,saleAssistanceQuestionLabel[2]);
         await this.setNeedAnalysisSelectByLabel(currency, saleAssistanceQuestionLabel[3]);
         await this.setNeedAnalysisInputByLabel(currencyValue, saleAssistanceQuestionLabel[3]);
         await this.setNeedAnalysisDropDownByLabel(currencyTerm, saleAssistanceQuestionLabel[3]);

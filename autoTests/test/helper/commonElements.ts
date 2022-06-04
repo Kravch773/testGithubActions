@@ -259,6 +259,21 @@ class commonElements {
         await this.clearDateField();
         await Page.setValue(calendarInput, value);
     }
+    public async setDateValue_2(calendarInput, inputFieldForClipboard ,value): Promise<void> {
+        await Page.setValue(inputFieldForClipboard,value);
+        await Page.click(inputFieldForClipboard);
+        await browser.keys(["Control", "A"]);
+        await browser.keys(["Control", "C"])
+        await Page.click(calendarInput);
+        await this.clearDateField();
+        await Page.click(calendarInput);
+        await Page.waitElementForDisplayed(this.calendar);
+        await browser.keys(["\uE004"])
+        await Page.waitElementForDisplayed(this.closeCaledarBtn);
+        await Page.click(this.closeCaledarBtn);
+        await Page.waitElementForNotDisplayed(this.calendar);
+        await browser.keys(["Control", "V"])
+    }
     public async clearAndSetDateValue(calendarInput, value): Promise<void> {
         await this.clearDateField();
         await Page.setValue(calendarInput, value);

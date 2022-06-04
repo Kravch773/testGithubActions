@@ -26,12 +26,12 @@ export const config: WebdriverIO.Config = {
     // define specific suites
     suites: {
         need_analysis: [
-            './test/specs/Assignment/need_analysis/13.*.spec.ts',
+            './test/specs/assignments/need_analysis/17_homeSaleAssistance.spec.ts',
         ],//
         assigneeOptions: [
             './test/specs/assignments/options/*.spec.ts'
         ],
-        assignments_assigneeTab: [
+        assignments_assignee: [
             './test/specs/assignments/assignee/*.spec.ts'
         ],
         assignmentsTabs: [

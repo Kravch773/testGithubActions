@@ -4,12 +4,10 @@ class passSignIn {
     public get isGithubTest():boolean{
         return true;
     }
-
     public async signIn(): Promise<void> {
         await loginPage.openLoginURL();
         // await browser.maximizeWindow();
         await loginPage.loginToAccount('ivan.kravchenko@k2corporatemobility.com', 'J4f!*$@*AG%$!18');
-        
     }
     public async rcSignIn(): Promise<void> {
         await loginPage.openRcLoginURL();
