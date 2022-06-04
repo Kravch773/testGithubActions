@@ -1,0 +1,87 @@
+{
+  "uid" : "fbf528705e6a6c77",
+  "name" : "Verify Initiate service partner",
+  "fullName" : "Temp Accommodation(Origin) Service, test.Verify Initiate service partner",
+  "historyId" : "97d0d182b2b280f85e454fdea1d794cb",
+  "time" : {
+    "start" : 1654246485156,
+    "stop" : 1654246492501,
+    "duration" : 7345
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Initiate service partner"
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7064f5300866ef07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654246210760,
+        "stop" : 1654246218153,
+        "duration" : 7393
+      }
+    }, {
+      "uid" : "6d966309f1202fe2",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1654245049479,
+        "stop" : 1654245064482,
+        "duration" : 15003
+      }
+    }, {
+      "uid" : "8468e7200bfbf8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654244809414,
+        "stop" : 1654244816721,
+        "duration" : 7307
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbf528705e6a6c77.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

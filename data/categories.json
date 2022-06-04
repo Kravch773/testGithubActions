@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11.12.1990\"\n                Received: \"11.12.2090\"",
+      "children" : [ {
+        "name" : "Assignee dateOfBirth input",
+        "uid" : "c7877b644ce9eb23",
+        "parentUid" : "26c913c3d2e82501c4e817ea8f82796d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654338237093,
+          "stop" : 1654338245005,
+          "duration" : 7912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "26c913c3d2e82501c4e817ea8f82796d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }
