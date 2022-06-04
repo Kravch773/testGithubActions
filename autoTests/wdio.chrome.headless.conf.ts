@@ -21,7 +21,7 @@ export const config: WebdriverIO.Config = {
     // will be called from there.
     //
 
-    specs: ['./test/specs/Assignment/need_analysis/*.spec'],
+    specs: ['./test/specs/assignments/need_analysis/*.spec'],
     // ...
     // define specific suites
     suites: {
@@ -32,7 +32,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/assignment/options/*.spec.ts'
         ],
         assignments_assignee: [
-            './test/specs/assignments/assignee/1_overview.spec.ts'
+            './test/specs/assignments/assignee/*.spec.ts'
         ],
         assignmentsTabs: [
             './test/specs/assignments/assignment_tabs/*.spec.ts'
