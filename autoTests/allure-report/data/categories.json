@@ -1,13 +1,12 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"550\"\n                Received string:    \"testLoc1\"",
       "children" : [ {
         "name" : "Verify TempAccommodation(Destination) section",
-        "uid" : "653c0b31e185ca00",
+        "uid" : "8192e50c9ade54e1",
         "parentUid" : "5df3f54e97ecdfbdc349df3bdf664cf4",
         "status" : "failed",
         "time" : {
@@ -24,7 +23,7 @@
         "parameters" : [ "chrome-102.0.5005.63" ]
       }, {
         "name" : "Verify edit TempAccommodation(Destination) section",
-        "uid" : "a3cba1387f0d7b0e",
+        "uid" : "1e5497f58740fb2f",
         "parentUid" : "5df3f54e97ecdfbdc349df3bdf664cf4",
         "status" : "failed",
         "time" : {
@@ -45,7 +44,7 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"PropertyTestSpec1_2\"\n                Received: \"PropertyTestSpec2_1\"",
       "children" : [ {
         "name" : "Verify HomeSearch(Property) section",
-        "uid" : "b78804ad2331f08c",
+        "uid" : "79ba00b906d087fa",
         "parentUid" : "4670c4035ab39118b71804ecb8d6c17c",
         "status" : "failed",
         "time" : {
@@ -70,7 +69,7 @@
       "name" : "element (\"//simple-tab/div[not(@hidden)]//strong[contains(text(),\"date of home\")]/../field-spec-value/span\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "Verify Home sale assistance section",
-        "uid" : "954e0d7ce8405246",
+        "uid" : "b908a0a0bc6054f4",
         "parentUid" : "4d84c1ec9ca557f98281cbc5c77fff3f",
         "status" : "broken",
         "time" : {
@@ -87,7 +86,7 @@
         "parameters" : [ "chrome-102.0.5005.63" ]
       }, {
         "name" : "Verify edit Home sale assistance section",
-        "uid" : "712626cf00d7cb9d",
+        "uid" : "e81be0ffd25131a5",
         "parentUid" : "4d84c1ec9ca557f98281cbc5c77fff3f",
         "status" : "broken",
         "time" : {
@@ -104,7 +103,29 @@
         "parameters" : [ "chrome-102.0.5005.63" ]
       } ],
       "uid" : "4d84c1ec9ca557f98281cbc5c77fff3f"
+    }, {
+      "name" : "waitUntil condition timed out after 15000ms",
+      "children" : [ {
+        "name" : "Assignee gender input",
+        "uid" : "ea12f04c5a70de4e",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654337133569,
+          "stop" : 1654337149102,
+          "duration" : 15533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.63" ]
+      } ],
+      "uid" : "7a32765981bcc7398deb824e5d577aab"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

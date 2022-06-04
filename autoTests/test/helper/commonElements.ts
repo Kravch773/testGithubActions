@@ -423,7 +423,7 @@ class commonElements {
         for (var i = 0; i < newPhoneArr.length; i++) { newPhone += newPhoneArr[i]; }
         return newPhone;
     }
-    public createGitDateFormat(date, fullYear = false, isGitActionTest = passSignIn.isGithubTest): string {
+    public createGitDateFormat(date, fullYear = true, isGitActionTest = passSignIn.isGithubTest): string {
         if (isGitActionTest == true) {
             let newDateArr = date.split(".");
             if (fullYear == true) {
