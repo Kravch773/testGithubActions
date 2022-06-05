@@ -259,8 +259,8 @@ class commonElements {
         await this.clearDateField();
         await Page.setValue(calendarInput, value);
     }
-    public async setDateValue_2(calendarInput, inputFieldForClipboard ,value): Promise<void> {
-        await Page.setValue(inputFieldForClipboard,value);
+    public async setDateValue_2(calendarInput, inputFieldForClipboard, value): Promise<void> {
+        await Page.setValue(inputFieldForClipboard, value);
         await Page.click(inputFieldForClipboard);
         await browser.keys(["Control", "A"]);
         await browser.keys(["Control", "C"])
@@ -442,10 +442,10 @@ class commonElements {
             var newDateArr = await date.split("/");
             if (newDateArr[0] <= 9 && newDateArr[0].length == 2) { newDateArr[0] = newDateArr[0].substring(1) }
             if (newDateArr[1] <= 9 && newDateArr[1].length == 2) { newDateArr[1] = newDateArr[1].substring(1) }
-            if (newDateArr[2].length == 2) { newDateArr[2] = "20" + newDateArr[2] }
-            if (newDateArr[2].length >= 5) {
+            if (newDateArr[2].length == 2 && newDateArr[2] > 50) { newDateArr[2] = "20" + newDateArr[2] }
+            if (newDateArr[2].length > 5) {
                 let yearArr = newDateArr[2].split(",")
-                if (yearArr[0].length == 2) { newDateArr[2] = "20" + yearArr[0] }
+                if (yearArr[0].length == 2 && yearArr[0] > 50) { newDateArr[2] = "20" + yearArr[0] }
                 else { newDateArr[2] = yearArr[0] }
             }
             var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
@@ -454,10 +454,10 @@ class commonElements {
             var newDateArr = await date.split(".");
             if (newDateArr[0] <= 9 && newDateArr[0].length == 2) { newDateArr[0] = newDateArr[0].substring(1) }
             if (newDateArr[1] <= 9 && newDateArr[1].length == 2) { newDateArr[1] = newDateArr[1].substring(1) }
-            if (newDateArr[2].length == 2) { newDateArr[2] = "20" + newDateArr[2] }
-            if (newDateArr[2].length >= 5) {
+            if (newDateArr[2].length == 2 && newDateArr[2] > 50) { newDateArr[2] = "20" + newDateArr[2] }
+            if (newDateArr[2].length > 5) {
                 var yearArr = newDateArr[2].split(",")
-                if (yearArr[0].length == 2) { newDateArr[2] = "20" + yearArr[0] }
+                if (yearArr[0].length == 2 && yearArr[0] > 50) { newDateArr[2] = "20" + yearArr[0] }
                 else { newDateArr[2] = yearArr[0] }
             }
             var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
