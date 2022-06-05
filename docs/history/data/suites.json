@@ -1,5 +1,60 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Need analysis personal details tab test",
+    "children" : [ {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "181045c4471192d5",
+      "parentUid" : "a5689fa9f66d1769c3049248fb396811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654413576959,
+        "stop" : 1654413594015,
+        "duration" : 17056
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Verify Personal details section",
+      "uid" : "c34055c6526ce266",
+      "parentUid" : "a5689fa9f66d1769c3049248fb396811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654413594015,
+        "stop" : 1654413609699,
+        "duration" : 15684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Verify edit presonal details section",
+      "uid" : "263133b6746cad5a",
+      "parentUid" : "a5689fa9f66d1769c3049248fb396811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654413609700,
+        "stop" : 1654413627998,
+        "duration" : 18298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    } ],
+    "uid" : "a5689fa9f66d1769c3049248fb396811"
+  } ]
 }
