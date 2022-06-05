@@ -1,0 +1,79 @@
+{
+  "uid" : "d4e62065fa2a03cf",
+  "name" : "Verify edit school search planning section",
+  "fullName" : "Need analysis school search planning test.Verify edit school search planning section",
+  "historyId" : "ac7072c3022bab9575739de7083675bd",
+  "time" : {
+    "start" : 1654331148382,
+    "stop" : 1654331164173,
+    "duration" : 15791
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "Need analysis school search planning test"
+  }, {
+    "name" : "testClass",
+    "value" : "Need analysis school search planning test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit school search planning section"
+  }, {
+    "name" : "package",
+    "value" : "Need analysis school search planning test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e9eabd86f46e9a33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654329751037,
+        "stop" : 1654329767953,
+        "duration" : 16916
+      }
+    }, {
+      "uid" : "c32d50d0f7ff67fa",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"13.6.2022\"\n                Received: \"1.6.2022\"",
+      "time" : {
+        "start" : 1654260916023,
+        "stop" : 1654260920773,
+        "duration" : 4750
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4e62065fa2a03cf.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

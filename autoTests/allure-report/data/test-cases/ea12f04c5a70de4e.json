@@ -1,0 +1,76 @@
+{
+  "uid" : "ea12f04c5a70de4e",
+  "name" : "Assignee gender input",
+  "fullName" : "Asignee Overview page test.Assignee gender input",
+  "historyId" : "15aea47df33df755b24a9b9d640700c8",
+  "time" : {
+    "start" : 1654337133569,
+    "stop" : 1654337149102,
+    "duration" : 15533
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testClass",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Assignee gender input"
+  }, {
+    "name" : "package",
+    "value" : "Asignee Overview page test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7eb6c83ecba963b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654252387764,
+        "stop" : 1654252402473,
+        "duration" : 14709
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ea12f04c5a70de4e.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}
