@@ -1,5 +1,47 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"6.5.2022\"\n                Received string:    \"6.1.2022\"",
+      "children" : [ {
+        "name" : "Verify children section",
+        "uid" : "2314e4ae6c765ff",
+        "parentUid" : "670ebc43e7dbad59e82110ce3be6f11b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654419829049,
+          "stop" : 1654419842590,
+          "duration" : 13541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify edit child section",
+        "uid" : "61986bb984ca0e78",
+        "parentUid" : "670ebc43e7dbad59e82110ce3be6f11b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654419842608,
+          "stop" : 1654419846726,
+          "duration" : 4118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "670ebc43e7dbad59e82110ce3be6f11b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }
