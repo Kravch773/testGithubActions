@@ -50,7 +50,7 @@ describe('Need analysis HomeSearch(Lease) tab test', () => {
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homeLeaseQuestionLabel[3])).toBe(payingPerson_1);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homeLeaseQuestionLabel[4])).toBe(leaseSpecifics_1);
     });
-    xit('Verify edit HomeSearch(Lease) section', async () => {
+    it('Verify edit HomeSearch(Lease) section', async () => {
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_14);
         await needAnalysisPage.clickEditAnalysisBtn();
         await needAnalysisPage.setHomeLeaseDetails(homeLeaseQuestionLabel,currency_2,currencyValue_2,currencyTerm_2,startDate_2,leaseName_2,payingPerson_2,leaseSpecifics_2);

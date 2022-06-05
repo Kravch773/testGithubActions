@@ -259,14 +259,10 @@ class needAnalysisPage {
         await this.clickNeedAnalysisRadioBtnByLabel(payingPerson, tempAccommodationLabel[8]);
     }
     public async setOrientationDetails(orientationQuestionLabel, orientationDate, tourPerson_1, tourPerson_2, address, city, state, postalCode, country, orientationLocations): Promise<void> {
-        await this.setNeedAnalysisDateByLabel(orientationDate, orientationQuestionLabel[0]);
+        await commonElements.setDateValue_2(this.getNeedAnalysisInputByLabel(orientationQuestionLabel[0]),commonElements.addressLine1Input,orientationDate);
         await this.setNeedAnalysisChbByLabel(true, tourPerson_1, orientationQuestionLabel[1]);
         await this.setNeedAnalysisChbByLabel(false, tourPerson_2, orientationQuestionLabel[1]);
-        await commonElements.setInputValue(address, this.getAddressInput());
-        await commonElements.setInputValue(city, this.getCityInput());
-        await commonElements.setInputValue(state, this.getStateInput());
-        await commonElements.setInputValue(postalCode, this.getPostalCodeInput());
-        await this.setNeedAnalysisSelectByLabel(country, "");
+        await commonElements.setAddress(address[0],address[1],address[2],address[3],city,state,postalCode,country);
         await this.setNeedAnalysisTextareaByLabel(orientationLocations, orientationQuestionLabel[3])
     }
     public async setHomePlanningDetails(homePlanningQuestionLabel, orientationDate, tourPerson_1, tourPerson_2, homeSearchPlace, currentHome): Promise<void> {

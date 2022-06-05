@@ -70,7 +70,7 @@ describe('Need analysis HomeSearch(Property) tab test', () => {
         expect(await needAnalysisPage.gethomePropertySpecificsText_3()).toBe(propertySpecifics_2_1);
     });
 
-    xit('Verify edit HomeSearch(Property) section', async () => {
+    it('Verify edit HomeSearch(Property) section', async () => {
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_13);
         await needAnalysisPage.clickEditAnalysisBtn();
         await needAnalysisPage.setNeedAnalysisChbByLabel(true, propertyKind_2, homePropertyQuestionLabel[0]);

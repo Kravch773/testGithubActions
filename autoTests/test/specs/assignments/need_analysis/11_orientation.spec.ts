@@ -40,7 +40,7 @@ describe('Need analyis Orientation tab test', () => {
         await needAnalysisPage.clickNeedAnalysisTab();
         expect(await needAnalysisPage.getNeedAnalysisLabelText()).toBe("Needs analysis");
     });
-    it('Verify children section', async () => {
+    it('Verify Orientation form', async () => {
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_11);
         await needAnalysisPage.clickEditAnalysisBtn();
         await needAnalysisPage.setOrientationDetails(orientationQuestionLabel, orientationDate_1,tourPerson_1,tourPerson_2, address_1, city_1, state_1, postalCode_1, country_1, orientationLocations_1);
@@ -53,7 +53,7 @@ describe('Need analyis Orientation tab test', () => {
     });
 
 
-    it('Verify edit child section', async () => {
+    it('Verify edit Orientation section', async () => {
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_11);
         await needAnalysisPage.clickEditAnalysisBtn();
         await needAnalysisPage.setOrientationDetails(orientationQuestionLabel, orientationDate_2,tourPerson_2,tourPerson_1, address_2, city_2, state_2, postalCode_2, country_2, orientationLocations_2);
