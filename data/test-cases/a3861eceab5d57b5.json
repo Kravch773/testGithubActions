@@ -1,0 +1,62 @@
+{
+  "uid" : "a3861eceab5d57b5",
+  "name" : "Verify school search planning section",
+  "fullName" : "Need analysis school search planning test.Verify school search planning section",
+  "historyId" : "14185965688a9097455b9560f19862b6",
+  "time" : {
+    "start" : 1654260901870,
+    "stop" : 1654260916020,
+    "duration" : 14150
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"13.6.2022\"\n                Received: \"1.6.2022\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"13.6.2022\"\n                Received: \"1.6.2022\"\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\need_analysis\\7_schoolSearchPlanning.spec.ts:57:142\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\need_analysis\\7_schoolSearchPlanning.spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\need_analysis\\7_schoolSearchPlanning.spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\need_analysis\\7_schoolSearchPlanning.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "Need analysis school search planning test"
+  }, {
+    "name" : "testClass",
+    "value" : "Need analysis school search planning test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify school search planning section"
+  }, {
+    "name" : "package",
+    "value" : "Need analysis school search planning test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3861eceab5d57b5.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

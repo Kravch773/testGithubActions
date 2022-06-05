@@ -1,13 +1,12 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"550\"\n                Received string:    \"testLoc1\"",
       "children" : [ {
         "name" : "Verify TempAccommodation(Destination) section",
-        "uid" : "a7d56f71bfc0ed7",
+        "uid" : "d59e2be68b389071",
         "parentUid" : "5df3f54e97ecdfbdc349df3bdf664cf4",
         "status" : "failed",
         "time" : {
@@ -24,7 +23,7 @@
         "parameters" : [ "chrome-102.0.5005.63" ]
       }, {
         "name" : "Verify edit TempAccommodation(Destination) section",
-        "uid" : "3fe293e11747c129",
+        "uid" : "4496e01185db4d8d",
         "parentUid" : "5df3f54e97ecdfbdc349df3bdf664cf4",
         "status" : "failed",
         "time" : {
@@ -45,7 +44,7 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"PropertyTestSpec1_2\"\n                Received: \"PropertyTestSpec2_1\"",
       "children" : [ {
         "name" : "Verify HomeSearch(Property) section",
-        "uid" : "ff18dec9666717cb",
+        "uid" : "3552aab4827c63dd",
         "parentUid" : "4670c4035ab39118b71804ecb8d6c17c",
         "status" : "failed",
         "time" : {
@@ -66,13 +65,47 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"10.22.1992\"\n                Received: \"10.22.2092\"",
       "children" : [ {
         "name" : "Verify edit presonal details section",
-        "uid" : "8e30a21cff0c71c1",
+        "uid" : "3fceb1c0b58006ff",
         "parentUid" : "1efa44f39668b3a2df4d20e75c334fd5",
         "status" : "failed",
         "time" : {
-          "start" : 1654412000375,
-          "stop" : 1654412021613,
-          "duration" : 21238
+          "start" : 1654412320000,
+          "stop" : 1654412339977,
+          "duration" : 19977
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify edit partner details section",
+        "uid" : "b66f7d48220758ed",
+        "parentUid" : "1efa44f39668b3a2df4d20e75c334fd5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654412723732,
+          "stop" : 1654412743638,
+          "duration" : 19906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify edit children section",
+        "uid" : "ca1e3bb3ef2d3bb5",
+        "parentUid" : "1efa44f39668b3a2df4d20e75c334fd5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654412796259,
+          "stop" : 1654412808904,
+          "duration" : 12645
         },
         "flaky" : false,
         "newFailed" : false,
@@ -83,6 +116,44 @@
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
       "uid" : "1efa44f39668b3a2df4d20e75c334fd5"
+    }, {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"6.5.2022\"\n                Received string:    \"6.1.2022\"",
+      "children" : [ {
+        "name" : "Verify children section",
+        "uid" : "4bc467317a995d5b",
+        "parentUid" : "670ebc43e7dbad59e82110ce3be6f11b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654412404517,
+          "stop" : 1654412418474,
+          "duration" : 13957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify edit child section",
+        "uid" : "81d13ece0ca4e536",
+        "parentUid" : "670ebc43e7dbad59e82110ce3be6f11b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654412418474,
+          "stop" : 1654412422856,
+          "duration" : 4382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "670ebc43e7dbad59e82110ce3be6f11b"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   }, {
@@ -91,7 +162,7 @@
       "name" : "element (\"//simple-tab/div[not(@hidden)]//strong[contains(text(),\"date of home\")]/../field-spec-value/span\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "Verify Home sale assistance section",
-        "uid" : "1536191dd327c892",
+        "uid" : "5c1de635e7911277",
         "parentUid" : "4d84c1ec9ca557f98281cbc5c77fff3f",
         "status" : "broken",
         "time" : {
@@ -108,7 +179,7 @@
         "parameters" : [ "chrome-102.0.5005.63" ]
       }, {
         "name" : "Verify edit Home sale assistance section",
-        "uid" : "474cb6dc35ad6a53",
+        "uid" : "d53c479af7d28317",
         "parentUid" : "4d84c1ec9ca557f98281cbc5c77fff3f",
         "status" : "broken",
         "time" : {
@@ -129,7 +200,7 @@
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Assignee gender input",
-        "uid" : "114621da14958978",
+        "uid" : "215c0741fae176d9",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -144,9 +215,27 @@
         "retriesCount" : 1,
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-102.0.5005.63" ]
+      }, {
+        "name" : "Verify edit child section",
+        "uid" : "9f4c0953b895becf",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654412938117,
+          "stop" : 1654412958538,
+          "duration" : 20421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
       "uid" : "7a32765981bcc7398deb824e5d577aab"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

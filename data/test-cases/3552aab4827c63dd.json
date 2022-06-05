@@ -1,0 +1,77 @@
+{
+  "uid" : "3552aab4827c63dd",
+  "name" : "Verify HomeSearch(Property) section",
+  "fullName" : "Need analysis HomeSearch(Property) tab test.Verify HomeSearch(Property) section",
+  "historyId" : "b01c62640a95a4f619513f2ec4567ef5",
+  "time" : {
+    "start" : 1654330630528,
+    "stop" : 1654330643715,
+    "duration" : 13187
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"PropertyTestSpec1_2\"\n                Received: \"PropertyTestSpec2_1\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"PropertyTestSpec1_2\"\n                Received: \"PropertyTestSpec2_1\"\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\need_analysis\\13_homeSearch(Property).spec.ts:70:73\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\need_analysis\\13_homeSearch(Property).spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\need_analysis\\13_homeSearch(Property).spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\need_analysis\\13_homeSearch(Property).spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Need analysis HomeSearch(Property) tab test"
+  }, {
+    "name" : "testClass",
+    "value" : "Need analysis HomeSearch(Property) tab test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify HomeSearch(Property) section"
+  }, {
+    "name" : "package",
+    "value" : "Need analysis HomeSearch(Property) tab test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2fb77044558c76c7",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"PropertyTestSpec1_2\"\n                Received: \"PropertyTestSpec2_1\"",
+      "time" : {
+        "start" : 1654260400177,
+        "stop" : 1654260414933,
+        "duration" : 14756
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3552aab4827c63dd.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

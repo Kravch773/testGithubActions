@@ -1,0 +1,77 @@
+{
+  "uid" : "5c1de635e7911277",
+  "name" : "Verify Home sale assistance section",
+  "fullName" : "Need analysis Home sale assistance test.Verify Home sale assistance section",
+  "historyId" : "30cf7a187cae226da58d5a5cea3bd1ec",
+  "time" : {
+    "start" : 1654330732895,
+    "stop" : 1654330757328,
+    "duration" : 24433
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//simple-tab/div[not(@hidden)]//strong[contains(text(),\"date of home\")]/../field-spec-value/span\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"//simple-tab/div[not(@hidden)]//strong[contains(text(),\"date of home\")]/../field-spec-value/span\") still not displayed after 10000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "Need analysis Home sale assistance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Need analysis Home sale assistance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Home sale assistance section"
+  }, {
+    "name" : "package",
+    "value" : "Need analysis Home sale assistance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ea6d986e0447b4e",
+      "status" : "broken",
+      "statusDetails" : "element (\"//simple-tab/div[not(@hidden)]//strong[contains(text(),\"date of home\")]/../field-spec-value/span\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1654260503762,
+        "stop" : 1654260528352,
+        "duration" : 24590
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5c1de635e7911277.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}
