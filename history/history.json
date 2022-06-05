@@ -1,20 +1,21 @@
 {
   "a2bcdec3be04aaf8905a4e4e951a82c5" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c9e5607ddb200d29",
-      "status" : "passed",
+      "uid" : "1dd213934dd12c24",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"12.11.2000\"\n                Received: \"12.11.00\"",
       "time" : {
-        "start" : 1654414254445,
-        "stop" : 1654414269701,
-        "duration" : 15256
+        "start" : 1654415872521,
+        "stop" : 1654415889233,
+        "duration" : 16712
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "16fc8c7e03394042",
+      "uid" : "6740e39fa7ea16ee",
       "status" : "passed",
       "time" : {
-        "start" : 1654414241361,
-        "stop" : 1654414254445,
-        "duration" : 13084
+        "start" : 1654415857546,
+        "stop" : 1654415872521,
+        "duration" : 14975
       }
     } ]
   },
@@ -47,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "576f83c81f369d95",
+      "uid" : "5e5a25977dae1eb7",
       "status" : "passed",
       "time" : {
         "start" : 1654413609700,
@@ -66,7 +67,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a337406abee84c01",
+      "uid" : "301331efc39b20a4",
       "status" : "passed",
       "time" : {
         "start" : 1654413594015,
@@ -85,7 +86,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5c80281c46df81fe",
+      "uid" : "3a3b09f495d19504",
       "status" : "passed",
       "time" : {
         "start" : 1654413576959,
@@ -104,13 +105,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cc2e8a01b65cfb87",
+      "uid" : "a567cb86acd42097",
       "status" : "failed",
-      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"10.22.1992\"\n                Received: \"10.22.2092\"",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"12.11.2000\"\n                Received: \"12.11.00\"",
       "time" : {
-        "start" : 1654414269701,
-        "stop" : 1654414288866,
-        "duration" : 19165
+        "start" : 1654415889242,
+        "stop" : 1654415896764,
+        "duration" : 7522
       }
     } ]
   }
