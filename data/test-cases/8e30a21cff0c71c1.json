@@ -1,0 +1,68 @@
+{
+  "uid" : "8e30a21cff0c71c1",
+  "name" : "Verify edit presonal details section",
+  "fullName" : "Need analysis personal details tab test.Verify edit presonal details section",
+  "historyId" : "f79f8df4dee75dbd3d030ca680597bd4",
+  "time" : {
+    "start" : 1654412000375,
+    "stop" : 1654412021613,
+    "duration" : 21238
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"10.22.1992\"\n                Received: \"10.22.2092\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"10.22.1992\"\n                Received: \"10.22.2092\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/needAnalysis/1_personal_details.spec.ts:126:134\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/needAnalysis/1_personal_details.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/needAnalysis/1_personal_details.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/needAnalysis/1_personal_details.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Need analysis personal details tab test"
+  }, {
+    "name" : "testClass",
+    "value" : "Need analysis personal details tab test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit presonal details section"
+  }, {
+    "name" : "package",
+    "value" : "Need analysis personal details tab test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8e30a21cff0c71c1.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

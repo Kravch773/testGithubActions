@@ -1,0 +1,88 @@
+{
+  "uid" : "126b28afe37f924e",
+  "name" : "Verify service Recurring Purchase Orders",
+  "fullName" : "Temp Accommodation(Origin) Service, test.Verify service Recurring Purchase Orders",
+  "historyId" : "e54b6569763c568bef288bdb8b2b353f",
+  "time" : {
+    "start" : 1654246633959,
+    "stop" : 1654246657487,
+    "duration" : 23528
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Recurring Purchase Orders"
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5290ef64344a8735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654246358904,
+        "stop" : 1654246383468,
+        "duration" : 24564
+      }
+    }, {
+      "uid" : "84ff3186b28d85ef",
+      "status" : "broken",
+      "statusDetails" : "currentDate is not defined",
+      "time" : {
+        "start" : 1654245222198,
+        "stop" : 1654245238852,
+        "duration" : 16654
+      }
+    }, {
+      "uid" : "9ee3e086416c7099",
+      "status" : "broken",
+      "statusDetails" : "currentDate is not defined",
+      "time" : {
+        "start" : 1654244956942,
+        "stop" : 1654244973715,
+        "duration" : 16773
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "126b28afe37f924e.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}
