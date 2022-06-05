@@ -438,30 +438,23 @@ class commonElements {
         else { return date; }
     }
     public async createStandartDateForm(date, isGithubTest = passSignIn.isGithubTest): Promise<string> {
-        if (isGithubTest == true) {
-            var newDateArr = await date.split("/");
-            if (newDateArr[0] <= 9 && newDateArr[0].length == 2) { newDateArr[0] = newDateArr[0].substring(1) }
-            if (newDateArr[1] <= 9 && newDateArr[1].length == 2) { newDateArr[1] = newDateArr[1].substring(1) }
-            if (newDateArr[2].length == 2 && newDateArr[2] > 50) { newDateArr[2] = "20" + newDateArr[2] }
-            if (newDateArr[2].length > 5) {
-                let yearArr = newDateArr[2].split(",")
-                if (yearArr[0].length == 2 && yearArr[0] > 50) { newDateArr[2] = "20" + yearArr[0] }
-                else { newDateArr[2] = yearArr[0] }
-            }
-            var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
+        if (isGithubTest == true) { var newDateArr = await date.split("/"); }
+        if (isGithubTest == false) { var newDateArr = await date.split("."); }
+        if (newDateArr[0] <= 9 && newDateArr[0].length == 2) { newDateArr[0] = newDateArr[0].substring(1) }
+        if (newDateArr[1] <= 9 && newDateArr[1].length == 2) { newDateArr[1] = newDateArr[1].substring(1) }
+        if (newDateArr[2].length == 2) {
+            if (newDateArr[2] < 50) { newDateArr[2] = "20" + newDateArr[2] }
+            else { newDateArr[2] = "19" + newDateArr[2] }
         }
-        if (isGithubTest == false) {
-            var newDateArr = await date.split(".");
-            if (newDateArr[0] <= 9 && newDateArr[0].length == 2) { newDateArr[0] = newDateArr[0].substring(1) }
-            if (newDateArr[1] <= 9 && newDateArr[1].length == 2) { newDateArr[1] = newDateArr[1].substring(1) }
-            if (newDateArr[2].length == 2 && newDateArr[2] > 50) { newDateArr[2] = "20" + newDateArr[2] }
-            if (newDateArr[2].length > 5) {
-                var yearArr = newDateArr[2].split(",")
-                if (yearArr[0].length == 2 && yearArr[0] > 50) { newDateArr[2] = "20" + yearArr[0] }
-                else { newDateArr[2] = yearArr[0] }
+        if (newDateArr[2].length > 5) {
+            let yearArr = newDateArr[2].split(",")
+            if (yearArr[0].length == 2) {
+                if (yearArr[0] < 50) { newDateArr[2] = "20" + yearArr[0] }
+                else { newDateArr[2] = "19" + yearArr[0] }
             }
-            var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
+            else { newDateArr[2] = yearArr[0] }
         }
+        var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
         return newDate;
     }
 
