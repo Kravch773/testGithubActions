@@ -1,0 +1,68 @@
+{
+  "uid" : "a58c8a70f0b9a4b9",
+  "name" : "Verify edit child section",
+  "fullName" : "Need analysis Assignment details tab test.Verify edit child section",
+  "historyId" : "a583617cbe1c3c2c70b2e8e2a73e816a",
+  "time" : {
+    "start" : 1654421804788,
+    "stop" : 1654421816050,
+    "duration" : 11262
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.5.2022\"\n                Received: \"6.10.2022\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.5.2022\"\n                Received: \"6.10.2022\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/need_analysis/6_assignmentDetails.spec.ts:62:142\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/need_analysis/6_assignmentDetails.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/need_analysis/6_assignmentDetails.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/need_analysis/6_assignmentDetails.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "Need analysis Assignment details tab test"
+  }, {
+    "name" : "testClass",
+    "value" : "Need analysis Assignment details tab test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit child section"
+  }, {
+    "name" : "package",
+    "value" : "Need analysis Assignment details tab test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a58c8a70f0b9a4b9.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

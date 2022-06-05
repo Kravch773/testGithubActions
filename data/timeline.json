@@ -1,33 +1,16 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "0-8",
+    "name" : "0-1",
     "children" : [ {
-      "name" : "Verify Home sale assistance section",
-      "uid" : "fe62d07ded72c60e",
-      "parentUid" : "81b982ad9e44014ef58d70945daa9dd8",
-      "status" : "passed",
+      "name" : "Verify TempAccommodation(Destination) section",
+      "uid" : "f758a45f4fab9a2f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
       "time" : {
-        "start" : 1654420002884,
-        "stop" : 1654420018916,
-        "duration" : 16032
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify edit Home sale assistance section",
-      "uid" : "fc089a13f3b64ce5",
-      "parentUid" : "81b982ad9e44014ef58d70945daa9dd8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420018917,
-        "stop" : 1654420041763,
-        "duration" : 22846
+        "start" : 1654421195080,
+        "stop" : 1654421216255,
+        "duration" : 21175
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +21,504 @@
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
       "name" : "Go to need analysis tab and check label",
-      "uid" : "b3fb32a0ce8b468a",
+      "uid" : "7048e9b242f74e49",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421182133,
+        "stop" : 1654421195080,
+        "duration" : 12947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit TempAccommodation(Destination) section",
+      "uid" : "818af742b1c879b6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1654421216255,
+        "stop" : 1654421231257,
+        "duration" : 15002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-13",
+    "children" : [ {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "4311a3a3942078bd",
+      "parentUid" : "3d700e6329f57664ec73623f4f9693da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421636730,
+        "stop" : 1654421649360,
+        "duration" : 12630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify remove children",
+      "uid" : "f3cf8e64eea00b47",
+      "parentUid" : "3d700e6329f57664ec73623f4f9693da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421674762,
+        "stop" : 1654421682496,
+        "duration" : 7734
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify children section",
+      "uid" : "b9a227b1766be4ed",
+      "parentUid" : "3d700e6329f57664ec73623f4f9693da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421649360,
+        "stop" : 1654421661992,
+        "duration" : 12632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit children section",
+      "uid" : "12a47129641d0cf6",
+      "parentUid" : "3d700e6329f57664ec73623f4f9693da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421661993,
+        "stop" : 1654421674761,
+        "duration" : 12768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "3d700e6329f57664ec73623f4f9693da"
+  }, {
+    "name" : "0-5",
+    "children" : [ {
+      "name" : "Verify HomeSearch(Lease) section",
+      "uid" : "74be7ac2a095e966",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421366247,
+        "stop" : 1654421380318,
+        "duration" : 14071
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit HomeSearch(Lease) section",
+      "uid" : "220257729f2de05",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421380318,
+        "stop" : 1654421392774,
+        "duration" : 12456
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "32d0b4f93382294a",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421354107,
+        "stop" : 1654421366247,
+        "duration" : 12140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "6ea253441b78cd38797e932a74777a9c"
+  }, {
+    "name" : "0-15",
+    "children" : [ {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "3ac6461f3cdb51f1",
+      "parentUid" : "a99e6a4687f48debbea9a8cf86e03725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421727636,
+        "stop" : 1654421740637,
+        "duration" : 13001
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify remove pets",
+      "uid" : "59df7b156ce87c8",
+      "parentUid" : "a99e6a4687f48debbea9a8cf86e03725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421761996,
+        "stop" : 1654421769841,
+        "duration" : 7845
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit pets section",
+      "uid" : "c2ea0603b45b70e0",
+      "parentUid" : "a99e6a4687f48debbea9a8cf86e03725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421753128,
+        "stop" : 1654421761996,
+        "duration" : 8868
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify pets section",
+      "uid" : "bc626141594431cb",
+      "parentUid" : "a99e6a4687f48debbea9a8cf86e03725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421740637,
+        "stop" : 1654421753128,
+        "duration" : 12491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "a99e6a4687f48debbea9a8cf86e03725"
+  }, {
+    "name" : "0-16",
+    "children" : [ {
+      "name" : "Verify  Assignment details section",
+      "uid" : "62961558f579473",
+      "parentUid" : "9ea9d2b3bcba7d76a4db8e60423ca35b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1654421785845,
+        "stop" : 1654421804787,
+        "duration" : 18942
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "3ba6012d9301a217",
+      "parentUid" : "9ea9d2b3bcba7d76a4db8e60423ca35b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421771805,
+        "stop" : 1654421785844,
+        "duration" : 14039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit child section",
+      "uid" : "a58c8a70f0b9a4b9",
+      "parentUid" : "9ea9d2b3bcba7d76a4db8e60423ca35b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654421804788,
+        "stop" : 1654421816050,
+        "duration" : 11262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "9ea9d2b3bcba7d76a4db8e60423ca35b"
+  }, {
+    "name" : "0-17",
+    "children" : [ {
+      "name" : "Verify edit school search planning section",
+      "uid" : "e4dff9d3fa7ac123",
+      "parentUid" : "755412520b2351a00766109f74fd20c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421847908,
+        "stop" : 1654421864398,
+        "duration" : 16490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "c909d6d64f8e7f82",
+      "parentUid" : "755412520b2351a00766109f74fd20c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421818121,
+        "stop" : 1654421833016,
+        "duration" : 14895
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify school search planning section",
+      "uid" : "43b92df1f4481798",
+      "parentUid" : "755412520b2351a00766109f74fd20c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421833016,
+        "stop" : 1654421847907,
+        "duration" : 14891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "755412520b2351a00766109f74fd20c9"
+  }, {
+    "name" : "0-9",
+    "children" : [ {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "649de2d30d5988d5",
+      "parentUid" : "8b1de0b1b289dc8ec55a123ec93534fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421487232,
+        "stop" : 1654421500801,
+        "duration" : 13569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit Home purchase assistance section",
+      "uid" : "21c57e324f999002",
+      "parentUid" : "8b1de0b1b289dc8ec55a123ec93534fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421514676,
+        "stop" : 1654421524305,
+        "duration" : 9629
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify Home purchase assistance section",
+      "uid" : "32f772410c013fec",
+      "parentUid" : "8b1de0b1b289dc8ec55a123ec93534fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421500801,
+        "stop" : 1654421514676,
+        "duration" : 13875
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "8b1de0b1b289dc8ec55a123ec93534fc"
+  }, {
+    "name" : "0-12",
+    "children" : [ {
+      "name" : "Verify children section",
+      "uid" : "95cfe3f4f054e539",
+      "parentUid" : "3c0b453c84aea96f308f0a9e6f2874a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421622919,
+        "stop" : 1654421631433,
+        "duration" : 8514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit child section",
+      "uid" : "85cf0e9bc73b5cde",
+      "parentUid" : "3c0b453c84aea96f308f0a9e6f2874a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421631433,
+        "stop" : 1654421634862,
+        "duration" : 3429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "8fc5ce09e516451a",
+      "parentUid" : "3c0b453c84aea96f308f0a9e6f2874a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421610286,
+        "stop" : 1654421622918,
+        "duration" : 12632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "3c0b453c84aea96f308f0a9e6f2874a1"
+  }, {
+    "name" : "0-8",
+    "children" : [ {
+      "name" : "Verify Home sale assistance section",
+      "uid" : "d97892b5b51ad35a",
       "parentUid" : "81b982ad9e44014ef58d70945daa9dd8",
       "status" : "passed",
       "time" : {
-        "start" : 1654419989364,
-        "stop" : 1654420002884,
-        "duration" : 13520
+        "start" : 1654421446639,
+        "stop" : 1654421462935,
+        "duration" : 16296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit Home sale assistance section",
+      "uid" : "e030f4dec2df3f86",
+      "parentUid" : "81b982ad9e44014ef58d70945daa9dd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421462935,
+        "stop" : 1654421485353,
+        "duration" : 22418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "c304437ebf1b412a",
+      "parentUid" : "81b982ad9e44014ef58d70945daa9dd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421433772,
+        "stop" : 1654421446639,
+        "duration" : 12867
       },
       "flaky" : false,
       "newFailed" : false,
@@ -56,16 +530,198 @@
     } ],
     "uid" : "81b982ad9e44014ef58d70945daa9dd8"
   }, {
-    "name" : "0-0",
+    "name" : "0-14",
     "children" : [ {
       "name" : "Go to need analysis tab and check label",
-      "uid" : "5290e7729e8aadd2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "uid" : "96228cf51f3a0050",
+      "parentUid" : "72d6e018f56cce899129c6853c270d8d",
       "status" : "passed",
       "time" : {
-        "start" : 1654419716494,
-        "stop" : 1654419729753,
-        "duration" : 13259
+        "start" : 1654421684357,
+        "stop" : 1654421696810,
+        "duration" : 12453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit other person section",
+      "uid" : "248456516b255149",
+      "parentUid" : "72d6e018f56cce899129c6853c270d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421709000,
+        "stop" : 1654421717855,
+        "duration" : 8855
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify other person section",
+      "uid" : "5caf1aef66a215ca",
+      "parentUid" : "72d6e018f56cce899129c6853c270d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421696811,
+        "stop" : 1654421709000,
+        "duration" : 12189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify remove other person ",
+      "uid" : "5c6057655c58d618",
+      "parentUid" : "72d6e018f56cce899129c6853c270d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421717856,
+        "stop" : 1654421725756,
+        "duration" : 7900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "72d6e018f56cce899129c6853c270d8d"
+  }, {
+    "name" : "0-19",
+    "children" : [ {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "2c1d5ee226222983",
+      "parentUid" : "34d2eb42e7104e81c7b36005b833c005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421925638,
+        "stop" : 1654421938950,
+        "duration" : 13312
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit TempAccommodation(Origin) section",
+      "uid" : "17507f562c3e81ce",
+      "parentUid" : "34d2eb42e7104e81c7b36005b833c005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421954097,
+        "stop" : 1654421971308,
+        "duration" : 17211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify TempAccommodation(Origin) section",
+      "uid" : "5832f083103dfc88",
+      "parentUid" : "34d2eb42e7104e81c7b36005b833c005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421938950,
+        "stop" : 1654421954096,
+        "duration" : 15146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "34d2eb42e7104e81c7b36005b833c005"
+  }, {
+    "name" : "0-11",
+    "children" : [ {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "ce2920fbefdd68b6",
+      "parentUid" : "5628020176bea062b297e8cab1a084d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421562070,
+        "stop" : 1654421575300,
+        "duration" : 13230
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit partner details section",
+      "uid" : "68462e89b3e18528",
+      "parentUid" : "5628020176bea062b297e8cab1a084d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421589935,
+        "stop" : 1654421608427,
+        "duration" : 18492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify Personal details section",
+      "uid" : "51bebb69ef8f4ce2",
+      "parentUid" : "5628020176bea062b297e8cab1a084d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421575301,
+        "stop" : 1654421589935,
+        "duration" : 14634
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "5628020176bea062b297e8cab1a084d9"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Verify edit Orientation section",
+      "uid" : "284aa0b63f26c078",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654421260864,
+        "stop" : 1654421264981,
+        "duration" : 4117
       },
       "flaky" : false,
       "newFailed" : false,
@@ -76,13 +732,267 @@
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
       "name" : "Go to need analysis tab and check label",
-      "uid" : "4fe1056f50455fd4",
+      "uid" : "a43825f1bf11779",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421233345,
+        "stop" : 1654421246255,
+        "duration" : 12910
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify Orientation form",
+      "uid" : "d58c94cc20e91551",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1654421246255,
+        "stop" : 1654421260864,
+        "duration" : 14609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-10",
+    "children" : [ {
+      "name" : "Verify edit child section",
+      "uid" : "5fecf2e38390ab45",
+      "parentUid" : "3f2dd9e80d7805015ea425d74386154b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421550711,
+        "stop" : 1654421559982,
+        "duration" : 9271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "4468ec620c18879e",
+      "parentUid" : "3f2dd9e80d7805015ea425d74386154b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421526197,
+        "stop" : 1654421538405,
+        "duration" : 12208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify Settling in services section",
+      "uid" : "cbf8c1743a96a618",
+      "parentUid" : "3f2dd9e80d7805015ea425d74386154b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421538405,
+        "stop" : 1654421550711,
+        "duration" : 12306
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "3f2dd9e80d7805015ea425d74386154b"
+  }, {
+    "name" : "0-18",
+    "children" : [ {
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "eb958958e6b12cf",
+      "parentUid" : "9b6fce0703105effa30684446694b52a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421907523,
+        "stop" : 1654421916707,
+        "duration" : 9184
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "a125e33a8e472bb9",
+      "parentUid" : "9b6fce0703105effa30684446694b52a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421897406,
+        "stop" : 1654421907523,
+        "duration" : 10117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "85c31182fbd1d701",
+      "parentUid" : "9b6fce0703105effa30684446694b52a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421866330,
+        "stop" : 1654421882589,
+        "duration" : 16259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify children section",
+      "uid" : "b4a62b43aeb5b084",
+      "parentUid" : "9b6fce0703105effa30684446694b52a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421882589,
+        "stop" : 1654421897406,
+        "duration" : 14817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify remove btn",
+      "uid" : "ee95f8e09590863",
+      "parentUid" : "9b6fce0703105effa30684446694b52a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421916707,
+        "stop" : 1654421923710,
+        "duration" : 7003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "9b6fce0703105effa30684446694b52a"
+  }, {
+    "name" : "Verify edit Household goods shipment section",
+    "uid" : "bd1f9dec171bc7ad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1654421431869,
+      "stop" : 1654421431869,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "0-6",
+    "children" : [ {
+      "name" : "Verify edit Home search (Other info) section",
+      "uid" : "77254dd4f3a8accb",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421420172,
+        "stop" : 1654421429910,
+        "duration" : 9738
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify Home search (Other info) section",
+      "uid" : "a0950df063f50d23",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421407625,
+        "stop" : 1654421420171,
+        "duration" : 12546
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "fdb67258834de058",
+      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654421394714,
+        "stop" : 1654421407625,
+        "duration" : 12911
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Verify Personal details section",
+      "uid" : "9fb2c6dc150a4ef4",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1654413576959,
-        "stop" : 1654413594015,
-        "duration" : 17056
+        "start" : 1654413594015,
+        "stop" : 1654413609699,
+        "duration" : 15684
       },
       "flaky" : false,
       "newFailed" : false,
@@ -92,14 +1002,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.63" ]
     }, {
-      "name" : "Verify Personal details section",
-      "uid" : "f2b760abdaf0fce5",
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "2119bd088ef0a2ab",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1654419729753,
-        "stop" : 1654419745399,
-        "duration" : 15646
+        "start" : 1654421130180,
+        "stop" : 1654421145258,
+        "duration" : 15078
       },
       "flaky" : false,
       "newFailed" : false,
@@ -110,7 +1020,7 @@
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
       "name" : "Verify edit presonal details section",
-      "uid" : "f9a75b4cb06904d5",
+      "uid" : "633fe4aac90caa5d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -126,14 +1036,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.63" ]
     }, {
-      "name" : "Verify edit presonal details section",
-      "uid" : "ab6055eb39c10ff7",
+      "name" : "Verify Personal details section",
+      "uid" : "94b518a8c8c60150",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1654419745399,
-        "stop" : 1654419764520,
-        "duration" : 19121
+        "start" : 1654421145259,
+        "stop" : 1654421160991,
+        "duration" : 15732
       },
       "flaky" : false,
       "newFailed" : false,
@@ -143,14 +1053,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
-      "name" : "Verify Personal details section",
-      "uid" : "b2de14d8304ffdb2",
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "6a2724eb29833e8d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1654413594015,
-        "stop" : 1654413609699,
-        "duration" : 15684
+        "start" : 1654413576959,
+        "stop" : 1654413594015,
+        "duration" : 17056
       },
       "flaky" : false,
       "newFailed" : false,
@@ -159,19 +1069,15 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.63" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
-    "name" : "0-14",
-    "children" : [ {
-      "name" : "Verify edit other person section",
-      "uid" : "5de7c531f66bb610",
-      "parentUid" : "72d6e018f56cce899129c6853c270d8d",
+    }, {
+      "name" : "Verify edit presonal details section",
+      "uid" : "f8371f521dae3885",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1654420269895,
-        "stop" : 1654420279964,
-        "duration" : 10069
+        "start" : 1654421160992,
+        "stop" : 1654421180029,
+        "duration" : 19037
       },
       "flaky" : false,
       "newFailed" : false,
@@ -180,15 +1086,19 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify other person section",
-      "uid" : "6de9cc96004c72c2",
-      "parentUid" : "72d6e018f56cce899129c6853c270d8d",
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "Verify HomeSearch(Planning) section ",
+      "uid" : "fe941b1b8cf40ea1",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "passed",
       "time" : {
-        "start" : 1654420257508,
-        "stop" : 1654420269895,
-        "duration" : 12387
+        "start" : 1654421279720,
+        "stop" : 1654421294378,
+        "duration" : 14658
       },
       "flaky" : false,
       "newFailed" : false,
@@ -199,13 +1109,13 @@
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
       "name" : "Go to need analysis tab and check label",
-      "uid" : "9cbe6cd695e6d4cb",
-      "parentUid" : "72d6e018f56cce899129c6853c270d8d",
+      "uid" : "519d61ddbe0b4e3d",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "passed",
       "time" : {
-        "start" : 1654420244303,
-        "stop" : 1654420257508,
-        "duration" : 13205
+        "start" : 1654421267069,
+        "stop" : 1654421279720,
+        "duration" : 12651
       },
       "flaky" : false,
       "newFailed" : false,
@@ -215,14 +1125,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
-      "name" : "Verify remove other person ",
-      "uid" : "ed2f80407a5b7c76",
-      "parentUid" : "72d6e018f56cce899129c6853c270d8d",
+      "name" : "Verify edit HomeSearch(Planning) section",
+      "uid" : "272fb0e3312099ee",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "passed",
       "time" : {
-        "start" : 1654420279965,
-        "stop" : 1654420287886,
-        "duration" : 7921
+        "start" : 1654421294378,
+        "stop" : 1654421306471,
+        "duration" : 12093
       },
       "flaky" : false,
       "newFailed" : false,
@@ -232,269 +1142,15 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
     } ],
-    "uid" : "72d6e018f56cce899129c6853c270d8d"
+    "uid" : "b755a79e149728f67460aea38b0710e0"
   }, {
-    "name" : "0-10",
-    "children" : [ {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "e43e919d4b613fab",
-      "parentUid" : "3f2dd9e80d7805015ea425d74386154b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420080495,
-        "stop" : 1654420093764,
-        "duration" : 13269
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify edit child section",
-      "uid" : "dfe857b0816f60b2",
-      "parentUid" : "3f2dd9e80d7805015ea425d74386154b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420107120,
-        "stop" : 1654420116464,
-        "duration" : 9344
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Settling in services section",
-      "uid" : "dc71972ee0f8683",
-      "parentUid" : "3f2dd9e80d7805015ea425d74386154b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420093764,
-        "stop" : 1654420107120,
-        "duration" : 13356
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "3f2dd9e80d7805015ea425d74386154b"
-  }, {
-    "name" : "0-18",
-    "children" : [ {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "f8690ed95a1944d0",
-      "parentUid" : "9b6fce0703105effa30684446694b52a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420483831,
-        "stop" : 1654420493867,
-        "duration" : 10036
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify remove btn",
-      "uid" : "f97824b54e091747",
-      "parentUid" : "9b6fce0703105effa30684446694b52a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420493868,
-        "stop" : 1654420500438,
-        "duration" : 6570
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "499d04c34c7e82f7",
-      "parentUid" : "9b6fce0703105effa30684446694b52a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420446466,
-        "stop" : 1654420459805,
-        "duration" : 13339
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify children section",
-      "uid" : "ff217fa8052bb342",
-      "parentUid" : "9b6fce0703105effa30684446694b52a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420459805,
-        "stop" : 1654420474212,
-        "duration" : 14407
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "95b6189214480443",
-      "parentUid" : "9b6fce0703105effa30684446694b52a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420474213,
-        "stop" : 1654420483831,
-        "duration" : 9618
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "9b6fce0703105effa30684446694b52a"
-  }, {
-    "name" : "0-1",
-    "children" : [ {
-      "name" : "Verify edit TempAccommodation(Destination) section",
-      "uid" : "f1e2df0bee9790c9",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419796451,
-        "stop" : 1654419813726,
-        "duration" : 17275
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify TempAccommodation(Destination) section",
-      "uid" : "722cb5dbbe5795e",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419779692,
-        "stop" : 1654419796451,
-        "duration" : 16759
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "8308faeed910dbd2",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419766647,
-        "stop" : 1654419779692,
-        "duration" : 13045
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "27fa874cadc1574e37a07abb440963bd"
-  }, {
-    "name" : "0-19",
-    "children" : [ {
-      "name" : "Verify TempAccommodation(Origin) section",
-      "uid" : "616174deaa112f21",
-      "parentUid" : "34d2eb42e7104e81c7b36005b833c005",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420515892,
-        "stop" : 1654420530765,
-        "duration" : 14873
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "515933b6c6371b18",
-      "parentUid" : "34d2eb42e7104e81c7b36005b833c005",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420502564,
-        "stop" : 1654420515892,
-        "duration" : 13328
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify edit TempAccommodation(Origin) section",
-      "uid" : "6206bb7663709f16",
-      "parentUid" : "34d2eb42e7104e81c7b36005b833c005",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420530765,
-        "stop" : 1654420548282,
-        "duration" : 17517
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "34d2eb42e7104e81c7b36005b833c005"
-  }, {
-    "name" : "Go to need analysis tab and check label",
-    "uid" : "34e6073e5274a8a",
+    "name" : "Verify Household goods shipment section",
+    "uid" : "88caddba259e3c5d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1654419987400,
-      "stop" : 1654419987400,
+      "start" : 1654421431869,
+      "stop" : 1654421431869,
       "duration" : 0
     },
     "flaky" : false,
@@ -507,14 +1163,14 @@
   }, {
     "name" : "0-4",
     "children" : [ {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "7ec2d98d3ef8ce78",
+      "name" : "Verify HomeSearch(Property) section",
+      "uid" : "dfc56e382e12b5eb",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "passed",
       "time" : {
-        "start" : 1654419890902,
-        "stop" : 1654419904118,
-        "duration" : 13216
+        "start" : 1654421322235,
+        "stop" : 1654421335080,
+        "duration" : 12845
       },
       "flaky" : false,
       "newFailed" : false,
@@ -524,14 +1180,31 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
-      "name" : "Verify HomeSearch(Property) section",
-      "uid" : "aa4b9c22bb61db36",
+      "name" : "Go to need analysis tab and check label",
+      "uid" : "4651bfd4e26a9146",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "passed",
       "time" : {
-        "start" : 1654419904118,
-        "stop" : 1654419918165,
-        "duration" : 14047
+        "start" : 1654421308559,
+        "stop" : 1654421322235,
+        "duration" : 13676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit HomeSearch(Property) section",
+      "uid" : "10597f1bb5bd128d",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1654421335080,
+        "stop" : 1654421352248,
+        "duration" : 17168
       },
       "flaky" : false,
       "newFailed" : false,
@@ -543,686 +1216,13 @@
     } ],
     "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
   }, {
-    "name" : "0-6",
-    "children" : [ {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "500a1ac678526823",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419948860,
-        "stop" : 1654419961427,
-        "duration" : 12567
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Home search (Other info) section",
-      "uid" : "242c9ff167a36ecb",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419961427,
-        "stop" : 1654419975251,
-        "duration" : 13824
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify edit Home search (Other info) section",
-      "uid" : "1c1a1438a5d7ce80",
-      "parentUid" : "6d5170ae525a2fb0dfa4066ed7bef924",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419975251,
-        "stop" : 1654419985420,
-        "duration" : 10169
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "6d5170ae525a2fb0dfa4066ed7bef924"
-  }, {
-    "name" : "0-17",
-    "children" : [ {
-      "name" : "Verify school search planning section",
-      "uid" : "de55f3c69f80640",
-      "parentUid" : "755412520b2351a00766109f74fd20c9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420411760,
-        "stop" : 1654420427058,
-        "duration" : 15298
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "5c31511820b91e26",
-      "parentUid" : "755412520b2351a00766109f74fd20c9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420397974,
-        "stop" : 1654420411759,
-        "duration" : 13785
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify edit school search planning section",
-      "uid" : "9c216f73a2d03b00",
-      "parentUid" : "755412520b2351a00766109f74fd20c9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420427058,
-        "stop" : 1654420444353,
-        "duration" : 17295
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "755412520b2351a00766109f74fd20c9"
-  }, {
-    "name" : "Verify Household goods shipment section",
-    "uid" : "ebc579d9350d49b5",
+    "name" : "Go to need analysis tab and check label",
+    "uid" : "b2090399a7cea8b1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1654419987400,
-      "stop" : 1654419987400,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "0-5",
-    "children" : [ {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "e626d867ced6d47f",
-      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419920064,
-        "stop" : 1654419932331,
-        "duration" : 12267
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify HomeSearch(Lease) section",
-      "uid" : "5ecd87b005e18b7b",
-      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419932331,
-        "stop" : 1654419946970,
-        "duration" : 14639
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "6ea253441b78cd38797e932a74777a9c"
-  }, {
-    "name" : "0-12",
-    "children" : [ {
-      "name" : "Verify edit child section",
-      "uid" : "85b2bd706286d55e",
-      "parentUid" : "3c0b453c84aea96f308f0a9e6f2874a1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420189907,
-        "stop" : 1654420193386,
-        "duration" : 3479
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "47a527efaf6241fe",
-      "parentUid" : "3c0b453c84aea96f308f0a9e6f2874a1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420168108,
-        "stop" : 1654420181355,
-        "duration" : 13247
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify children section",
-      "uid" : "8144d4a31efd73db",
-      "parentUid" : "3c0b453c84aea96f308f0a9e6f2874a1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420181355,
-        "stop" : 1654420189907,
-        "duration" : 8552
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "3c0b453c84aea96f308f0a9e6f2874a1"
-  }, {
-    "name" : "0-9",
-    "children" : [ {
-      "name" : "Verify edit Home purchase assistance section",
-      "uid" : "14e6f60cb657448f",
-      "parentUid" : "8b1de0b1b289dc8ec55a123ec93534fc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420069261,
-        "stop" : 1654420078601,
-        "duration" : 9340
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "b2dbd7ce193f9d6a",
-      "parentUid" : "8b1de0b1b289dc8ec55a123ec93534fc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420043678,
-        "stop" : 1654420056489,
-        "duration" : 12811
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Home purchase assistance section",
-      "uid" : "c79e530ac931ba0d",
-      "parentUid" : "8b1de0b1b289dc8ec55a123ec93534fc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420056489,
-        "stop" : 1654420069261,
-        "duration" : 12772
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "8b1de0b1b289dc8ec55a123ec93534fc"
-  }, {
-    "name" : "Verify edit HomeSearch(Lease) section",
-    "uid" : "b8f170e17df563cc",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1654419946975,
-      "stop" : 1654419946975,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "0-15",
-    "children" : [ {
-      "name" : "Verify edit pets section",
-      "uid" : "784eb6ec64f53f31",
-      "parentUid" : "a99e6a4687f48debbea9a8cf86e03725",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420315896,
-        "stop" : 1654420325724,
-        "duration" : 9828
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify remove pets",
-      "uid" : "539065e893ba42e8",
-      "parentUid" : "a99e6a4687f48debbea9a8cf86e03725",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420325724,
-        "stop" : 1654420333602,
-        "duration" : 7878
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify pets section",
-      "uid" : "eaa8aa989f6395e9",
-      "parentUid" : "a99e6a4687f48debbea9a8cf86e03725",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420303589,
-        "stop" : 1654420315895,
-        "duration" : 12306
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "404886ba70578f29",
-      "parentUid" : "a99e6a4687f48debbea9a8cf86e03725",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420289970,
-        "stop" : 1654420303589,
-        "duration" : 13619
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "a99e6a4687f48debbea9a8cf86e03725"
-  }, {
-    "name" : "0-3",
-    "children" : [ {
-      "name" : "Verify edit HomeSearch(Planning) section",
-      "uid" : "c698842b52b213ae",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419874967,
-        "stop" : 1654419888890,
-        "duration" : 13923
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "e9315e05ff52ae37",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419848675,
-        "stop" : 1654419861759,
-        "duration" : 13084
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify HomeSearch(Planning) section ",
-      "uid" : "f4eb5424a1d340f6",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419861759,
-        "stop" : 1654419874967,
-        "duration" : 13208
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "b755a79e149728f67460aea38b0710e0"
-  }, {
-    "name" : "0-16",
-    "children" : [ {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "9e24c0d44f991106",
-      "parentUid" : "9ea9d2b3bcba7d76a4db8e60423ca35b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420335612,
-        "stop" : 1654420349109,
-        "duration" : 13497
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify edit child section",
-      "uid" : "afaaf82001fa23a",
-      "parentUid" : "9ea9d2b3bcba7d76a4db8e60423ca35b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420366157,
-        "stop" : 1654420395991,
-        "duration" : 29834
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify  Assignment details section",
-      "uid" : "ca1c91c1cb5b1ab4",
-      "parentUid" : "9ea9d2b3bcba7d76a4db8e60423ca35b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420349109,
-        "stop" : 1654420366156,
-        "duration" : 17047
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "9ea9d2b3bcba7d76a4db8e60423ca35b"
-  }, {
-    "name" : "0-11",
-    "children" : [ {
-      "name" : "Verify edit partner details section",
-      "uid" : "7856e967632ea3ca",
-      "parentUid" : "5628020176bea062b297e8cab1a084d9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420146792,
-        "stop" : 1654420166203,
-        "duration" : 19411
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Personal details section",
-      "uid" : "7bb135f7dd73a06d",
-      "parentUid" : "5628020176bea062b297e8cab1a084d9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420131507,
-        "stop" : 1654420146792,
-        "duration" : 15285
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "6bbfc97e2ca82ff",
-      "parentUid" : "5628020176bea062b297e8cab1a084d9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420118411,
-        "stop" : 1654420131507,
-        "duration" : 13096
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "5628020176bea062b297e8cab1a084d9"
-  }, {
-    "name" : "0-13",
-    "children" : [ {
-      "name" : "Verify remove children",
-      "uid" : "efb90a3679c46ffe",
-      "parentUid" : "3d700e6329f57664ec73623f4f9693da",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420234426,
-        "stop" : 1654420242266,
-        "duration" : 7840
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify edit children section",
-      "uid" : "6cbc0cd555cbe4d0",
-      "parentUid" : "3d700e6329f57664ec73623f4f9693da",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420221437,
-        "stop" : 1654420234425,
-        "duration" : 12988
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "1df339c7f653069",
-      "parentUid" : "3d700e6329f57664ec73623f4f9693da",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420195356,
-        "stop" : 1654420208392,
-        "duration" : 13036
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify children section",
-      "uid" : "8cffc363f3ba4504",
-      "parentUid" : "3d700e6329f57664ec73623f4f9693da",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654420208392,
-        "stop" : 1654420221436,
-        "duration" : 13044
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "3d700e6329f57664ec73623f4f9693da"
-  }, {
-    "name" : "0-2",
-    "children" : [ {
-      "name" : "Verify children section",
-      "uid" : "2314e4ae6c765ff",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "failed",
-      "time" : {
-        "start" : 1654419829049,
-        "stop" : 1654419842590,
-        "duration" : 13541
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify edit child section",
-      "uid" : "61986bb984ca0e78",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "failed",
-      "time" : {
-        "start" : 1654419842608,
-        "stop" : 1654419846726,
-        "duration" : 4118
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Go to need analysis tab and check label",
-      "uid" : "13b004e15ee386e0",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654419815655,
-        "stop" : 1654419829049,
-        "duration" : 13394
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "880a094af3dffab161e2023284569d6f"
-  }, {
-    "name" : "Verify edit HomeSearch(Property) section",
-    "uid" : "22717db3d2fbba79",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1654419918165,
-      "stop" : 1654419918165,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Verify edit Household goods shipment section",
-    "uid" : "4feff6d255bac614",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1654419987400,
-      "stop" : 1654419987400,
+      "start" : 1654421431869,
+      "stop" : 1654421431869,
       "duration" : 0
     },
     "flaky" : false,

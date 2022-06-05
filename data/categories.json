@@ -1,18 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"6.5.2022\"\n                Received string:    \"6.1.2022\"",
+      "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
-        "name" : "Verify children section",
-        "uid" : "2314e4ae6c765ff",
-        "parentUid" : "670ebc43e7dbad59e82110ce3be6f11b",
-        "status" : "failed",
+        "name" : "Verify TempAccommodation(Destination) section",
+        "uid" : "f758a45f4fab9a2f",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
         "time" : {
-          "start" : 1654419829049,
-          "stop" : 1654419842590,
-          "duration" : 13541
+          "start" : 1654421195080,
+          "stop" : 1654421216255,
+          "duration" : 21175
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,14 +22,48 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       }, {
-        "name" : "Verify edit child section",
-        "uid" : "61986bb984ca0e78",
-        "parentUid" : "670ebc43e7dbad59e82110ce3be6f11b",
-        "status" : "failed",
+        "name" : "Verify edit TempAccommodation(Destination) section",
+        "uid" : "818af742b1c879b6",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
         "time" : {
-          "start" : 1654419842608,
-          "stop" : 1654419846726,
-          "duration" : 4118
+          "start" : 1654421216255,
+          "stop" : 1654421231257,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify edit HomeSearch(Property) section",
+        "uid" : "10597f1bb5bd128d",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654421335080,
+          "stop" : 1654421352248,
+          "duration" : 17168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify  Assignment details section",
+        "uid" : "62961558f579473",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654421785845,
+          "stop" : 1654421804787,
+          "duration" : 18942
         },
         "flaky" : false,
         "newFailed" : false,
@@ -39,7 +73,70 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "670ebc43e7dbad59e82110ce3be6f11b"
+      "uid" : "7a32765981bcc7398deb824e5d577aab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"TestStreet_1\n                London\n                testState_1\n                045453\"\n                Received string:    \"T\n                e\n                s\n                t\n                London\n                testState_1\n                045453\"",
+      "children" : [ {
+        "name" : "Verify Orientation form",
+        "uid" : "d58c94cc20e91551",
+        "parentUid" : "70ced81db157bfd69a269d7943f5d660",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654421246255,
+          "stop" : 1654421260864,
+          "duration" : 14609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify edit Orientation section",
+        "uid" : "284aa0b63f26c078",
+        "parentUid" : "70ced81db157bfd69a269d7943f5d660",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654421260864,
+          "stop" : 1654421264981,
+          "duration" : 4117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "70ced81db157bfd69a269d7943f5d660"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.5.2022\"\n                Received: \"6.10.2022\"",
+      "children" : [ {
+        "name" : "Verify edit child section",
+        "uid" : "a58c8a70f0b9a4b9",
+        "parentUid" : "60222f51871cab8cafef3a38425062d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654421804788,
+          "stop" : 1654421816050,
+          "duration" : 11262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "60222f51871cab8cafef3a38425062d7"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
