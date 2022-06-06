@@ -7,12 +7,12 @@ import clientsPage from '../../../pageobjects/clients/clients.page';
 const qaClientId = "330"
 const assignmentId = "K2-31970"
 const taskName = "TestTask"
-const triggerDate = "12.11.2022"
+const triggerDate = commonElements.getCurrentDateNo0Format()
 const serviceName = "Departure services"
 const popUpState = true
 const assignTo = "Ivan QA"
 const taskName_2 = "TestTask_2"
-const triggerDate_2 = "21.12.2022"
+const triggerDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(3)
 const serviceName_2 = "Cultural training"
 const popUpState_2 = false
 const assignTo_2 = "test t"
@@ -49,16 +49,16 @@ describe('Options_Tasks tab test', () => {
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(taskAddedMsg)).toBe(true);
         expect(await assignmentOptionPage.isTaskExisting(taskName)).toBe(true);
-        expect(await assignmentOptionPage.getTaskTimeByTextByName(taskName)).toBe(triggerDate);
+        expect(await commonElements.createStandartDateForm(await assignmentOptionPage.getTaskTimeByTextByName(taskName))).toBe(triggerDate);
         expect(await assignmentOptionPage.getTaskServiceTextByName(taskName)).toBe(serviceName);
         await assignmentOptionPage.clickEditTaskBtnByName(taskName);
-        await assignmentOptionPage.setTask(taskName_2, triggerDate_2, serviceName_2, popUpState_2, assignTo);
+        await assignmentOptionPage.setTask(taskName_2, triggerDate_2, serviceName_2, popUpState_2, assignTo_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(taskUpdMsg)).toBe(true);
-        expect(await assignmentOptionPage.getTaskTimeByTextByName(taskName_2)).toBe(triggerDate_2);
+        expect(await commonElements.createStandartDateForm(await assignmentOptionPage.getTaskTimeByTextByName(taskName_2))).toBe(triggerDate_2);
         expect(await assignmentOptionPage.getTaskServiceTextByName(taskName_2)).toBe(serviceName_2);
         expect(await assignmentOptionPage.isTaskExisting(taskName_2)).toBe(true);
-        await assignmentOptionPage.reassignTaskByName(taskName_2, assignTo);
+        await assignmentOptionPage.reassignTaskByName(taskName_2, assignTo_2);
         expect(await commonElements.isPopupMsgDisplayed(taskReassingMsg)).toBe(true);
     });
     it('Verify remove task', async () => {

@@ -3,7 +3,6 @@ import passSignIn from '../../../helper/passSignIn';
 import assignmentOptionPage from '../../../pageobjects/assignment/assignmentOption.page';
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
-import Page from '../../../pageobjects/Page';
 
 const qaClientId = "330"
 const assignmentId = "K2-31970"
