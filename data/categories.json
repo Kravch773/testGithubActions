@@ -1,5 +1,153 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot read properties of undefined (reading 'length')",
+      "children" : [ {
+        "name" : "Assignee dateOfBirth input",
+        "uid" : "e406e35b951384b2",
+        "parentUid" : "d38220afb1fd59bb8ee84c0ea2e377fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654507339588,
+          "stop" : 1654507347007,
+          "duration" : 7419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify add Partner form ",
+        "uid" : "3d25866dc905a531",
+        "parentUid" : "d38220afb1fd59bb8ee84c0ea2e377fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654507464363,
+          "stop" : 1654507477890,
+          "duration" : 13527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify Edit Partner form ",
+        "uid" : "a40ee44ca81b1de7",
+        "parentUid" : "d38220afb1fd59bb8ee84c0ea2e377fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654507477890,
+          "stop" : 1654507489209,
+          "duration" : 11319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify Other person Edit",
+        "uid" : "7367e746adf9e4ec",
+        "parentUid" : "d38220afb1fd59bb8ee84c0ea2e377fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654507504219,
+          "stop" : 1654507515653,
+          "duration" : 11434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify child person Edit",
+        "uid" : "ce747eab33f283c2",
+        "parentUid" : "d38220afb1fd59bb8ee84c0ea2e377fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654507530657,
+          "stop" : 1654507541055,
+          "duration" : 10398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify add document form",
+        "uid" : "bdd7d65e90369ef8",
+        "parentUid" : "d38220afb1fd59bb8ee84c0ea2e377fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654507602962,
+          "stop" : 1654507613738,
+          "duration" : 10776
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "d38220afb1fd59bb8ee84c0ea2e377fd"
+    }, {
+      "name" : "waitUntil condition timed out after 15000ms",
+      "children" : [ {
+        "name" : "Verify Other person form ",
+        "uid" : "6e7e1cdb49990634",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654507489209,
+          "stop" : 1654507504212,
+          "duration" : 15003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify Child person form ",
+        "uid" : "9f99e2ba8e8e9931",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654507515654,
+          "stop" : 1654507530657,
+          "duration" : 15003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "7a32765981bcc7398deb824e5d577aab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
