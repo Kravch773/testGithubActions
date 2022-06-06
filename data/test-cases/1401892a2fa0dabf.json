@@ -1,0 +1,68 @@
+{
+  "uid" : "1401892a2fa0dabf",
+  "name" : "open Options initiation fields and check label",
+  "fullName" : "Options_Initiation_Fields test.open Options initiation fields and check label",
+  "historyId" : "36572e58a33f8963b04bff091a0fe7dc",
+  "time" : {
+    "start" : 1654510563789,
+    "stop" : 1654510590543,
+    "duration" : 26754
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Options_Initiation_Fields test"
+  }, {
+    "name" : "testClass",
+    "value" : "Options_Initiation_Fields test"
+  }, {
+    "name" : "testMethod",
+    "value" : "open Options initiation fields and check label"
+  }, {
+    "name" : "package",
+    "value" : "Options_Initiation_Fields test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1401892a2fa0dabf.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

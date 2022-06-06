@@ -1,0 +1,68 @@
+{
+  "uid" : "53697d92b47fb8f",
+  "name" : "Verify Edit assignment_2",
+  "fullName" : "Options_Edit_Assignment tab test.Verify Edit assignment_2",
+  "historyId" : "878827728f8df0d2cdc9fe775dd8f05b",
+  "time" : {
+    "start" : 1654510523526,
+    "stop" : 1654510541163,
+    "duration" : 17637
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.9.2022\"\n                Received: \"6/9/2022\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.9.2022\"\n                Received: \"6/9/2022\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/options/1.Options_Edit_Assignment.spec.ts:121:58\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/options/1.Options_Edit_Assignment.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/options/1.Options_Edit_Assignment.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/options/1.Options_Edit_Assignment.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Options_Edit_Assignment tab test"
+  }, {
+    "name" : "testClass",
+    "value" : "Options_Edit_Assignment tab test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Edit assignment_2"
+  }, {
+    "name" : "package",
+    "value" : "Options_Edit_Assignment tab test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "53697d92b47fb8f.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}
