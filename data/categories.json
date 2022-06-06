@@ -5,48 +5,14 @@
     "children" : [ {
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
-        "name" : "Verify TempAccommodation(Destination) section",
-        "uid" : "dac40cf92a0d0934",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654499831254,
-          "stop" : 1654499851957,
-          "duration" : 20703
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify edit TempAccommodation(Destination) section",
-        "uid" : "618c52e5dceb17ad",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654499851959,
-          "stop" : 1654499866961,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
         "name" : "Verify edit Assignment details section",
-        "uid" : "db134602440e06af",
+        "uid" : "c1fe66e4d2f979d",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654500499661,
-          "stop" : 1654500531864,
-          "duration" : 32203
+          "start" : 1654502643370,
+          "stop" : 1654502663069,
+          "duration" : 19699
         },
         "flaky" : false,
         "newFailed" : false,
@@ -59,31 +25,6 @@
       "uid" : "7a32765981bcc7398deb824e5d577aab"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"TestStreet_11\n                TestStreet_22\n                TestStreet_23\n                TestStreet_24\n                London\n                testState_2\n                222353\"\n                Received string:    \"TestStreet_21\n                TestStreet_22\n                TestStreet_23\n                TestStreet_24\n                London\n                testState_2\n                222353\"",
-      "children" : [ {
-        "name" : "Verify edit Orientation section",
-        "uid" : "a707d3d787d3d903",
-        "parentUid" : "668595f4bd1c63e36bf7efe2000db409",
-        "status" : "failed",
-        "time" : {
-          "start" : 1654499899007,
-          "stop" : 1654499915736,
-          "duration" : 16729
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "668595f4bd1c63e36bf7efe2000db409"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }
