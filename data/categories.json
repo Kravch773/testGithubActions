@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.6.2022\"\n                Received: \"6/6/2022\"",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"12.11.2022\"\n                Received: \"12/11/22\"",
       "children" : [ {
-        "name" : "Verify Edit assignment_1",
-        "uid" : "d0def5c280561115",
-        "parentUid" : "a4d2ec2bfc5456572065f23843aa546e",
+        "name" : "Verify Add New task and reassigned form",
+        "uid" : "2f47721184db52f2",
+        "parentUid" : "8c22b6cd6884b503b341182de6f04425",
         "status" : "failed",
         "time" : {
-          "start" : 1654510503922,
-          "stop" : 1654510523525,
-          "duration" : 19603
+          "start" : 1654511715513,
+          "stop" : 1654511727490,
+          "duration" : 11977
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,49 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "a4d2ec2bfc5456572065f23843aa546e"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.9.2022\"\n                Received: \"6/9/2022\"",
-      "children" : [ {
-        "name" : "Verify Edit assignment_2",
-        "uid" : "53697d92b47fb8f",
-        "parentUid" : "e97e5027f494c9059974ef4d2016a3f9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1654510523526,
-          "stop" : 1654510541163,
-          "duration" : 17637
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "e97e5027f494c9059974ef4d2016a3f9"
-    }, {
-      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"06.06.2022\"\n                Received string:    \"6/6/22, 10:15 AM\"",
-      "children" : [ {
-        "name" : "Verify Edit assignment_1",
-        "uid" : "278a7c7055701210",
-        "parentUid" : "21c01e97d7b93084f3feed45d29ff6fb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1654510556304,
-          "stop" : 1654510561434,
-          "duration" : 5130
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "21c01e97d7b93084f3feed45d29ff6fb"
+      "uid" : "8c22b6cd6884b503b341182de6f04425"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   }, {
@@ -72,149 +30,13 @@
     "children" : [ {
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
-        "name" : "open Options initiation fields and check label",
-        "uid" : "1401892a2fa0dabf",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654510563789,
-          "stop" : 1654510590543,
-          "duration" : 26754
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify Edit initiation fields",
-        "uid" : "fa9523f1fda42c39",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654510590545,
-          "stop" : 1654510605547,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "open Options_TeamMember and check label",
-        "uid" : "17d0fb86cf1d800c",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654510608020,
-          "stop" : 1654510633982,
-          "duration" : 25962
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify Options_TeamMember form",
-        "uid" : "48ed84884dfa2190",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654510633983,
-          "stop" : 1654510648992,
-          "duration" : 15009
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify remove team member ",
-        "uid" : "1d753ae34b2b400f",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654510648993,
-          "stop" : 1654510663997,
-          "duration" : 15004
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify edit team member form",
-        "uid" : "756be1c820efd040",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654510663998,
-          "stop" : 1654510679002,
-          "duration" : 15004
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Open Options_Tasks tab and check label",
-        "uid" : "c0a0e6b23cb0498f",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654510681437,
-          "stop" : 1654510707939,
-          "duration" : 26502
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
-        "name" : "Verify Add New task and reassigned form",
-        "uid" : "3e13771bc14b6002",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654510707940,
-          "stop" : 1654510722945,
-          "duration" : 15005
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
         "name" : "Verify remove task",
-        "uid" : "9da4c084c8f761",
+        "uid" : "75e8188efce52b55",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654510722946,
-          "stop" : 1654510737949,
+          "start" : 1654511727492,
+          "stop" : 1654511742495,
           "duration" : 15003
         },
         "flaky" : false,

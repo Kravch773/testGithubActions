@@ -1,18 +1,16 @@
 {
-  "uid" : "fa9523f1fda42c39",
+  "uid" : "9b61f6a13e28afb4",
   "name" : "Verify Edit initiation fields",
   "fullName" : "Options_Initiation_Fields test.Verify Edit initiation fields",
   "historyId" : "e279df9b8ea6316cacff3b1bbbcae68b",
   "time" : {
-    "start" : 1654510590545,
-    "stop" : 1654510605547,
-    "duration" : 15002
+    "start" : 1654511623078,
+    "stop" : 1654511641421,
+    "duration" : 18343
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "broken",
-  "statusMessage" : "waitUntil condition timed out after 15000ms",
-  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -56,13 +54,9 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fa9523f1fda42c39.json",
+  "source" : "9b61f6a13e28afb4.json",
   "parameterValues" : [ "chrome-102.0.5005.61" ]
 }
