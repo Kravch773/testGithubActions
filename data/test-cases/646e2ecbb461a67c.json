@@ -1,0 +1,68 @@
+{
+  "uid" : "646e2ecbb461a67c",
+  "name" : "Verify edit Orientation section",
+  "fullName" : "Need analyis Orientation tab test.Verify edit Orientation section",
+  "historyId" : "27ab98173210ccc60e65977b0b0a59da",
+  "time" : {
+    "start" : 1654498708883,
+    "stop" : 1654498723644,
+    "duration" : 14761
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"TestStreet_11\n                TestStreet_12\n                TestStreet_13\n                TestStreet_14\n                London\n                testState_1\n                045453\"\n                Received string:    \"TestStreet_21\n                TestStreet_22\n                TestStreet_23\n                TestStreet_24\n                London\n                testState_2\n                222353\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"TestStreet_11\n                TestStreet_12\n                TestStreet_13\n                TestStreet_14\n                London\n                testState_1\n                045453\"\n                Received string:    \"TestStreet_21\n                TestStreet_22\n                TestStreet_23\n                TestStreet_24\n                London\n                testState_2\n                222353\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/need_analysis/11_orientation.spec.ts:72:98\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/need_analysis/11_orientation.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/need_analysis/11_orientation.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/need_analysis/11_orientation.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Need analyis Orientation tab test"
+  }, {
+    "name" : "testClass",
+    "value" : "Need analyis Orientation tab test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit Orientation section"
+  }, {
+    "name" : "package",
+    "value" : "Need analyis Orientation tab test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "646e2ecbb461a67c.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

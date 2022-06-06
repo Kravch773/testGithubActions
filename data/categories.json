@@ -3,33 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"TestStreet_11,TestStreet_12,TestStreet_13,TestStreet_14\n                London\n                testState_1\n                045453\"\n                Received string:    \"TestStreet_11\n                TestStreet_12\n                TestStreet_13\n                TestStreet_14\n                London\n                testState_1\n                045453\"",
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"TestStreet_11\n                TestStreet_12\n                TestStreet_13\n                TestStreet_14\n                London\n                testState_1\n                045453\"\n                Received string:    \"TestStreet_21\n                TestStreet_22\n                TestStreet_23\n                TestStreet_24\n                London\n                testState_2\n                222353\"",
       "children" : [ {
-        "name" : "Verify Orientation form",
-        "uid" : "392bdbca85a66da8",
-        "parentUid" : "0be9f62e1eddf6182e4912ebe6cde8b8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1654496245035,
-          "stop" : 1654496260607,
-          "duration" : 15572
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      }, {
         "name" : "Verify edit Orientation section",
-        "uid" : "7f9fd19fea47b653",
-        "parentUid" : "0be9f62e1eddf6182e4912ebe6cde8b8",
+        "uid" : "646e2ecbb461a67c",
+        "parentUid" : "4ed778657bc81fabdfa15cc4afff884e",
         "status" : "failed",
         "time" : {
-          "start" : 1654496260619,
-          "stop" : 1654496266384,
-          "duration" : 5765
+          "start" : 1654498708883,
+          "stop" : 1654498723644,
+          "duration" : 14761
         },
         "flaky" : false,
         "newFailed" : false,
@@ -39,22 +22,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "0be9f62e1eddf6182e4912ebe6cde8b8"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "waitUntil condition timed out after 15000ms",
+      "uid" : "4ed778657bc81fabdfa15cc4afff884e"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"PropertyTestSpec1_2\"\n                Received: \"LocationSpecific2\"",
       "children" : [ {
         "name" : "Verify edit HomeSearch(Property) section",
-        "uid" : "e08fe029c5d3a6c4",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
+        "uid" : "60fddd805e7364d7",
+        "parentUid" : "155dee8f9f651032cecbc45d4252e90e",
+        "status" : "failed",
         "time" : {
-          "start" : 1654496341670,
-          "stop" : 1654496359418,
-          "duration" : 17748
+          "start" : 1654498794266,
+          "stop" : 1654498805504,
+          "duration" : 11238
         },
         "flaky" : false,
         "newFailed" : false,
@@ -64,30 +43,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "7a32765981bcc7398deb824e5d577aab"
-    }, {
-      "name" : "No window found with title, url or name matching \"/services\"",
-      "children" : [ {
-        "name" : "Verify edit partner details section",
-        "uid" : "4bc88d3ec415a693",
-        "parentUid" : "93a0d394754bd429afd6f4c47e0ed7a1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1654496623609,
-          "stop" : 1654496654516,
-          "duration" : 30907
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "93a0d394754bd429afd6f4c47e0ed7a1"
+      "uid" : "155dee8f9f651032cecbc45d4252e90e"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }
