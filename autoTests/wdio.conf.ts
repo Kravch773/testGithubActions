@@ -40,8 +40,8 @@ export const config: WebdriverIO.Config = {
         clientPageTabs: [
             './test/specs/ClientPage/*.spec.ts'
         ],
-        client_SetupPage: [
-            './test/specs/client_page/setup_page/6*.ts'
+        clientSetupPage: [
+            './test/specs/clientPage/setupPage/*.spec.ts'
         ],
         initiatedServices: [
             './test/specs/assignments/initiated_services/*/*.spec.ts'
