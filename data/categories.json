@@ -1,18 +1,77 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "waitUntil condition timed out after 15000ms",
+      "children" : [ {
+        "name" : "Verify TempAccommodation(Destination) section",
+        "uid" : "dac40cf92a0d0934",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654499831254,
+          "stop" : 1654499851957,
+          "duration" : 20703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify edit TempAccommodation(Destination) section",
+        "uid" : "618c52e5dceb17ad",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654499851959,
+          "stop" : 1654499866961,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify edit Assignment details section",
+        "uid" : "db134602440e06af",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654500499661,
+          "stop" : 1654500531864,
+          "duration" : 32203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "7a32765981bcc7398deb824e5d577aab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"TestStreet_11\n                TestStreet_12\n                TestStreet_13\n                TestStreet_14\n                London\n                testState_1\n                045453\"\n                Received string:    \"TestStreet_21\n                TestStreet_22\n                TestStreet_23\n                TestStreet_24\n                London\n                testState_2\n                222353\"",
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"TestStreet_11\n                TestStreet_22\n                TestStreet_23\n                TestStreet_24\n                London\n                testState_2\n                222353\"\n                Received string:    \"TestStreet_21\n                TestStreet_22\n                TestStreet_23\n                TestStreet_24\n                London\n                testState_2\n                222353\"",
       "children" : [ {
         "name" : "Verify edit Orientation section",
-        "uid" : "646e2ecbb461a67c",
-        "parentUid" : "4ed778657bc81fabdfa15cc4afff884e",
+        "uid" : "a707d3d787d3d903",
+        "parentUid" : "668595f4bd1c63e36bf7efe2000db409",
         "status" : "failed",
         "time" : {
-          "start" : 1654498708883,
-          "stop" : 1654498723644,
-          "duration" : 14761
+          "start" : 1654499899007,
+          "stop" : 1654499915736,
+          "duration" : 16729
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,28 +81,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "4ed778657bc81fabdfa15cc4afff884e"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"PropertyTestSpec1_2\"\n                Received: \"LocationSpecific2\"",
-      "children" : [ {
-        "name" : "Verify edit HomeSearch(Property) section",
-        "uid" : "60fddd805e7364d7",
-        "parentUid" : "155dee8f9f651032cecbc45d4252e90e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1654498794266,
-          "stop" : 1654498805504,
-          "duration" : 11238
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "155dee8f9f651032cecbc45d4252e90e"
+      "uid" : "668595f4bd1c63e36bf7efe2000db409"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
