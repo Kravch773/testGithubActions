@@ -165,11 +165,11 @@ class setupPage {
     public async clickAddSubsidiaryBtn(): Promise<void> {
         await Page.click(this.addSubsidiaryBtn);
     }
-    public async setSubsidiary(nameValue, parentNameValue, defCurrencyValue, invAddresLabel, invAddresState, noteValue, blockinitState): Promise<void> {
+    public async setSubsidiary(nameValue, parentNameValue, defCurrencyValue, invAddresLabel, noteValue, blockinitState): Promise<void> {
         await commonElements.setInputValue(nameValue, this.subsidiaryNameInput);
         await commonElements.setDropDownValue(` ${parentNameValue} `, this.subsidiaryParentDropDown);
         await commonElements.setSelectValue(defCurrencyValue, this.defCurrencySelect);
-        await commonElements.setChbByLabel(invAddresLabel, invAddresState);
+        await commonElements.setRbtByLabel(invAddresLabel);
         await commonElements.setInputValue(noteValue, this.notesInput);
         await commonElements.setChb(this.blockInitChb, blockinitState)
     }
