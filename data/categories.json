@@ -5,14 +5,14 @@
     "children" : [ {
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
-        "name" : "Verify edit Assignment details section",
-        "uid" : "c1fe66e4d2f979d",
+        "name" : "Verify Assignment details section",
+        "uid" : "719f0ca5d6515d9e",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654502643370,
-          "stop" : 1654502663069,
-          "duration" : 19699
+          "start" : 1654504778151,
+          "stop" : 1654504797250,
+          "duration" : 19099
         },
         "flaky" : false,
         "newFailed" : false,
@@ -25,6 +25,31 @@
       "uid" : "7a32765981bcc7398deb824e5d577aab"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.6.2022\"\n                Received: \"6.11.2022\"",
+      "children" : [ {
+        "name" : "Verify edit Assignment details section",
+        "uid" : "acc5960c5b01d009",
+        "parentUid" : "e7684591b470e54fc108ec13a1e808b3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654504797252,
+          "stop" : 1654504808813,
+          "duration" : 11561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "e7684591b470e54fc108ec13a1e808b3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }

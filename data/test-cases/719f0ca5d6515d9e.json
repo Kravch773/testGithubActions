@@ -1,16 +1,18 @@
 {
-  "uid" : "d8a11b4328b52254",
+  "uid" : "719f0ca5d6515d9e",
   "name" : "Verify Assignment details section",
   "fullName" : "Need analysis Assignment details tab test.Verify Assignment details section",
   "historyId" : "6bc2726060144b884d131a00d9f853e1",
   "time" : {
-    "start" : 1654502625840,
-    "stop" : 1654502643370,
-    "duration" : 17530
+    "start" : 1654504778151,
+    "stop" : 1654504797250,
+    "duration" : 19099
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -27,7 +29,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-16"
+    "value" : "0-0"
   }, {
     "name" : "suite",
     "value" : "Need analysis Assignment details tab test"
@@ -54,9 +56,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "d8a11b4328b52254.json",
+  "source" : "719f0ca5d6515d9e.json",
   "parameterValues" : [ "chrome-102.0.5005.61" ]
 }
