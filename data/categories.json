@@ -1,18 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"12.11.2022\"\n                Received: \"12/11/22\"",
+      "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
-        "name" : "Verify Add New task and reassigned form",
-        "uid" : "2f47721184db52f2",
-        "parentUid" : "8c22b6cd6884b503b341182de6f04425",
-        "status" : "failed",
+        "name" : "Open Options_Tasks tab and check label",
+        "uid" : "91e8fa378aa417de",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
         "time" : {
-          "start" : 1654511715513,
-          "stop" : 1654511727490,
-          "duration" : 11977
+          "start" : 1654512609692,
+          "stop" : 1654512634648,
+          "duration" : 24956
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,23 +21,32 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "8c22b6cd6884b503b341182de6f04425"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "waitUntil condition timed out after 15000ms",
-      "children" : [ {
-        "name" : "Verify remove task",
-        "uid" : "75e8188efce52b55",
+      }, {
+        "name" : "Verify Add New task and reassigned form",
+        "uid" : "155bb989a2e6f45c",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1654511727492,
-          "stop" : 1654511742495,
+          "start" : 1654512634648,
+          "stop" : 1654512649651,
           "duration" : 15003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      }, {
+        "name" : "Verify remove task",
+        "uid" : "3ff6cd17c57b3c90",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654512649651,
+          "stop" : 1654512664656,
+          "duration" : 15005
         },
         "flaky" : false,
         "newFailed" : false,

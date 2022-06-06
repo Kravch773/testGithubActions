@@ -1,18 +1,18 @@
 {
-  "uid" : "2f47721184db52f2",
+  "uid" : "155bb989a2e6f45c",
   "name" : "Verify Add New task and reassigned form",
   "fullName" : "Options_Tasks tab test.Verify Add New task and reassigned form",
   "historyId" : "acdd6ce00312e915bc00d87a5b9c2000",
   "time" : {
-    "start" : 1654511715513,
-    "stop" : 1654511727490,
-    "duration" : 11977
+    "start" : 1654512634648,
+    "stop" : 1654512649651,
+    "duration" : 15003
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "failed",
-  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"12.11.2022\"\n                Received: \"12/11/22\"",
-  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"12.11.2022\"\n                Received: \"12/11/22\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/options/5.Options_Tasks.spec.ts:52:78\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/options/5.Options_Tasks.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/options/5.Options_Tasks.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/options/5.Options_Tasks.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -57,12 +57,12 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ {
-      "name" : "Product defects",
+      "name" : "Test defects",
       "matchedStatuses" : [ ],
       "flaky" : false
     } ],
     "tags" : [ ]
   },
-  "source" : "2f47721184db52f2.json",
+  "source" : "155bb989a2e6f45c.json",
   "parameterValues" : [ "chrome-102.0.5005.61" ]
 }
