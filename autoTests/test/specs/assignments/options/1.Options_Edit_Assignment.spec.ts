@@ -74,7 +74,7 @@ describe('Options_Edit_Assignment tab test', () => {
         expect(await assignmentOptionPage.isOriginCityNotExisting()).toBe(true);
         expect(await assignmentOptionPage.isDestinationCityNotExistin()).toBe(true);
     });
-    it('Verify Edit assignment_1', async () => {
+    it('Verify set assignment details', async () => {
         await commonElements.setOriginRegion(originCountry_1, originCity_1);
         await commonElements.setDestinationRegion(destinationCountry_1, destinationCity_1);
         await commonElements.setStartDate(startDate_1);
@@ -87,20 +87,40 @@ describe('Options_Edit_Assignment tab test', () => {
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assignmentUpdMsg)).toBe(true);
         await commonElements.refreshPage();
-        await browser.pause(2000);
         expect(await assignmentOptionPage.getOriginCountryValue()).toBe(originCountry_1);
         expect(await assignmentOptionPage.getDestinationCountryValue()).toBe(destinationCountry_1);
         expect(await assignmentOptionPage.getOriginCityValue()).toBe(originCity_1);
         expect(await assignmentOptionPage.getDestinationCityValue()).toBe(destinationCity_1);
         expect(await assignmentOptionPage.getAssignmentType()).toBe(assignmentType_8);
-        expect(await commonElements.getStartDateValue()).toBe(startDate_1);
-        expect(await commonElements.getEndDateValue()).toBe(endDate_1);
+        expect(await commonElements.createStandartDateForm(await commonElements.getStartDateValue())).toBe(startDate_1);
+        expect(await commonElements.createStandartDateForm(await commonElements.getEndDateValue())).toBe(endDate_1);
         expect(await assignmentOptionPage.getSubsidiaryValue()).toContain(subsidiary_1);
         expect(await assignmentOptionPage.getInvoicingOfficeValue()).toBe(invoicingOffice_1);
         expect(await assignmentOptionPage.getClientContact()).toBe(clientContact_1);
         expect(await assignmentOptionPage.getserviceLvlValue()).toBe(serviceLevel_1);
     });
-    it('Verify Edit assignment_2', async () => {
+    it('Verify Edit assignment details', async () => {
+        await commonElements.setOriginRegion(originCountry_2, originCity_2);
+        await commonElements.setDestinationRegion(destinationCountry_2, destinationCity_2);
+        await commonElements.setStartDate(startDate_2);
+        await commonElements.setEndDate(endDate_2);
+        await commonElements.setAssignmentSubsidiary(subsidiary_2);
+        await assignmentOptionPage.setInvoicingOffice(invoicingOffice_2);
+        await commonElements.setSelectValue(clientContact_2, commonElements.clientContactInput);
+        await commonElements.setNoteInput(notesText);
+        await commonElements.setDropDownValue(serviceLevel_2, commonElements.serviceLvlDD);
+        await commonElements.refreshPage();
+        expect(await assignmentOptionPage.getOriginCountryValue()).toBe(originCountry_1);
+        expect(await assignmentOptionPage.getDestinationCountryValue()).toBe(destinationCountry_1);
+        expect(await assignmentOptionPage.getOriginCityValue()).toBe(originCity_1);
+        expect(await assignmentOptionPage.getDestinationCityValue()).toBe(destinationCity_1);
+        expect(await assignmentOptionPage.getAssignmentType()).toBe(assignmentType_8);
+        expect(await commonElements.createStandartDateForm(await commonElements.getStartDateValue())).toBe(startDate_1);
+        expect(await commonElements.createStandartDateForm(await commonElements.getEndDateValue())).toBe(endDate_1);
+        expect(await assignmentOptionPage.getSubsidiaryValue()).toContain(subsidiary_1);
+        expect(await assignmentOptionPage.getInvoicingOfficeValue()).toBe(invoicingOffice_1);
+        expect(await assignmentOptionPage.getClientContact()).toBe(clientContact_1);
+        expect(await assignmentOptionPage.getserviceLvlValue()).toBe(serviceLevel_1);
         await commonElements.setOriginRegion(originCountry_2, originCity_2);
         await commonElements.setDestinationRegion(destinationCountry_2, destinationCity_2);
         await commonElements.setStartDate(startDate_2);
@@ -112,14 +132,14 @@ describe('Options_Edit_Assignment tab test', () => {
         await commonElements.setDropDownValue(serviceLevel_2, commonElements.serviceLvlDD);
         await commonElements.clickSaveBtn();
         await commonElements.refreshPage();
-        await browser.pause(2000);
+
         expect(await assignmentOptionPage.getOriginCountryValue()).toBe(originCountry_2);
         expect(await assignmentOptionPage.getDestinationCountryValue()).toBe(destinationCountry_2);
         expect(await assignmentOptionPage.getOriginCityValue()).toBe(originCity_2);
         expect(await assignmentOptionPage.getDestinationCityValue()).toContain(destinationCity_2);
         expect(await assignmentOptionPage.getAssignmentType()).toBe(assignmentType_8);
-        expect(await commonElements.getStartDateValue()).toBe(startDate_2);
-        expect(await commonElements.getEndDateValue()).toBe(endDate_2);
+        expect(await commonElements.createStandartDateForm(await commonElements.getStartDateValue())).toBe(startDate_2);
+        expect(await commonElements.createStandartDateForm(await commonElements.getEndDateValue())).toBe(endDate_2);
         expect(await assignmentOptionPage.getSubsidiaryValue()).toContain(subsidiary_2);
         expect(await assignmentOptionPage.getInvoicingOfficeValue()).toBe(invoicingOffice_2);
         expect(await assignmentOptionPage.getClientContact()).toBe(clientContact_2);

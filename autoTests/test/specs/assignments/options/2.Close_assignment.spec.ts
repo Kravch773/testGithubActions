@@ -13,7 +13,7 @@ const reasonLabel_3 = "Lost to competitor"
 const reasonLabel_4 = "Natural conclusion"
 const closedAndarchivedMsg = "This assignment has been closed successfully."
 
-describe('Client briefing notes page test', () => {
+describe('Client close assignment page test', () => {
     before(async () => {
         await passSignIn.signIn();
     });
@@ -28,13 +28,13 @@ describe('Client briefing notes page test', () => {
         await assignmentOptionPage.clickCloseAssignmentTab();
         expect(await assignmentOptionPage.getCloseAssignmentLabelText()).toBe("Close assignment");
     });
-    it('Verify Edit assignment_1', async () => {
+    it('Verify close assignment date ', async () => {
         await commonElements.setRbtByLabel(reasonLabel_1);
         await assignmentOptionPage.clickCloseAndArchiveBtn();
         await commonElements.isPopupMsgDisplayed(closedAndarchivedMsg);
         await assignmentOptionPage.clickAssignmentOptionTab();
         await assignmentOptionPage.clickCloseAssignmentTab();
-        expect(await assignmentOptionPage.getArchiveAssignmentDate()).toContain(await commonElements.getCurrentDate());
+        expect(await commonElements.createStandartDateForm(await assignmentOptionPage.getArchiveAssignmentDate())).toContain(commonElements.getCurrentDateNo0Format());
         await assignmentOptionPage.clickReOpenAssignmentBtn();
         expect(await assignmentOptionPage.isAssignmentStatusbarDisplayed()).toBe(true);
     });
