@@ -111,7 +111,7 @@ describe('Need analysis HomeSearch(Property) tab test', () => {
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[3])).toBe(numOfbathrooms_2);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[4])).toBe(toKnownLocations_2);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[5])).toBe(importantDetails_1+"\n"+importantDetails_2);
-        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[6])).toBe(propertySpecifics_1_2);
+        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[6])).toBe(locationSpecifics_2);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[7])).toBe(kindOfProperties_1+"\n"+kindOfProperties_2);
         expect(await needAnalysisPage.gethomePropertySpecificsText_3()).toBe(propertySpecifics_2_2);
     });
