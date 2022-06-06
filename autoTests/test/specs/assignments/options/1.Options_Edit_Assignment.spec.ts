@@ -27,7 +27,8 @@ const startDate_1 = commonElements.getCurrentDateNo0Format()
 const startDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(3)
 const endDate_1 = commonElements.getCurrentDatePlusDaysNo0Format(7)
 const endDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(10)
-const subsidiary_1 = "QA Subsidiary"
+// const subsidiary_1 = "QA Subsidiary" bug no subsidiary 
+const subsidiary_1 = "Test Subsidiary"
 const subsidiary_2 = "Test Subsidiary"
 const invoicingOffice_1 = "London"
 const invoicingOffice_2 = "Capetown"
@@ -38,7 +39,7 @@ const serviceLevel_2 = "K2 bespoke"
 const notesText = "TestNote"
 const assignmentUpdMsg = "Assignment details updated"
 
-xdescribe('Options_Edit_Assignment tab test', () => {
+describe('Options_Edit_Assignment tab test', () => {
     before(async () => {
         await passSignIn.signIn();
     });
@@ -52,33 +53,26 @@ xdescribe('Options_Edit_Assignment tab test', () => {
         await assignmentOptionPage.clickAssignmentOptionTab();
         expect(await assignmentOptionPage.getAssignmentLabelText()).toBe("Edit assignment");
     });
-    // it('Verify Client overview briefing note', async () => {
-    //     await commonElements.clickSaveBtn();
-    //     await commonElements.isErrorInputMsgDispalyed();
-    //     await commonElements.isErrorPopUpMsgDisplayed();
-    //     await assignmentOptionPage.setInvoicingOffice(invoicingOffice_1);
-    //     await commonElements.clickSaveBtn();
-    // });
     it('Verify AssignmentType and removeCityBtn', async () => {
-        // await commonElements.setAssignmentTypeDD(assignmentType_1);
-        // expect(await commonElements.isEndDateCalendarExisting()).toBe(true);
-        // await commonElements.setAssignmentTypeDD(assignmentType_2);
-        // expect(await commonElements.isEndDateCalendarExisting()).toBe(true);
-        // await commonElements.setAssignmentTypeDD(assignmentType_3);
-        // expect(await commonElements.isEndDateCalendarNotExisting()).toBe(true);
-        // await commonElements.setAssignmentTypeDD(assignmentType_4);
-        // expect(await commonElements.isEndDateCalendarNotExisting()).toBe(true);
-        // await commonElements.setAssignmentTypeDD(assignmentType_5);
-        // expect(await commonElements.isEndDateCalendarNotExisting()).toBe(true);
-        // await commonElements.setAssignmentTypeDD(assignmentType_6);
-        // expect(await commonElements.isEndDateCalendarExisting()).toBe(true);
-        // await commonElements.setAssignmentTypeDD(assignmentType_7);
-        // expect(await commonElements.isEndDateCalendarExisting()).toBe(true);
+        await commonElements.setAssignmentTypeDD(assignmentType_1);
+        expect(await commonElements.isEndDateCalendarExisting()).toBe(true);
+        await commonElements.setAssignmentTypeDD(assignmentType_2);
+        expect(await commonElements.isEndDateCalendarExisting()).toBe(true);
+        await commonElements.setAssignmentTypeDD(assignmentType_3);
+        expect(await commonElements.isEndDateCalendarNotExisting()).toBe(true);
+        await commonElements.setAssignmentTypeDD(assignmentType_4);
+        expect(await commonElements.isEndDateCalendarNotExisting()).toBe(true);
+        await commonElements.setAssignmentTypeDD(assignmentType_5);
+        expect(await commonElements.isEndDateCalendarNotExisting()).toBe(true);
+        await commonElements.setAssignmentTypeDD(assignmentType_6);
+        expect(await commonElements.isEndDateCalendarExisting()).toBe(true);
+        await commonElements.setAssignmentTypeDD(assignmentType_7);
+        expect(await commonElements.isEndDateCalendarExisting()).toBe(true);
         await commonElements.setAssignmentTypeDD(assignmentType_8);
         await assignmentOptionPage.clickRemoveCityIcon();
         await assignmentOptionPage.clickRemoveCityIcon();
-        // expect(await assignmentOptionPage.isOriginCityNotExisting()).toBe(true);
-        // expect(await assignmentOptionPage.isDestinationCityNotExistin()).toBe(true);
+        expect(await assignmentOptionPage.isOriginCityNotExisting()).toBe(true);
+        expect(await assignmentOptionPage.isDestinationCityNotExistin()).toBe(true);
     });
     it('Verify Edit assignment_1', async () => {
         await commonElements.setOriginRegion(originCountry_1, originCity_1);

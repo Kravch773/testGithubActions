@@ -189,11 +189,11 @@ class assignmentOptionPage {
     public async clickRemoveCityIcon(): Promise<void> {
         return await Page.click(this.removeCityIcon);
     }
-    public async isOriginCityNotExisting(): Promise<void> {
-        await Page.isElementNotExisting(this.originCity);
+    public async isOriginCityNotExisting(): Promise<boolean> {
+       return await Page.isElementNotExisting(this.originCity);
     }
-    public async isDestinationCityNotExistin(): Promise<void> {
-        await Page.isElementNotExisting(this.destinationCity);
+    public async isDestinationCityNotExistin(): Promise<boolean> {
+        return await Page.isElementNotExisting(this.destinationCity);
     }
     //2.Close assignment
     public async clickCloseAssignmentTab(): Promise<void> {

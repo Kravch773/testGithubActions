@@ -4,8 +4,10 @@ import assignmentOptionPage from '../../../pageobjects/assignment/assignmentOpti
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 import Page from '../../../pageobjects/Page';
+
 const qaClientId = "330"
 const assignmentId = "K2-31970"
+
 describe('Client briefing notes page test', () => {
     before(async () => {
         await passSignIn.signIn();
