@@ -38,7 +38,7 @@ describe('Need analysis Assignment details tab test', () => {
         await needAnalysisPage.clickNeedAnalysisTab();
         expect(await needAnalysisPage.getNeedAnalysisLabelText()).toBe("Needs analysis");
     });
-    it('Verify  Assignment details section', async () => {
+    it('Verify Assignment details section', async () => {
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_6);
         await needAnalysisPage.clickEditAnalysisBtn();
         await needAnalysisPage.setAssignmentDetails(assignmentQuestionLabel, startDate_1, endDate_1, rBtnAnswer_1, previousPlace_1, arrivalDate_1, rBtnAnswer_1, visaType_1, visaApprovalDate_1);
@@ -53,7 +53,7 @@ describe('Need analysis Assignment details tab test', () => {
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(assignmentQuestionLabel[6])).toBe(visaType_1);
         expect(await commonElements.createStandartDateForm(await needAnalysisPage.getAnalysisAnswerTextByLabel(assignmentQuestionLabel[7]))).toBe(visaApprovalDate_1);
     });
-    it('Verify edit child section', async () => {
+    it('Verify edit Assignment details section', async () => {
         await commonElements.refreshPage();
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_6);
         await needAnalysisPage.clickEditAnalysisBtn();

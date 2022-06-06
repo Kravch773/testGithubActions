@@ -26,11 +26,12 @@ class addServiceDocument {
         await assigneePage.setAdditionalMember(memberType, title, firstName, lastName, gender, nationality, dateOfBirth, maritalStatus, email, phone, phone, phone, notes);
         await commonElements.clickSaveBtn();
         await commonElements.checkPopUpMsgAndForNotDisplayed(addedPersonMsg);
+        await browser.closeWindow();
         await browser.switchWindow("/services");
     }
 
     public async removeFamilyMember(assigneeId = defFAssigneeId): Promise<void> {
-        await browser.switchWindow(`assignment/${assigneeId}/assignee`);
+        await browser.newWindow(`https://staging.k2relo.com/staff/clients/330/assignment/${assigneeId}/assignee/family`)
         await assigneePage.clickFamilyTab();
         await assigneePage.clickFamilyRemoveBtnByName(firstName, lastName)
         await commonElements.checkPopUpMsgAndForNotDisplayed(removedPersonMsg);

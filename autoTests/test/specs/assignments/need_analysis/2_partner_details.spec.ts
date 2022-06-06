@@ -1,4 +1,5 @@
 import commonElements from '../../../helper/commonElements';
+import familyMembers from '../../../helper/familyMembers';
 import passSignIn from '../../../helper/passSignIn';
 import needAnalysisPage from '../../../pageobjects/assignment/needAnalysis.page';
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
@@ -8,11 +9,11 @@ const qaClientId = "330"
 const assignmentId = "K2-31970"
 const needAnalysisSection_2 = "Partner details"
 const title_1 = "Test"
-const title_2 = "Test_2"
+const title_2 = "Ms"
 const firstName_1 = "FirstTestName"
-const firstName_2 = "FirstTestName_2"
+const firstName_2 = "Test"
 const surname_1 = "LastTestName"
-const surname_2 = "LastTestName_2"
+const surname_2 = "Partner"
 const gender_1 = "Male"
 const gender_2 = "Female"
 const nationality_1 = "Ukrainian"
@@ -63,8 +64,7 @@ describe('Need analysis partner details tab page test', () => {
         await needAnalysisPage.clickEditAnalysisBtn();
         await needAnalysisPage.setPartnerDetails(partnerQuestionLabel, title_1, firstName_1, surname_1, gender_1, nationality_1, dualNationality_1, language_1, languageLvl_1, phoneCountry_1, homephone_1, workphone_1, mobilephone_1, preferedphone_1, email_1, martialStatus_1, dob_1);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(needAnalysisUpdMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(needAnalysisUpdMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(needAnalysisUpdMsg)).toBe(true);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(partnerQuestionLabel[0])).toBe(title_1);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(partnerQuestionLabel[1])).toBe(firstName_1);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(partnerQuestionLabel[2])).toBe(surname_1);
@@ -119,7 +119,10 @@ describe('Need analysis partner details tab page test', () => {
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(partnerQuestionLabel[11])).toBe(email_2);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(partnerQuestionLabel[12])).toBe(martialStatus_2);
         expect(await commonElements.createStandartDateForm(await needAnalysisPage.getAnalysisAnswerTextByLabel(partnerQuestionLabel[13]))).toBe(dob_2);
+        await familyMembers.removeFamilyMember();
+        
     });
+    
 });
 
 
