@@ -19,7 +19,7 @@ jobs:
         run: npm ci
       - name: run assignments_assigneeTab
         working-directory: ${{env.working-directory}}
-        run: npm run need_analysis:headless # name of the headless script
+        run: npm run assignments_assignee:headless # name of the headless script
       - name: Copy History
         if: always()
         run: cp -r $(pwd)/docs/history/. $(pwd)/autoTests/allure-results/history
