@@ -1,18 +1,16 @@
 {
-  "uid" : "ca2b9f3c54549d37",
-  "name" : "Verify remove task",
-  "fullName" : "Options_Tasks tab test.Verify remove task",
-  "historyId" : "ff07f728db0ba43c5b6d6fc78fdb475c",
+  "uid" : "ce39d54e24367618",
+  "name" : "Open Options_Tasks tab and check label",
+  "fullName" : "Options_Tasks tab test.Open Options_Tasks tab and check label",
+  "historyId" : "d54a434945fffed35cea9ff57d698f5e",
   "time" : {
-    "start" : 1654513601842,
-    "stop" : 1654513616848,
-    "duration" : 15006
+    "start" : 1654514490757,
+    "stop" : 1654514508643,
+    "duration" : 17886
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "broken",
-  "statusMessage" : "waitUntil condition timed out after 15000ms",
-  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -38,7 +36,7 @@
     "value" : "Options_Tasks tab test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify remove task"
+    "value" : "Open Options_Tasks tab and check label"
   }, {
     "name" : "package",
     "value" : "Options_Tasks tab test"
@@ -56,13 +54,9 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ca2b9f3c54549d37.json",
+  "source" : "ce39d54e24367618.json",
   "parameterValues" : [ "chrome-102.0.5005.61" ]
 }
