@@ -52,21 +52,20 @@ describe('Options_Tasks tab test', () => {
         expect(await commonElements.createStandartDateForm(await assignmentOptionPage.getTaskTimeByTextByName(taskName))).toBe(triggerDate);
         expect(await assignmentOptionPage.getTaskServiceTextByName(taskName)).toBe(serviceName);
         await assignmentOptionPage.clickEditTaskBtnByName(taskName);
-        await assignmentOptionPage.setTask(taskName_2, triggerDate_2, serviceName_2, popUpState_2, assignTo_2);
+        await assignmentOptionPage.setTask(taskName_2, triggerDate_2, serviceName_2, popUpState_2, assignTo);
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(taskUpdMsg)).toBe(true);
         expect(await commonElements.createStandartDateForm(await assignmentOptionPage.getTaskTimeByTextByName(taskName_2))).toBe(triggerDate_2);
         expect(await assignmentOptionPage.getTaskServiceTextByName(taskName_2)).toBe(serviceName_2);
         expect(await assignmentOptionPage.isTaskExisting(taskName_2)).toBe(true);
         await assignmentOptionPage.reassignTaskByName(taskName_2, assignTo_2);
-        expect(await commonElements.isPopupMsgDisplayed(taskReassingMsg)).toBe(true);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(taskReassingMsg)).toBe(true);
     });
     it('Verify remove task', async () => {
         await assignmentOptionPage.clickRemoveTaskBtnByName(taskName_2, "no");
         expect(await assignmentOptionPage.isTaskExisting(taskName_2)).toBe(true);
         await assignmentOptionPage.clickRemoveTaskBtnByName(taskName_2, "yes");
-        expect(await commonElements.isPopupMsgDisplayed(taskRemovedMsg));
-        await commonElements.waitPopupMsgForNotDisplayed(taskRemovedMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(taskRemovedMsg));
         expect(await assignmentOptionPage.isTaskExisting(taskName_2)).toBe(false);
     });
 
