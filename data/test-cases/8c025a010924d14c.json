@@ -1,0 +1,68 @@
+{
+  "uid" : "8c025a010924d14c",
+  "name" : "Verify (setup-account details) default date input",
+  "fullName" : "Client Account details page test.Verify (setup-account details) default date input",
+  "historyId" : "8f499d4a339ef9ccd54ed17cf4c2abff",
+  "time" : {
+    "start" : 1654519573004,
+    "stop" : 1654519574695,
+    "duration" : 1691
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11.11.2019\"\n                Received: \"11/11/19\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"11.11.2019\"\n                Received: \"11/11/19\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/clientPage/setupPage/1_account details.spec.ts:175:70\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/clientPage/setupPage/1_account details.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/clientPage/setupPage/1_account details.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/clientPage/setupPage/1_account details.spec.ts:5:58)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Client Account details page test"
+  }, {
+    "name" : "testClass",
+    "value" : "Client Account details page test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify (setup-account details) default date input"
+  }, {
+    "name" : "package",
+    "value" : "Client Account details page test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8c025a010924d14c.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}
