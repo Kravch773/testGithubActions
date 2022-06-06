@@ -30,13 +30,13 @@ class addServiceDocument {
         await browser.switchWindow("/services");
     }
 
-    public async removeFamilyMember(assigneeId = defFAssigneeId): Promise<void> {
+    public async removeFamilyMember(originTabName="/services",assigneeId = defFAssigneeId): Promise<void> {
         await browser.newWindow(`https://staging.k2relo.com/staff/clients/330/assignment/${assigneeId}/assignee/family`)
         await assigneePage.clickFamilyTab();
         await assigneePage.clickFamilyRemoveBtnByName(firstName, lastName)
         await commonElements.checkPopUpMsgAndForNotDisplayed(removedPersonMsg);
         await browser.closeWindow();
-        await browser.switchWindow("/services");
+        await browser.switchWindow(originTabName);
     }
 }
 export default new addServiceDocument();

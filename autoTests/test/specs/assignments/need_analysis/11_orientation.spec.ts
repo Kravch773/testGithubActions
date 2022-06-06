@@ -48,7 +48,7 @@ describe('Need analyis Orientation tab test', () => {
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(needAnalysisUpdMsg)).toBe(true);
         expect(await commonElements.createStandartDateForm(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[0]))).toContain(orientationDate_1);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[1])).toContain(tourPerson_1);
-        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[2])).toContain(`${address_1}\n${city_1}\n${state_1}\n${postalCode_1}`);
+        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[2])).toContain(`${address_1[0]}\n${address_1[1]}\n${address_1[2]}\n${address_1[3]}\n${city_1}\n${state_1}\n${postalCode_1}`);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[3])).toBe(orientationLocations_1);
     });
 
@@ -60,7 +60,7 @@ describe('Need analyis Orientation tab test', () => {
         await commonElements.clickDialogWindowCancelBtn();
         expect(await commonElements.createStandartDateForm(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[0]))).toContain(orientationDate_1);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[1])).toContain(tourPerson_1);
-        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[2])).toContain(`${address_1}\n${city_1}\n${state_1}\n${postalCode_1}`);
+        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[2])).toContain(`${address_1[0]}\n${address_1[1]}\n${address_1[2]}\n${address_1[3]}\n${city_1}\n${state_1}\n${postalCode_1}`);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[3])).toBe(orientationLocations_1);
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_11);
         await needAnalysisPage.clickEditAnalysisBtn();
@@ -69,7 +69,7 @@ describe('Need analyis Orientation tab test', () => {
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(needAnalysisUpdMsg)).toBe(true);
         expect(await commonElements.createStandartDateForm(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[0]))).toContain(orientationDate_2);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[1])).toContain(tourPerson_2);
-        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[2])).toContain(`${address_2}\n${city_2}\n${state_2}\n${postalCode_2}`);
+        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[2])).toContain(`${address_1[0]}\n${address_1[1]}\n${address_1[2]}\n${address_1[3]}\n${city_1}\n${state_1}\n${postalCode_1}`);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(orientationQuestionLabel[3])).toBe(orientationLocations_2);
 
     });

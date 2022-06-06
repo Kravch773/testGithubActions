@@ -119,7 +119,7 @@ describe('Need analysis partner details tab page test', () => {
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(partnerQuestionLabel[11])).toBe(email_2);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(partnerQuestionLabel[12])).toBe(martialStatus_2);
         expect(await commonElements.createStandartDateForm(await needAnalysisPage.getAnalysisAnswerTextByLabel(partnerQuestionLabel[13]))).toBe(dob_2);
-        await familyMembers.removeFamilyMember();
+        await familyMembers.removeFamilyMember("/analysis");
         
     });
     

@@ -83,7 +83,6 @@ describe('Need analysis HomeSearch(Property) tab test', () => {
         await needAnalysisPage.setNeedAnalysisChbByLabel(true, kindOfProperties_2, homePropertyQuestionLabel[7]);
         await needAnalysisPage.setNeedAnalysisInputByLabel(propertySpecifics_2_2,homePropertyQuestionLabel[8] );
         await commonElements.clickDialogWindowCancelBtn();
-        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(needAnalysisUpdMsg)).toBe(true);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[0])).toBe(propertyKind_1);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[1])).toBe(propertySpecifics_1_1);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[2])).toBe(numOfbedrooms_1);
@@ -93,7 +92,6 @@ describe('Need analysis HomeSearch(Property) tab test', () => {
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[6])).toBe(locationSpecifics_1);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[7])).toBe(kindOfProperties_1);
         expect(await needAnalysisPage.gethomePropertySpecificsText_3()).toBe(propertySpecifics_2_1);
-        await needAnalysisPage.setNeedAnalysisInputByLabel(propertySpecifics_2_2,homePropertyQuestionLabel[8] );
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_13);
         await needAnalysisPage.clickEditAnalysisBtn();
         await needAnalysisPage.setNeedAnalysisChbByLabel(true, propertyKind_2, homePropertyQuestionLabel[0]);
