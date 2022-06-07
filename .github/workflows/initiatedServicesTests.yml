@@ -1,7 +1,6 @@
 name: Main Github Actions
 on:
   workflow_dispatch:
-  push:
     branches:
       - 'main' # (main branch) Set branch of the GH repo to push      
 jobs:
@@ -17,9 +16,9 @@ jobs:
       - name: npm ci
         working-directory: ${{env.working-directory}} 
         run: npm ci
-      - name: run assignments_assigneeTab
+      - name: run initiatedServices Tests
         working-directory: ${{env.working-directory}}
-        run: npm run clientPageTabs:headless # name of the headless script
+        run: npm run initiatedServices:headless # name of the headless script
       - name: Copy History
         if: always()
         run: cp -r $(pwd)/docs/history/. $(pwd)/autoTests/allure-results/history
