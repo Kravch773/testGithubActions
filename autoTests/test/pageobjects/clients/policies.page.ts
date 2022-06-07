@@ -146,11 +146,11 @@ class policiesPage {
     public async getPolicyStatusText(policyName): Promise<string> {
         return Page.getElementText(this.getPolicyActiveStatus(policyName));
     }
-    public async getOriginCountriesQty(): Promise<string> {
-        return await Page.getElementText(this.originCountriesQty + "[3]");
+    public async getOriginCountriesQtyByPolicyNum(num): Promise<string> {
+        return await Page.getElementText(this.originCountriesQty + `[${num}]`);
     }
-    public async getDestinationCountriesQty(): Promise<string> {
-        return await Page.getElementText(this.destinationCountriesQty + "[3]");
+    public async getDestinationCountriesQtyByPolicyNum(num): Promise<string> {
+        return await Page.getElementText(this.destinationCountriesQty + `[${num}]`);
     }
     public async getCoreServiceIconQty(): Promise<number> {
         return await Page.getElementsQty(this.coreServiceIcon);
@@ -164,8 +164,8 @@ class policiesPage {
     public async clickCountryLiByName(countryName, numOfCountry): Promise<void> {
         await Page.click(this.getcountryLiByName(countryName) + `[${numOfCountry}]`);
     }
-    public async clickEditPolicyBtn(): Promise<void> {
-        await Page.click(this.editPolicyBtn + "[3]");
+    public async clickEditPolicyBtnByNum(num): Promise<void> {
+        await Page.click(this.editPolicyBtn +`[${num}]`);
     }
     public async clickRemovePolicyBtn(): Promise<void> {
         await Page.click(this.removePolicyBtn);
