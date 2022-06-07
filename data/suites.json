@@ -4,7 +4,7 @@
     "name" : "Need analysis personal details tab test",
     "children" : [ {
       "name" : "Go to need analysis tab and check label",
-      "uid" : "6590a9f58137e963",
+      "uid" : "f4e7db0947875381",
       "parentUid" : "a5689fa9f66d1769c3049248fb396811",
       "status" : "passed",
       "time" : {
@@ -21,7 +21,7 @@
       "parameters" : [ "chrome-102.0.5005.63" ]
     }, {
       "name" : "Verify Personal details section",
-      "uid" : "e66ebf6e1da3eb6e",
+      "uid" : "f23346de970f32fb",
       "parentUid" : "a5689fa9f66d1769c3049248fb396811",
       "status" : "passed",
       "time" : {
@@ -38,7 +38,7 @@
       "parameters" : [ "chrome-102.0.5005.63" ]
     }, {
       "name" : "Verify edit presonal details section",
-      "uid" : "cfdc363c0cbd5161",
+      "uid" : "9846a9c2bec2ce0b",
       "parentUid" : "a5689fa9f66d1769c3049248fb396811",
       "status" : "passed",
       "time" : {
@@ -59,7 +59,7 @@
     "name" : "Need analysis Assignment details tab test",
     "children" : [ {
       "name" : "Go to need analysis tab and check label",
-      "uid" : "37482070e5317936",
+      "uid" : "1c27cb0007ac5d0b",
       "parentUid" : "121b95191a2d2dc534ab3ffb1fefa174",
       "status" : "passed",
       "time" : {
@@ -76,7 +76,7 @@
       "parameters" : [ "chrome-102.0.5005.63" ]
     }, {
       "name" : "Verify Assignment details section",
-      "uid" : "e2720bbb52434ac9",
+      "uid" : "c66be68e485531c1",
       "parentUid" : "121b95191a2d2dc534ab3ffb1fefa174",
       "status" : "passed",
       "time" : {
@@ -93,7 +93,7 @@
       "parameters" : [ "chrome-102.0.5005.63" ]
     }, {
       "name" : "Verify edit Assignment details section",
-      "uid" : "4deaa18725c7a733",
+      "uid" : "e9db4b9794b5788c",
       "parentUid" : "121b95191a2d2dc534ab3ffb1fefa174",
       "status" : "passed",
       "time" : {
@@ -111,16 +111,16 @@
     } ],
     "uid" : "121b95191a2d2dc534ab3ffb1fefa174"
   }, {
-    "name" : "Client briefing notes page test",
+    "name" : "Options_Edit_Assignment tab test",
     "children" : [ {
       "name" : "open ClientsPage and check label",
-      "uid" : "c41452e125ce7ce",
-      "parentUid" : "20db300149526a0c123f4fb430d8ead7",
+      "uid" : "d502e998b71f29f7",
+      "parentUid" : "53fb226a23163407b8db375b9ac0ab2a",
       "status" : "passed",
       "time" : {
-        "start" : 1654599001011,
-        "stop" : 1654599014078,
-        "duration" : 13067
+        "start" : 1654601704542,
+        "stop" : 1654601717989,
+        "duration" : 13447
       },
       "flaky" : false,
       "newFailed" : false,
@@ -130,14 +130,48 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
-      "name" : "Verify Client overview briefing note",
-      "uid" : "259aba93bb5f000e",
-      "parentUid" : "20db300149526a0c123f4fb430d8ead7",
+      "name" : "Verify AssignmentType and removeCityBtn",
+      "uid" : "7a88f8b66f4d949e",
+      "parentUid" : "53fb226a23163407b8db375b9ac0ab2a",
       "status" : "passed",
       "time" : {
-        "start" : 1654599014078,
-        "stop" : 1654599144531,
-        "duration" : 130453
+        "start" : 1654601717989,
+        "stop" : 1654601721279,
+        "duration" : 3290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify set assignment details",
+      "uid" : "57086507a68d1f68",
+      "parentUid" : "53fb226a23163407b8db375b9ac0ab2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654601721280,
+        "stop" : 1654601739317,
+        "duration" : 18037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify Edit assignment details",
+      "uid" : "bb7ffada1f12599b",
+      "parentUid" : "53fb226a23163407b8db375b9ac0ab2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654601739318,
+        "stop" : 1654601770678,
+        "duration" : 31360
       },
       "flaky" : false,
       "newFailed" : false,
@@ -147,18 +181,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
     } ],
-    "uid" : "20db300149526a0c123f4fb430d8ead7"
+    "uid" : "53fb226a23163407b8db375b9ac0ab2a"
   }, {
-    "name" : "All clients assignment page test",
+    "name" : "Client close assignment page test",
     "children" : [ {
       "name" : "open ClientsPage and check label",
-      "uid" : "e48fb7f0a09a380d",
-      "parentUid" : "aa33d95c1faae4075844a09c337b511c",
+      "uid" : "f3a22fee5b30599f",
+      "parentUid" : "ba4916604567f22d2ca991906cd9b2e0",
       "status" : "passed",
       "time" : {
-        "start" : 1654599146784,
-        "stop" : 1654599159565,
-        "duration" : 12781
+        "start" : 1654601772646,
+        "stop" : 1654601786660,
+        "duration" : 14014
       },
       "flaky" : false,
       "newFailed" : false,
@@ -168,48 +202,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
-      "name" : "Verify K2 ID / Assignee Input field",
-      "uid" : "bb5435efd80d86c2",
-      "parentUid" : "aa33d95c1faae4075844a09c337b511c",
+      "name" : "Verify close assignment date ",
+      "uid" : "1e89cd930c26f3f",
+      "parentUid" : "ba4916604567f22d2ca991906cd9b2e0",
       "status" : "passed",
       "time" : {
-        "start" : 1654599159566,
-        "stop" : 1654599164679,
-        "duration" : 5113
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify assignment lead dropdown",
-      "uid" : "328a300362633096",
-      "parentUid" : "aa33d95c1faae4075844a09c337b511c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599164679,
-        "stop" : 1654599168419,
-        "duration" : 3740
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify country select dropdown",
-      "uid" : "3820d6a50e5ca80d",
-      "parentUid" : "aa33d95c1faae4075844a09c337b511c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599168419,
-        "stop" : 1654599173957,
-        "duration" : 5538
+        "start" : 1654601786661,
+        "stop" : 1654601794348,
+        "duration" : 7687
       },
       "flaky" : false,
       "newFailed" : false,
@@ -219,18 +219,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
     } ],
-    "uid" : "aa33d95c1faae4075844a09c337b511c"
+    "uid" : "ba4916604567f22d2ca991906cd9b2e0"
   }, {
-    "name" : "Client document page test",
+    "name" : "Options_Initiation_Fields test",
     "children" : [ {
-      "name" : "Open Client document page and check label",
-      "uid" : "d5372b1ed4882c73",
-      "parentUid" : "a88eaae5c7871f85987e10aa92295f26",
+      "name" : "open Options initiation fields and check label",
+      "uid" : "70e39c86ee1ac131",
+      "parentUid" : "d236d23ccb953eb33ccab225c63801e8",
       "status" : "passed",
       "time" : {
-        "start" : 1654599175893,
-        "stop" : 1654599187214,
-        "duration" : 11321
+        "start" : 1654601796358,
+        "stop" : 1654601809712,
+        "duration" : 13354
       },
       "flaky" : false,
       "newFailed" : false,
@@ -240,424 +240,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.61" ]
     }, {
-      "name" : "Verify add document form",
-      "uid" : "580a026c912a629e",
-      "parentUid" : "a88eaae5c7871f85987e10aa92295f26",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599187214,
-        "stop" : 1654599198860,
-        "duration" : 11646
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify edit form",
-      "uid" : "45afc7e4dcd601cc",
-      "parentUid" : "a88eaae5c7871f85987e10aa92295f26",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599198861,
-        "stop" : 1654599217734,
-        "duration" : 18873
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify remove document",
-      "uid" : "851982ea01616177",
-      "parentUid" : "a88eaae5c7871f85987e10aa92295f26",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599217736,
-        "stop" : 1654599219729,
-        "duration" : 1993
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify unsupported file error",
-      "uid" : "8f8f233e7663e78",
-      "parentUid" : "a88eaae5c7871f85987e10aa92295f26",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599219730,
-        "stop" : 1654599222107,
-        "duration" : 2377
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "a88eaae5c7871f85987e10aa92295f26"
-  }, {
-    "name" : "Policies page test",
-    "children" : [ {
-      "name" : "Open Client document page and check label",
-      "uid" : "6ff4f991177c62cd",
-      "parentUid" : "039e961c5a14426edc34c00ae3a4c782",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599224030,
-        "stop" : 1654599235092,
-        "duration" : 11062
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Add new policy form",
-      "uid" : "88d244355c67421",
-      "parentUid" : "039e961c5a14426edc34c00ae3a4c782",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599235092,
-        "stop" : 1654599252151,
-        "duration" : 17059
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Edit policy form",
-      "uid" : "2ab3687688932f77",
-      "parentUid" : "039e961c5a14426edc34c00ae3a4c782",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599252153,
-        "stop" : 1654599277344,
-        "duration" : 25191
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify remove policy",
-      "uid" : "60b8117c9a5ab80",
-      "parentUid" : "039e961c5a14426edc34c00ae3a4c782",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599277346,
-        "stop" : 1654599287223,
-        "duration" : 9877
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "039e961c5a14426edc34c00ae3a4c782"
-  }, {
-    "name" : "Clients Assignees page test",
-    "children" : [ {
-      "name" : "open ClientsPage and check label",
-      "uid" : "f651a3ec3fd54847",
-      "parentUid" : "6a9a2cf970a3e3f12a971d872eb4ab73",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599289049,
-        "stop" : 1654599300770,
-        "duration" : 11721
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify ClientName Input field",
-      "uid" : "399547cdbd8ac8bb",
-      "parentUid" : "6a9a2cf970a3e3f12a971d872eb4ab73",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599300770,
-        "stop" : 1654599305323,
-        "duration" : 4553
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify offices select dropdown",
-      "uid" : "4419e4880ac5bbe0",
-      "parentUid" : "6a9a2cf970a3e3f12a971d872eb4ab73",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599305324,
-        "stop" : 1654599308266,
-        "duration" : 2942
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify country select dropdown",
-      "uid" : "692b0e25dba8b8f3",
-      "parentUid" : "6a9a2cf970a3e3f12a971d872eb4ab73",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599308266,
-        "stop" : 1654599311807,
-        "duration" : 3541
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "6a9a2cf970a3e3f12a971d872eb4ab73"
-  }, {
-    "name" : "Our clients page test",
-    "children" : [ {
-      "name" : "open ClientsPage and check label",
-      "uid" : "646e60c58bcb6ba7",
-      "parentUid" : "d0e4604c4ac58b42c2f996ee84919ad8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599313443,
-        "stop" : 1654599321298,
-        "duration" : 7855
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "check search input and filter dropdowns",
-      "uid" : "a96e801f1053fd91",
-      "parentUid" : "d0e4604c4ac58b42c2f996ee84919ad8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599321298,
-        "stop" : 1654599322529,
-        "duration" : 1231
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify ClientName Input field",
-      "uid" : "8771308ee71e0153",
-      "parentUid" : "d0e4604c4ac58b42c2f996ee84919ad8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599322530,
-        "stop" : 1654599323073,
-        "duration" : 543
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify offices select dropdown",
-      "uid" : "9f429a242f5e3c5",
-      "parentUid" : "d0e4604c4ac58b42c2f996ee84919ad8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599323074,
-        "stop" : 1654599324634,
-        "duration" : 1560
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify country select dropdown",
-      "uid" : "c34b745cd9c7395f",
-      "parentUid" : "d0e4604c4ac58b42c2f996ee84919ad8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599324634,
-        "stop" : 1654599324996,
-        "duration" : 362
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify managers select dropdown",
-      "uid" : "5d1e6db059582621",
-      "parentUid" : "d0e4604c4ac58b42c2f996ee84919ad8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599324997,
-        "stop" : 1654599325347,
-        "duration" : 350
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify status select dropdown",
-      "uid" : "f86faf03f0b24eb8",
-      "parentUid" : "d0e4604c4ac58b42c2f996ee84919ad8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599325347,
-        "stop" : 1654599327554,
-        "duration" : 2207
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "d0e4604c4ac58b42c2f996ee84919ad8"
-  }, {
-    "name" : "Create estimation form test",
-    "children" : [ {
-      "name" : "open clients assignment",
-      "uid" : "bebe12a25b604c9c",
-      "parentUid" : "5f363b8f56420e21e2193c16e04b7454",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599329691,
-        "stop" : 1654599341010,
-        "duration" : 11319
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Verify Create estimation Step 1: Assignment details",
-      "uid" : "7baee4addbb01a19",
-      "parentUid" : "5f363b8f56420e21e2193c16e04b7454",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599341010,
-        "stop" : 1654599358956,
-        "duration" : 17946
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Step 2: Available packages,Step 3: Select individual services?",
-      "uid" : "ea963f2d72534c6c",
-      "parentUid" : "5f363b8f56420e21e2193c16e04b7454",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599358958,
-        "stop" : 1654599376564,
-        "duration" : 17606
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    }, {
-      "name" : "Step 4: Budgets,Step 5: Summary",
-      "uid" : "878b6dbc94af5b15",
-      "parentUid" : "5f363b8f56420e21e2193c16e04b7454",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654599376565,
-        "stop" : 1654599382102,
-        "duration" : 5537
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.61" ]
-    } ],
-    "uid" : "5f363b8f56420e21e2193c16e04b7454"
-  }, {
-    "name" : "Initiate New Assignment form test",
-    "children" : [ {
-      "name" : "Step 2: Available packages",
-      "uid" : "216e8033dbcce5e3",
-      "parentUid" : "a14c7440922275be16994fb9816a035d",
+      "name" : "Verify require fields error msg",
+      "uid" : "6b104489981dcfb8",
+      "parentUid" : "d236d23ccb953eb33ccab225c63801e8",
       "status" : "skipped",
       "time" : {
-        "start" : 1654599384169,
-        "stop" : 1654599384169,
+        "start" : 1654601809713,
+        "stop" : 1654601809713,
         "duration" : 0
       },
       "flaky" : false,
@@ -668,14 +257,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Step 4: Available packages, Step 5:",
-      "uid" : "61df7853a454070c",
-      "parentUid" : "a14c7440922275be16994fb9816a035d",
-      "status" : "skipped",
+      "name" : "Verify Edit initiation fields",
+      "uid" : "95b481611e67014b",
+      "parentUid" : "d236d23ccb953eb33ccab225c63801e8",
+      "status" : "passed",
       "time" : {
-        "start" : 1654599384169,
-        "stop" : 1654599384169,
-        "duration" : 0
+        "start" : 1654601809713,
+        "stop" : 1654601826885,
+        "duration" : 17172
       },
       "flaky" : false,
       "newFailed" : false,
@@ -683,60 +272,136 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Step 6: Budgets,Step 7: Estimated cost,Step 8: Confirm details",
-      "uid" : "d7e5938eb8a0a5f6",
-      "parentUid" : "a14c7440922275be16994fb9816a035d",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654599384169,
-        "stop" : 1654599384169,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Step 3: Assignment details, Step 3b: Additional People / Pets",
-      "uid" : "4897d8c5c59c4988",
-      "parentUid" : "a14c7440922275be16994fb9816a035d",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654599384169,
-        "stop" : 1654599384169,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify Initiate new assignment Step 1: Who is going on assignment? ",
-      "uid" : "70629bd5cab9c80b",
-      "parentUid" : "a14c7440922275be16994fb9816a035d",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654599384169,
-        "stop" : 1654599384169,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
+      "parameters" : [ "chrome-102.0.5005.61" ]
     } ],
-    "uid" : "a14c7440922275be16994fb9816a035d"
+    "uid" : "d236d23ccb953eb33ccab225c63801e8"
+  }, {
+    "name" : "Options_TeamMember tab test",
+    "children" : [ {
+      "name" : "open Options_TeamMember and check label",
+      "uid" : "8aaeca6b8ea36a46",
+      "parentUid" : "b982e3198ff26177e1f73c6e3043a6d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654601828953,
+        "stop" : 1654601843067,
+        "duration" : 14114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify Options_TeamMember form",
+      "uid" : "d83baf9bfb3ff255",
+      "parentUid" : "b982e3198ff26177e1f73c6e3043a6d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654601843068,
+        "stop" : 1654601852470,
+        "duration" : 9402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify remove team member ",
+      "uid" : "a185395437386014",
+      "parentUid" : "b982e3198ff26177e1f73c6e3043a6d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654601852470,
+        "stop" : 1654601866059,
+        "duration" : 13589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify edit team member form",
+      "uid" : "b0a0436601b31e5f",
+      "parentUid" : "b982e3198ff26177e1f73c6e3043a6d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654601866060,
+        "stop" : 1654601879560,
+        "duration" : 13500
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "b982e3198ff26177e1f73c6e3043a6d8"
+  }, {
+    "name" : "Options_Tasks tab test",
+    "children" : [ {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "6f07f68df3e83957",
+      "parentUid" : "34eb7c2ce6f2b81320f585e82d88fe3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654601881554,
+        "stop" : 1654601896794,
+        "duration" : 15240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "d3a8bc701ae98490",
+      "parentUid" : "34eb7c2ce6f2b81320f585e82d88fe3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654601896794,
+        "stop" : 1654601924067,
+        "duration" : 27273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    }, {
+      "name" : "Verify remove task",
+      "uid" : "76e78dd0e347b6df",
+      "parentUid" : "34eb7c2ce6f2b81320f585e82d88fe3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654601924068,
+        "stop" : 1654601930528,
+        "duration" : 6460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.61" ]
+    } ],
+    "uid" : "34eb7c2ce6f2b81320f585e82d88fe3a"
   } ],
   "name" : "suites"
 }
