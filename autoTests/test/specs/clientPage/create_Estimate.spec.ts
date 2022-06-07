@@ -102,7 +102,7 @@ describe('Create estimation form test', () => {
         expect(await assignmentsPage.getDestinationLabelText()).toContain(destinationCity);
         expect(await assignmentsPage.getTypeLabelText()).toContain(assignmentType_8);
         expect(await commonElements.createStandartDateForm(await assignmentsPage.getStartDateLabelText())).toBe(startDate);
-        expect(await commonElements.createStandartDateForm(await assignmentsPage.getEndDateLabelText())).toBe(endDate);
+        expect(await commonElements.createStandartDateForm(await assignmentsPage.getEndDateLabelText())).toContain(commonElements.getCurrentDatePlusDaysNo0Format(15,passSignIn.isGithubTest,false));
         expect(await assignmentsPage.getPersonPayingLabelText()).toContain(payingPersonLabel);
         expect(await assignmentsPage.getExtraServicesLabelText(1)).toBe(extraServiceLabel_1);
         expect(await assignmentsPage.getExtraServicesLabelText(2)).toBe(extraServiceLabel_2);
