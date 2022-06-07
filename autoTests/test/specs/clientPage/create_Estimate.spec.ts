@@ -17,19 +17,19 @@ const assignmentType_5 = "Repatriation"
 const assignmentType_6 = "Rotational"
 const assignmentType_7 = "Short term assignment (STA)"
 const assignmentType_8 = "US Domestic"
-const startDate = "11.11.2021"
-const endDate = "11.12.2021"
+const startDate = commonElements.getCurrentDateNo0Format()
+const endDate = commonElements.getCurrentDatePlusDaysNo0Format(15)
 const currency = "US Dollar"
 const estimationPackageMsg = "Estimate has been saved without any packages selected"
 const payingPersonLabel = "QA Test Client will pay"
 const budgetTimeOption = " Weekly "
 const budgetСurrency = "USD"
+const budgetValue = "400"
 const estimationWithPackageMsg = "Estimate package selection ok"
 const extraServiceLabel_1 = "Home sale"
 const extraServiceLabel_2 = "Assignment management"
 const extraServiceLabel_3 = "Lumpsum"
 
-//ADD AM APROVED 
 describe('Create estimation form test', () => {
     before(async () => {
         await passSignIn.signIn();
@@ -95,14 +95,14 @@ describe('Create estimation form test', () => {
         await assignmentsPage.clickNextBtn();
         await commonElements.setRbtByLabel(payingPersonLabel);
         await commonElements.setSelectValue(budgetСurrency);
-        await commonElements.setInputValue("400",assignmentsPage.budgetInput);
+        await commonElements.setInputValue(budgetValue,assignmentsPage.budgetInput);
         await commonElements.setDropDownValue(budgetTimeOption)
         await assignmentsPage.clickNextBtn();
         expect(await assignmentsPage.getOriginLabelText()).toContain(originCity);
         expect(await assignmentsPage.getDestinationLabelText()).toContain(destinationCity);
         expect(await assignmentsPage.getTypeLabelText()).toContain(assignmentType_8);
-        expect(await assignmentsPage.getStartDateLabelText()).toContain(startDate);
-        expect(await assignmentsPage.getEndDateLabelText()).toContain(endDate);
+        expect(await commonElements.createStandartDateForm(await assignmentsPage.getStartDateLabelText())).toBe(startDate);
+        expect(await commonElements.createStandartDateForm(await assignmentsPage.getEndDateLabelText())).toBe(endDate);
         expect(await assignmentsPage.getPersonPayingLabelText()).toContain(payingPersonLabel);
         expect(await assignmentsPage.getExtraServicesLabelText(1)).toBe(extraServiceLabel_1);
         expect(await assignmentsPage.getExtraServicesLabelText(2)).toBe(extraServiceLabel_2);

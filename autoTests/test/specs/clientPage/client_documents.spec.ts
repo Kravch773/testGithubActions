@@ -48,7 +48,7 @@ describe('Client document page test', () => {
         expect(await commonElements.isPopupMsgDisplayed(addedFileMsg)).toBe(true);
         expect(await commonElements.getremoveBtnQty()).toBe(4);
         expect(await documentsPage.getCategoryTextByFileName(fileName)).toBe(contractRB)
-        expect(await documentsPage.getDateTextByFileName(fileName)).toContain(await commonElements.getCurrentDate())
+        expect(await commonElements.createStandartDateForm(await documentsPage.getDateTextByFileName(fileName))).toBe(await commonElements.getCurrentDateNo0Format())
         expect(await documentsPage.getUploaderTextByFileName(fileName)).toBe(clientName)
         expect(await documentsPage.getUserPermisonStatus(userPermision_1, fileName)).toBe(false)
         expect(await documentsPage.getUserPermisonStatus(userPermision_2, fileName)).toBe(false)
