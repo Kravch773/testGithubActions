@@ -35,18 +35,17 @@ describe('Client document page test', () => {
     });
 
     it('Verify add document form', async () => {
-        expect(await commonElements.getremoveBtnQty()).toBe(3);
         await documentsPage.clickAddNewDocumentBtn();
         await documentsPage.uploadFile(filePath);
         expect(await documentsPage.isFileUploaded()).toBe(true);
         await commonElements.clickCancelBtn();
-        expect(await commonElements.getremoveBtnQty()).toBe(3);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(false);
         await documentsPage.clickAddNewDocumentBtn();
         await documentsPage.uploadFile(filePath);
         expect(await documentsPage.isFileUploaded()).toBe(true);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(addedFileMsg)).toBe(true);
-        expect(await commonElements.getremoveBtnQty()).toBe(4);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(addedFileMsg)).toBe(true);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(true);
         expect(await documentsPage.getCategoryTextByFileName(fileName)).toBe(contractRB)
         expect(await commonElements.createStandartDateForm(await documentsPage.getDateTextByFileName(fileName))).toBe(await commonElements.getCurrentDateNo0Format())
         expect(await documentsPage.getUploaderTextByFileName(fileName)).toBe(clientName)
@@ -59,8 +58,7 @@ describe('Client document page test', () => {
         await commonElements.setRbtByLabel(policyRB);
         await commonElements.setChbByLabel(userPermision_2, true);
         await commonElements.clickSaveBtn();
-        expect(await commonElements.isPopupMsgDisplayed(fileUpdateMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(fileUpdateMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(fileUpdateMsg)).toBe(true);
         expect(await documentsPage.getCategoryTextByFileName(fileName)).toBe(policyRB);
         expect(await documentsPage.getUserPermisonStatus(userPermision_1, fileName)).toBe(false);
         expect(await documentsPage.getUserPermisonStatus(userPermision_2, fileName)).toBe(true);
@@ -87,7 +85,7 @@ describe('Client document page test', () => {
         await documentsPage.clickEditBtnDocumentByName(fileName);
         await documentsPage.clickFileRemoveBtn();
         await commonElements.clickCancelBtn();
-        expect(await commonElements.getremoveBtnQty()).toBe(4);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(true);
         await documentsPage.clickEditBtnDocumentByName(fileName);
         await documentsPage.clickFileRemoveBtn();
         await commonElements.clickSaveBtn();
@@ -95,15 +93,14 @@ describe('Client document page test', () => {
         await commonElements.clickCancelBtn();
     });
 
-    it('Verify remove btn', async () => {
-        expect(await commonElements.getremoveBtnQty()).toBe(4);
+    it('Verify remove document', async () => {
         await documentsPage.clickRemoveBtnDocumentByName(fileName);
         await commonElements.clickRemoveConfirmBtn("no");
-        expect(await commonElements.getremoveBtnQty()).toBe(4);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(true);
         await documentsPage.clickRemoveBtnDocumentByName(fileName);
         await commonElements.clickRemoveConfirmBtn("yes");
         expect(await commonElements.isPopupMsgDisplayed(fileDelMsg)).toBe(true)
-        expect(await commonElements.getremoveBtnQty()).toBe(3);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(false);
     });
     it('Verify unsupported file error', async () => {
         await documentsPage.clickAddNewDocumentBtn();

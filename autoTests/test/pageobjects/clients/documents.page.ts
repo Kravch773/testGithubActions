@@ -49,7 +49,7 @@ class documentsPage {
     getAssigneeDocumentsCategoryByName(name):string{
         return `(//a[contains(text(),"${name}")]/../../../..//td[text()])[2]`
     }
-
+    
     public get fileRemoveBtn(): string {
         return `//button/span[contains(@class,"glyphicon-remove")]`
     }
@@ -116,6 +116,9 @@ class documentsPage {
     }
     public async getAssigneeDocCategoryTextByName(name):Promise<string>{
         return await Page.getElementText(this.getAssigneeDocumentsCategoryByName(name));
+    }
+    public async isDocumentExisting(docName):Promise<boolean>{
+        return await Page.isElementExisting(this.getRemoveBtnDocumentByName(docName),2000);
     }
 }
 export default new documentsPage();
