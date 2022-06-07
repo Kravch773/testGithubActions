@@ -22,8 +22,8 @@ const statusValue = "DEMO"
 const statusValue_2 = "SUSPENDED"
 const defstatusValue = "ACTIVE"
 const createdOnLabel = " Created on "
-const createdOnValue = "11.11.2019"
-const defCreatedOnValue = "12.10.2021"
+const createdOnValue = commonElements.getCurrentDatePlusDaysNo0Format(-70)
+const defCreatedOnValue = commonElements.getCurrentDatePlusDaysNo0Format(-140)
 const postaladdressLabel = " Postal address "
 const defPostaladdressValue = "Test Address"
 const postaladdressValue = "Second Address"
@@ -166,17 +166,17 @@ describe('Client Account details page test', () => {
         await setupPage.clickEditBtnByLabel(createdOnLabel);
         await commonElements.clearAndSetDateValue(commonElements.inputField,createdOnValue)
         await commonElements.clickSaveBtn();
-        expect(await setupPage.getFieldByLabelValue(createdOnLabel)).toBe(createdOnValue);
+        expect(await commonElements.createStandartDateForm(await setupPage.getFieldByLabelValue(createdOnLabel))).toBe(createdOnValue);
     });
     it('Verify (setup-account details) default date input', async () => {
         await setupPage.clickEditBtnByLabel(createdOnLabel);
         await commonElements.clearAndSetDateValue(commonElements.inputField,defCreatedOnValue)
         await commonElements.clickCancelBtn();
-        expect(await setupPage.getFieldByLabelValue(createdOnLabel)).toBe(createdOnValue);
+        expect(await commonElements.createStandartDateForm(await setupPage.getFieldByLabelValue(createdOnLabel))).toBe(createdOnValue);
         await setupPage.clickEditBtnByLabel(createdOnLabel);
         await commonElements.clearAndSetDateValue(commonElements.inputField,defCreatedOnValue)
         await commonElements.clickSaveBtn();
-        expect(await setupPage.getFieldByLabelValue(createdOnLabel)).toBe(defCreatedOnValue);
+        expect(await commonElements.createStandartDateForm(await setupPage.getFieldByLabelValue(createdOnLabel))).toBe(defCreatedOnValue);
     });
 
     it('Verify (setup-account details) default address input', async () => {
