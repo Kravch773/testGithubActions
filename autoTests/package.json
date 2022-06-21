@@ -18,7 +18,7 @@
     "clientSetupPage": "./node_modules/.bin/wdio ./wdio.conf.ts --suite clientSetupPage",
     "clientSetupPage:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite clientSetupPage",
     "initiatedServices": "./node_modules/.bin/wdio ./wdio.conf.ts --suite initiatedServices",
-    "initiatedServices:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite initiatedServices"a,
+    "initiatedServices:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite initiatedServices",
     "allure:serve": "npx allure serve allure-results",
     "allure:generate": "npx allure generate allure-results --clean",
     "allure:open": "allure open"
