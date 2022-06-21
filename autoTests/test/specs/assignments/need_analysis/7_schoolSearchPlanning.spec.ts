@@ -3,10 +3,7 @@ import passSignIn from '../../../helper/passSignIn';
 import needAnalysisPage from '../../../pageobjects/assignment/needAnalysis.page';
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
-import Page from '../../../pageobjects/Page';
 
-const qaClientId = "330"
-const assignmentId = "K2-31970"
 const needAnalysisSection_7 = "School search planning"
 const schoolSearchDate_1 = commonElements.getCurrentDatePlusDaysNo0Format(10)
 const schoolSearchDate_2 = commonElements.getCurrentDatePlusDaysNo0Format(20)
@@ -41,11 +38,11 @@ describe('Need analysis school search planning test', () => {
         await passSignIn.signIn();
     });
     it('Go to need analysis tab and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue(assignmentId);
-        await assignmentsPage.clickAssignmentById(assignmentId);
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await needAnalysisPage.clickNeedAnalysisTab();
         expect(await needAnalysisPage.getNeedAnalysisLabelText()).toBe("Needs analysis");
     });

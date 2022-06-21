@@ -1,16 +1,24 @@
 import loginPage from "../pageobjects/login.page";
 
 class passSignIn {
-    public get isGithubTest():boolean{
-        return true;
+    public get isGithubTest(): boolean {
+        return false;
     }
-    public async signIn(): Promise<void> {
-        await loginPage.openLoginURL();
+    public get enviromentName(): string {
+        // return "rc"
+        return "staging"
+    }
+    public get clientId():string{
+        // return "2609"
+        return "330"
+    }
+    public get assignmentId():string{
+        // return "53899"
+        return "31970"
+    }
+    public async signIn(environment = this.enviromentName): Promise<void> {
+        await loginPage.openLoginURL(environment);
         // await browser.maximizeWindow();
-        await loginPage.loginToAccount('ivan.kravchenko@k2corporatemobility.com', 'J4f!*$@*AG%$!18');
-    }
-    public async rcSignIn(): Promise<void> {
-        await loginPage.openRcLoginURL();
         await loginPage.loginToAccount('ivan.kravchenko@k2corporatemobility.com', 'J4f!*$@*AG%$!18');
     }
 }

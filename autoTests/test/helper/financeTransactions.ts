@@ -1,8 +1,6 @@
-import documentsPage from "../pageobjects/clients/documents.page";
 import Page from "../pageobjects/Page";
 import commonElements from "./commonElements";
-const filePath = "/Ascent ts/testFiles/QAtest.docx"
-const fileName = "QAtest.docx"
+
 class addServiceDocument {
 
     public get addPurchaseOrderBtn(): string {

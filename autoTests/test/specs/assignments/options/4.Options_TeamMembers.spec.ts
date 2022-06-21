@@ -4,8 +4,6 @@ import assignmentOptionPage from '../../../pageobjects/assignment/assignmentOpti
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
-const assignmentId = "K2-31970"
 const k2TeamLabel_1 = "Assignment lead"
 const k2TeamLabel_2 = "K2 Origin"
 const k2TeamLabel_3 = "K2 Destination"
@@ -24,11 +22,11 @@ describe('Options_TeamMember tab test', () => {
     });
 
     it('open Options_TeamMember and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue(assignmentId);
-        await assignmentsPage.clickAssignmentById(assignmentId);
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await assignmentOptionPage.clickAssignmentOptionTab();
         await assignmentOptionPage.clickK2TeamTab();
         expect(await assignmentOptionPage.getK2TeamLabelText()).toBe("The K2 team");

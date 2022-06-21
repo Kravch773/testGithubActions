@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Go to need analysis tab and check label",
-    "uid" : "181045c4471192d5",
+    "uid" : "39b868852c32f2b5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -20,7 +20,7 @@
     "parameters" : [ "chrome-102.0.5005.63" ]
   }, {
     "name" : "Verify Personal details section",
-    "uid" : "c34055c6526ce266",
+    "uid" : "9d9d6d43e6aeb239",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -37,7 +37,7 @@
     "parameters" : [ "chrome-102.0.5005.63" ]
   }, {
     "name" : "Verify edit presonal details section",
-    "uid" : "263133b6746cad5a",
+    "uid" : "cd5e6f9135852e3f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -52,5 +52,175 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Go to need analysis tab and check label",
+    "uid" : "892874f54488c1e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654504532953,
+      "stop" : 1654504549251,
+      "duration" : 16298
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Verify Assignment details section",
+    "uid" : "c7646447474de7d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654504549251,
+      "stop" : 1654504566932,
+      "duration" : 17681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Verify edit Assignment details section",
+    "uid" : "4077cdf2a624939c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654504566934,
+      "stop" : 1654504592468,
+      "duration" : 25534
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Verify schoolSearch section",
+    "uid" : "599295bf0484108f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1655710601614,
+      "stop" : 1655710609788,
+      "duration" : 8174
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 21,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-102.0.5005.115" ]
+  }, {
+    "name" : "Verify edti schoolSearch section",
+    "uid" : "f325cdb3bc1a24e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1655710609788,
+      "stop" : 1655710628033,
+      "duration" : 18245
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 10,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-102.0.5005.115" ]
+  }, {
+    "name" : "Go to Services / Departure services page and check label",
+    "uid" : "dd3948e76cae1b4a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1655714971114,
+      "stop" : 1655714988078,
+      "duration" : 16964
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 20,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.115" ]
+  }, {
+    "name" : "Verify service documents",
+    "uid" : "8ba0431cab6836c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1655714988078,
+      "stop" : 1655715014627,
+      "duration" : 26549
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.115" ]
+  }, {
+    "name" : "Verify service PurchaseOrder",
+    "uid" : "4597ea9aaa9ada97",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1655715014629,
+      "stop" : 1655715048337,
+      "duration" : 33708
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-102.0.5005.115" ]
+  }, {
+    "name" : "Verify service Sales Order",
+    "uid" : "3d640b4a89c99f8e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1655715048339,
+      "stop" : 1655715081399,
+      "duration" : 33060
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-102.0.5005.115" ]
+  }, {
+    "name" : "Verify service Recurring Purchase Orders",
+    "uid" : "e88968e799cc5ea9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1655715081401,
+      "stop" : 1655715104724,
+      "duration" : 23323
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-102.0.5005.115" ]
   } ]
 }

@@ -2,12 +2,8 @@
 const defaultTimeout = 15000; // 10sec
 class Page {
 
-
-    public async openURL(path: string): Promise<string> {
-        return await browser.url(`https://staging.k2relo.com/${path}`)
-    }
-    public async openRcURL(path: string): Promise<string> {
-        return await browser.url(`https://rc.k2relo.com/${path}`)
+    public async openURL(enviromentName, path: string): Promise<string> {
+        return await browser.url(`https://${enviromentName}.k2relo.com/${path}`) 
     }
     async getElement(element): Promise<WebdriverIO.Element> {
         return await $(element);
@@ -15,13 +11,13 @@ class Page {
     async getElements(element) {
         return await $$(element);
     }
-    async waitUntilClickable(element, timeout=defaultTimeout): Promise<void> {
+    async waitUntilClickable(element, timeout = defaultTimeout): Promise<void> {
         await browser.waitUntil(async () => {
             return await (await this.getElement(element)).isClickable();
         }, { timeout: timeout });
     }
     async click(element): Promise<void> {
-        await this.waitUntilClickable(element,defaultTimeout);
+        await this.waitUntilClickable(element, defaultTimeout);
         await (await this.getElement(element)).click();
     }
     async waitUntilDisplayed(element, timeout = defaultTimeout): Promise<void> {
@@ -37,8 +33,8 @@ class Page {
         await this.waitElementForDisplayed(element);
         return await (await this.getElement(element)).getText();
     }
-    async isElementDisplayed(element,timeout=defaultTimeout): Promise<boolean> {
-        await this.waitUntilDisplayed(element,timeout);
+    async isElementDisplayed(element, timeout = defaultTimeout): Promise<boolean> {
+        await this.waitUntilDisplayed(element, timeout);
         return await (await this.getElement(element)).isDisplayed();
     }
     async getElementValue(element) {
@@ -66,7 +62,7 @@ class Page {
         await this.waitUntilDisplayed(element, defaultTimeout);
         await (await this.getElement(element)).scrollIntoView();
     }
-    async setCheckBoxElementState(element, state) { 
+    async setCheckBoxElementState(element, state) {
         await this.waitUntilDisplayed(element, defaultTimeout);
         if (await (await this.getElement(element)).isSelected() !== state) {
             await this.click(element);
@@ -88,10 +84,10 @@ class Page {
     async waitUntilExists(element, timeout = defaultTimeout) {
         browser.waitUntil(async () => {
             return await (await this.getElement(element)).isExisting();
-        }, {timeout: timeout});
+        }, { timeout: timeout });
     }
-    async isElementExisting(element,timeout=defaultTimeout) {
-        await this.waitUntilExists(element,timeout);
+    async isElementExisting(element, timeout = defaultTimeout) {
+        await this.waitUntilExists(element, timeout);
         return await (await this.getElement(element)).isExisting();
     }
     async isElementNotExisting(element) {
@@ -105,7 +101,7 @@ class Page {
         await this.waitElementForDisplayed(element)
         return await (await this.getElement(element)).isClickable();
     }
-    async randomNumber(maxNum){
+    async randomNumber(maxNum) {
         return Math.floor(Math.random() * maxNum);
     }
 

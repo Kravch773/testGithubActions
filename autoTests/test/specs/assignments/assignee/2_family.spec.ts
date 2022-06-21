@@ -4,8 +4,7 @@ import assigneePage from '../../../pageobjects/assignment/assignee.page';
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
-const assignmentId = "K2-31970"
+
 const personType_1 = "Child"
 const personType_2 = "Partner"
 const personType_3 = "Other"
@@ -44,11 +43,11 @@ describe('Client Corporate structure page test', () => {
     });
 
     it('Go to Assignee Family tab and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue(assignmentId);
-        await assignmentsPage.clickAssignmentById(assignmentId);
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await assigneePage.clickAssigneeTab();
         await assigneePage.clickFamilyTab();
         expect(await assigneePage.getAssigneeLabelText()).toBe("Family members");

@@ -3,7 +3,6 @@ import passSignIn from '../../../helper/passSignIn';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 import setupPage from '../../../pageobjects/clients/setup.page';
 
-const qaClientId = "330"
 const addressesLabel = "Addresses"
 const addressName_1 = "TestQAAddress"
 const addressName_2 = "QAAddressForTest2"
@@ -30,7 +29,7 @@ describe('Client Addresses page test', () => {
     });
 
     it('Go to Addresses page ', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await setupPage.clickSetupTab();
         await setupPage.clickAddressesTab();

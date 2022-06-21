@@ -26,7 +26,7 @@ class assignmentsPage {
         return `(//td[@class="p2"]//span[contains(@class,"mat-tooltip")])[${num}]`
     }
     public getAssignmentById(id): string {
-        return `//td/a[text()=" ${id} "]`
+        return `//td/a[text()=" K2-${id} "]`
     }
     //create Estimate
     public get assignmentsLabel(): string {

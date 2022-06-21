@@ -3,7 +3,6 @@ import passSignIn from '../../helper/passSignIn';
 import clientsPage from '../../pageobjects/clients/clients.page';
 import policiesPage from '../../pageobjects/clients/policies.page';
 
-const qaClientId = "330"
 const policiesLabelText = "Agreed policy matrix"
 const policyName = "TestPolicy_2"
 const notesText = "TestNote"
@@ -56,7 +55,7 @@ describe('Policies page test', () => {
         await passSignIn.signIn();
     });
     it('Open Client document page and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await policiesPage.clickPoliciesTab();
         expect(await policiesPage.getPoliciesLabelText()).toBe(policiesLabelText)

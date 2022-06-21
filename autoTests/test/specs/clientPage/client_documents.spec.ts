@@ -3,7 +3,6 @@ import passSignIn from '../../helper/passSignIn';
 import clientsPage from '../../pageobjects/clients/clients.page';
 import documentsPage from '../../pageobjects/clients/documents.page';
 
-const qaClientId = "330"
 const documentsLabelText = "Client documents"
 const contractRB = "Contract"
 const policyRB = "Policy"
@@ -28,7 +27,6 @@ describe('Client document page test', () => {
     });
 
     it('Open Client document page and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
         await commonElements.clickCloseBtn();
         await documentsPage.clickDocumentsTab();
         expect(await documentsPage.getDocumentsPageLabelText()).toBe(documentsLabelText)

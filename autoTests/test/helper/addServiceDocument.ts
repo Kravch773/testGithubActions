@@ -1,14 +1,15 @@
 import assigneePage from "../pageobjects/assignment/assignee.page";
 import documentsPage from "../pageobjects/clients/documents.page";
 import commonElements from "./commonElements";
+import passSignIn from "./passSignIn";
+
 const defFilePath = "../autoTests/testFiles/QAtest.docx"
 const defFileName = "QAtest.docx"
-const defFAssigneeId = "31970"
 class addServiceDocument {
 
-    public async addDocumentByServiceName(serviceName, assigneeId = defFAssigneeId, filePath = defFilePath): Promise<void> {
-        await browser.newWindow(`https://staging.k2relo.com/staff/clients/330/assignment/${assigneeId}/documents`)
-        await browser.switchWindow(`assignment/${assigneeId}/documents`)
+    public async addDocumentByServiceName(serviceName, filePath = defFilePath): Promise<void> {
+        await browser.newWindow(`https://${passSignIn.enviromentName}.k2relo.com/staff/clients/${passSignIn.clientId}/assignment/${passSignIn.assignmentId}/documents`)
+        await browser.switchWindow(`assignment/${passSignIn.assignmentId}/documents`)
         await commonElements.clickCloseBtn();
         await documentsPage.clickAddNewDocumentBtn();
         await documentsPage.uploadFile(filePath);
@@ -20,8 +21,8 @@ class addServiceDocument {
         await browser.switchWindow("/services");
     }
 
-    public async removeDocumentByName(fileName = defFileName, assigneeId = defFAssigneeId): Promise<void> {
-        await browser.switchWindow(`assignment/${assigneeId}/documents`);
+    public async removeDocumentByName(fileName = defFileName): Promise<void> {
+        await browser.switchWindow(`assignment/${passSignIn.assignmentId}/documents`);
         await assigneePage.clickRemoveDocBtnByName(fileName, "yes");
         await commonElements.checkPopUpMsgAndForNotDisplayed("The document was removed successfully");
         await browser.closeWindow();

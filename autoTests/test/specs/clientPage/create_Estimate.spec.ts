@@ -3,7 +3,6 @@ import passSignIn from '../../helper/passSignIn';
 import assignmentsPage from '../../pageobjects/clients/assignments.page';
 import clientsPage from '../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
 const assignmentLabelText = "All client's assignment"
 const originCountry = "United States"
 const originCity = "Los Angeles"
@@ -35,7 +34,7 @@ describe('Create estimation form test', () => {
         await passSignIn.signIn();
     });
     it('open clients assignment', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
         expect(await assignmentsPage.getAssignmentsLabelText()).toBe(assignmentLabelText)

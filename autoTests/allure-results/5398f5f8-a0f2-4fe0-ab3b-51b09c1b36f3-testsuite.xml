@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655704479991' stop='1655704506718'>
+    <name>Departure services, documents and finance test</name>
+    <title>Departure services, documents and finance test</title>
+    <test-cases>
+        <test-case start='1655704479991' status='passed' stop='1655704498573'>
+            <name>Go to Services / Departure services page and check label</name>
+            <title>Go to Services / Departure services page and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1655704498573' status='failed' stop='1655704506717'>
+            <name>Verify schoolSearch section</name>
+            <title>Verify schoolSearch section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8afb531c-d4e8-4910-a885-38dc696a10c7-attachment.png' type='image/png' size='97513'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                - Expected  - 1
+                + Received  + 9
+                
+                - 5
+                + Preferences:
+                +   Co-ed
+                +   International
+                +   Local
+                +   Other (Please specify)
+                +   Private
+                +   Public/State
+                +   Religious (Please specify)
+                +   Same sex</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                - Expected  - 1
+                + Received  + 9
+                
+                - 5
+                + Preferences:
+                +   Co-ed
+                +   International
+                +   Local
+                +   Other (Please specify)
+                +   Private
+                +   Public/State
+                +   Religious (Please specify)
+                +   Same sex
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\pre_assignment_services\schoolSearch_NA.spec.ts:122:103
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\pre_assignment_services\schoolSearch_NA.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\pre_assignment_services\schoolSearch_NA.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\pre_assignment_services\schoolSearch_NA.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

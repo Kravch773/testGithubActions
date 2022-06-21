@@ -3,7 +3,6 @@ import passSignIn from '../../../helper/passSignIn';
 import setupPage from '../../../pageobjects/clients/setup.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
 const billingLabel = "Billing and quoting settings"
 const invoicingFieldsValue_1 = "Not applicable"
 const invoicingFieldsValue_2 = "Optional"
@@ -56,7 +55,7 @@ describe('Client Billing and quoting settings page test', () => {
     });
 
     it('Go to Billing page ', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await setupPage.clickSetupTab();
         await setupPage.clickBillingTab();

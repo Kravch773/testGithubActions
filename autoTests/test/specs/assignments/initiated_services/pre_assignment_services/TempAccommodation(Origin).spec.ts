@@ -8,8 +8,6 @@ import tempAcomodationPage from '../../../../pageobjects/assignment/services/tem
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
-const assignmentId = "K2-31970"
 const serviceName = "Temp. accommodation (Origin)"
 const partnerName_1 = "Roebuck"
 const address_1 = ["testStreet11", "testStreet21", "testStreet31", "testStreet41"]
@@ -59,12 +57,12 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         await passSignIn.signIn();
     });
 
-    it('Go to Services / Temp accommodation (Origin) tab and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+    it('Go to Services / Temp accommodation (Origin) page and check label', async () => {
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue(assignmentId);
-        await assignmentsPage.clickAssignmentById(assignmentId);
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await initiatedServicesPage.clickInitiatedServicesTab();
         await initiatedServicesPage.clickServiceByName(serviceName);
         expect(await initiatedServicesPage.getServiceName()).toBe("Services / Temp accommodation (Origin)");
@@ -132,7 +130,6 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         expect(await tempAcomodationPage.getRentCurrencyAmountValue()).toBe(rentAmount_1);
         expect(await tempAcomodationPage.getRentPaymentTermValue()).toBe(rentPaymentTerm_1);
         expect(await tempAcomodationPage.getAccommodationNotesValue()).toBe(notes_1);
-
     });
 
     it('Verify edit form Accommodation witout saving ', async () => {

@@ -3,7 +3,6 @@ import passSignIn from "../../../helper/passSignIn"
 import clientsPage from "../../../pageobjects/clients/clients.page"
 import setupPage from "../../../pageobjects/clients/setup.page"
 
-const qaClientId = "330"
 const corporateStructureLabel = "HR admin users"
 const firstName_1 = "QATestHR"
 const firstName_2 = "QATestHR_2"
@@ -41,7 +40,7 @@ describe('Client HR admin users page test', () => {
     });
 
     it('Go to HR admin users and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await setupPage.clickSetupTab();
         await setupPage.clickHRUsersTab();

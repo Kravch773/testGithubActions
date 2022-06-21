@@ -75,7 +75,7 @@ class initiatedServicesPage {
         return `//a[contains(text(),"${fileName}")]/../../../..//input[@type="checkbox"]`
     }
     public getServiceAnalysisAnswerByLabel(label): string {
-        return `//edit-needs-analysis-subsection-button/..//strong[contains(text(),"${label}")]/../div`
+        return `//edit-needs-analysis-subsection-button/../../..//strong[contains(text(),"${label}")]/ancestor::div[1]//div`
     }
     public async getServiceName(): Promise<string> {
         return await Page.getElementText(this.initiatedServicesLabel);

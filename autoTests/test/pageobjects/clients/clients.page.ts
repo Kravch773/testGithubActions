@@ -1,4 +1,5 @@
 import { ChainablePromiseElement } from 'webdriverio';
+import passSignIn from '../../helper/passSignIn';
 
 import Page from '../Page';
 
@@ -38,7 +39,7 @@ class ClientsPage {
         await Page.click(this.clientsBtn);
     }
     public async openQAClientPageById(id): Promise<void> {
-        await Page.openURL(`staff/clients/${id}`)
+        await Page.openURL(passSignIn.enviromentName,`staff/clients/${id}`)
     }
     public async getHeaderText(): Promise<string> {
         return await Page.getElementText(this.headerText);

@@ -20,18 +20,14 @@ class LoginPage {
         await Page.setValue
         await Page.setValue(this.inputUsername, username);
         await Page.click(this.btnSubmit);
-        // await Page.click('//button[text()=" Use my local account "]')
+        await Page.click('//button[text()=" Use my local account "]')
         await Page.setValue(this.inputPassword, password);
         await Page.click(this.btnSubmit);
         await Page.waitElementForDisplayed("//dashboard-top-menu-nav")
         await Page.click(this.btnClose);
     }
-    public async openLoginURL() {
-        await Page.openURL('/auth/login');
-        await browser.maximizeWindow();
-    }
-    public async openRcLoginURL() {
-        await Page.openRcURL('/auth/login');
+    public async openLoginURL(enviromentName) {
+        await Page.openURL(enviromentName,'/auth/login');
         await browser.maximizeWindow();
     }
 

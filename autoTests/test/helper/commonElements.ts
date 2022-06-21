@@ -26,6 +26,12 @@ class commonElements {
     public get inputErrorMsg(): string {
         return '//div[contains(text(),"This is a required field")]'
     }
+    public get invalidValueErrorMsg(): string {
+        return '//div[contains(text(),"Field contains an invalid value")]'
+    }
+    public get lessThenMinValueErrorMsg(): string {
+        return '//div[contains(text(),"Field value cannot be less than")]'
+    }
     public get requiredFildErrorMsg(): string {
         return '//p[contains(text()," The form is invalid. Please correct the highlighted fields.")]'
     }
@@ -134,6 +140,9 @@ class commonElements {
     public getDialogWindowElement(element): string {
         return '//mat-dialog-container' + element
     }
+    public getAirportSelectElementByName(name): string {
+        return `//autocomplete-option//span[contains(text(),"${name}")]`
+    }
     public async clickSaveBtn(): Promise<void> {
         // await Page.scrollElementIntoView(this.saveChangesBtn + "/../../../../../../../../..")
         await Page.scrollElementIntoViewTop(this.saveChangesBtn)
@@ -210,6 +219,9 @@ class commonElements {
         await Page.scrollElementIntoViewTop(this.getChbByLabel(checkBoxlabel));
         return await Page.isElementSelected(this.getChbByLabel(checkBoxlabel));
     }
+    public async isChbSelected(chbElement):Promise<boolean>{
+        return await Page.isElementSelected(chbElement);
+    }
     public async setPersonInput(value, personInput) {
         await Page.scrollElementIntoView(personInput);
         await Page.setValue(personInput, value);
@@ -220,6 +232,12 @@ class commonElements {
     }
     public async getErrorInputMsgQty(): Promise<number> {
         return await Page.getElementsQty(this.inputErrorMsg);
+    }
+    public async isInvalidValueErrorMsgDisplayed(): Promise<boolean> {
+        return await Page.isElementDisplayed(this.invalidValueErrorMsg);
+    }
+    public async isLessThenMinValueErrorMsgDisplayed(): Promise<boolean> {
+        return await Page.isElementDisplayed(this.lessThenMinValueErrorMsg);
     }
     public async isErrorPopUpMsgDisplayed(): Promise<boolean> {
         return await Page.isElementDisplayed(this.requiredFildErrorMsg);
@@ -456,6 +474,10 @@ class commonElements {
         }
         var newDate = newDateArr[0] + "." + (newDateArr[1]) + "." + newDateArr[2];
         return newDate;
+    }
+    public async setAirportInput(airportName, airportInput): Promise<void> {
+        await Page.setValue(airportInput, airportName);
+        await Page.click(this.getAirportSelectElementByName(airportName));
     }
 
 }

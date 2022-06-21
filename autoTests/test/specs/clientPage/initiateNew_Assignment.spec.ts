@@ -3,7 +3,6 @@ import passSignIn from '../../helper/passSignIn';
 import assignmentsPage from '../../pageobjects/clients/assignments.page';
 import clientsPage from '../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
 const assignmentLabelText = "All client's assignment"
 const assignmentUserType_1 = "New assignee"
 const assignmentUserType_2 = "Existing assignee"
@@ -61,7 +60,7 @@ xdescribe('Initiate New Assignment form test', () => {
         await passSignIn.signIn();
     });
     it('Verify Initiate new assignment Step 1: Who is going on assignment? ', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
         expect(await assignmentsPage.getAssignmentsLabelText()).toBe(assignmentLabelText)

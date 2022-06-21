@@ -9,8 +9,6 @@ import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
 const currentDate = commonElements.getCurrentDateNo0Format()
-const qaClientId = "330"
-const assignmentId = "K2-31970"
 const serviceName = "Language training"
 const partnerName_1 = "Roebuck"
 const address_1 = ["testStreet11", "testStreet21", "testStreet31", "testStreet41"]
@@ -51,12 +49,11 @@ describe('Language Training Service, test', () => {
         await passSignIn.signIn();
     });
     it('Go to Services / Language training tab and check label', async () => {
-
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue(assignmentId);
-        await assignmentsPage.clickAssignmentById(assignmentId);
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await initiatedServicesPage.clickInitiatedServicesTab();
         await initiatedServicesPage.clickServiceByName(serviceName);
         expect(await initiatedServicesPage.getServiceName()).toBe("Services / Language training");

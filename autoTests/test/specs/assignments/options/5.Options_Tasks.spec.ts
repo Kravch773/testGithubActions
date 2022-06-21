@@ -4,8 +4,6 @@ import assignmentOptionPage from '../../../pageobjects/assignment/assignmentOpti
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
-const assignmentId = "K2-31970"
 const taskName = "TestTask"
 const triggerDate = commonElements.getCurrentDateNo0Format()
 const serviceName = "Departure services"
@@ -27,11 +25,11 @@ describe('Options_Tasks tab test', () => {
     });
 
     it('Open Options_Tasks tab and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue(assignmentId);
-        await assignmentsPage.clickAssignmentById(assignmentId);
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await assignmentOptionPage.clickAssignmentOptionTab();
         await assignmentOptionPage.clickTasksTab();
         expect(await assignmentOptionPage.getTasksLabelText()).toContain("Outstanding tasks for this assignment");

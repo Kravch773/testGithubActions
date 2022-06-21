@@ -4,8 +4,7 @@ import assignmentOptionPage from '../../../pageobjects/assignment/assignmentOpti
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
-const assignmentId = "K2-31970"
+
 const purchaseOrder_1 = "purchaseOrder_1"
 const purchaseOrder_2 = "purchaseOrder_2"
 const accountCode_1 = "accountCode_1"
@@ -28,11 +27,11 @@ describe('Options_Initiation_Fields test', () => {
     });
 
     it('open Options initiation fields and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue(assignmentId);
-        await assignmentsPage.clickAssignmentById(assignmentId);
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await assignmentOptionPage.clickAssignmentOptionTab();
         await assignmentOptionPage.clickInitiationFieldsTab();
         expect(await assignmentOptionPage.getInitiationFieldsLabelText()).toBe("Initiation fields");

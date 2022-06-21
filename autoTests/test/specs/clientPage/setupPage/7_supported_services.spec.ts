@@ -4,7 +4,6 @@ import clientsPage from '../../../pageobjects/clients/clients.page';
 import Page from '../../../pageobjects/Page';
 import setupPage from '../../../pageobjects/clients/setup.page';
 
-const qaClientId = "330"
 const supServicesLabel = "Supported services"
 const serviceListUpdateMsg= "Enabled service list updated successfully"
 
@@ -15,7 +14,7 @@ describe('Client Supported Services page test', () => {
     });
 
     it('Go to Supported Services tab and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await setupPage.clickSetupTab();
         await setupPage.clickSupServiceTab();

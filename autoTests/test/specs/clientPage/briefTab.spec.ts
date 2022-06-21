@@ -3,7 +3,6 @@ import passSignIn from '../../helper/passSignIn';
 import briefPage from '../../pageobjects/clients/brief.page';
 import clientsPage from '../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
 const briefLabelText = "Client briefing notes"
 const briefingNotesLabel_1 = "Client overview"
 const briefingNotesLabel_2 = "Contract and fee set up"
@@ -23,7 +22,7 @@ describe('Client briefing notes page test', () => {
     });
 
     it('open ClientsPage and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await briefPage.clickBriefTab();
         expect(await briefPage.getBriefLabelText()).toBe(briefLabelText)

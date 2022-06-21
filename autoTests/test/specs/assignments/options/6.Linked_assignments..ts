@@ -14,11 +14,11 @@ describe('Client briefing notes page test', () => {
     });
 
     it('open ClientsPage and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        a await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue("K2-31970");
-        await Page.click('//td/a[text()=" K2-31970 "]');
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await assignmentOptionPage.clickAssignmentOptionTab();
         await assignmentOptionPage.clickLinkedAssignmentsTab();
         expect(await assignmentOptionPage.getAssignmentsLabelText()).toContain("Linked assignments");

@@ -3,10 +3,7 @@ import passSignIn from '../../../helper/passSignIn';
 import assignmentOptionPage from '../../../pageobjects/assignment/assignmentOption.page';
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
-import Page from '../../../pageobjects/Page';
 
-const qaClientId = "330"
-const assignmentId = "K2-31970"
 const reasonLabel_1 = "Assignee cancelled"
 const reasonLabel_2 = "Client cancelled"
 const reasonLabel_3 = "Lost to competitor"
@@ -19,11 +16,11 @@ describe('Client close assignment page test', () => {
     });
 
     it('open ClientsPage and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue(assignmentId);
-        await assignmentsPage.clickAssignmentById(assignmentId);
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await assignmentOptionPage.clickAssignmentOptionTab();
         await assignmentOptionPage.clickCloseAssignmentTab();
         expect(await assignmentOptionPage.getCloseAssignmentLabelText()).toBe("Close assignment");

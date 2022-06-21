@@ -44,7 +44,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/clientPage/setupPage/*.spec.ts'
         ],
         initiatedServices: [
-            './test/specs/assignments/initiated_services/*/*.spec.ts'
+            './test/specs/assignments/initiated_services/*/schoolSearch_financeAndDoc.spec.ts'
         ]
         
     },
@@ -159,12 +159,12 @@ export const config: WebdriverIO.Config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
 
-    reporters: ['spec'],
-    // reporters: [['allure', {
-    //     outputDir: 'allure-results',
-    //     disableWebdriverStepsReporting: true,
-    //     disableWebdriverScreenshotsReporting: false,
-    // }]],
+    // reporters: ['spec'],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+    }]],
 
 
     //
@@ -259,10 +259,11 @@ export const config: WebdriverIO.Config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
-
-
+    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
+        if (error) {
+           await browser.takeScreenshot();
+          }
+    },
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details
@@ -312,4 +313,5 @@ export const config: WebdriverIO.Config = {
     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
+    
 }

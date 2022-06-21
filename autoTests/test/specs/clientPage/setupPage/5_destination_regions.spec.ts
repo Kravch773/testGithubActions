@@ -3,7 +3,6 @@ import passSignIn from '../../../helper/passSignIn';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 import setupPage from '../../../pageobjects/clients/setup.page';
 
-const qaClientId = "330"
 const destinationRegionLabel = "Supported destination regions"
 const europeLabel = "Europe"
 const europeCountryLabel = "Austria"
@@ -24,7 +23,7 @@ describe('Client destination regions page test', () => {
     });
 
     it('Go to destination regions tab and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await setupPage.clickSetupTab();
         await setupPage.clickDestRegionTab();

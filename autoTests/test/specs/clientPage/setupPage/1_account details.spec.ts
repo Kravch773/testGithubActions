@@ -4,7 +4,6 @@ import clientsPage from '../../../pageobjects/clients/clients.page';
 import setupPage from '../../../pageobjects/clients/setup.page';
 
 const clientName = "QA Test Client"
-const qaClientId = "330"
 const officialNameLabel = " Official name "
 const officialNameValue = "TestQAName"
 const defOfficialNameValue = "QA Test Client"
@@ -53,7 +52,7 @@ describe('Client Account details page test', () => {
     });
 
     it('Go to Company details setup page ', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await setupPage.clickSetupTab();
         expect(await setupPage.getClientNameLabel()).toContain(clientName)

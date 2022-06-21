@@ -3,7 +3,6 @@ import passSignIn from '../../../helper/passSignIn';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 import setupPage from '../../../pageobjects/clients/setup.page';
 
-const qaClientId = "330"
 const HHGAllowancesLabel = "HHG shipping allowances"
 const HHGName_1 = "HHG_QA"
 const HHGName_2 = "HHG_QA_2"
@@ -27,7 +26,7 @@ describe('Client HHG shipping allowances page test', () => {
     });
 
     it('Go to HHG shipping allowances tab and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await setupPage.clickSetupTab();
         await setupPage.clickHHGAllowancesTab();

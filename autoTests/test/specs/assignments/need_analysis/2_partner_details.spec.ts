@@ -5,8 +5,6 @@ import needAnalysisPage from '../../../pageobjects/assignment/needAnalysis.page'
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 
-const qaClientId = "330"
-const assignmentId = "K2-31970"
 const needAnalysisSection_2 = "Partner details"
 const title_1 = "Test"
 const title_2 = "Ms"
@@ -50,11 +48,11 @@ describe('Need analysis partner details tab page test', () => {
     });
 
     it('Go to need analysis tab and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await assignmentsPage.clickAssignmentsTab();
-        await assignmentsPage.setIdAssigneeInputValue(assignmentId);
-        await assignmentsPage.clickAssignmentById(assignmentId);
+        await assignmentsPage.setIdAssigneeInputValue(passSignIn.assignmentId);
+        await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await needAnalysisPage.clickNeedAnalysisTab();
         expect(await needAnalysisPage.getNeedAnalysisLabelText()).toBe("Needs analysis");
     });

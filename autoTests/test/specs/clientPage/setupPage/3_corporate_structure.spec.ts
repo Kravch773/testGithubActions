@@ -3,7 +3,6 @@ import passSignIn from '../../../helper/passSignIn';
 import clientsPage from '../../../pageobjects/clients/clients.page';
 import setupPage from '../../../pageobjects/clients/setup.page';
 
-const qaClientId = "330"
 const corporateStructureLabel = "Corporate structure"
 const subsidiaryName_1 = "QATEST"
 const subsidiaryName_2 = "SubTest"
@@ -28,7 +27,7 @@ describe('Client Corporate structure page test', () => {
     });
 
     it('Corporate structure and check label', async () => {
-        await clientsPage.openQAClientPageById(qaClientId);
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await setupPage.clickSetupTab();
         await setupPage.clickCorporatestructureTab();
