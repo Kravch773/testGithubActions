@@ -27,6 +27,7 @@ describe('Client document page test', () => {
     });
 
     it('Open Client document page and check label', async () => {
+        await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
         await documentsPage.clickDocumentsTab();
         expect(await documentsPage.getDocumentsPageLabelText()).toBe(documentsLabelText)
