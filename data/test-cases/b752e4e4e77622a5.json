@@ -1,0 +1,243 @@
+{
+  "uid" : "b752e4e4e77622a5",
+  "name" : "Verify schoolSearch section",
+  "fullName" : "Departure services, documents and finance test.Verify schoolSearch section",
+  "historyId" : "7de567dff040891fcea3a5a535f8a4f0",
+  "time" : {
+    "start" : 1655710601614,
+    "stop" : 1655710609788,
+    "duration" : 8174
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 21,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify schoolSearch section"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c557a5d059e1c510",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655710558225,
+        "stop" : 1655710585377,
+        "duration" : 27152
+      }
+    }, {
+      "uid" : "c35287c61ac901d2",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655709568923,
+        "stop" : 1655709611634,
+        "duration" : 42711
+      }
+    }, {
+      "uid" : "fa5a8f6fe077662f",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655709197788,
+        "stop" : 1655709213003,
+        "duration" : 15215
+      }
+    }, {
+      "uid" : "146e7a53258d4bbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655709154025,
+        "stop" : 1655709180880,
+        "duration" : 26855
+      }
+    }, {
+      "uid" : "3e0ba5511a8f00d5",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655708768712,
+        "stop" : 1655708783912,
+        "duration" : 15200
+      }
+    }, {
+      "uid" : "5fda5af5af6b91ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655708727471,
+        "stop" : 1655708751462,
+        "duration" : 23991
+      }
+    }, {
+      "uid" : "5be8440497127d2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655707368000,
+        "stop" : 1655707376128,
+        "duration" : 8128
+      }
+    }, {
+      "uid" : "8b2bea379ebd1bd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655707184658,
+        "stop" : 1655707192783,
+        "duration" : 8125
+      }
+    }, {
+      "uid" : "b32451423b8d28d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655706974927,
+        "stop" : 1655706983110,
+        "duration" : 8183
+      }
+    }, {
+      "uid" : "dd8582e4453578b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655706655318,
+        "stop" : 1655706663433,
+        "duration" : 8115
+      }
+    }, {
+      "uid" : "c059c1c9b94e761a",
+      "status" : "broken",
+      "statusDetails" : "element (\"//strong[contains(text(),\"Please tell us of any\")]/following-sibling::p[1]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1655706370169,
+        "stop" : 1655706388359,
+        "duration" : 18190
+      }
+    }, {
+      "uid" : "636568ee4fe67f0a",
+      "status" : "broken",
+      "statusDetails" : "element (\"//strong[contains(text(),\"Please tell us of any\")]/following-sibling::p[1]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1655705139913,
+        "stop" : 1655705158232,
+        "duration" : 18319
+      }
+    }, {
+      "uid" : "a21b764c08bf8870",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"5\"\n                Received: \"7\"",
+      "time" : {
+        "start" : 1655704957777,
+        "stop" : 1655704965901,
+        "duration" : 8124
+      }
+    }, {
+      "uid" : "5cff4b76cbe64b6a",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 9\n                \n                - 5\n                + Preferences:\n                +   Co-ed\n                +   International\n                +   Local\n                +   Other (Please specify)\n                +   Private\n                +   Public/State\n                +   Religious (Please specify)\n                +   Same sex",
+      "time" : {
+        "start" : 1655704498573,
+        "stop" : 1655704506717,
+        "duration" : 8144
+      }
+    }, {
+      "uid" : "347868a2d9d6d76d",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 9\n                \n                - 5\n                + Preferences:\n                +   Co-ed\n                +   International\n                +   Local\n                +   Other (Please specify)\n                +   Private\n                +   Public/State\n                +   Religious (Please specify)\n                +   Same sex",
+      "time" : {
+        "start" : 1655542874303,
+        "stop" : 1655542882486,
+        "duration" : 8183
+      }
+    }, {
+      "uid" : "e6f0b34fdd98888e",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                - Expected  - 1\n                + Received  + 9\n                \n                - 5\n                + Preferences:\n                +   Co-ed\n                +   International\n                +   Local\n                +   Other (Please specify)\n                +   Private\n                +   Public/State\n                +   Religious (Please specify)\n                +   Same sex",
+      "time" : {
+        "start" : 1655542641831,
+        "stop" : 1655542650011,
+        "duration" : 8180
+      }
+    }, {
+      "uid" : "f3670a80ce9f2413",
+      "status" : "broken",
+      "statusDetails" : "element (\"//edit-needs-analysis-subsection-button/..//strong[contains(text(),\"Current school year\")]/ancestor::div[1]//div\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1655542012434,
+        "stop" : 1655542030577,
+        "duration" : 18143
+      }
+    }, {
+      "uid" : "866f334c40998811",
+      "status" : "broken",
+      "statusDetails" : "element (\"//simple-tab/div[not(@hidden)]//strong[contains(text(),\"Current school year\")]/../field-spec-value/span\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1655541896535,
+        "stop" : 1655541914809,
+        "duration" : 18274
+      }
+    }, {
+      "uid" : "a63b418ce1d73e06",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655541653271,
+        "stop" : 1655541668525,
+        "duration" : 15254
+      }
+    }, {
+      "uid" : "3c8d73c209bfc104",
+      "status" : "broken",
+      "statusDetails" : "element (\"//simple-tab/div[not(@hidden)]//strong[contains(text(),\"Current school year\")]/../field-spec-value/span\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1655541436437,
+        "stop" : 1655541458073,
+        "duration" : 21636
+      }
+    }, {
+      "uid" : "be45b1151aa538b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655541407037,
+        "stop" : 1655541418933,
+        "duration" : 11896
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b752e4e4e77622a5.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
