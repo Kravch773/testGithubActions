@@ -88,6 +88,9 @@ class assignmentOptionPage {
         return '//ng-component/h1'
     }
     //5.tasks
+    public get reasignSelect(): string {
+        return '//div[text()=" Reassign 1 selected tasks to "]/..//k2-select'
+    }
     public get tasksTab(): string {
         return '//a[contains(@href,"/options/tasks")]'
     }
@@ -125,7 +128,7 @@ class assignmentOptionPage {
         return `//p[@class="text-wrap"][text()="${taskName}"]/../..//input[@type="checkbox"]`
     }
     public get reassignBtn(): string {
-        return '//button[@type="button"][text()=" Reassign "]'
+        return '//custom-tasks-list//button[@type="button"][text()=" Reassign "]'
     }
     public getRemoveConfirmBtn(confirm): string {
         return `//span[text()="${confirm}"]`
@@ -320,7 +323,7 @@ class assignmentOptionPage {
     }
     public async reassignTaskByName(taskName, reassignPerson): Promise<void> {
         await commonElements.setChb(this.getTaskCb(taskName), true);
-        await commonElements.setSelectValue(reassignPerson);
+        await commonElements.setSelectValue(reassignPerson,this.reasignSelect);
         await Page.click(this.reassignBtn);
     }
     public async clickRemoveTaskConfirmBtn(confirm): Promise<void> {

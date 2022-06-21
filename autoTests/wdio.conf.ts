@@ -29,7 +29,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/assignments/need_analysis/*.spec.ts',
         ],//
         assigneeOptions: [
-            './test/specs/assignments/options/*.spec.ts'
+            './test/specs/assignments/options/5.Options_Tasks.spec.ts'
         ],
         assignments_assignee: [
             './test/specs/assignments/assignee/*.spec.ts'
