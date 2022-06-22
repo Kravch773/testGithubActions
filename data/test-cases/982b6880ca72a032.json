@@ -1,0 +1,68 @@
+{
+  "uid" : "982b6880ca72a032",
+  "name" : "Verify Edit Hotel booking service form ",
+  "fullName" : "Travel booking Service hotel service test.Verify Edit Hotel booking service form ",
+  "historyId" : "7b061791f913fe8e399e154dba2239ad",
+  "time" : {
+    "start" : 1655881495797,
+    "stop" : 1655881505682,
+    "duration" : 9885
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.25.2022\"\n                Received: \"6/25/2022\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"6.25.2022\"\n                Received: \"6/25/2022\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/travelBooking_hotelService.spec.ts:95:60\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/travelBooking_hotelService.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/travelBooking_hotelService.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/travelBooking_hotelService.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service hotel service test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service hotel service test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Edit Hotel booking service form "
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service hotel service test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "982b6880ca72a032.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

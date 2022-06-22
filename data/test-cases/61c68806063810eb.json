@@ -1,0 +1,163 @@
+{
+  "uid" : "61c68806063810eb",
+  "name" : "Verify edti schoolSearch section",
+  "fullName" : "Departure services, documents and finance test.Verify edti schoolSearch section",
+  "historyId" : "c823184bacd1defeea36c59b9403b2dd",
+  "time" : {
+    "start" : 1655880459721,
+    "stop" : 1655880479704,
+    "duration" : 19983
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edti schoolSearch section"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "864e8376bfdcdc4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655880430343,
+        "stop" : 1655880451052,
+        "duration" : 20709
+      }
+    }, {
+      "uid" : "733a474709000097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655710609788,
+        "stop" : 1655710628033,
+        "duration" : 18245
+      }
+    }, {
+      "uid" : "e370777c57efc270",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655710585378,
+        "stop" : 1655710601614,
+        "duration" : 16236
+      }
+    }, {
+      "uid" : "ac5173610477f88",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655709213003,
+        "stop" : 1655709228130,
+        "duration" : 15127
+      }
+    }, {
+      "uid" : "a5734f482835f617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655709180881,
+        "stop" : 1655709197785,
+        "duration" : 16904
+      }
+    }, {
+      "uid" : "4fd3e1f0a7a96515",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655708783913,
+        "stop" : 1655708799062,
+        "duration" : 15149
+      }
+    }, {
+      "uid" : "14dcb3683383e2c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655708751464,
+        "stop" : 1655708768710,
+        "duration" : 17246
+      }
+    }, {
+      "uid" : "8d8b1855df32ec4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655707376128,
+        "stop" : 1655707385505,
+        "duration" : 9377
+      }
+    }, {
+      "uid" : "2612792196d70730",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1655707192784,
+        "stop" : 1655707201923,
+        "duration" : 9139
+      }
+    }, {
+      "uid" : "7d5035e387dd4c2f",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655706983110,
+        "stop" : 1655706998241,
+        "duration" : 15131
+      }
+    }, {
+      "uid" : "11aaf037e6581d6a",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655541458073,
+        "stop" : 1655541473285,
+        "duration" : 15212
+      }
+    }, {
+      "uid" : "d512a22f62080524",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655541418935,
+        "stop" : 1655541436435,
+        "duration" : 17500
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61c68806063810eb.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

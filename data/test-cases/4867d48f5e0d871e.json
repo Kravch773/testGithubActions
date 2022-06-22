@@ -1,0 +1,95 @@
+{
+  "uid" : "4867d48f5e0d871e",
+  "name" : "Verify service PurchaseOrder",
+  "fullName" : "Departure services, documents and finance test.Verify service PurchaseOrder",
+  "historyId" : "889e046fd365c1408f9e383e6c5ef9a6",
+  "time" : {
+    "start" : 1655880239883,
+    "stop" : 1655880277188,
+    "duration" : 37305
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service PurchaseOrder"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "28d21ffd70d835bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655879090110,
+        "stop" : 1655879126365,
+        "duration" : 36255
+      }
+    }, {
+      "uid" : "9f11abcd895891e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655715014629,
+        "stop" : 1655715048337,
+        "duration" : 33708
+      }
+    }, {
+      "uid" : "2b04ee59cd20e091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655713449893,
+        "stop" : 1655713484586,
+        "duration" : 34693
+      }
+    }, {
+      "uid" : "58764ab593f70fa",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655713002636,
+        "stop" : 1655713024572,
+        "duration" : 21936
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4867d48f5e0d871e.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

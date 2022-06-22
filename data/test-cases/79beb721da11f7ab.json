@@ -1,0 +1,95 @@
+{
+  "uid" : "79beb721da11f7ab",
+  "name" : "Verify service Sales Order",
+  "fullName" : "Departure services, documents and finance test.Verify service Sales Order",
+  "historyId" : "27ef2880008fe0380600da3d85f08b56",
+  "time" : {
+    "start" : 1655880277189,
+    "stop" : 1655880312562,
+    "duration" : 35373
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Sales Order"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e24228e0b0292ca6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655879126366,
+        "stop" : 1655879161107,
+        "duration" : 34741
+      }
+    }, {
+      "uid" : "bfa3c74e358e6a3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655715048339,
+        "stop" : 1655715081399,
+        "duration" : 33060
+      }
+    }, {
+      "uid" : "ca2a09e90abe9ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655713484587,
+        "stop" : 1655713517781,
+        "duration" : 33194
+      }
+    }, {
+      "uid" : "51afad240f4f665a",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655713024575,
+        "stop" : 1655713039729,
+        "duration" : 15154
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79beb721da11f7ab.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
