@@ -109,7 +109,7 @@ class needAnalysisPage {
         await commonElements.setSelectValue(selectValue, this.getNeedAnalysisSelectByLabel(label));
     }
     public async setNeedAnalysisDateByLabel(dateValue, label): Promise<void> {
-        await browser.pause(500); //more stable
+        // await browser.pause(500); //more stable
         if (await Page.getElementValue(this.getNeedAnalysisInputByLabel(label)) !== dateValue) {
             await commonElements.setDateValue(this.getNeedAnalysisInputByLabel(label), dateValue);
         }

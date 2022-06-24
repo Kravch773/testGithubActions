@@ -55,7 +55,7 @@ const cleaningUpdMsg = "The The cleaning details have been updated. Thank you ha
 const dilapidationsUpdMsg = "The The dilapidations details have been updated. Thank you has been updated successfully. Thank you"
 const depositManagementUpdMsg = "The The deposit management details have been updated. Thank you has been updated successfully. Thank you"
 
-describe('Departure services, documents and finance test', () => {
+describe('Departure services, propertyService test', () => {
 
     before(async () => {
         await passSignIn.signIn();

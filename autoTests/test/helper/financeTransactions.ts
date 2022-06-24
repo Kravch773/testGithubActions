@@ -124,8 +124,10 @@ class addServiceDocument {
     }
     public async getInvoicingDateValue(): Promise<string> {
         return await Page.getElementValue(this.invoicingDateCalendar);
+                // return await commonElements.createStandartDateForm(await Page.getElementValue(this.invoicingDateCalendar));
     }
     public async getEndBillingDateValue(): Promise<string> {
+                // return await commonElements.createStandartDateForm(await Page.getElementValue(this.endBillingDateCalendar));
         return await Page.getElementValue(this.endBillingDateCalendar);
     }
     public async clickEditPurchaseOrderBtn(): Promise<void> {

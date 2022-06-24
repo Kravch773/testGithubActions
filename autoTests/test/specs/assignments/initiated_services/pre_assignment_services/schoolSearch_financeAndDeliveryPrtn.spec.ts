@@ -154,7 +154,7 @@ describe('Departure services, documents and finance test', () => {
         expect(await initiatedServicesPage.getContactPersonValue()).toBe(contactPerson_2)
         expect(await initiatedServicesPage.getNotesToPartnerValue()).toBe(notes_2)
     });
-    it('Verify Initiate service partner', async () => {a
+    it('Verify Initiate service partner', async () => {
         await initiatedServicesPage.clickInitiatePartnerBtn();
         await initiatedServicesPage.clickSendEmailBtn();
         expect(await initiatedServicesPage.isInitiateServiceMsgDisplayed()).toBe(true);

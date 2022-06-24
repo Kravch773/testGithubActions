@@ -23,7 +23,7 @@ const nationalityValue_1 = "American"
 const nationalityValue_2 = "British"
 const dateofbirthLabel = "Date of birth"
 const dateOfBirthValue_1 = commonElements.createGitDateFormat("12.11.1990")
-const dateOfBirthValue_2 = commonElements.createGitDateFormat("11.10.1982") 
+const dateOfBirthValue_2 = commonElements.createGitDateFormat("11.10.1982")
 const maritalStatusLabel = "Marital status"
 const maritalStatusValue_1 = "Single"
 const maritalStatusValue_2 = "Married"
@@ -84,7 +84,7 @@ describe('Asignee Overview page test', () => {
         await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
         expect(await assigneePage.isFieldValueUpdatedByLabel(titleLabel, titleValue_2)).toBe(true);
     });
-     it('Assignee name input', async () => {
+    it('Assignee name input', async () => {
         await assigneePage.clickEditBtnByLabel(nameLabel);
         await commonElements.setInputValue(firstNameValue_1, assigneePage.firstnameInput);
         await commonElements.setInputValue(lastNameValue_1, assigneePage.lastnameInput);
@@ -122,7 +122,7 @@ describe('Asignee Overview page test', () => {
         expect(await commonElements.isPopupMsgDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
         expect(await assigneePage.isFieldValueUpdatedByLabel(genderLabel, genderValue_2)).toBe(true);
-      
+
     });
     it('Assignee job Title input', async () => {
         await assigneePage.clickEditBtnByLabel(jobTitleLabel);
@@ -162,16 +162,16 @@ describe('Asignee Overview page test', () => {
     });
     it('Assignee dateOfBirth input', async () => {
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_1);
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput, dateOfBirthValue_1);
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
         expect(await commonElements.createStandartDateForm(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel))).toBe(dateOfBirthValue_1);
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_2);
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput, dateOfBirthValue_2);
         await commonElements.clickCancelBtn();
         expect(await commonElements.createStandartDateForm(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel))).toBe(dateOfBirthValue_1);
         await assigneePage.clickEditBtnByLabel(dateofbirthLabel);
-        await commonElements.clearAndSetDateValue(assigneePage.dobInput,dateOfBirthValue_2);
+        await commonElements.clearAndSetDateValue(assigneePage.dobInput, dateOfBirthValue_2);
         await commonElements.clickSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
         expect(await commonElements.createStandartDateForm(await assigneePage.getOverviewFieldValueByLabel(dateofbirthLabel))).toBe(dateOfBirthValue_2);
@@ -274,6 +274,8 @@ describe('Asignee Overview page test', () => {
         expect(await commonElements.isPopupMsgDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
         await commonElements.waitPopupMsgForNotDisplayed(assigneeFieldsUpdateMsg);
         expect(await assigneePage.isFieldValueUpdatedByLabel(subsidiaryLabel, subsidiaryValue_1)).toBe(true);
+    });
+    it('Assignee Edit subsidiary input', async () => {
         await assigneePage.clickEditBtnByLabel(subsidiaryLabel);
         await commonElements.setSelectValue(subsidiaryValue_2);
         await commonElements.clickCancelBtn();
@@ -310,17 +312,17 @@ describe('Asignee Overview page test', () => {
         await commonElements.setDropDownValue(languagesLvl_1, assigneePage.languageLvlDD);
         await commonElements.clickSaveBtn();
         // expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assigneeFieldsUpdateMsg)).toBe(true); no pop after first language was set
-        expect(await assigneePage.isFieldValueUpdatedByLabel(languagesSpokenLabel, languagesSpoken_1+" - "+languagesLvl_1)).toBe(true);
+        expect(await assigneePage.isFieldValueUpdatedByLabel(languagesSpokenLabel, languagesSpoken_1 + " - " + languagesLvl_1)).toBe(true);
         await assigneePage.clickEditBtnByLabel(languagesSpokenLabel);
         await commonElements.setDropDownValue(languagesSpoken_2, assigneePage.languageSpokenDD);
         await commonElements.setDropDownValue(languagesLvl_2, assigneePage.languageLvlDD);
         await commonElements.clickCancelBtn();
-        expect(await assigneePage.isFieldValueUpdatedByLabel(languagesSpokenLabel, languagesSpoken_1+" - "+languagesLvl_1)).toBe(true);
+        expect(await assigneePage.isFieldValueUpdatedByLabel(languagesSpokenLabel, languagesSpoken_1 + " - " + languagesLvl_1)).toBe(true);
         await assigneePage.clickEditBtnByLabel(languagesSpokenLabel);
         await commonElements.setDropDownValue(languagesSpoken_2, assigneePage.languageSpokenDD);
         await commonElements.setDropDownValue(languagesLvl_2, assigneePage.languageLvlDD);
         await commonElements.clickSaveBtn();
         // expect(await commonElements.checkPopUpMsgAndForNotDisplayed(assigneeFieldsUpdateMsg)).toBe(true);
-        expect(await assigneePage.isFieldValueUpdatedByLabel(languagesSpokenLabel, languagesSpoken_2+" - "+languagesLvl_2)).toBe(true);
+        expect(await assigneePage.isFieldValueUpdatedByLabel(languagesSpokenLabel, languagesSpoken_2 + " - " + languagesLvl_2)).toBe(true);
     });
 });

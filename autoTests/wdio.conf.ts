@@ -29,16 +29,16 @@ export const config: WebdriverIO.Config = {
             './test/specs/assignments/need_analysis/*.spec.ts',
         ],//
         assigneeOptions: [
-            './test/specs/assignments/options/5.Options_Tasks.spec.ts'
+            './test/specs/assignments/options/*.spec.ts'
         ],
         assignments_assignee: [
-            './test/specs/assignments/assignee/1_overview.spec.ts'
+            './test/specs/assignments/assignee/.spec.ts'
         ],
         assignmentsTabs: [
             './test/specs/assignments/assignment_tabs/*.spec.ts'
-        ],
+        ], 
         clientPageTabs: [
-            './test/specs/clientPage/client_policies.spec.ts'
+            './test/specs/clientPage/*.spec.ts'
         ],
         clientSetupPage: [
             './test/specs/clientPage/setupPage/*.spec.ts'

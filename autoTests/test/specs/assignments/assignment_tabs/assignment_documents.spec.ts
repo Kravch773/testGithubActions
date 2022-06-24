@@ -112,11 +112,12 @@ describe('Assignments documents page test', () => {
 
     });
     it('Verify remove documents', async () => {
-        expect(await assigneePage.getDocQty()).toBe(1);
         await assigneePage.clickRemoveDocBtnByName(fileName, "no");
-        expect(await assigneePage.getDocQty()).toBe(1);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(true);
         await assigneePage.clickRemoveDocBtnByName(fileName, "yes");
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(fileDelMsg)).toBe(true);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(false);
+
     });
     it('Verify unsupported file error', async () => {
         await documentsPage.clickAddNewDocumentBtn();

@@ -113,7 +113,7 @@ class departureServicesPage {
         await commonElements.setDateValue(this.getCompletionDateInputByName(departureServiceName), value);
     }
     public async getCompletionDateByName(departureServiceName): Promise<string> {
-        return await Page.getElementValue(this.getCompletionDateInputByName(departureServiceName));
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.getCompletionDateInputByName(departureServiceName)));
     }
     public async isDepartureNoServiceLabelExisting(departureServiceName): Promise<boolean> {
         return await Page.isElementExisting(this.getDepartureServiceSection(departureServiceName) + initiatedServicesPage.noServicePartnerlabel, 1000);

@@ -19,7 +19,7 @@ const userPermision_2 = "Assignee"
 const addedFileMsg = "The document upload was successful. Thank you."
 const fileUpdateMsg = `The document '${fileName}' was updated successfully. Thank you.`
 const fileDelMsg = 'The document was removed successfully'
-const isGitActionTest = true
+
 //add service test
 describe('Client Corporate structure page test', () => {
 
@@ -98,12 +98,12 @@ describe('Client Corporate structure page test', () => {
 
     });
     it('Verify remove btn', async () => {
-        expect(await assigneePage.getDocQty()).toBe(1);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(true);
         await assigneePage.clickRemoveDocBtnByName(fileName, "no");
-        expect(await assigneePage.getDocQty()).toBe(1);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(true);
         await assigneePage.clickRemoveDocBtnByName(fileName, "yes");
-        expect(await commonElements.isPopupMsgDisplayed(fileDelMsg)).toBe(true);
-        await commonElements.waitPopupMsgForNotDisplayed(fileDelMsg);
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(fileDelMsg)).toBe(true);
+        expect(await documentsPage.isDocumentExisting(fileName)).toBe(true);
     });
     it('Verify unsupported file error', async () => {
         await documentsPage.clickAddNewDocumentBtn();

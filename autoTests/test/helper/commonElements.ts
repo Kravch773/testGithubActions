@@ -219,7 +219,7 @@ class commonElements {
         await Page.scrollElementIntoViewTop(this.getChbByLabel(checkBoxlabel));
         return await Page.isElementSelected(this.getChbByLabel(checkBoxlabel));
     }
-    public async isChbSelected(chbElement):Promise<boolean>{
+    public async isChbSelected(chbElement): Promise<boolean> {
         return await Page.isElementSelected(chbElement);
     }
     public async setPersonInput(value, personInput) {
@@ -286,9 +286,11 @@ class commonElements {
         await this.clearDateField();
         await Page.click(calendarInput);
         await Page.waitElementForDisplayed(this.calendar);
-        await browser.keys(["\uE004"])
-        await Page.waitElementForDisplayed(this.closeCaledarBtn);
-        await Page.click(this.closeCaledarBtn);
+        await browser.pause(500); // more stable 
+        await (await Page.getElement(this.closeCaledarBtn)).click({ x: (-50) });
+        // await browser.keys(["\uE004"])
+        // await Page.waitElementForDisplayed(this.closeCaledarBtn);
+        // await Page.click(this.closeCaledarBtn);
         await Page.waitElementForNotDisplayed(this.calendar);
         await browser.keys(["Control", "V"])
     }
@@ -298,18 +300,20 @@ class commonElements {
     }
     public async clearDateField(): Promise<void> {
         await Page.waitElementForDisplayed(this.calendar);
-        await browser.keys(["\uE004"])
+        await browser.pause(500); // more stable 
+        // await browser.keys(["\uE004"])
+        // // await Page.waitElementForDisplayed(this.closeCaledarBtn);
+        // await Page.scrollElementIntoViewTop(this.closeCaledarBtn);
         // await Page.waitElementForDisplayed(this.closeCaledarBtn);
-        await Page.scrollElementIntoViewTop(this.closeCaledarBtn);
-        await Page.waitElementForDisplayed(this.closeCaledarBtn);
-        await Page.click(this.closeCaledarBtn);
+        // await Page.click(this.closeCaledarBtn);
+        await (await Page.getElement(this.closeCaledarBtn)).click({ x: (-50) });
         await Page.waitElementForNotDisplayed(this.calendar);
         await browser.keys(["Control", "A"])
         await browser.keys(["\uE003"])
     }
 
     public async clickRemoveConfirmBtn(confirm) {
-        await Page.scrollElementIntoView(this.removeBtn);
+        await Page.scrollElementIntoView(this.getRemoveConfirmBtn(confirm));
         await Page.click(this.getRemoveConfirmBtn(confirm));
     }
     public async chbElementQty(): Promise<number> {

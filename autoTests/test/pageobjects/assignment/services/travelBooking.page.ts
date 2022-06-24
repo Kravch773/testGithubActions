@@ -237,10 +237,10 @@ class travelBookingPage {
         return await Page.getElementValue(this.hotelNameInput);
     }
     public async checkInDateValue():Promise<string>{
-        return await Page.getElementValue(this.checkInCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.checkInCalendar))
     }
     public async checkoutDateValue():Promise<string>{
-        return await Page.getElementValue(this.dateCheckout);
+        return  await commonElements.createStandartDateForm(await Page.getElementValue(this.dateCheckout));
     }
     public async guestsValue():Promise<string>{
         return await Page.getElementValue(this.guestsInput);

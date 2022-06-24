@@ -3,6 +3,7 @@ import passSignIn from '../../../helper/passSignIn';
 import needAnalysisPage from '../../../pageobjects/assignment/needAnalysis.page';
 import assignmentsPage from '../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../pageobjects/clients/clients.page';
+import Page from '../../../pageobjects/Page';
 
 const needAnalysisSection_9 = "Temp accommodation (Origin)"
 const arrivalDate_1 = commonElements.getCurrentDateNo0Format()
@@ -60,8 +61,6 @@ describe('Need analysis TempAccommodation(Origin) tab test', () => {
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[7])).toBe(familySmokers_1);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(tempAccommodationQuestionLabel[8])).toBe(payingPerson_1);
     });
-
-
     it('Verify edit TempAccommodation(Origin) section', async () => {
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_9);
         await needAnalysisPage.clickEditAnalysisBtn();

@@ -56,6 +56,9 @@ class documentsPage {
     public get retryBtn(): string {
         return '//button[text()=" Retry "]'
     }
+    public getDocumentLabelByFileName(fileName):string{ 
+        return `//document-link//a[contains(text(),"${fileName}")]`
+    }
     public async getDocumentsPageLabelText(): Promise<string> {
         return Page.getElementText(this.documentsPageLabel);
     }

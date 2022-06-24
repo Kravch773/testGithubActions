@@ -23,9 +23,7 @@ describe('Client document page test', () => {
 
     before(async () => {
         await passSignIn.signIn();
-        
     });
-
     it('Open Client document page and check label', async () => {
         await clientsPage.openQAClientPageById(passSignIn.clientId);
         await commonElements.clickCloseBtn();
