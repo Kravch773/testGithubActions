@@ -1,0 +1,87 @@
+{
+  "uid" : "840804352410281f",
+  "name" : "Verify service PurchaseOrder",
+  "fullName" : "Departure services, documents and finance test.Verify service PurchaseOrder",
+  "historyId" : "889e046fd365c1408f9e383e6c5ef9a6",
+  "time" : {
+    "start" : 1656063541981,
+    "stop" : 1656063578441,
+    "duration" : 36460
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service PurchaseOrder"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a06f7f0a937b37f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655715014629,
+        "stop" : 1655715048337,
+        "duration" : 33708
+      }
+    }, {
+      "uid" : "71b8d8f910e920a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655713449893,
+        "stop" : 1655713484586,
+        "duration" : 34693
+      }
+    }, {
+      "uid" : "30fcbd9631914f4b",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655713002636,
+        "stop" : 1655713024572,
+        "duration" : 21936
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "840804352410281f.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
