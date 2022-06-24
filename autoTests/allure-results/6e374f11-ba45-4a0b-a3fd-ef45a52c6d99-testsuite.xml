@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655800425994' stop='1655800493842'>
+    <name>Options_Tasks tab test</name>
+    <title>Options_Tasks tab test</title>
+    <test-cases>
+        <test-case start='1655800425995' status='passed' stop='1655800441465'>
+            <name>Open Options_Tasks tab and check label</name>
+            <title>Open Options_Tasks tab and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1655800441465' status='failed' stop='1655800493839'>
+            <name>Verify Add New task and reassigned form</name>
+            <title>Verify Add New task and reassigned form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f588e2dd-3b20-4189-998a-45f62b5418e2-attachment.png' type='image/png' size='99968'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\options\5.Options_Tasks.spec.ts:44:69
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\options\5.Options_Tasks.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\options\5.Options_Tasks.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\options\5.Options_Tasks.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

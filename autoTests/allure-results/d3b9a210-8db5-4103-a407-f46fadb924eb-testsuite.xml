@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655796875710' stop='1655796949058'>
+    <name>Options_Edit_Assignment tab test</name>
+    <title>Options_Edit_Assignment tab test</title>
+    <test-cases>
+        <test-case start='1655796875710' status='broken' stop='1655796903590'>
+            <name>open ClientsPage and check label</name>
+            <title>open ClientsPage and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cb39e331-1bd4-41c9-9f4c-b1c6172016f9-attachment.png' type='image/png' size='88543'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1655796903592' status='broken' stop='1655796918757'>
+            <name>Verify AssignmentType and removeCityBtn</name>
+            <title>Verify AssignmentType and removeCityBtn</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='61526776-8c67-4d77-a0e4-cd2b663947e2-attachment.png' type='image/png' size='116150'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1655796918758' status='broken' stop='1655796933913'>
+            <name>Verify set assignment details</name>
+            <title>Verify set assignment details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7de1cbfc-e255-47bd-a99b-5cecbc3fe752-attachment.png' type='image/png' size='116150'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1655796933916' status='broken' stop='1655796949057'>
+            <name>Verify Edit assignment details</name>
+            <title>Verify Edit assignment details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e833a1db-9b93-419c-ab4b-7ca9334e07e2-attachment.png' type='image/png' size='116150'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

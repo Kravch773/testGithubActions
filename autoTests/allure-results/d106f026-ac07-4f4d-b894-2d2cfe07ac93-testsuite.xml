@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655807531646' stop='1655807563116'>
+    <name>Asignee Overview page test</name>
+    <title>Asignee Overview page test</title>
+    <test-cases>
+        <test-case start='1655807531646' status='passed' stop='1655807545456'>
+            <name>open ClientsPage and check label</name>
+            <title>open ClientsPage and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1655807545457' status='broken' stop='1655807563115'>
+            <name>Assignee subsidiary input</name>
+            <title>Assignee subsidiary input</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='05ebd449-3893-4de5-85b1-ee7f6c1ef609-attachment.png' type='image/png' size='88308'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
