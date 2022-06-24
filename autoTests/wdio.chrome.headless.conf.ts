@@ -54,6 +54,9 @@ export const config: WebdriverIO.Config = {
         ],
         hhgServices: [
             './test/specs/assignments/initiated_services/hhg_services/*.spec.ts'
+        ],
+        preAssignmentServices: [
+            './test/specs/assignments/initiated_services/pre_assignment_services/*.spec.ts'
         ]
     },
     // Patterns to exclude.
