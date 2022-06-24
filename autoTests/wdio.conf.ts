@@ -48,8 +48,10 @@ export const config: WebdriverIO.Config = {
         ],
         arrivalServices: [
             './test/specs/assignments/initiated_services/arrival_services/*.spec.ts'
+        ],
+        departureServices: [
+            './test/specs/assignments/initiated_services/departure_services/*.spec.ts'
         ]
-        
     },
     // Patterns to exclude.
     exclude: [
