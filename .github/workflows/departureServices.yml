@@ -16,7 +16,7 @@ jobs:
       - name: npm ci
         working-directory: ${{env.working-directory}} 
         run: npm ci
-      - name: run initiatedServices Tests
+      - name: run departureServices Tests
         working-directory: ${{env.working-directory}}
         run: npm run departureServices:headless # name of the headless script
       - name: Copy History

@@ -51,6 +51,9 @@ export const config: WebdriverIO.Config = {
         ],
         departureServices: [
             './test/specs/assignments/initiated_services/departure_services/*.spec.ts'
+        ],
+        hhgServices: [
+            './test/specs/assignments/initiated_services/hhg_services/*.spec.ts'
         ]
     },
     // Patterns to exclude.
