@@ -1,0 +1,217 @@
+{
+  "uid" : "64885a8cbb96ea29",
+  "name" : "Verify Add New task and reassigned form",
+  "fullName" : "Options_Tasks tab test.Verify Add New task and reassigned form",
+  "historyId" : "a830a79cd69eb7e9f1f75392346209be",
+  "time" : {
+    "start" : 1655808838911,
+    "stop" : 1655808859068,
+    "duration" : 20157
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition timed out after 15000ms",
+    "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "465b48f6b56876b0",
+      "name" : "Screenshot",
+      "source" : "465b48f6b56876b0.png",
+      "type" : "image/png",
+      "size" : 70973
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Options_Tasks tab test"
+  }, {
+    "name" : "testClass",
+    "value" : "Options_Tasks tab test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Add New task and reassigned form"
+  }, {
+    "name" : "package",
+    "value" : "Options_Tasks tab test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7bcb17c290988617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655801681135,
+        "stop" : 1655801716348,
+        "duration" : 35213
+      }
+    }, {
+      "uid" : "36255a6201dc6861",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655801376360,
+        "stop" : 1655801411084,
+        "duration" : 34724
+      }
+    }, {
+      "uid" : "e1a5512ca3ca9e5c",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655801231926,
+        "stop" : 1655801266072,
+        "duration" : 34146
+      }
+    }, {
+      "uid" : "98d48558db726053",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Options_Tasks tab test Verify Add New task and reassigned form\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\options\\5.Options_Tasks.spec.ts)",
+      "time" : {
+        "start" : 1655800835979,
+        "stop" : 1655800898319,
+        "duration" : 62340
+      }
+    }, {
+      "uid" : "b6f015c8d023e27a",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1655800441465,
+        "stop" : 1655800493839,
+        "duration" : 52374
+      }
+    }, {
+      "uid" : "cbb664bbfceed736",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655800286004,
+        "stop" : 1655800312095,
+        "duration" : 26091
+      }
+    }, {
+      "uid" : "751fa0209b29f6e2",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655800087826,
+        "stop" : 1655800123598,
+        "duration" : 35772
+      }
+    }, {
+      "uid" : "d180070a78f00462",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655799852088,
+        "stop" : 1655799887701,
+        "duration" : 35613
+      }
+    }, {
+      "uid" : "c83e75191b03c931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799756997,
+        "stop" : 1655799776919,
+        "duration" : 19922
+      }
+    }, {
+      "uid" : "bbf3ad03bbc86522",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1655799569007,
+        "stop" : 1655799571823,
+        "duration" : 2816
+      }
+    }, {
+      "uid" : "b10abab33e1d50ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799372995,
+        "stop" : 1655799383654,
+        "duration" : 10659
+      }
+    }, {
+      "uid" : "342689a5b4a4e932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799184688,
+        "stop" : 1655799195769,
+        "duration" : 11081
+      }
+    }, {
+      "uid" : "74ba0c3bbc79bb88",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655799019434,
+        "stop" : 1655799055570,
+        "duration" : 36136
+      }
+    }, {
+      "uid" : "732804bbe50e1e6a",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655798835130,
+        "stop" : 1655798871362,
+        "duration" : 36232
+      }
+    }, {
+      "uid" : "998f8120fa599e16",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655798401635,
+        "stop" : 1655798437765,
+        "duration" : 36130
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "64885a8cbb96ea29.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

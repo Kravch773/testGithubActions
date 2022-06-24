@@ -1,13 +1,12 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service documents",
-        "uid" : "c4cace415daf1058",
+        "uid" : "b58146fae6bf60c2",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -22,9 +21,48 @@
         "retriesCount" : 3,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Add New task and reassigned form",
+        "uid" : "64885a8cbb96ea29",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655808838911,
+          "stop" : 1655808859068,
+          "duration" : 20157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "7a32765981bcc7398deb824e5d577aab"
+    }, {
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"Options_Tasks tab test Verify remove task\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\options\\5.Options_Tasks.spec.ts)",
+      "children" : [ {
+        "name" : "Verify remove task",
+        "uid" : "f79167da256e9b58",
+        "parentUid" : "7421e1a785501ccdfe865c23a169b09f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655808859070,
+          "stop" : 1655808919083,
+          "duration" : 60013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "7421e1a785501ccdfe865c23a169b09f"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }
