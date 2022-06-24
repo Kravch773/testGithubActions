@@ -45,6 +45,9 @@ export const config: WebdriverIO.Config = {
         ],
         initiatedServices: [
             './test/specs/assignments/initiated_services/*/schoolSearch_financeAndDoc.spec.ts'
+        ],
+        arrivalServices: [
+            './test/specs/assignments/initiated_services/arrival_services/*.spec.ts'
         ]
         
     },
