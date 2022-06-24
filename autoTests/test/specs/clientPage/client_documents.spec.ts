@@ -1,5 +1,6 @@
 import commonElements from '../../helper/commonElements';
 import passSignIn from '../../helper/passSignIn';
+import assigneePage from '../../pageobjects/assignment/assignee.page';
 import clientsPage from '../../pageobjects/clients/clients.page';
 import documentsPage from '../../pageobjects/clients/documents.page';
 
@@ -91,12 +92,10 @@ describe('Client document page test', () => {
     });
 
     it('Verify remove document', async () => {
-        await documentsPage.clickRemoveBtnDocumentByName(fileName);
-        await commonElements.clickRemoveConfirmBtn("no");
+        await assigneePage.clickRemoveDocBtnByName(fileName, "no");
         expect(await documentsPage.isDocumentExisting(fileName)).toBe(true);
-        await documentsPage.clickRemoveBtnDocumentByName(fileName);
-        await commonElements.clickRemoveConfirmBtn("yes");
-        expect(await commonElements.isPopupMsgDisplayed(fileDelMsg)).toBe(true)
+        await assigneePage.clickRemoveDocBtnByName(fileName, "yes");
+        expect(await commonElements.checkPopUpMsgAndForNotDisplayed(fileDelMsg)).toBe(true);
         expect(await documentsPage.isDocumentExisting(fileName)).toBe(false);
     });
     it('Verify unsupported file error', async () => {
