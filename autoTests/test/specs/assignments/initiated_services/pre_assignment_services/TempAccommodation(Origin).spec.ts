@@ -183,9 +183,11 @@ describe('Temp Accommodation(Origin) Service, test', () => {
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
         expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getDocumentUploadDate())).toContain(startDate_1)
+    });
+    it('Verify remove service document', async () => {
         await initiatedServicesPage.removeServiceDocument();
         expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
-        await addServiceDocument.removeDocumentByName();
+        await addServiceDocument.removeDocumentByName(serviceName);
     });
     it('Verify service PurchaseOrder', async () => {
         await financeTransactions.clickAddPurchaseOrderBtn();

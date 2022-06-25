@@ -184,10 +184,12 @@ describe('Language Training Service, test', () => {
         await initiatedServicesPage.clickAddServiceDocuments();
         await initiatedServicesPage.clickDocumentChbByName();
         await initiatedServicesPage.clickAddDocuments();
-        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getDocumentUploadDate())).toContain(currentDate)
+        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getDocumentUploadDate())).toContain(currentDate);
+    });
+    it('Verify remove service document', async () => {
         await initiatedServicesPage.removeServiceDocument();
         expect(await initiatedServicesPage.isDocumentRemovedMsgDisplayed()).toBe(true);
-        await addServiceDocument.removeDocumentByName();
+        await addServiceDocument.removeDocumentByName(serviceName);
     });
     it('Verify service PurchaseOrder', async () => {
         await financeTransactions.clickAddPurchaseOrderBtn();

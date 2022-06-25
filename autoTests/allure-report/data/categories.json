@@ -1,12 +1,13 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service documents",
-        "uid" : "d00d81422a1a2081",
+        "uid" : "810b5c82df93f7fc",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -23,25 +24,66 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "Verify Add New task and reassigned form",
-        "uid" : "9cda9df381141307",
+        "uid" : "3c30035e1d847a96",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1655798835130,
-          "stop" : 1655798871362,
-          "duration" : 36232
+          "start" : 1655808838911,
+          "stop" : 1655808859068,
+          "duration" : 20157
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "7a32765981bcc7398deb824e5d577aab"
+    }, {
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"Options_Tasks tab test Verify remove task\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\options\\5.Options_Tasks.spec.ts)",
+      "children" : [ {
+        "name" : "Verify remove task",
+        "uid" : "9df59e53106e7453",
+        "parentUid" : "7421e1a785501ccdfe865c23a169b09f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655808859070,
+          "stop" : 1655808919083,
+          "duration" : 60013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "7421e1a785501ccdfe865c23a169b09f"
+    }, {
+      "name" : "Cannot read property 'length' of undefined",
+      "children" : [ {
+        "name" : "Verify service documents",
+        "uid" : "c7ebfc6987d5f876",
+        "parentUid" : "04c3347b84385866294a41aa6a4cc794",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656142276989,
+          "stop" : 1656142291233,
+          "duration" : 14244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "04c3347b84385866294a41aa6a4cc794"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  } ]
 }
