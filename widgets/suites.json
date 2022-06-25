@@ -1,5 +1,5 @@
 {
-  "total" : 11,
+  "total" : 12,
   "items" : [ {
     "uid" : "34eb7c2ce6f2b81320f585e82d88fe3a",
     "name" : "Options_Tasks tab test",
@@ -12,26 +12,37 @@
       "total" : 3
     }
   }, {
-    "uid" : "3040cc7fa5dfb45e32e2d5a749dccd29",
-    "name" : "Departure services, propertyService test",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 33,
-      "unknown" : 0,
-      "total" : 33
-    }
-  }, {
     "uid" : "39d89b2795f156bc06481909929ff26a",
     "name" : "Departure services, documents and finance test",
     "statistic" : {
       "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "f802bb856524856ea2201c9329c59bfe",
+    "name" : "Pet move Service, documents and finance test",
+    "statistic" : {
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 22,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 22
+      "total" : 6
+    }
+  }, {
+    "uid" : "fff8c74351e19d42dbff8a5c3ef6d19e",
+    "name" : "Vehicle move Service, documents and finance test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
     }
   }, {
     "uid" : "a88eaae5c7871f85987e10aa92295f26",
@@ -98,17 +109,6 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 3
-    }
-  }, {
-    "uid" : "ba4916604567f22d2ca991906cd9b2e0",
-    "name" : "Client close assignment page test",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
     }
   } ]
 }
