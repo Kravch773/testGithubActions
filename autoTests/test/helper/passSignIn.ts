@@ -2,7 +2,7 @@ import loginPage from "../pageobjects/login.page";
 
 class passSignIn {
     public get isGithubTest(): boolean {
-        return false;
+        return true;
     }
     public get enviromentName(): string {
         // return "rc"
