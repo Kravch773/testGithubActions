@@ -1,0 +1,125 @@
+{
+  "uid" : "3826b3428d50837e",
+  "name" : "Verify remove task",
+  "fullName" : "Options_Tasks tab test.Verify remove task",
+  "historyId" : "f606e68c7260db6d9caceecd953a8328",
+  "time" : {
+    "start" : 1655808859070,
+    "stop" : 1655808919083,
+    "duration" : 60013
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"Options_Tasks tab test Verify remove task\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\options\\5.Options_Tasks.spec.ts)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Options_Tasks tab test Verify remove task\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\options\\5.Options_Tasks.spec.ts)\n                    at createTimeoutError (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (internal/timers.js:557:17)\n                    at processTimers (internal/timers.js:500:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Options_Tasks tab test"
+  }, {
+    "name" : "testClass",
+    "value" : "Options_Tasks tab test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify remove task"
+  }, {
+    "name" : "package",
+    "value" : "Options_Tasks tab test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e2c35d798a08a041",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655801716349,
+        "stop" : 1655801722769,
+        "duration" : 6420
+      }
+    }, {
+      "uid" : "f6c664e6102eb5bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655801411086,
+        "stop" : 1655801417493,
+        "duration" : 6407
+      }
+    }, {
+      "uid" : "367f73f6bbf6cbfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655800123600,
+        "stop" : 1655800130021,
+        "duration" : 6421
+      }
+    }, {
+      "uid" : "8524684f07c4f9af",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655799195770,
+        "stop" : 1655799210900,
+        "duration" : 15130
+      }
+    }, {
+      "uid" : "6141d6d9605c8ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799055576,
+        "stop" : 1655799062044,
+        "duration" : 6468
+      }
+    }, {
+      "uid" : "6e505310c8feb57f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798871364,
+        "stop" : 1655798877761,
+        "duration" : 6397
+      }
+    }, {
+      "uid" : "d739e6e4e621ea1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798437767,
+        "stop" : 1655798444202,
+        "duration" : 6435
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3826b3428d50837e.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
