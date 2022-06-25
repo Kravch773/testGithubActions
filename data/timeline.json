@@ -1,224 +1,17 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
-    "name" : "0-1",
-    "children" : [ {
-      "name" : "open ClientsPage and check label",
-      "uid" : "a02355c9106bc46a",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798275775,
-        "stop" : 1655798289598,
-        "duration" : 13823
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "6862bc5ba7358fda",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798708817,
-        "stop" : 1655798722340,
-        "duration" : 13523
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify close assignment date ",
-      "uid" : "da98de1290bf261c",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798722341,
-        "stop" : 1655798730423,
-        "duration" : 8082
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "b8b0a69f36e1923a",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656068105258,
-        "stop" : 1656068120259,
-        "duration" : 15001
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "f3f42d46cf17d0c4",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656068055239,
-        "stop" : 1656068082917,
-        "duration" : 27678
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service PurchaseOrder",
-      "uid" : "c75dba11c23a6a5f",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656068082918,
-        "stop" : 1656068105257,
-        "duration" : 22339
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify close assignment date ",
-      "uid" : "36dd430e8353af53",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798289598,
-        "stop" : 1655798297732,
-        "duration" : 8134
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Home sale assistance page and check label",
-      "uid" : "61e1df719fdee8aa",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656068039376,
-        "stop" : 1656068055239,
-        "duration" : 15863
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "231cecde0efc3744",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656068120260,
-        "stop" : 1656068135261,
-        "duration" : 15001
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "27fa874cadc1574e37a07abb440963bd"
-  }, {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Assignee subsidiary input",
-      "uid" : "9dc65e2daf15a7fe",
+      "name" : "Verify schoolSearch section",
+      "uid" : "2110395974fdf699",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1655809301533,
-        "stop" : 1655809325231,
-        "duration" : 23698
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "64b15419c6e5f126",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655714988078,
-        "stop" : 1655715014627,
-        "duration" : 26549
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "d298f9c9d440405b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655800087826,
-        "stop" : 1655800123598,
-        "duration" : 35772
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "4ac7fb872157cad6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656067957065,
-        "stop" : 1656067984788,
-        "duration" : 27723
+        "start" : 1655708768712,
+        "stop" : 1655708783912,
+        "duration" : 15200
       },
       "flaky" : false,
       "newFailed" : false,
@@ -229,47 +22,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify schoolSearch section",
-      "uid" : "dd3030e66410deb7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655706655318,
-        "stop" : 1655706663433,
-        "duration" : 8115
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "cd899b88517d0122",
+      "uid" : "77e503d40c8d03b9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1655799852088,
-        "stop" : 1655799887701,
-        "duration" : 35613
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "ba766aaaca5b138c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655810080167,
-        "stop" : 1655810096851,
-        "duration" : 16684
+        "start" : 1655542012434,
+        "stop" : 1655542030577,
+        "duration" : 18143
       },
       "flaky" : false,
       "newFailed" : false,
@@ -280,13 +39,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify schoolSearch section",
-      "uid" : "ac520161c1b210e7",
+      "uid" : "a97f6e74d78a0b89",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1655541436437,
-        "stop" : 1655541458073,
-        "duration" : 21636
+        "start" : 1655706370169,
+        "stop" : 1655706388359,
+        "duration" : 18190
       },
       "flaky" : false,
       "newFailed" : false,
@@ -296,14 +55,65 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify service PurchaseOrder",
-      "uid" : "ba9527f2a06debe3",
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "83d6412aa13c5334",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1655713002636,
-        "stop" : 1655713024572,
-        "duration" : 21936
+        "start" : 1655710609788,
+        "stop" : 1655710628033,
+        "duration" : 18245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 10,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "16960cc260eb4482",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655807903234,
+        "stop" : 1655807916514,
+        "duration" : 13280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "24c82abf6d579fe5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655807341831,
+        "stop" : 1655807355351,
+        "duration" : 13520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "4a43b350b6d41cc0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655705123304,
+        "stop" : 1655705139913,
+        "duration" : 16609
       },
       "flaky" : false,
       "newFailed" : false,
@@ -314,47 +124,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Open Options_Tasks tab and check label",
-      "uid" : "dcce0af01673ed02",
+      "uid" : "12392e895e137cd9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655801664998,
-        "stop" : 1655801681135,
-        "duration" : 16137
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "3d15c69032130860",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655799834523,
-        "stop" : 1655799852088,
-        "duration" : 17565
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "1607244f816cf294",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655800425995,
-        "stop" : 1655800441465,
-        "duration" : 15470
+        "start" : 1655800070755,
+        "stop" : 1655800087826,
+        "duration" : 17071
       },
       "flaky" : false,
       "newFailed" : false,
@@ -365,7 +141,24 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify service documents",
-      "uid" : "58697c62d1fbcca4",
+      "uid" : "7380410c1abe9dc0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656139729123,
+        "stop" : 1656139766860,
+        "duration" : 37737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service documents",
+      "uid" : "c498b5ebbf661860",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -382,98 +175,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Go to Services / Departure services page and check label",
-      "uid" : "67d918cd6ab8bf3e",
+      "uid" : "495c8925ae35e90",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655706638872,
-        "stop" : 1655706655317,
-        "duration" : 16445
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "ff782281aca5ecb1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655810257980,
-        "stop" : 1655810274207,
-        "duration" : 16227
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "f38de017a69d93c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655712959105,
-        "stop" : 1655712975966,
-        "duration" : 16861
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "e90bba5f53a27b84",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655807903234,
-        "stop" : 1655807916514,
-        "duration" : 13280
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "62c9ab46bc8ec709",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655807545457,
-        "stop" : 1655807563115,
-        "duration" : 17658
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "e1c98a372ebf1cb7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655809287211,
-        "stop" : 1655809301532,
-        "duration" : 14321
+        "start" : 1655541878949,
+        "stop" : 1655541896535,
+        "duration" : 17586
       },
       "flaky" : false,
       "newFailed" : false,
@@ -484,13 +192,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify edti schoolSearch section",
-      "uid" : "1c4c9f7c94a9dab6",
+      "uid" : "c2fe72839a4c50c0",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1655709213003,
-        "stop" : 1655709228130,
-        "duration" : 15127
+        "start" : 1655541418935,
+        "stop" : 1655541436435,
+        "duration" : 17500
       },
       "flaky" : false,
       "newFailed" : false,
@@ -500,14 +208,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "3547cb30d5729b85",
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "9c1ada48f5d1bc1a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655809978413,
-        "stop" : 1655809991944,
-        "duration" : 13531
+        "start" : 1655800270302,
+        "stop" : 1655800286003,
+        "duration" : 15701
       },
       "flaky" : false,
       "newFailed" : false,
@@ -518,7 +226,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Go to Services / Departure services page and check label",
-      "uid" : "345c1d2dc3cf5616",
+      "uid" : "cf73899920fb029e",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -534,14 +242,31 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify set assignment details",
-      "uid" : "ad832f69d91d3757",
+      "name" : "Verify service documents",
+      "uid" : "4dd1198227e88bc5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655715393508,
+        "stop" : 1655715420104,
+        "duration" : 26596
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "165c3aea4763da37",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655798226290,
-        "stop" : 1655798242910,
-        "duration" : 16620
+        "start" : 1655542856231,
+        "stop" : 1655542874303,
+        "duration" : 18072
       },
       "flaky" : false,
       "newFailed" : false,
@@ -551,14 +276,31 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify remove task",
-      "uid" : "f3596d74abb83adf",
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "ed0fa1e69124146e",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655799055576,
-        "stop" : 1655799062044,
-        "duration" : 6468
+        "start" : 1655704939545,
+        "stop" : 1655704957777,
+        "duration" : 18232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "e03c8ee481c3128e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655810080167,
+        "stop" : 1655810096851,
+        "duration" : 16684
       },
       "flaky" : false,
       "newFailed" : false,
@@ -569,7 +311,279 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify Add New task and reassigned form",
-      "uid" : "544086824f9a85cf",
+      "uid" : "be0dd69b9118ca08",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655800835979,
+        "stop" : 1655800898319,
+        "duration" : 62340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Assignment management Page and check label",
+      "uid" : "f64d9db8be47f18f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656139710764,
+        "stop" : 1656139729123,
+        "duration" : 18359
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "edf66cfd7086adb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655810067063,
+        "stop" : 1655810080166,
+        "duration" : 13103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "53e6c1315bc8a014",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655715375812,
+        "stop" : 1655715393508,
+        "duration" : 17696
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 21,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "9100c9b7546a1ec0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655706974927,
+        "stop" : 1655706983110,
+        "duration" : 8183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "595988a67767501",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655809399454,
+        "stop" : 1655809417111,
+        "duration" : 17657
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "8ac6ed893e24f479",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799356214,
+        "stop" : 1655799372995,
+        "duration" : 16781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "a2f5f4ab761e8c98",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655809614337,
+        "stop" : 1655809638040,
+        "duration" : 23703
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify remove task",
+      "uid" : "69f1cd29c0d0448e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655801411086,
+        "stop" : 1655801417493,
+        "duration" : 6407
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "19a75a2be9e1910f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655713484587,
+        "stop" : 1655713517781,
+        "duration" : 33194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "13b0d97b9f0d27e9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655541390168,
+        "stop" : 1655541407036,
+        "duration" : 16868
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "980e50d9aa9f2d7b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655807659398,
+        "stop" : 1655807672845,
+        "duration" : 13447
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "145c075a49695378",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655807672846,
+        "stop" : 1655807690501,
+        "duration" : 17655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "3bc5c334b8181731",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655704957777,
+        "stop" : 1655704965901,
+        "duration" : 8124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edit form",
+      "uid" : "89c5cb0b625b3d93",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656056269098,
+        "stop" : 1656056287481,
+        "duration" : 18383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service PurchaseOrder",
+      "uid" : "b52f135be149c6fb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655713449893,
+        "stop" : 1655713484586,
+        "duration" : 34693
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "7a2243dbee6589e6",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -586,7 +600,466 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "open ClientsPage and check label",
-      "uid" : "41a5ce5ffb09d05f",
+      "uid" : "9129cea82ca95771",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655796875710,
+        "stop" : 1655796903590,
+        "duration" : 27880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "1c8f2bf8a72aeaa6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655709154025,
+        "stop" : 1655709180880,
+        "duration" : 26855
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "fce5867ecc8e279",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655706655318,
+        "stop" : 1655706663433,
+        "duration" : 8115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "363a77a545faff6c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655799019434,
+        "stop" : 1655799055570,
+        "duration" : 36136
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "beea726213791fb4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655710601614,
+        "stop" : 1655710609788,
+        "duration" : 8174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 21,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "7fbd036f4a4c77b9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655707192784,
+        "stop" : 1655707201923,
+        "duration" : 9139
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "6f3d3dd51d064f5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655706638872,
+        "stop" : 1655706655317,
+        "duration" : 16445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "61bc59ded2bb6f13",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655708783913,
+        "stop" : 1655708799062,
+        "duration" : 15149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "5355ac9b48f5e098",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655707376128,
+        "stop" : 1655707385505,
+        "duration" : 9377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify AssignmentType and removeCityBtn",
+      "uid" : "bfc32f418933ace8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798222599,
+        "stop" : 1655798226289,
+        "duration" : 3690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "16cdc3686088721",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655704498573,
+        "stop" : 1655704506717,
+        "duration" : 8144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "bfa1fc3672c92aae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655713406576,
+        "stop" : 1655713423366,
+        "duration" : 16790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "59b7e640674de9a3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655801359534,
+        "stop" : 1655801376359,
+        "duration" : 16825
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "a289e91c5500e80f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655542641831,
+        "stop" : 1655542650011,
+        "duration" : 8180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify remove task",
+      "uid" : "15e469db5c3f97c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655801716349,
+        "stop" : 1655801722769,
+        "duration" : 6420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "99a2a1255489e515",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655709568923,
+        "stop" : 1655709611634,
+        "duration" : 42711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "14da85aa47d06cf8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655710585378,
+        "stop" : 1655710601614,
+        "duration" : 16236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edit presonal details section",
+      "uid" : "e5c528386b2b5fc5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654413609700,
+        "stop" : 1654413627998,
+        "duration" : 18298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "f02943e1b929ff4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655801681135,
+        "stop" : 1655801716348,
+        "duration" : 35213
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Recurring Purchase Orders",
+      "uid" : "c0960e9a07ddb04",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655715081401,
+        "stop" : 1655715104724,
+        "duration" : 23323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "fbe39b5819c885c9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655807955501,
+        "stop" : 1655807967931,
+        "duration" : 12430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edit Assignment details section",
+      "uid" : "e45040a0e393954",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654504566934,
+        "stop" : 1654504592468,
+        "duration" : 25534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "60172b7d340ed6e5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655541653271,
+        "stop" : 1655541668525,
+        "duration" : 15254
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "1f7faac394809539",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799168688,
+        "stop" : 1655799184687,
+        "duration" : 15999
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "27500fd8724fd4bb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655800820952,
+        "stop" : 1655800835978,
+        "duration" : 15026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify add document form",
+      "uid" : "c36326cc31a6e678",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656056257080,
+        "stop" : 1656056269097,
+        "duration" : 12017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "d15f6b116955f2ec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655715048339,
+        "stop" : 1655715081399,
+        "duration" : 33060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "4628fe8f7d1daa2e",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -603,7 +1076,75 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Go to Services / Departure services page and check label",
-      "uid" : "e5901c273aee7f66",
+      "uid" : "6230922206bf995a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655710540612,
+        "stop" : 1655710558225,
+        "duration" : 17613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify set assignment details",
+      "uid" : "4223476c58b6e7a3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655796918758,
+        "stop" : 1655796933913,
+        "duration" : 15155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "69f7f0fdc192db30",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655809301533,
+        "stop" : 1655809325231,
+        "duration" : 23698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "ae5d1e36d55346d7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799553389,
+        "stop" : 1655799569007,
+        "duration" : 15618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "593f0e0e6645f75d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -619,269 +1160,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "4637f622ae0f23b3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655801216569,
-        "stop" : 1655801231926,
-        "duration" : 15357
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "c1a69965558d1ee0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798631627,
-        "stop" : 1655798646103,
-        "duration" : 14476
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "4c28122d91aa7a81",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655705123304,
-        "stop" : 1655705139913,
-        "duration" : 16609
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Assignment details section",
-      "uid" : "84e2780502acbdad",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654504549251,
-        "stop" : 1654504566932,
-        "duration" : 17681
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "3b6fd96a68e45192",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655541407037,
-        "stop" : 1655541418933,
-        "duration" : 11896
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "a9803a35708f3321",
+      "name" : "Assignee subsidiary input",
+      "uid" : "288222447f4066fc",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1655800835979,
-        "stop" : 1655800898319,
-        "duration" : 62340
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "7b9a6207a925ad08",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655807124588,
-        "stop" : 1655807138632,
-        "duration" : 14044
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "ef70d04119a6bca6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655541995916,
-        "stop" : 1655542012434,
-        "duration" : 16518
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "e3b29bc06aede341",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655800070755,
-        "stop" : 1655800087826,
-        "duration" : 17071
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "fe675d1c51700265",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655713406576,
-        "stop" : 1655713423366,
-        "duration" : 16790
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "8cad3df662d8c033",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655708783913,
-        "stop" : 1655708799062,
-        "duration" : 15149
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify unsupported file error",
-      "uid" : "a0b442e2a403c1da",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656056294373,
-        "stop" : 1656056296739,
-        "duration" : 2366
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "6c21cd40edc272dc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655807916515,
-        "stop" : 1655807934563,
-        "duration" : 18048
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "dd74a9d5c6f680a2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1655542641831,
-        "stop" : 1655542650011,
-        "duration" : 8180
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "7ba2c9dc7c21ab1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655808049399,
-        "stop" : 1655808062483,
-        "duration" : 13084
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "f543a70a34243930",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655807726546,
-        "stop" : 1655807728675,
-        "duration" : 2129
+        "start" : 1655809869358,
+        "stop" : 1655809887420,
+        "duration" : 18062
       },
       "flaky" : false,
       "newFailed" : false,
@@ -892,7 +1178,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Go to need analysis tab and check label",
-      "uid" : "e92d726ee09e8a2d",
+      "uid" : "65da468a3da43a23",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -908,48 +1194,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.63" ]
     }, {
-      "name" : "Verify service PurchaseOrder",
-      "uid" : "a9f2f2cdbf22d243",
+      "name" : "open ClientsPage and check label",
+      "uid" : "e531f10e2a2b5bb9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655713449893,
-        "stop" : 1655713484586,
-        "duration" : 34693
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "c351263ec575ec1b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655541458073,
-        "stop" : 1655541473285,
-        "duration" : 15212
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify add document form",
-      "uid" : "f3dd3f4ab755dd64",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656056257080,
-        "stop" : 1656056269097,
-        "duration" : 12017
+        "start" : 1655809599521,
+        "stop" : 1655809614337,
+        "duration" : 14816
       },
       "flaky" : false,
       "newFailed" : false,
@@ -960,13 +1212,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Assignee subsidiary input",
-      "uid" : "23fa5655a3fc06ce",
+      "uid" : "b34ec24151d98b1a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1655809399454,
-        "stop" : 1655809417111,
-        "duration" : 17657
+        "start" : 1655808062484,
+        "stop" : 1655808086651,
+        "duration" : 24167
       },
       "flaky" : false,
       "newFailed" : false,
@@ -976,14 +1228,184 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify AssignmentType and removeCityBtn",
-      "uid" : "f41d0144a44189ee",
+      "name" : "Verify remove task",
+      "uid" : "326436f39ecf5ab3",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655798646103,
-        "stop" : 1655798649803,
-        "duration" : 3700
+        "start" : 1655799055576,
+        "stop" : 1655799062044,
+        "duration" : 6468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "111f7e80549ad9b9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655810245322,
+        "stop" : 1655810257980,
+        "duration" : 12658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 14,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify unsupported file error",
+      "uid" : "65cdf152cc95ee36",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656056294373,
+        "stop" : 1656056296739,
+        "duration" : 2366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "7120cf518ce2488b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655799569007,
+        "stop" : 1655799571823,
+        "duration" : 2816
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "58686be3e72698c4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655807531646,
+        "stop" : 1655807545456,
+        "duration" : 13810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "388811fe97f425bb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655801216569,
+        "stop" : 1655801231926,
+        "duration" : 15357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify remove task",
+      "uid" : "511f23fce03f31d1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655799195770,
+        "stop" : 1655799210900,
+        "duration" : 15130
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "a598b15669ddf2af",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655541995916,
+        "stop" : 1655542012434,
+        "duration" : 16518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "23a0cdfefba710a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655801376360,
+        "stop" : 1655801411084,
+        "duration" : 34724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "4af79001bcb3c0b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799834523,
+        "stop" : 1655799852088,
+        "duration" : 17565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service PurchaseOrder",
+      "uid" : "b652e9f5acfe9a02",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655715014629,
+        "stop" : 1655715048337,
+        "duration" : 33708
       },
       "flaky" : false,
       "newFailed" : false,
@@ -993,14 +1415,14 @@
       "retriesStatusChange" : true,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify AssignmentType and removeCityBtn",
-      "uid" : "f7b689d3f27c3d35",
+      "name" : "open ClientsPage and check label",
+      "uid" : "bd2904e5cd8c5ae2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655798222599,
-        "stop" : 1655798226289,
-        "duration" : 3690
+        "start" : 1655807124588,
+        "stop" : 1655807138632,
+        "duration" : 14044
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1010,212 +1432,25 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "ee82bb9de8d70c61",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656068007158,
-        "stop" : 1656068022162,
-        "duration" : 15004
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "ab608a9c33a83be6",
+      "name" : "Verify Edit assignment details",
+      "uid" : "7e75b1756ecbe444",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655709154025,
-        "stop" : 1655709180880,
-        "duration" : 26855
+        "start" : 1655798668059,
+        "stop" : 1655798706086,
+        "duration" : 38027
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "beb34fa04a44c5b7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655800270302,
-        "stop" : 1655800286003,
-        "duration" : 15701
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "8e5af72c5a8fbba4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655541896535,
-        "stop" : 1655541914809,
-        "duration" : 18274
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "99501a138c39b3cd",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655801359534,
-        "stop" : 1655801376359,
-        "duration" : 16825
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "86a4b11f07db8cc4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655807138633,
-        "stop" : 1655807156739,
-        "duration" : 18106
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "68ec77c5c9036e92",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655706983110,
-        "stop" : 1655706998241,
-        "duration" : 15131
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "6aceaf63ea3e7118",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655709197788,
-        "stop" : 1655709213003,
-        "duration" : 15215
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "24451a661b7c879d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655715393508,
-        "stop" : 1655715420104,
-        "duration" : 26596
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 3,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify remove task",
-      "uid" : "afcb161c65fe45f2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655801716349,
-        "stop" : 1655801722769,
-        "duration" : 6420
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "fea2140ee4df860d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655713517783,
-        "stop" : 1655713541181,
-        "duration" : 23398
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "a6051af1b6f5ef1c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655808823234,
-        "stop" : 1655808838910,
-        "duration" : 15676
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 15,
-      "retriesStatusChange" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify remove document",
-      "uid" : "d2f4598bd218091f",
+      "uid" : "1514e0308ad8b598",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -1232,381 +1467,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify Add New task and reassigned form",
-      "uid" : "860e339ba4c9a9cb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655799756997,
-        "stop" : 1655799776919,
-        "duration" : 19922
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "1e48a2984d2a72f8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655710558225,
-        "stop" : 1655710585377,
-        "duration" : 27152
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "d4d01d4d8b8fd96c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655809856072,
-        "stop" : 1655809869358,
-        "duration" : 13286
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "d8892676f35fc366",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655713484587,
-        "stop" : 1655713517781,
-        "duration" : 33194
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "9fe0eb7bcb5ae10",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655541653271,
-        "stop" : 1655541668525,
-        "duration" : 15254
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Home purchase assistance page and check label",
-      "uid" : "731905412d9d7c74",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656067940358,
-        "stop" : 1656067957064,
-        "duration" : 16706
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "8cc01bd5da59d09e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655808062484,
-        "stop" : 1655808086651,
-        "duration" : 24167
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "3061e0242b438a6f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1655704498573,
-        "stop" : 1655704506717,
-        "duration" : 8144
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "dee0581269219b4a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655707184658,
-        "stop" : 1655707192783,
-        "duration" : 8125
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "ee9b4088ed6c6607",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655714971114,
-        "stop" : 1655714988078,
-        "duration" : 16964
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "9da7d810dd408b89",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655708751464,
-        "stop" : 1655708768710,
-        "duration" : 17246
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "64475b2604fa12dc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655799168688,
-        "stop" : 1655799184687,
-        "duration" : 15999
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "87082c47aea30db5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655707368000,
-        "stop" : 1655707376128,
-        "duration" : 8128
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "884690a03f99ac54",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655799184688,
-        "stop" : 1655799195769,
-        "duration" : 11081
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "1481aff523349fd7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655541418935,
-        "stop" : 1655541436435,
-        "duration" : 17500
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "c64ca2336248d9f7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655807341831,
-        "stop" : 1655807355351,
-        "duration" : 13520
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify AssignmentType and removeCityBtn",
-      "uid" : "6a556255ff9b121b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655796903592,
-        "stop" : 1655796918757,
-        "duration" : 15165
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "2587dd46c416108",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655710585378,
-        "stop" : 1655710601614,
-        "duration" : 16236
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "e7c47f4a2ad3e522",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655710609788,
-        "stop" : 1655710628033,
-        "duration" : 18245
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 10,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "f6a17435b19ad16f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655707167826,
-        "stop" : 1655707184658,
-        "duration" : 16832
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "5a07793ed9c374f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655807967932,
-        "stop" : 1655807991671,
-        "duration" : 23739
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "6d6ede6c0601840f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655542856231,
-        "stop" : 1655542874303,
-        "duration" : 18072
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "9d483031deacfb40",
+      "uid" : "a146a7629ed600c8",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -1622,14 +1483,133 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "9d8f44409e7be704",
+      "name" : "Verify set assignment details",
+      "uid" : "edf0df9d04277907",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655810067063,
-        "stop" : 1655810080166,
-        "duration" : 13103
+        "start" : 1655798649804,
+        "stop" : 1655798668057,
+        "duration" : 18253
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "4949c6746666f6c2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655709180881,
+        "stop" : 1655709197785,
+        "duration" : 16904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "99cd3d80d0fb9a6f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655707368000,
+        "stop" : 1655707376128,
+        "duration" : 8128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "b1019b8629db12c9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655713024575,
+        "stop" : 1655713039729,
+        "duration" : 15154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service documents",
+      "uid" : "7bc06d1529bbd135",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655714988078,
+        "stop" : 1655715014627,
+        "duration" : 26549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify AssignmentType and removeCityBtn",
+      "uid" : "ff6974117640a25c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798646103,
+        "stop" : 1655798649803,
+        "duration" : 3700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "b565cbeee4556eb3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655808838911,
+        "stop" : 1655808859068,
+        "duration" : 20157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Recurring Purchase Orders",
+      "uid" : "c2f7202177eb8ad0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655713517783,
+        "stop" : 1655713541181,
+        "duration" : 23398
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1640,13 +1620,30 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Open Options_Tasks tab and check label",
-      "uid" : "caa2ce4c5c4a2b05",
+      "uid" : "c9f1a747f0c34f40",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655799553389,
-        "stop" : 1655799569007,
-        "duration" : 15618
+        "start" : 1655799741041,
+        "stop" : 1655799756997,
+        "duration" : 15956
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service PurchaseOrder",
+      "uid" : "6f784086e212f9c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655713002636,
+        "stop" : 1655713024572,
+        "duration" : 21936
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1657,13 +1654,268 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify schoolSearch section",
-      "uid" : "4ea5626f658f3183",
+      "uid" : "8735683e7aa1dd9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1655542012434,
-        "stop" : 1655542030577,
-        "duration" : 18143
+        "start" : 1655541436437,
+        "stop" : 1655541458073,
+        "duration" : 21636
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "f5ab72c950493532",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655801664998,
+        "stop" : 1655801681135,
+        "duration" : 16137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Client document page and check label",
+      "uid" : "229230b7b492b618",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656056245099,
+        "stop" : 1656056257080,
+        "duration" : 11981
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "67ed2508ed53dd3a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798631627,
+        "stop" : 1655798646103,
+        "duration" : 14476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "c27af8696d2fb2ac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655810257980,
+        "stop" : 1655810274207,
+        "duration" : 16227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 14,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "f265a34253ed9188",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655807916515,
+        "stop" : 1655807934563,
+        "duration" : 18048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "4b898c1001a4054c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656139781865,
+        "stop" : 1656139796868,
+        "duration" : 15003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "fbfcab4c2560a02f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655709197788,
+        "stop" : 1655709213003,
+        "duration" : 15215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "a99e748343672801",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655801231926,
+        "stop" : 1655801266072,
+        "duration" : 34146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "9164f744fc3ce9ab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655705139913,
+        "stop" : 1655705158232,
+        "duration" : 18319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "5138eec1d848caf9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655708751464,
+        "stop" : 1655708768710,
+        "duration" : 17246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "d4d1f99ecbd0e4e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655800441465,
+        "stop" : 1655800493839,
+        "duration" : 52374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "9609cb09480e819e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655807545457,
+        "stop" : 1655807563115,
+        "duration" : 17658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "c140a9fab3b3e099",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655808049399,
+        "stop" : 1655808062483,
+        "duration" : 13084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "bb5de6a4da3ea86",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655808823234,
+        "stop" : 1655808838910,
+        "duration" : 15676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "53583a2522954393",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655706353347,
+        "stop" : 1655706370168,
+        "duration" : 16821
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1674,13 +1926,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Go to Services / Departure services page and check label",
-      "uid" : "330253fce0b65221",
+      "uid" : "3f93a912ee9d5592",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655710540612,
-        "stop" : 1655710558225,
-        "duration" : 17613
+        "start" : 1655541636574,
+        "stop" : 1655541653271,
+        "duration" : 16697
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1690,14 +1942,31 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "a9db3511537d6152",
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "cdf3267acbdeecb2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
+      "status" : "broken",
       "time" : {
-        "start" : 1655542874303,
-        "stop" : 1655542882486,
-        "duration" : 8183
+        "start" : 1655800087826,
+        "stop" : 1655800123598,
+        "duration" : 35772
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "84418bc9bc73bba3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655704479991,
+        "stop" : 1655704498573,
+        "duration" : 18582
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1708,7 +1977,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "3ae6fbfa921768d8",
+      "uid" : "173fdec4d22b888",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -1725,7 +1994,41 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "open ClientsPage and check label",
-      "uid" : "6f4c945dc6fdb77",
+      "uid" : "8cb1120f47a059e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655809978413,
+        "stop" : 1655809991944,
+        "duration" : 13531
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "7ff9e017af7c658b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655714971114,
+        "stop" : 1655714988078,
+        "duration" : 16964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "8b9bce12b9f180d7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -1741,14 +2044,31 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "446d73df4a92615b",
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "1235da09a9733b06",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655706957929,
-        "stop" : 1655706974927,
-        "duration" : 16998
+        "start" : 1655800425995,
+        "stop" : 1655800441465,
+        "duration" : 15470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "e9630ec625b1425",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799756997,
+        "stop" : 1655799776919,
+        "duration" : 19922
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1759,30 +2079,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "open ClientsPage and check label",
-      "uid" : "71cb4d31a3a64d3e",
+      "uid" : "198891f2b83f0ccb",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655809599521,
-        "stop" : 1655809614337,
-        "duration" : 14816
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify set assignment details",
-      "uid" : "b6057b4f318ca2f4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655796918758,
-        "stop" : 1655796933913,
-        "duration" : 15155
+        "start" : 1655809287211,
+        "stop" : 1655809301532,
+        "duration" : 14321
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1793,7 +2096,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Go to Services / Departure services page and check label",
-      "uid" : "6e53a9d22ca1216e",
+      "uid" : "9dd31887e898ea50",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -1809,269 +2112,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "ed6b45507e1164a1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655710601614,
-        "stop" : 1655710609788,
-        "duration" : 8174
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 21,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify remove task",
-      "uid" : "d76bdb548cb4d8b9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655799195770,
-        "stop" : 1655799210900,
-        "duration" : 15130
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "9afd9df90bdcc48e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655807531646,
-        "stop" : 1655807545456,
-        "duration" : 13810
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "cfa80eb968662478",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655541878949,
-        "stop" : 1655541896535,
-        "duration" : 17586
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "ae6fd53a8e28cbc5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655801376360,
-        "stop" : 1655801411084,
-        "duration" : 34724
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "8df319121394a42e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655810245322,
-        "stop" : 1655810257980,
-        "duration" : 12658
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 14,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "ba56cb816f41180c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655708727471,
-        "stop" : 1655708751462,
-        "duration" : 23991
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "f96e11faa2d62d3c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656068022162,
-        "stop" : 1656068037166,
-        "duration" : 15004
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "b5013e6f9f1a55ff",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655809869358,
-        "stop" : 1655809887420,
-        "duration" : 18062
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
       "name" : "Verify set assignment details",
-      "uid" : "3472d257d11908a4",
+      "uid" : "ef7822e32fae5edf",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655798649804,
-        "stop" : 1655798668057,
-        "duration" : 18253
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "44dfe16e18ee7176",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655541390168,
-        "stop" : 1655541407036,
-        "duration" : 16868
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service documents",
-      "uid" : "c2339dfc95553138",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655712975967,
-        "stop" : 1655713002636,
-        "duration" : 26669
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "fee8339a3436cfbe",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655801681135,
-        "stop" : 1655801716348,
-        "duration" : 35213
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service PurchaseOrder",
-      "uid" : "8a77d2f1fd61b41a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655715014629,
-        "stop" : 1655715048337,
-        "duration" : 33708
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Client document page and check label",
-      "uid" : "630277c1266f463a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656056245099,
-        "stop" : 1656056257080,
-        "duration" : 11981
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "5032cd7dfb06fd84",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655708710355,
-        "stop" : 1655708727471,
-        "duration" : 17116
+        "start" : 1655798226290,
+        "stop" : 1655798242910,
+        "duration" : 16620
       },
       "flaky" : false,
       "newFailed" : false,
@@ -2082,217 +2130,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify edti schoolSearch section",
-      "uid" : "a99d0f7cd37c1295",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655707376128,
-        "stop" : 1655707385505,
-        "duration" : 9377
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "21303168d194b93b",
+      "uid" : "a317f5cf4fc849c2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1655808838911,
-        "stop" : 1655808859068,
-        "duration" : 20157
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 15,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "8f68f2ce8958372a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655706974927,
-        "stop" : 1655706983110,
-        "duration" : 8183
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "35ef9ad5b497d3a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655706370169,
-        "stop" : 1655706388359,
-        "duration" : 18190
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify remove task",
-      "uid" : "3fb1f16f5aa8f4ee",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655801411086,
-        "stop" : 1655801417493,
-        "duration" : 6407
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "5578bc9c48983cf2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655704939545,
-        "stop" : 1655704957777,
-        "duration" : 18232
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "5b5615f8d3a0be6d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655809385704,
-        "stop" : 1655809399454,
-        "duration" : 13750
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "1ad3ad9502ace947",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655801231926,
-        "stop" : 1655801266072,
-        "duration" : 34146
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "9d71d760c4444014",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655799019434,
-        "stop" : 1655799055570,
-        "duration" : 36136
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "2761a471bf3514ad",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655713024575,
-        "stop" : 1655713039729,
-        "duration" : 15154
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "722c3b66efff7b9c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655704479991,
-        "stop" : 1655704498573,
-        "duration" : 18582
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Edit assignment details",
-      "uid" : "a8612830ecf3c8c1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798668059,
-        "stop" : 1655798706086,
-        "duration" : 38027
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "74647310fd1468b8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655809614337,
-        "stop" : 1655809638040,
-        "duration" : 23703
+        "start" : 1655541458073,
+        "stop" : 1655541473285,
+        "duration" : 15212
       },
       "flaky" : false,
       "newFailed" : false,
@@ -2303,7 +2147,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Assignee subsidiary input",
-      "uid" : "76a141bccaefd0ae",
+      "uid" : "3aeac26965fac283",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -2319,456 +2163,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "9d5a7071730da0ca",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1655704957777,
-        "stop" : 1655704965901,
-        "duration" : 8124
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Edit assignment details",
-      "uid" : "68de048b8ae6e035",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798242910,
-        "stop" : 1655798273026,
-        "duration" : 30116
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "59ff327756dd7e82",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1655799569007,
-        "stop" : 1655799571823,
-        "duration" : 2816
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify remove task",
-      "uid" : "2320ca47350171b1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655800123600,
-        "stop" : 1655800130021,
-        "duration" : 6421
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edit Assignment details section",
-      "uid" : "2f740b295761099e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654504566934,
-        "stop" : 1654504592468,
-        "duration" : 25534
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify remove task",
-      "uid" : "fbd4fd2585898a59",
+      "name" : "Verify AssignmentType and removeCityBtn",
+      "uid" : "ed65b828812ddb23",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1655808859070,
-        "stop" : 1655808919083,
-        "duration" : 60013
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 7,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Add New task and reassigned form",
-      "uid" : "fd92949854d7aa13",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1655800441465,
-        "stop" : 1655800493839,
-        "duration" : 52374
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "44f9c71339adf292",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655542624904,
-        "stop" : 1655542641831,
-        "duration" : 16927
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "4fc1f7a61cc39889",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655715375812,
-        "stop" : 1655715393508,
-        "duration" : 17696
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 21,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "d6ba1a4cac23ed5b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655799356214,
-        "stop" : 1655799372995,
-        "duration" : 16781
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "54f66ac47f3aed9f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655799003624,
-        "stop" : 1655799019434,
-        "duration" : 15810
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "711b4923df2c9ba7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655709180881,
-        "stop" : 1655709197785,
-        "duration" : 16904
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "d1758ddbd4252dce",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655796875710,
-        "stop" : 1655796903590,
-        "duration" : 27880
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "c6589760ea2a8a2c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655807659398,
-        "stop" : 1655807672845,
-        "duration" : 13447
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "65a76f45362f8dac",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655715081401,
-        "stop" : 1655715104724,
-        "duration" : 23323
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edit form",
-      "uid" : "1d59a165ec2df323",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656056269098,
-        "stop" : 1656056287481,
-        "duration" : 18383
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "5148e3c3298f6acf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655807355352,
-        "stop" : 1655807372982,
-        "duration" : 17630
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Assignee subsidiary input",
-      "uid" : "1b589cd55fa5f524",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655807672846,
-        "stop" : 1655807690501,
-        "duration" : 17655
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "4a585411503819",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655706353347,
-        "stop" : 1655706370168,
-        "duration" : 16821
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open ClientsPage and check label",
-      "uid" : "66f465948931fb40",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655807955501,
-        "stop" : 1655807967931,
-        "duration" : 12430
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "fe98d718315877bb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655705139913,
-        "stop" : 1655705158232,
-        "duration" : 18319
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "8e600769ce558fad",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655709568923,
-        "stop" : 1655709611634,
-        "duration" : 42711
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Go to Services / Departure services page and check label",
-      "uid" : "8b6f3418c29c7c59",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655541636574,
-        "stop" : 1655541653271,
-        "duration" : 16697
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edit presonal details section",
-      "uid" : "a8175e083e58245a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654413609700,
-        "stop" : 1654413627998,
-        "duration" : 18298
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.63" ]
-    }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "9f3a7e648843c13c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1655707192784,
-        "stop" : 1655707201923,
-        "duration" : 9139
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "2b449dfb4c555a32",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655800820952,
-        "stop" : 1655800835978,
-        "duration" : 15026
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "3ce4752cf233bc69",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655799741041,
-        "stop" : 1655799756997,
-        "duration" : 15956
+        "start" : 1655796903592,
+        "stop" : 1655796918757,
+        "duration" : 15165
       },
       "flaky" : false,
       "newFailed" : false,
@@ -2779,7 +2181,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify Personal details section",
-      "uid" : "d63309de7ef07228",
+      "uid" : "610c2e1808557042",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -2795,31 +2197,490 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.63" ]
     }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "6f28f16f566007d9",
+      "name" : "Verify schoolSearch section",
+      "uid" : "5c2ef00d9fde2fed",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1655715048339,
-        "stop" : 1655715081399,
-        "duration" : 33060
+        "start" : 1655707184658,
+        "stop" : 1655707192783,
+        "duration" : 8125
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify service PurchaseOrder",
-      "uid" : "ed9c68aa86cc0e30",
+      "name" : "Verify schoolSearch section",
+      "uid" : "7eacd6aa4a95dff1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655708727471,
+        "stop" : 1655708751462,
+        "duration" : 23991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Edit assignment details",
+      "uid" : "be39b3cb9ce7a54f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798242910,
+        "stop" : 1655798273026,
+        "duration" : 30116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "e35598b3b8428a4a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655707167826,
+        "stop" : 1655707184658,
+        "duration" : 16832
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "6db0f7df8d413952",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655809856072,
+        "stop" : 1655809869358,
+        "duration" : 13286
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Assignment details section",
+      "uid" : "a69e3df0adab2b3e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654504549251,
+        "stop" : 1654504566932,
+        "duration" : 17681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "82f52b3003062003",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655807726546,
+        "stop" : 1655807728675,
+        "duration" : 2129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "8a0ab6ce8aa54d4f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655712959105,
+        "stop" : 1655712975966,
+        "duration" : 16861
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify remove task",
+      "uid" : "50f17dd070009b31",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1656067984788,
-        "stop" : 1656068007157,
-        "duration" : 22369
+        "start" : 1655808859070,
+        "stop" : 1655808919083,
+        "duration" : 60013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "b452904b39dc8b19",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799003624,
+        "stop" : 1655799019434,
+        "duration" : 15810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "8840a49d39792384",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655542874303,
+        "stop" : 1655542882486,
+        "duration" : 8183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "a3b838a14666b493",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655542624904,
+        "stop" : 1655542641831,
+        "duration" : 16927
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "6ecbb8ec49b04ac0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655799184688,
+        "stop" : 1655799195769,
+        "duration" : 11081
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "98034f897036eeb6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655541407037,
+        "stop" : 1655541418933,
+        "duration" : 11896
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "52adb0015a3905ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655706983110,
+        "stop" : 1655706998241,
+        "duration" : 15131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Add New task and reassigned form",
+      "uid" : "7468c151137af935",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655799852088,
+        "stop" : 1655799887701,
+        "duration" : 35613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "54c2147fe17537e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655708710355,
+        "stop" : 1655708727471,
+        "duration" : 17116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Departure services page and check label",
+      "uid" : "79d06dfc7a916db6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655706957929,
+        "stop" : 1655706974927,
+        "duration" : 16998
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Recurring Purchase Orders",
+      "uid" : "740b2437e6a5a482",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656139796869,
+        "stop" : 1656139811872,
+        "duration" : 15003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify remove task",
+      "uid" : "b14d8640b293859f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655800123600,
+        "stop" : 1655800130021,
+        "duration" : 6421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "261f9616815aa47f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655807355352,
+        "stop" : 1655807372982,
+        "duration" : 17630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "1691194c3637321b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655710558225,
+        "stop" : 1655710585377,
+        "duration" : 27152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edti schoolSearch section",
+      "uid" : "5ff5bdf2077bd78e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655709213003,
+        "stop" : 1655709228130,
+        "duration" : 15127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "e882c6d170f00aba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655807138633,
+        "stop" : 1655807156739,
+        "duration" : 18106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service documents",
+      "uid" : "fe0c7c4efd6faade",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655712975967,
+        "stop" : 1655713002636,
+        "duration" : 26669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "e345ff4f1c0fa7e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655809385704,
+        "stop" : 1655809399454,
+        "duration" : 13750
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Assignee subsidiary input",
+      "uid" : "8f86e4ba23ed9821",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655807967932,
+        "stop" : 1655807991671,
+        "duration" : 23739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Edit assignment details",
+      "uid" : "fee378c893aed0b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655796933916,
+        "stop" : 1655796949057,
+        "duration" : 15141
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify schoolSearch section",
+      "uid" : "439afd10cc198002",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655541896535,
+        "stop" : 1655541914809,
+        "duration" : 18274
       },
       "flaky" : false,
       "newFailed" : false,
@@ -2830,7 +2691,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Go to need analysis tab and check label",
-      "uid" : "9ed860b662e42879",
+      "uid" : "cd56a852cbe36474",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -2846,31 +2707,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.63" ]
     }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "93416cdedf8a5289",
+      "name" : "Verify service PurchaseOrder",
+      "uid" : "261adb1e7c58e882",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1655708768712,
-        "stop" : 1655708783912,
-        "duration" : 15200
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Edit assignment details",
-      "uid" : "8aae708a0f8f072e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655796933916,
-        "stop" : 1655796949057,
-        "duration" : 15141
+        "start" : 1656139766862,
+        "stop" : 1656139781865,
+        "duration" : 15003
       },
       "flaky" : false,
       "newFailed" : false,
@@ -2882,16 +2726,640 @@
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "open Options_TeamMember and check label",
+      "uid" : "1d3fbb0ed831f368",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798767088,
+        "stop" : 1655798779941,
+        "duration" : 12853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service PurchaseOrder",
+      "uid" : "b41b8ce08b052271",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656140160191,
+        "stop" : 1656140175195,
+        "duration" : 15004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "6f7fe5044feec680",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656140175196,
+        "stop" : 1656140190198,
+        "duration" : 15002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edit team member form",
+      "uid" : "eafdbd4e52d16966",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798370690,
+        "stop" : 1655798383651,
+        "duration" : 12961
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Recurring Purchase Orders",
+      "uid" : "a216ecf26704e06a",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656140190199,
+        "stop" : 1656140205202,
+        "duration" : 15003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify remove team member ",
+      "uid" : "e747f954c073d47c",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798789267,
+        "stop" : 1655798803449,
+        "duration" : 14182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify edit team member form",
+      "uid" : "27e04a41ce1e2a8f",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798803451,
+        "stop" : 1655798817207,
+        "duration" : 13756
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Assignment management Page and check label",
+      "uid" : "7e692a443e3c0dd1",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656140105691,
+        "stop" : 1656140122693,
+        "duration" : 17002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open Options_TeamMember and check label",
+      "uid" : "c5f1370fbcce889d",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798334201,
+        "stop" : 1655798347807,
+        "duration" : 13606
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify remove team member ",
+      "uid" : "98d5994d4242aa18",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798358092,
+        "stop" : 1655798370687,
+        "duration" : 12595
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Options_TeamMember form",
+      "uid" : "254a922d411b9959",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798779942,
+        "stop" : 1655798789267,
+        "duration" : 9325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service documents",
+      "uid" : "e854ad0902ae56ab",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656140122693,
+        "stop" : 1656140160190,
+        "duration" : 37497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Options_TeamMember form",
+      "uid" : "a09e7d5c733c821f",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798347807,
+        "stop" : 1655798358092,
+        "duration" : 10285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Verify service Recurring Purchase Orders",
+      "uid" : "ee9c570492982ab9",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656140087827,
+        "stop" : 1656140102832,
+        "duration" : 15005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Initiate service partner",
+      "uid" : "997e1d1716b8551c",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656139996726,
+        "stop" : 1656140004681,
+        "duration" : 7955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "5f0b7a71387ac1ba",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656140072826,
+        "stop" : 1656140087827,
+        "duration" : 15001
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Go to Services / Language training tab and check label",
+      "uid" : "642e13669e41766e",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656139917833,
+        "stop" : 1656139934275,
+        "duration" : 16442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open Options initiation fields and check label",
+      "uid" : "6b49040029b7b9de",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798733178,
+        "stop" : 1655798746435,
+        "duration" : 13257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open Options initiation fields and check label",
+      "uid" : "a647b0262cfd34c1",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798300486,
+        "stop" : 1655798313260,
+        "duration" : 12774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service documents",
+      "uid" : "e1589c6c3290f53b",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656140020580,
+        "stop" : 1656140057821,
+        "duration" : 37241
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify remove service partner",
+      "uid" : "c01ee14a368a3a82",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656140004682,
+        "stop" : 1656140020580,
+        "duration" : 15898
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify language training edit form with saving ",
+      "uid" : "78f69cab118ced4d",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656139982700,
+        "stop" : 1656139996726,
+        "duration" : 14026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify language training form",
+      "uid" : "3ed9cebcee8b3af",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656139934276,
+        "stop" : 1656139974951,
+        "duration" : 40675
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service PurchaseOrder",
+      "uid" : "dcdef5b3e55d7ef8",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656140057822,
+        "stop" : 1656140072825,
+        "duration" : 15003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Edit initiation fields",
+      "uid" : "4d7cff19821cd149",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798313260,
+        "stop" : 1655798331403,
+        "duration" : 18143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify Edit initiation fields",
+      "uid" : "ab39b76425c3c111",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798746436,
+        "stop" : 1655798764297,
+        "duration" : 17861
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify language training edit form witout saving ",
+      "uid" : "d55a32a63cbe1649",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656139974951,
+        "stop" : 1656139982700,
+        "duration" : 7749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Go to Services / Home sale page and check label",
+      "uid" : "3ff02f9abb2804ac",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656139814681,
+        "stop" : 1656139832233,
+        "duration" : 17552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "b10525602b779f36",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798275775,
+        "stop" : 1655798289598,
+        "duration" : 13823
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify close assignment date ",
+      "uid" : "770e4ffb58ab3eb8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798722341,
+        "stop" : 1655798730423,
+        "duration" : 8082
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service PurchaseOrder",
+      "uid" : "3070dc95ce01a0fe",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656139869874,
+        "stop" : 1656139884877,
+        "duration" : 15003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "open ClientsPage and check label",
+      "uid" : "1507f8c78194fcb6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798708817,
+        "stop" : 1655798722340,
+        "duration" : 13523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "bd9fc5a2cf4fba5c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656139884878,
+        "stop" : 1656139899879,
+        "duration" : 15001
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify close assignment date ",
+      "uid" : "ce7ab5e84bad62e6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798289598,
+        "stop" : 1655798297732,
+        "duration" : 8134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service Recurring Purchase Orders",
+      "uid" : "d2d9a9cffe830700",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656139899880,
+        "stop" : 1656139914882,
+        "duration" : 15002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Verify service documents",
+      "uid" : "9853c03ac21941b8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656139832233,
+        "stop" : 1656139869872,
+        "duration" : 37639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
     "name" : "0-4",
     "children" : [ {
       "name" : "Verify remove task",
-      "uid" : "a13ec79cf0bd175e",
+      "uid" : "65b8f0fc5218c50",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "passed",
       "time" : {
-        "start" : 1655798437767,
-        "stop" : 1655798444202,
-        "duration" : 6435
+        "start" : 1655798871364,
+        "stop" : 1655798877761,
+        "duration" : 6397
       },
       "flaky" : false,
       "newFailed" : false,
@@ -2902,7 +3370,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify Add New task and reassigned form",
-      "uid" : "ac6408e3b9b6b883",
+      "uid" : "4e7a10d792e130e5",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "broken",
       "time" : {
@@ -2919,7 +3387,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Verify Add New task and reassigned form",
-      "uid" : "aa92df8450e09a70",
+      "uid" : "392d1c8a4ac1eaaf",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "broken",
       "time" : {
@@ -2935,14 +3403,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Open Options_Tasks tab and check label",
-      "uid" : "ce729fd7dfe9d734",
+      "name" : "Verify remove task",
+      "uid" : "27722716c2ef6c0f",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "passed",
       "time" : {
-        "start" : 1655798819959,
-        "stop" : 1655798835129,
-        "duration" : 15170
+        "start" : 1655798437767,
+        "stop" : 1655798444202,
+        "duration" : 6435
       },
       "flaky" : false,
       "newFailed" : false,
@@ -2953,7 +3421,7 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Open Options_Tasks tab and check label",
-      "uid" : "e933a05d94577240",
+      "uid" : "4214e415823ecec5",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "passed",
       "time" : {
@@ -2969,14 +3437,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Verify remove task",
-      "uid" : "7544803478118ef5",
+      "name" : "Open Options_Tasks tab and check label",
+      "uid" : "a6bfcec249ba1831",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "passed",
       "time" : {
-        "start" : 1655798871364,
-        "stop" : 1655798877761,
-        "duration" : 6397
+        "start" : 1655798819959,
+        "stop" : 1655798835129,
+        "duration" : 15170
       },
       "flaky" : false,
       "newFailed" : false,
@@ -2988,237 +3456,8 @@
     } ],
     "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
   }, {
-    "name" : "0-2",
-    "children" : [ {
-      "name" : "open Options initiation fields and check label",
-      "uid" : "65ce37a81ae0d431",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798733178,
-        "stop" : 1655798746435,
-        "duration" : 13257
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Edit initiation fields",
-      "uid" : "b0b1ae78d4928860",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798746436,
-        "stop" : 1655798764297,
-        "duration" : 17861
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open Options initiation fields and check label",
-      "uid" : "eda04b74ea269b60",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798300486,
-        "stop" : 1655798313260,
-        "duration" : 12774
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Edit initiation fields",
-      "uid" : "b4bf032fb86cd8b4",
-      "parentUid" : "880a094af3dffab161e2023284569d6f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798313260,
-        "stop" : 1655798331403,
-        "duration" : 18143
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "880a094af3dffab161e2023284569d6f"
-  }, {
     "name" : "Verify require fields error msg",
-    "uid" : "aba6aecde845ad5f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1655798313260,
-      "stop" : 1655798313260,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "0-3",
-    "children" : [ {
-      "name" : "Verify edit team member form",
-      "uid" : "1c50c28ee8a1e1da",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798803451,
-        "stop" : 1655798817207,
-        "duration" : 13756
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open Options_TeamMember and check label",
-      "uid" : "1a8df44f4c104e48",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798334201,
-        "stop" : 1655798347807,
-        "duration" : 13606
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Options_TeamMember form",
-      "uid" : "2251f2ca97e1d0ed",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798779942,
-        "stop" : 1655798789267,
-        "duration" : 9325
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify Options_TeamMember form",
-      "uid" : "3207cc60b3882568",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798347807,
-        "stop" : 1655798358092,
-        "duration" : 10285
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify remove team member ",
-      "uid" : "b35610afc383cde7",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798358092,
-        "stop" : 1655798370687,
-        "duration" : 12595
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify remove team member ",
-      "uid" : "b0371bb88d219d40",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798789267,
-        "stop" : 1655798803449,
-        "duration" : 14182
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "open Options_TeamMember and check label",
-      "uid" : "9637bd428fa77edd",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798767088,
-        "stop" : 1655798779941,
-        "duration" : 12853
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Verify edit team member form",
-      "uid" : "541bbb5d36aeb2c7",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655798370690,
-        "stop" : 1655798383651,
-        "duration" : 12961
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "b755a79e149728f67460aea38b0710e0"
-  }, {
-    "name" : "Verify require fields error msg",
-    "uid" : "dba3c558e5cb1eed",
+    "uid" : "d1d57f6e940f4d82",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -3233,6 +3472,22 @@
     "retriesCount" : 1,
     "retriesStatusChange" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "timeline"
+  }, {
+    "name" : "Verify require fields error msg",
+    "uid" : "513a8c81047cc343",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1655798313260,
+      "stop" : 1655798313260,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
 }

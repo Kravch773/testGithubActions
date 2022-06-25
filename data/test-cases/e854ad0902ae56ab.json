@@ -1,0 +1,77 @@
+{
+  "uid" : "e854ad0902ae56ab",
+  "name" : "Verify service documents",
+  "fullName" : "Assignment management Service, documents and finance test.Verify service documents",
+  "historyId" : "6024a1a599500eda4fca3be588764b4b",
+  "time" : {
+    "start" : 1656140122693,
+    "stop" : 1656140160190,
+    "duration" : 37497
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Assignment management Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Assignment management Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service documents"
+  }, {
+    "name" : "package",
+    "value" : "Assignment management Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7380410c1abe9dc0",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1656139729123,
+        "stop" : 1656139766860,
+        "duration" : 37737
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e854ad0902ae56ab.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
