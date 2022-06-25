@@ -1,0 +1,68 @@
+{
+  "uid" : "b834074b6be09d",
+  "name" : "Go to Services / Visa & Immigration page and check label",
+  "fullName" : "Visa & Immigration Service, Need Analysis Section test.Go to Services / Visa & Immigration page and check label",
+  "historyId" : "c1a8d8b7b3814e72bec9043d7f33edaa",
+  "time" : {
+    "start" : 1656152078998,
+    "stop" : 1656152107854,
+    "duration" : 28856
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "testClass",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to Services / Visa & Immigration page and check label"
+  }, {
+    "name" : "package",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b834074b6be09d.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
