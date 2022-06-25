@@ -1,0 +1,98 @@
+{
+  "uid" : "e143355794ef4c30",
+  "name" : "Verify service documents",
+  "fullName" : "Departure services, documents and finance test.Verify service documents",
+  "historyId" : "3be4c294c63888c74b6a51b508779abc",
+  "time" : {
+    "start" : 1656146980651,
+    "stop" : 1656146995614,
+    "duration" : 14963
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service documents"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ee1d3e46b3c80030",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655715393508,
+        "stop" : 1655715420104,
+        "duration" : 26596
+      }
+    }, {
+      "uid" : "8cfa7859ed60437c",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655714988078,
+        "stop" : 1655715014627,
+        "duration" : 26549
+      }
+    }, {
+      "uid" : "45a993df9d9146a",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655713423367,
+        "stop" : 1655713449891,
+        "duration" : 26524
+      }
+    }, {
+      "uid" : "85551f8f8e74a948",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655712975967,
+        "stop" : 1655713002636,
+        "duration" : 26669
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e143355794ef4c30.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
