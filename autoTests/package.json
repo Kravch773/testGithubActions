@@ -19,7 +19,7 @@
     "clientSetupPage:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite clientSetupPage",
     "initiatedServices": "./node_modules/.bin/wdio ./wdio.conf.ts --suite initiatedServices",
     "initiatedServices:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite initiatedServices",
-    "arrivalServices": "./node_modules/.bin/wdio ./wdio.conf.ts --suite arrivalServices",
+    "arrivalwServices": "./node_modules/.bin/wdio ./wdio.conf.ts --suite arrivalServices",
     "arrivalServices:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite arrivalServices",
     "departureServices": "./node_modules/.bin/wdio ./wdio.conf.ts --suite departureServices",
     "departureServices:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite departureServices",
@@ -38,7 +38,7 @@
   "dependencies": {
     "@wdio/cli": "^7.16.12",
     "allure-commandline": "^2.17.2",
-    "chromedriver": "^101.0.0"
+    "chromedriver": "^103.0.0"
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^7.19.7",

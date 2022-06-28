@@ -56,7 +56,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/assignments/initiated_services/hhg_services/*.spec.ts'
         ],
         preAssignmentServices: [
-            './test/specs/assignments/initiated_services/pre_assignment_services/*.spec.ts'
+            './test/specs/assignments/initiated_services/pre_assignment_services/visaImmigrationFamilyMember.spec.ts'
         ],
         universalServices: [
             './test/specs/assignments/initiated_services/universal_services/*.spec.ts'
@@ -174,12 +174,12 @@ export const config: WebdriverIO.Config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
 
-    // reporters: ['spec'],
-    reporters: [['allure', {
-        outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: false,
-    }]],
+    reporters: ['spec'],
+    // reporters: [['allure', {
+    //     outputDir: 'allure-results',
+    //     disableWebdriverStepsReporting: true,
+    //     disableWebdriverScreenshotsReporting: false,
+    // }]],
 
 
     //

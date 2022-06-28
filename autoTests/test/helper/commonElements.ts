@@ -402,16 +402,18 @@ class commonElements {
         if (isGitActionTest == true) { date = this.createGitDateFormat(date, fullYear); }
         return date;
     }
-    public async setAddress(address1, address2, address3, address4, city, state, postalCode, country): Promise<void> {
-        await Page.setValue(this.addressLine1Input, address1);
-        await Page.setValue(this.addressLine2Input, address2);
-        await Page.setValue(this.addressLine3Input, address3);
-        await Page.setValue(this.addressLine4Input, address4);
-        await Page.setValue(this.cityAddressInput, city);
-        await Page.setValue(this.countyStateInput, state);
-        await Page.setValue(this.postalCodeInput, postalCode);
-        await this.setSelectValue(country, this.countrySelect);
+    public async setAddress(address1, address2, address3, address4, city, state, postalCode, country, additionalPath = ""): Promise<void> {
+        await Page.setValue(additionalPath + this.addressLine1Input, address1);
+        await Page.setValue(additionalPath + this.addressLine2Input, address2);
+        await Page.setValue(additionalPath + this.addressLine3Input, address3);
+        await Page.setValue(additionalPath + this.addressLine4Input, address4);
+        await Page.setValue(additionalPath + this.cityAddressInput, city);
+        await Page.setValue(additionalPath + this.countyStateInput, state);
+        await Page.setValue(additionalPath + this.postalCodeInput, postalCode);
+        await this.setSelectValue(country, additionalPath + this.countrySelect);
     }
+
+
     public async getAddressLine1Value(): Promise<string> {
         return await Page.getElementValue(this.addressLine1Input);
     }

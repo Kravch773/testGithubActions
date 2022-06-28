@@ -72,6 +72,8 @@ describe('Departure services, documents and finance test', () => {
         await needAnalysisPage.setSchoolSearchPlaning(schoolsrchQuestionLabel, schoolSearchDate_1, tourPerson_1, tourPerson_2, address_1, city_1, state_1, postalCode_1, country_1, currency_1, currencyValue_1, currencyTerm_1, payingPerson_1, tourpersonState_1, tourpersonState_2);
         await commonElements.clickDialogWindowSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(needAnalysisUpdMsg)).toBe(true);
+        await commonElements.refreshPage();
+        await schoolSearchServicePage.clickSchoolSrchNAToggle();
         expect(await commonElements.createStandartDateForm(await schoolSearchServicePage.getSchoolSearchServiceAnalysisAnswerText("Requested dates for school search"))).toBe(schoolSearchDate_1);
         expect(await schoolSearchServicePage.isAttendingPersonSelected(tourPerson_1)).toBe(true);
         expect(await schoolSearchServicePage.isAttendingPersonSelected(tourPerson_2)).toBe(false);
@@ -86,6 +88,8 @@ describe('Departure services, documents and finance test', () => {
         await schoolSearchServicePage.clickSchoolSrchNABtn();
         await needAnalysisPage.setSchoolSearchPlaning(schoolsrchQuestionLabel, schoolSearchDate_2, tourPerson_2, tourPerson_1, address_2, city_2, state_2, postalCode_2, country_2, currency_2, currencyValue_2, currencyTerm_2, payingPerson_2, tourpersonState_1, tourpersonState_2);
         await commonElements.clickDialogWindowCancelBtn();
+        await commonElements.refreshPage();
+        await schoolSearchServicePage.clickSchoolSrchNAToggle();
         expect(await commonElements.createStandartDateForm(await schoolSearchServicePage.getSchoolSearchServiceAnalysisAnswerText("Requested dates for school search"))).toBe(schoolSearchDate_1);
         expect(await schoolSearchServicePage.isAttendingPersonSelected(tourPerson_1)).toBe(true);
         expect(await schoolSearchServicePage.isAttendingPersonSelected(tourPerson_2)).toBe(false);
@@ -99,6 +103,8 @@ describe('Departure services, documents and finance test', () => {
         await needAnalysisPage.setSchoolSearchPlaning(schoolsrchQuestionLabel, schoolSearchDate_2, tourPerson_2, tourPerson_1, address_2, city_2, state_2, postalCode_2, country_2, currency_2, currencyValue_2, currencyTerm_2, payingPerson_2, tourpersonState_1, tourpersonState_2);
         await commonElements.clickDialogWindowSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(needAnalysisUpdMsg)).toBe(true);
+        await commonElements.refreshPage();
+        await schoolSearchServicePage.clickSchoolSrchNAToggle();
         expect(await commonElements.createStandartDateForm(await schoolSearchServicePage.getSchoolSearchServiceAnalysisAnswerText("Requested dates for school search"))).toBe(schoolSearchDate_2);
         expect(await schoolSearchServicePage.isAttendingPersonSelected(tourPerson_1)).toBe(false);
         expect(await schoolSearchServicePage.isAttendingPersonSelected(tourPerson_2)).toBe(true);
@@ -112,7 +118,7 @@ describe('Departure services, documents and finance test', () => {
     });
 
     it('Verify schoolSearch section', async () => {
-        await schoolSearchServicePage.clickEditNAFamilyMemberBtn();
+        await schoolSearchServicePage.clickSchoolSrchEditBtn();
         await needAnalysisPage.setSchoolSearchDetails(schoolSearchLabel, schoolYear_1, curriculum_1, specialRequire_1, schoolType_1, schoolType_2, schoolSpecifics_1, schoolTypeState_1, schoolTypeState_2)
         await commonElements.clickDialogWindowSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(needAnalysisUpdMsg)).toBe(true);
@@ -124,7 +130,7 @@ describe('Departure services, documents and finance test', () => {
 
     });
     it('Verify edti schoolSearch section', async () => {
-        await schoolSearchServicePage.clickEditNAFamilyMemberBtn();
+        await schoolSearchServicePage.clickSchoolSrchEditBtn();
         await needAnalysisPage.setSchoolSearchDetails(schoolSearchLabel, schoolYear_2, curriculum_2, specialRequire_2, schoolType_2, schoolType_1, schoolSpecifics_2, schoolTypeState_1, schoolTypeState_2)
         await commonElements.clickDialogWindowCancelBtn();
         expect(await schoolSearchServicePage.getSchoolSearchChildDetailsAnswerText(schoolSearchLabel[0])).toBe(schoolYear_1);
@@ -132,7 +138,7 @@ describe('Departure services, documents and finance test', () => {
         expect(await schoolSearchServicePage.getSchoolSearchChildDetailsAnswerText(schoolSearchLabel[2])).toBe(specialRequire_1);
         expect(await schoolSearchServicePage.isSchoolPreferencesSelected(schoolType_1)).toBe(true);
         expect(await schoolSearchServicePage.getSchoolSearchChildDetailsAnswerText("Specifics")).toBe(schoolSpecifics_1);
-        await schoolSearchServicePage.clickEditNAFamilyMemberBtn();
+        await schoolSearchServicePage.clickSchoolSrchEditBtn();
         await needAnalysisPage.setSchoolSearchDetails(schoolSearchLabel, schoolYear_2, curriculum_2, specialRequire_2, schoolType_2, schoolType_1, schoolSpecifics_2, schoolTypeState_1, schoolTypeState_2)
         await commonElements.clickDialogWindowSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(needAnalysisUpdMsg)).toBe(true);

@@ -20,7 +20,7 @@ class LoginPage {
         await Page.setValue
         await Page.setValue(this.inputUsername, username);
         await Page.click(this.btnSubmit);
-        await Page.click('//button[text()=" Use my local account "]')
+        // await Page.click('//button[text()=" Use my local account "]')
         await Page.setValue(this.inputPassword, password);
         await Page.click(this.btnSubmit);
         await Page.waitElementForDisplayed("//dashboard-top-menu-nav")

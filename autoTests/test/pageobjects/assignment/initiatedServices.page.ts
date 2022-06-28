@@ -1,5 +1,6 @@
 import commonElements from "../../helper/commonElements";
 import Page from "../Page";
+import needAnalysisPage from "./needAnalysis.page";
 
 class initiatedServicesPage {
     public get initiatedServicesLabel(): string {
@@ -128,7 +129,7 @@ class initiatedServicesPage {
         return Page.getElementText(this.initiatedPartnerDateLabel);
     }
     public async isNoServiceLabelExisting(): Promise<boolean> {
-        return await Page.isElementExisting(this.noServicePartnerlabel,1000);
+        return await Page.isElementExisting(this.noServicePartnerlabel, 1000);
     }
     public async clickRemovePartnerWithConfirm(confirmLabel): Promise<void> {
         await Page.scrollElementIntoView(commonElements.removeBtn)
@@ -183,6 +184,19 @@ class initiatedServicesPage {
     public async getServiceAnalysisAnswerTextByLabel(label): Promise<string> {
         return await Page.getElementText(this.getServiceAnalysisAnswerByLabel(label))
     }
-
+    public async setBudget(currency, currencyValue, currencyTerm, label = "Budget"): Promise<void> {
+        await needAnalysisPage.setNeedAnalysisSelectByLabel(currency, label);
+        await needAnalysisPage.setNeedAnalysisInputByLabel(currencyValue, label);
+        await needAnalysisPage.setNeedAnalysisDropDownByLabel(currencyTerm, label);
+    }
+    public async getBudgetCurrencyValue(label = "Budget"): Promise<string> {
+        return await Page.getElementText(needAnalysisPage.getNeedAnalysisSelectByLabel(label));
+    }
+    public async getBudgetCurrencyAmountValue(label = "Budget"): Promise<string> {
+        return await Page.getElementValue(needAnalysisPage.getNeedAnalysisInputByLabel(label));
+    }
+    public async getBudgetcurrencyTermValue(label = "Budget"): Promise<string> {
+        return await commonElements.getDropDownValueText(needAnalysisPage.getNeedAnalysisDropDownByLabel(label));
+    }
 }
 export default new initiatedServicesPage();

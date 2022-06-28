@@ -6,8 +6,7 @@ import visa_ImmigrationPage from '../../../../pageobjects/assignment/services/vi
 import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
-
-const serviceName = "Visa/Immigration"
+const serviceName = "Visa & Immigration"
 const visaIssuingCountry_1 = "Germany"
 const visaIssuingCountry_2 = "France"
 const behalfPersonState_1 = true
@@ -47,7 +46,7 @@ const additionalDocument_2 = "TestDoc_2"
 const visaPertyMemberUpdMsg = "The record has been updated successfully. Thank you"
 
 
-describe('Visa & Immigration Service, Need Analysis Section test', () => {
+xdescribe('Visa & Immigration Service, Need Analysis Section test', () => {
 
     before(async () => {
         await passSignIn.signIn();

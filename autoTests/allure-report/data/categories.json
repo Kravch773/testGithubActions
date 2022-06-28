@@ -7,7 +7,7 @@
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service documents",
-        "uid" : "810b5c82df93f7fc",
+        "uid" : "3dd25402c148e35f",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "Verify Add New task and reassigned form",
-        "uid" : "3c30035e1d847a96",
+        "uid" : "162990a20def9830",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -39,13 +39,166 @@
         "retriesCount" : 15,
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Temp accommodation (Origin) Initiation details form",
+        "uid" : "2535e24fa2998ac",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656153682419,
+          "stop" : 1656153710686,
+          "duration" : 28267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Initiate service partner",
+        "uid" : "97cd28f4be705008",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656153710687,
+          "stop" : 1656153725814,
+          "duration" : 15127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify remove service partner",
+        "uid" : "6145474c39b1f245",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656153725814,
+          "stop" : 1656153740946,
+          "duration" : 15132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Temp accommodation (Origin) Initiation details form",
+        "uid" : "c04ea82910554aff",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656159197007,
+          "stop" : 1656159225197,
+          "duration" : 28190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify set Collection address form",
+        "uid" : "8fb5ed981fc52132",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656322368531,
+          "stop" : 1656322384788,
+          "duration" : 16257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Edit Collection address form",
+        "uid" : "5f473e471adbde3",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656322384788,
+          "stop" : 1656322400682,
+          "duration" : 15894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify set budget form",
+        "uid" : "25e42e9e995cb04f",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656322400682,
+          "stop" : 1656322415848,
+          "duration" : 15166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Initiate service partner",
+        "uid" : "12177bd4ef78b80",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656322415849,
+          "stop" : 1656322430981,
+          "duration" : 15132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify remove service partner",
+        "uid" : "ad920cffcd095c",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656322430981,
+          "stop" : 1656322446155,
+          "duration" : 15174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "7a32765981bcc7398deb824e5d577aab"
     }, {
       "name" : "Timeout of 60000ms exceeded. The execution in the test \"Options_Tasks tab test Verify remove task\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\options\\5.Options_Tasks.spec.ts)",
       "children" : [ {
         "name" : "Verify remove task",
-        "uid" : "9df59e53106e7453",
+        "uid" : "3c217f28e7ab4758",
         "parentUid" : "7421e1a785501ccdfe865c23a169b09f",
         "status" : "broken",
         "time" : {
@@ -63,26 +216,26 @@
       } ],
       "uid" : "7421e1a785501ccdfe865c23a169b09f"
     }, {
-      "name" : "Cannot read property 'length' of undefined",
+      "name" : "Option with text \"Test Assignee (assignee)\" not found.",
       "children" : [ {
-        "name" : "Verify service documents",
-        "uid" : "c7ebfc6987d5f876",
-        "parentUid" : "04c3347b84385866294a41aa6a4cc794",
+        "name" : "Verify SchoolSearch Partner form",
+        "uid" : "cda1bf79c3072f04",
+        "parentUid" : "7bbd73dfaee86a2384625493df1cbe57",
         "status" : "broken",
         "time" : {
-          "start" : 1656142276989,
-          "stop" : 1656142291233,
-          "duration" : 14244
+          "start" : 1656322368326,
+          "stop" : 1656322368530,
+          "duration" : 204
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 2,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "04c3347b84385866294a41aa6a4cc794"
+      "uid" : "7bbd73dfaee86a2384625493df1cbe57"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
