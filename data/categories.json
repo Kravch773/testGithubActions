@@ -1,13 +1,12 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service documents",
-        "uid" : "7eb530d9739a6215",
+        "uid" : "a77f091dd589e0a1",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -24,7 +23,7 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "Verify Add New task and reassigned form",
-        "uid" : "5a3a9a764c448905",
+        "uid" : "b1947c0e1cd798fc",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -39,302 +38,13 @@
         "retriesCount" : 15,
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Go to Services / Temp accommodation (Destination) tab and check label",
-        "uid" : "454314734b5fcc5c",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656150454795,
-          "stop" : 1656150481801,
-          "duration" : 27006
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Go to Services / Temp accommodation (Origin) tab and check label",
-        "uid" : "6833b5a1d4a5581e",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656150513967,
-          "stop" : 1656150540942,
-          "duration" : 26975
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify Temp accommodation (Origin) Initiation details form",
-        "uid" : "977eb5096e20be21",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656150689297,
-          "stop" : 1656150717888,
-          "duration" : 28591
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify Initiate service partner",
-        "uid" : "7b679fc24327ae51",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656150717890,
-          "stop" : 1656150732893,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify remove service partner",
-        "uid" : "c85ae2bf8761a7f7",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656150732893,
-          "stop" : 1656150747896,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Go to Services / Travel booking tab and check label",
-        "uid" : "7942302422989b4c",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656151779119,
-          "stop" : 1656151805656,
-          "duration" : 26537
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify remove service document",
-        "uid" : "85cc702f13deb31c",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656151816783,
-          "stop" : 1656151831955,
-          "duration" : 15172
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify service PurchaseOrder",
-        "uid" : "49f55a2f6609a316",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656151831955,
-          "stop" : 1656151846958,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify service Sales Order",
-        "uid" : "1e05c971a42a7cd1",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656151846959,
-          "stop" : 1656151861961,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "62347525b9b7fb45",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656151861961,
-          "stop" : 1656151876964,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "\"before all\" hook for Visa & Immigration Service, Need Analysis Section test",
-        "uid" : "7764eb0bc2bc69d4",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656152059275,
-          "stop" : 1656152076672,
-          "duration" : 17397
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Go to Services / Visa & Immigration page and check label",
-        "uid" : "b834074b6be09d",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656152078998,
-          "stop" : 1656152107854,
-          "duration" : 28856
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify Edit Visa & Immigration person details form",
-        "uid" : "7331596ba09b39a",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656152121858,
-          "stop" : 1656152136860,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify add and save Registration type(s) additional fields",
-        "uid" : "b8a11a701008730",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656152136860,
-          "stop" : 1656152151862,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify add Registration type(s) additional fields without saving",
-        "uid" : "753a02066b3c9023",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656152151863,
-          "stop" : 1656152166866,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify add and save Documents checklist additional fields",
-        "uid" : "d2be89e9bc3ee45f",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656152166867,
-          "stop" : 1656152181868,
-          "duration" : 15001
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify add Documents checklist fields without saving",
-        "uid" : "eab10e7924ae12f",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656152181869,
-          "stop" : 1656152196871,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "7a32765981bcc7398deb824e5d577aab"
     }, {
       "name" : "Timeout of 60000ms exceeded. The execution in the test \"Options_Tasks tab test Verify remove task\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\options\\5.Options_Tasks.spec.ts)",
       "children" : [ {
         "name" : "Verify remove task",
-        "uid" : "241b71afc6b1e882",
+        "uid" : "7b5249fcea355a89",
         "parentUid" : "7421e1a785501ccdfe865c23a169b09f",
         "status" : "broken",
         "time" : {
@@ -351,45 +61,8 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "7421e1a785501ccdfe865c23a169b09f"
-    }, {
-      "name" : "No window found with title, url or name matching \"/services\"",
-      "children" : [ {
-        "name" : "Verify service documents",
-        "uid" : "69e1eb06f98b073f",
-        "parentUid" : "93a0d394754bd429afd6f4c47e0ed7a1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656151805657,
-          "stop" : 1656151816782,
-          "duration" : 11125
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify Visa & Immigration Application details",
-        "uid" : "3c6f3d841996202a",
-        "parentUid" : "93a0d394754bd429afd6f4c47e0ed7a1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656152107854,
-          "stop" : 1656152121857,
-          "duration" : 14003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "93a0d394754bd429afd6f4c47e0ed7a1"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }
