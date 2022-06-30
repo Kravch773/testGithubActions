@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": { 
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "need_analysis": "./node_modules/.bin/wdio ./wdio.conf.ts --suite need_analysis",
     "need_analysis:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite need_analysis",
@@ -32,7 +32,7 @@
     "allure:serve": "npx allure serve allure-results",
     "allure:generate": "npx allure generate allure-results --clean",
     "allure:open": "allure open"
-  }, 
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

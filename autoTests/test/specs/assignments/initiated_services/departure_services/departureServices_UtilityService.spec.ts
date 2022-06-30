@@ -312,5 +312,6 @@ describe('Departure services, documents and finance test', () => {
         expect(await departureServicesPage.isRemovedUtilityMsgDisplayed()).toBe(true);
         await commonElements.refreshPage();
         expect(await departureServicesPage.isNoAddedUtilityServiceLabelExisting()).toBe(true);
+        await familyMembers.removeFamilyMember();
     });
 });
