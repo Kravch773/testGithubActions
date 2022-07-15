@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656141629443' stop='1656141674207'>
+    <name>Language Training Service, test</name>
+    <title>Language Training Service, test</title>
+    <test-cases>
+        <test-case start='1656141629443' status='passed' stop='1656141646991'>
+            <name>Go to Services / Language training tab and check label</name>
+            <title>Go to Services / Language training tab and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656141646992' status='broken' stop='1656141661664'>
+            <name>Verify service documents</name>
+            <title>Verify service documents</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bc78f7a6-6f98-4139-8cf5-162973d868de-attachment.png' type='image/png' size='100624'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'length' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'length' of undefined
+                    at commonElements.&lt;anonymous> (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:467:27)
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656141661665' status='passed' stop='1656141674206'>
+            <name>Verify remove service document</name>
+            <title>Verify remove service document</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

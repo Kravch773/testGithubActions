@@ -1,0 +1,68 @@
+{
+  "uid" : "d03b6f7bef5c648c",
+  "name" : "Verify Deposit management delivery partner(s) form",
+  "fullName" : "Departure services, propertyService test.Verify Deposit management delivery partner(s) form",
+  "historyId" : "c6693eba7536f60d6fda9331c556b930",
+  "time" : {
+    "start" : 1657792894615,
+    "stop" : 1657792916370,
+    "duration" : 21755
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, propertyService test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, propertyService test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Deposit management delivery partner(s) form"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, propertyService test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d03b6f7bef5c648c.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

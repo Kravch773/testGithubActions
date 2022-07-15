@@ -1,0 +1,88 @@
+{
+  "uid" : "e691407599a3ca63",
+  "name" : "Go to Services / Travel booking tab and check label",
+  "fullName" : "Travel booking Service, documents and finance test.Go to Services / Travel booking tab and check label",
+  "historyId" : "43a32528114c56e02ea38fc6116d424a",
+  "time" : {
+    "start" : 1657867176388,
+    "stop" : 1657867185625,
+    "duration" : 9237
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to Services / Travel booking tab and check label"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7a192a800a49e739",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1657866941464,
+        "stop" : 1657866963928,
+        "duration" : 22464
+      }
+    }, {
+      "uid" : "2ebc49d3f8a4115c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657801401450,
+        "stop" : 1657801410778,
+        "duration" : 9328
+      }
+    }, {
+      "uid" : "b567cc0208103522",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1657801159960,
+        "stop" : 1657801182528,
+        "duration" : 22568
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e691407599a3ca63.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "b4f941c81793186c",
+  "name" : "Verify add Documents checklist fields without saving",
+  "fullName" : "Visa & Immigration Service, Need Analysis Section test.Verify add Documents checklist fields without saving",
+  "historyId" : "79b906d7b0f57d5086d9eb884ee7be47",
+  "time" : {
+    "start" : 1656412044494,
+    "stop" : 1656412059507,
+    "duration" : 15013
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "testClass",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify add Documents checklist fields without saving"
+  }, {
+    "name" : "package",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c2f67478a8f88392",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1656411925224,
+        "stop" : 1656411940228,
+        "duration" : 15004
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b4f941c81793186c.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

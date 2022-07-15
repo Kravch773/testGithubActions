@@ -1,0 +1,121 @@
+{
+  "uid" : "acf95b27548d9996",
+  "name" : "Verify service documents",
+  "fullName" : "Language Training Service, test.Verify service documents",
+  "historyId" : "fefcd988f7a881ad0e71aba7c6189f3d",
+  "time" : {
+    "start" : 1656161590325,
+    "stop" : 1656161604492,
+    "duration" : 14167
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service documents"
+  }, {
+    "name" : "package",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f989db9cb581ad97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656152864913,
+        "stop" : 1656152878949,
+        "duration" : 14036
+      }
+    }, {
+      "uid" : "15a16b8f068042a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656144305747,
+        "stop" : 1656144319849,
+        "duration" : 14102
+      }
+    }, {
+      "uid" : "f33a61639f9af8dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656143397520,
+        "stop" : 1656143411570,
+        "duration" : 14050
+      }
+    }, {
+      "uid" : "bb2e7eb45bdd0bbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656142960706,
+        "stop" : 1656142975301,
+        "duration" : 14595
+      }
+    }, {
+      "uid" : "83ce6164268a9c94",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1656142276989,
+        "stop" : 1656142291233,
+        "duration" : 14244
+      }
+    }, {
+      "uid" : "80bc60c636f60ca5",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1656141969180,
+        "stop" : 1656141983452,
+        "duration" : 14272
+      }
+    }, {
+      "uid" : "e594c986ba2948f3",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1656141646992,
+        "stop" : 1656141661664,
+        "duration" : 14672
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "acf95b27548d9996.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

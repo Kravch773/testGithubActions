@@ -1,0 +1,79 @@
+{
+  "uid" : "43636241146de1da",
+  "name" : "open ClientsPage and check label",
+  "fullName" : "Options_Edit_Assignment tab test.open ClientsPage and check label",
+  "historyId" : "a647c49d9938cb7289d3662d08050a0e",
+  "time" : {
+    "start" : 1655798631627,
+    "stop" : 1655798646103,
+    "duration" : 14476
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Options_Edit_Assignment tab test"
+  }, {
+    "name" : "testClass",
+    "value" : "Options_Edit_Assignment tab test"
+  }, {
+    "name" : "testMethod",
+    "value" : "open ClientsPage and check label"
+  }, {
+    "name" : "package",
+    "value" : "Options_Edit_Assignment tab test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "16413c73e47c7544",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655798208571,
+        "stop" : 1655798222598,
+        "duration" : 14027
+      }
+    }, {
+      "uid" : "720d0dfe0dc0ca25",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1655796875710,
+        "stop" : 1655796903590,
+        "duration" : 27880
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43636241146de1da.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

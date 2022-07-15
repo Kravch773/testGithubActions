@@ -1,0 +1,86 @@
+{
+  "uid" : "2c5fe3abbfbbebd0",
+  "name" : "Verify language training form",
+  "fullName" : "Language Training Service, test.Verify language training form",
+  "historyId" : "bab4e55c40af713992749d02599c415b",
+  "time" : {
+    "start" : 1656161511750,
+    "stop" : 1656161548922,
+    "duration" : 37172
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify language training form"
+  }, {
+    "name" : "package",
+    "value" : "Language Training Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ca788eff864fb7d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656152787022,
+        "stop" : 1656152823686,
+        "duration" : 36664
+      }
+    }, {
+      "uid" : "4906bb7a5eabd1a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656144228509,
+        "stop" : 1656144264583,
+        "duration" : 36074
+      }
+    }, {
+      "uid" : "7821d93a6d5d5cd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656143318857,
+        "stop" : 1656143356185,
+        "duration" : 37328
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c5fe3abbfbbebd0.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

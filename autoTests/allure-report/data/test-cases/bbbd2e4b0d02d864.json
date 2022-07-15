@@ -1,0 +1,68 @@
+{
+  "uid" : "bbbd2e4b0d02d864",
+  "name" : "Verify Visa & Immigration person details form",
+  "fullName" : "Visa & Immigration Service, Need Analysis Section test.Verify Visa & Immigration person details form",
+  "historyId" : "6c2730e8a726e7bf182e87ceda940938",
+  "time" : {
+    "start" : 1656411850170,
+    "stop" : 1656411865187,
+    "duration" : 15017
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "testClass",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Visa & Immigration person details form"
+  }, {
+    "name" : "package",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bbbd2e4b0d02d864.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

@@ -1,0 +1,120 @@
+{
+  "uid" : "3163d0d1edd4f4b2",
+  "name" : "Verify service PurchaseOrder",
+  "fullName" : "Travel booking Service, documents and finance test.Verify service PurchaseOrder",
+  "historyId" : "7de82dd51b9c0426f60ddce18c225591",
+  "time" : {
+    "start" : 1657867208132,
+    "stop" : 1657867239650,
+    "duration" : 31518
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service PurchaseOrder"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "616c754f399f200d",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1657866987931,
+        "stop" : 1657867002936,
+        "duration" : 15005
+      }
+    }, {
+      "uid" : "6d194c77dc929bcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657866853685,
+        "stop" : 1657866885600,
+        "duration" : 31915
+      }
+    }, {
+      "uid" : "832721088b1c1c34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657866374711,
+        "stop" : 1657866406633,
+        "duration" : 31922
+      }
+    }, {
+      "uid" : "310c0e82ca8b7400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657801433896,
+        "stop" : 1657801465744,
+        "duration" : 31848
+      }
+    }, {
+      "uid" : "7aee9af8dff98007",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1657801206741,
+        "stop" : 1657801221751,
+        "duration" : 15010
+      }
+    }, {
+      "uid" : "488e7c5bd48037ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657801072439,
+        "stop" : 1657801103956,
+        "duration" : 31517
+      }
+    }, {
+      "uid" : "b01a53cbbc17b13d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657800601266,
+        "stop" : 1657800633083,
+        "duration" : 31817
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3163d0d1edd4f4b2.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

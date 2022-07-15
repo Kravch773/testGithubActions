@@ -1,0 +1,146 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656154929028' stop='1656155079809'>
+    <name>SchoolSearch Finance And Delivery Partner test</name>
+    <title>SchoolSearch Finance And Delivery Partner test</title>
+    <test-cases>
+        <test-case start='1656154929029' status='passed' stop='1656154945836'>
+            <name>Go to Services / Departure services page and check label</name>
+            <title>Go to Services / Departure services page and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656154945836' status='passed' stop='1656154982394'>
+            <name>Verify service PurchaseOrder</name>
+            <title>Verify service PurchaseOrder</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656154982395' status='passed' stop='1656155016760'>
+            <name>Verify service Sales Order</name>
+            <title>Verify service Sales Order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656155016762' status='passed' stop='1656155041516'>
+            <name>Verify service Recurring Purchase Orders</name>
+            <title>Verify service Recurring Purchase Orders</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656155041518' status='broken' stop='1656155064319'>
+            <name>Verify Temp accommodation (Origin) Initiation details form</name>
+            <title>Verify Temp accommodation (Origin) Initiation details form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='24a9bf79-792c-48d2-92c1-11acad438f52-attachment.png' type='image/png' size='80955'/>
+            </attachments>
+            <failure>
+                <message>Option with text "Test Assignee (assignee)" not found.</message>
+                <stack-trace>Error: Option with text "Test Assignee (assignee)" not found.
+                    at Element.selectByVisibleText (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\element\selectByVisibleText.js:59:15)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Element.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656155064320' status='broken' stop='1656155079468'>
+            <name>Verify Initiate service partner</name>
+            <title>Verify Initiate service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='19e18d4e-9436-4109-931a-3574eea2dbb3-attachment.png' type='image/png' size='80955'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656155079470' status='failed' stop='1656155079803'>
+            <name>Verify remove service partner</name>
+            <title>Verify remove service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ef0bdcc1-d3fc-45f2-9e0d-0076db33be9f-attachment.png' type='image/png' size='78107'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\pre_assignment_services\schoolSearch_financeAndDeliveryPrtn.spec.ts:165:72
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\pre_assignment_services\schoolSearch_financeAndDeliveryPrtn.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\pre_assignment_services\schoolSearch_financeAndDeliveryPrtn.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\pre_assignment_services\schoolSearch_financeAndDeliveryPrtn.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

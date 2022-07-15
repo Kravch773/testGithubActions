@@ -1,0 +1,685 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657792573028' stop='1657792960631'>
+    <name>Departure services, propertyService test</name>
+    <title>Departure services, propertyService test</title>
+    <test-cases>
+        <test-case start='1657792573029' status='passed' stop='1657792582273'>
+            <name>Go to Services / Departure services page and check label</name>
+            <title>Go to Services / Departure services page and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792582274' status='passed' stop='1657792615332'>
+            <name>Verify De-registration Service details form</name>
+            <title>Verify De-registration Service details form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792615333' status='passed' stop='1657792634157'>
+            <name>Verify Edit De-registration Service details form</name>
+            <title>Verify Edit De-registration Service details form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792634157' status='passed' stop='1657792640507'>
+            <name>Verify  De-registration Initiate service partner</name>
+            <title>Verify  De-registration Initiate service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792640507' status='passed' stop='1657792646501'>
+            <name>Verify  De-registration remove service partner</name>
+            <title>Verify  De-registration remove service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792646502' status='broken' stop='1657792667418'>
+            <name>Verify Visa cancellation Service details form</name>
+            <title>Verify Visa cancellation Service details form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792667418' status='failed' stop='1657792671128'>
+            <name>Verify Edit Visa cancellation Service details form</name>
+            <title>Verify Edit Visa cancellation Service details form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:151:69
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792671128' status='broken' stop='1657792686145'>
+            <name>Verify Visa cancellation Initiate service partner</name>
+            <title>Verify Visa cancellation Initiate service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792686145' status='failed' stop='1657792686359'>
+            <name>Verify Visa cancellation remove service partner</name>
+            <title>Verify Visa cancellation remove service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:173:103
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792686360' status='broken' stop='1657792708270'>
+            <name>Verify Check out Service delivery partner(s) form</name>
+            <title>Verify Check out Service delivery partner(s) form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792708270' status='failed' stop='1657792710670'>
+            <name>Verify Edit Check out Service delivery partner(s) form</name>
+            <title>Verify Edit Check out Service delivery partner(s) form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:197:69
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792710670' status='passed' stop='1657792723637'>
+            <name>Verify Property Check out form</name>
+            <title>Verify Property Check out form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792723637' status='passed' stop='1657792743792'>
+            <name>Verify Edit Property Check out form</name>
+            <title>Verify Edit Property Check out form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792743793' status='broken' stop='1657792758798'>
+            <name>Verify Check out Initiate service partner</name>
+            <title>Verify Check out Initiate service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792758799' status='failed' stop='1657792759036'>
+            <name>Verify Check out remove service partner</name>
+            <title>Verify Check out remove service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:250:103
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792759037' status='broken' stop='1657792780461'>
+            <name>Verify Departure cleaning Service delivery partner(s) form</name>
+            <title>Verify Departure cleaning Service delivery partner(s) form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792780461' status='failed' stop='1657792782842'>
+            <name>Verify Edit Departure cleaning Service delivery partner(s) form</name>
+            <title>Verify Edit Departure cleaning Service delivery partner(s) form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:274:69
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792782842' status='passed' stop='1657792793314'>
+            <name>Verify Property Departure cleaning form</name>
+            <title>Verify Property Departure cleaning form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792793314' status='passed' stop='1657792808915'>
+            <name>Verify Edit Property Departure cleaning form</name>
+            <title>Verify Edit Property Departure cleaning form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792808916' status='broken' stop='1657792823930'>
+            <name>Verify Departure cleaning Initiate service partner</name>
+            <title>Verify Departure cleaning Initiate service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792823930' status='failed' stop='1657792824151'>
+            <name>Verify Departure cleaning remove service partner</name>
+            <title>Verify Departure cleaning remove service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:314:103
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792824151' status='broken' stop='1657792845568'>
+            <name>Verify Dilapidations Service delivery partner(s) form</name>
+            <title>Verify Dilapidations Service delivery partner(s) form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792845568' status='failed' stop='1657792847934'>
+            <name>Verify Edit Dilapidations Service delivery partner(s) form</name>
+            <title>Verify Edit Dilapidations Service delivery partner(s) form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:338:69
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792847934' status='passed' stop='1657792860466'>
+            <name>Verify Dilapidations cleaning form</name>
+            <title>Verify Dilapidations cleaning form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792860466' status='passed' stop='1657792879379'>
+            <name>Verify Edit Dilapidations cleaning form</name>
+            <title>Verify Edit Dilapidations cleaning form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792879379' status='broken' stop='1657792894389'>
+            <name>Verify Dilapidations Initiate service partner</name>
+            <title>Verify Dilapidations Initiate service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792894389' status='failed' stop='1657792894615'>
+            <name>Verify Dilapidations remove service partner</name>
+            <title>Verify Dilapidations remove service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:381:103
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792894615' status='broken' stop='1657792916370'>
+            <name>Verify Deposit management delivery partner(s) form</name>
+            <title>Verify Deposit management delivery partner(s) form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792916370' status='failed' stop='1657792918750'>
+            <name>Verify Edit Deposit management delivery partner(s) form</name>
+            <title>Verify Edit Deposit management delivery partner(s) form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Test Assignee (assignee)"
+                Received: "Please select..."
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:406:69
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792918750' status='passed' stop='1657792929733'>
+            <name>Verify Deposit management form</name>
+            <title>Verify Deposit management form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792929734' status='passed' stop='1657792945405'>
+            <name>Verify Edit Deposit management form</name>
+            <title>Verify Edit Deposit management form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1657792945406' status='broken' stop='1657792960423'>
+            <name>Verify Deposit management Initiate service partner</name>
+            <title>Verify Deposit management Initiate service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition timed out after 15000ms</message>
+                <stack-trace>Error: waitUntil condition timed out after 15000ms
+                    at D:\Ghactionstest3\testGithubActions\autoTests\node_modules\webdriverio\build\commands\browser\waitUntil.js:68:19
+                    at async Browser.wrapCommandFn (D:\Ghactionstest3\testGithubActions\autoTests\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1657792960425' status='failed' stop='1657792960631'>
+            <name>Verify Deposit management remove service partner</name>
+            <title>Verify Deposit management remove service partner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true
+                    at D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:462:103
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\specs\assignments\initiated_services\departure_services\departureServices_propertyService.spec.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
