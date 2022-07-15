@@ -1,0 +1,68 @@
+{
+  "uid" : "c2209ededb88273e",
+  "name" : "Verify Deposit management remove service partner",
+  "fullName" : "Departure services, propertyService test.Verify Deposit management remove service partner",
+  "historyId" : "62513d226db55335ce267c6711b2d216",
+  "time" : {
+    "start" : 1657792960425,
+    "stop" : 1657792960631,
+    "duration" : 206
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\departure_services\\departureServices_propertyService.spec.ts:462:103\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\departure_services\\departureServices_propertyService.spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\departure_services\\departureServices_propertyService.spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\departure_services\\departureServices_propertyService.spec.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, propertyService test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, propertyService test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Deposit management remove service partner"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, propertyService test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c2209ededb88273e.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

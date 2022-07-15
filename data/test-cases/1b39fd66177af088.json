@@ -1,0 +1,80 @@
+{
+  "uid" : "1b39fd66177af088",
+  "name" : "Verify set Collection address form",
+  "fullName" : "SchoolSearch Finance And Delivery Partner test.Verify set Collection address form",
+  "historyId" : "3ab8e6469d96f146165e9ba1689207b1",
+  "time" : {
+    "start" : 1656322368531,
+    "stop" : 1656322384788,
+    "duration" : 16257
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition timed out after 15000ms",
+    "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f55ec21fcd1f43b",
+      "name" : "Screenshot",
+      "source" : "4f55ec21fcd1f43b.png",
+      "type" : "image/png",
+      "size" : 99460
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testClass",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify set Collection address form"
+  }, {
+    "name" : "package",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b39fd66177af088.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

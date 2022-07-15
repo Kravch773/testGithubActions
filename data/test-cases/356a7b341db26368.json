@@ -1,0 +1,68 @@
+{
+  "uid" : "356a7b341db26368",
+  "name" : "Verify Edit Visa cancellation Service details form",
+  "fullName" : "Departure services, propertyService test.Verify Edit Visa cancellation Service details form",
+  "historyId" : "a6f105f9dc87a173daf2c0402850e4a2",
+  "time" : {
+    "start" : 1657792667418,
+    "stop" : 1657792671128,
+    "duration" : 3710
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Test Assignee (assignee)\"\n                Received: \"Please select...\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Test Assignee (assignee)\"\n                Received: \"Please select...\"\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\departure_services\\departureServices_propertyService.spec.ts:151:69\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\departure_services\\departureServices_propertyService.spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\departure_services\\departureServices_propertyService.spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\departure_services\\departureServices_propertyService.spec.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, propertyService test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, propertyService test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Edit Visa cancellation Service details form"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, propertyService test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "356a7b341db26368.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

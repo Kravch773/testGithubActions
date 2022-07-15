@@ -1,0 +1,80 @@
+{
+  "uid" : "927ea86d366ce28b",
+  "name" : "Go to Services / Temp accommodation (Destination) tab and check label",
+  "fullName" : "Temp Accommodation(Destination) Service, Need Analysis Section test.Go to Services / Temp accommodation (Destination) tab and check label",
+  "historyId" : "8196010955b4f547f38f0b562ba63eac",
+  "time" : {
+    "start" : 1656153252479,
+    "stop" : 1656153279209,
+    "duration" : 26730
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition timed out after 15000ms",
+    "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "951ecdd4e9544eb1",
+      "name" : "Screenshot",
+      "source" : "951ecdd4e9544eb1.png",
+      "type" : "image/png",
+      "size" : 62045
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Destination) Service, Need Analysis Section test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Destination) Service, Need Analysis Section test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to Services / Temp accommodation (Destination) tab and check label"
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Destination) Service, Need Analysis Section test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "927ea86d366ce28b.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "39c80c9764af1409",
+  "name" : "Verify SchoolSearch Initiation details form",
+  "fullName" : "SchoolSearch Finance And Delivery Partner test.Verify SchoolSearch Initiation details form",
+  "historyId" : "519cd464fc61da489999bd8cee1c5be3",
+  "time" : {
+    "start" : 1656163310476,
+    "stop" : 1656163332841,
+    "duration" : 22365
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Option with text \"Test Assignee (assignee)\" not found.",
+  "statusTrace" : "Error: Option with text \"Test Assignee (assignee)\" not found.\n                    at Element.selectByVisibleText (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\element\\selectByVisibleText.js:59:15)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Element.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Option with text \"Test Assignee (assignee)\" not found.",
+    "statusTrace" : "Error: Option with text \"Test Assignee (assignee)\" not found.\n                    at Element.selectByVisibleText (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\element\\selectByVisibleText.js:59:15)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Element.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "188f241b1e4c5fd4",
+      "name" : "Screenshot",
+      "source" : "188f241b1e4c5fd4.png",
+      "type" : "image/png",
+      "size" : 80955
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testClass",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify SchoolSearch Initiation details form"
+  }, {
+    "name" : "package",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39c80c9764af1409.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
