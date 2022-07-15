@@ -413,7 +413,6 @@ class commonElements {
         await this.setSelectValue(country, additionalPath + this.countrySelect);
     }
 
-
     public async getAddressLine1Value(): Promise<string> {
         return await Page.getElementValue(this.addressLine1Input);
     }

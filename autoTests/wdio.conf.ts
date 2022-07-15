@@ -44,7 +44,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/clientPage/setupPage/*.spec.ts'
         ],
         initiatedServices: [
-            './test/specs/assignments/initiated_services/*/schoolSearch_financeAndDoc.spec.ts'
+            './test/specs/assignments/initiated_services/*/*.spec.ts'
         ],
         arrivalServices: [
             './test/specs/assignments/initiated_services/arrival_services/*.spec.ts'
@@ -56,10 +56,13 @@ export const config: WebdriverIO.Config = {
             './test/specs/assignments/initiated_services/hhg_services/*.spec.ts'
         ],
         preAssignmentServices: [
-            './test/specs/assignments/initiated_services/pre_assignment_services/homeSearch.spec.ts'
+            './test/specs/assignments/initiated_services/pre_assignment_services/*.spec.ts'
         ],
         universalServices: [
             './test/specs/assignments/initiated_services/universal_services/*.spec.ts'
+        ],
+        onAssignment: [
+            './test/specs/assignments/initiated_services/onAssignment/*.spec.ts'
         ]
         
     },

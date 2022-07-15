@@ -78,6 +78,12 @@ class initiatedServicesPage {
     public getServiceAnalysisAnswerByLabel(label): string {
         return `//edit-needs-analysis-subsection-button/../../..//strong[contains(text(),"${label}")]/ancestor::div[1]//div`
     }
+    public get selectAddressLabel(): string {
+        return '//a[text()="Select address"]'
+    }
+    public getAddressBlockByStreetName(streetName): string {
+        return `//span[text()="${streetName}"]/ancestor::formatted-address`
+    }
     public async getServiceName(): Promise<string> {
         return await Page.getElementText(this.initiatedServicesLabel);
     }
@@ -124,6 +130,9 @@ class initiatedServicesPage {
     }
     public async isPartnerRemovedMsgDisplayed(): Promise<boolean> {
         return await commonElements.checkPopUpMsgAndForNotDisplayed("The service details for this partner have been removed successfully.");
+    }
+    public getHomeSearchNAChbIcon(chbLabel): string {
+        return `//div[contains(text(),"${chbLabel}")]//icon`
     }
     public getInitiatedPartnerDate(): Promise<string> {
         return Page.getElementText(this.initiatedPartnerDateLabel);
@@ -197,6 +206,28 @@ class initiatedServicesPage {
     }
     public async getBudgetcurrencyTermValue(label = "Budget"): Promise<string> {
         return await commonElements.getDropDownValueText(needAnalysisPage.getNeedAnalysisDropDownByLabel(label));
+    }
+    public async getServiceNeedAnalysisInputValueByLabel(label): Promise<string> {
+        return await Page.getElementValue(needAnalysisPage.getNeedAnalysisInputByLabel(label));
+    }
+    public async getServiceNeedAnalysisDDValueByLabel(label): Promise<string> {
+        return await commonElements.getDropDownValueText(needAnalysisPage.getNeedAnalysisDropDownByLabel(label));
+    }
+    public async getServiceNeedAnalysisSelectValueByLabel(label): Promise<string> {
+        return await Page.getElementText(needAnalysisPage.getNeedAnalysisSelectByLabel(label));
+    }
+    public async getServiceNeedAnalysisTextAreaValueByLabel(label): Promise<string> {
+        return await Page.getElementValue(needAnalysisPage.getNeedAnalysisTextareaByLabel(label));
+    }
+    public async clickSelectAddress(): Promise<void> {
+        await Page.click(this.selectAddressLabel);
+    }
+    public async clickAddressBlockByStreetName(streetName): Promise<void> {
+        await Page.click(this.getAddressBlockByStreetName(streetName));
+    }
+    public async getNAChbLabelIconState(chbLabel): Promise<boolean> {
+        if (await Page.getElementAttribute(this.getHomeSearchNAChbIcon(chbLabel), "mattooltip") == "Yes") { return true; }
+        if (await Page.getElementAttribute(this.getHomeSearchNAChbIcon(chbLabel), "mattooltip") == "No") { return false; }
     }
 }
 export default new initiatedServicesPage();

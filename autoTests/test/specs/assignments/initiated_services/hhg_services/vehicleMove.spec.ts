@@ -7,8 +7,7 @@ import assignmentsPage from '../../../../pageobjects/clients/assignments.page';
 import clientsPage from '../../../../pageobjects/clients/clients.page';
 
 const startDate = commonElements.getCurrentDateNo0Format()
-const qaClientId = "330"
-const assignmentId = "K2-31970"
+
 const serviceName = "Vehicle move"
 const purchaseOrderDetails_1 = ["Roebuck Removals ", "Vehicle Move", "USD - US Dollar", "500", "testDescrpt1", startDate]
 const purchaseOrderDetails_2 = ["Roebuck Removals", "Vehicle Move", "EUR - Euro", "800", "descrpt2", commonElements.getCurrentDatePlusDaysNo0Format(8)]

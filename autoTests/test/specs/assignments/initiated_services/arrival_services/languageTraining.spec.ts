@@ -56,7 +56,7 @@ describe('Language Training Service, test', () => {
         await assignmentsPage.clickAssignmentById(passSignIn.assignmentId);
         await initiatedServicesPage.clickInitiatedServicesTab();
         await initiatedServicesPage.clickServiceByName(serviceName);
-        expect(await initiatedServicesPage.getServiceName()).toBe("Services / Language training");
+        expect(await initiatedServicesPage.getServiceName()).toBe("Services / "+serviceName);
     });
     it('Verify language training form', async () => {
         await familyMembers.addFamilyMember();

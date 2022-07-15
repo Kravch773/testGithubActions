@@ -72,7 +72,7 @@ describe('Need analysis HomeSearch(Property) tab test', () => {
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_13);
         await needAnalysisPage.clickEditAnalysisBtn();
         await needAnalysisPage.setNeedAnalysisChbByLabel(true, propertyKind_2, homePropertyQuestionLabel[0]);
-        await needAnalysisPage.setNeedAnalysisTextareaByLabel(propertySpecifics_2_1, homePropertyQuestionLabel[1]);
+        await needAnalysisPage.setNeedAnalysisTextareaByLabel(propertySpecifics_1_2, homePropertyQuestionLabel[1]);
         await needAnalysisPage.setNeedAnalysisInputByLabel(numOfbedrooms_2, homePropertyQuestionLabel[2]);
         await needAnalysisPage.setNeedAnalysisInputByLabel(numOfbathrooms_2, homePropertyQuestionLabel[3]);
         await needAnalysisPage.setNeedAnalysisTextareaByLabel(toKnownLocations_2, homePropertyQuestionLabel[4]);
@@ -93,7 +93,7 @@ describe('Need analysis HomeSearch(Property) tab test', () => {
         await needAnalysisPage.clickAnalysisQuestionSection(needAnalysisSection_13);
         await needAnalysisPage.clickEditAnalysisBtn();
         await needAnalysisPage.setNeedAnalysisChbByLabel(true, propertyKind_2, homePropertyQuestionLabel[0]);
-        await needAnalysisPage.setNeedAnalysisTextareaByLabel(propertySpecifics_2_1, homePropertyQuestionLabel[1]);
+        await needAnalysisPage.setNeedAnalysisTextareaByLabel(propertySpecifics_1_2, homePropertyQuestionLabel[1]);
         await needAnalysisPage.setNeedAnalysisInputByLabel(numOfbedrooms_2, homePropertyQuestionLabel[2]);
         await needAnalysisPage.setNeedAnalysisInputByLabel(numOfbathrooms_2, homePropertyQuestionLabel[3]);
         await needAnalysisPage.setNeedAnalysisTextareaByLabel(toKnownLocations_2, homePropertyQuestionLabel[4]);
@@ -104,7 +104,7 @@ describe('Need analysis HomeSearch(Property) tab test', () => {
         await commonElements.clickDialogWindowSaveBtn();
         expect(await commonElements.checkPopUpMsgAndForNotDisplayed(needAnalysisUpdMsg)).toBe(true);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[0])).toBe(propertyKind_1+"\n"+propertyKind_2);
-        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[1])).toBe(propertySpecifics_2_1);
+        expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[1])).toBe(propertySpecifics_1_2);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[2])).toBe(numOfbedrooms_2);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[3])).toBe(numOfbathrooms_2);
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[4])).toBe(toKnownLocations_2);
@@ -113,6 +113,7 @@ describe('Need analysis HomeSearch(Property) tab test', () => {
         expect(await needAnalysisPage.getAnalysisAnswerTextByLabel(homePropertyQuestionLabel[7])).toBe(kindOfProperties_1+"\n"+kindOfProperties_2);
         expect(await needAnalysisPage.gethomePropertySpecificsText_3()).toBe(propertySpecifics_2_2);
     });
+    
 });
 
 

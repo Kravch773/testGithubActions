@@ -7,7 +7,7 @@
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service documents",
-        "uid" : "3dd25402c148e35f",
+        "uid" : "80c38e9403c0b76d",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "Verify Add New task and reassigned form",
-        "uid" : "162990a20def9830",
+        "uid" : "dfe02309d3cfa81e",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -41,7 +41,7 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "Verify Temp accommodation (Origin) Initiation details form",
-        "uid" : "2535e24fa2998ac",
+        "uid" : "478e4a5a3e8eb66d",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -58,7 +58,7 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "Verify Initiate service partner",
-        "uid" : "97cd28f4be705008",
+        "uid" : "1895c58d4acbafb4",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -75,7 +75,7 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "Verify remove service partner",
-        "uid" : "6145474c39b1f245",
+        "uid" : "28d5f937b5a686dc",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -92,7 +92,7 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "Verify Temp accommodation (Origin) Initiation details form",
-        "uid" : "c04ea82910554aff",
+        "uid" : "54e12ab50e997ff",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -108,48 +108,65 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
-        "name" : "Verify set Collection address form",
-        "uid" : "8fb5ed981fc52132",
+        "name" : "Verify SchoolSearch Partner form",
+        "uid" : "25a71de3d7d06a09",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1656322368531,
-          "stop" : 1656322384788,
-          "duration" : 16257
+          "start" : 1656324544348,
+          "stop" : 1656324560491,
+          "duration" : 16143
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "Verify Edit Collection address form",
-        "uid" : "5f473e471adbde3",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656322384788,
-          "stop" : 1656322400682,
-          "duration" : 15894
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
         "name" : "Verify set budget form",
-        "uid" : "25e42e9e995cb04f",
+        "uid" : "5bb5d77f27dc1e71",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1656322400682,
-          "stop" : 1656322415848,
-          "duration" : 15166
+          "start" : 1656324592767,
+          "stop" : 1656324607932,
+          "duration" : 15165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify set Collection address form",
+        "uid" : "4cb12818c792c26c",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656397313099,
+          "stop" : 1656397332787,
+          "duration" : 19688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Go to Services / Travel booking tab and check label",
+        "uid" : "8158cbfc63f994ec",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411511100,
+          "stop" : 1656411537536,
+          "duration" : 26436
         },
         "flaky" : false,
         "newFailed" : false,
@@ -159,31 +176,405 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
-        "name" : "Verify Initiate service partner",
-        "uid" : "12177bd4ef78b80",
+        "name" : "Verify remove service document",
+        "uid" : "35a97aa98017a4bf",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1656322415849,
-          "stop" : 1656322430981,
-          "duration" : 15132
+          "start" : 1656411549149,
+          "stop" : 1656411564295,
+          "duration" : 15146
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 7,
-        "retriesStatusChange" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
-        "name" : "Verify remove service partner",
-        "uid" : "ad920cffcd095c",
+        "name" : "Verify service PurchaseOrder",
+        "uid" : "865923ed0355ebf8",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1656322430981,
-          "stop" : 1656322446155,
-          "duration" : 15174
+          "start" : 1656411564295,
+          "stop" : 1656411579309,
+          "duration" : 15014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify service Sales Order",
+        "uid" : "6472812d77f6a4f9",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411579310,
+          "stop" : 1656411594322,
+          "duration" : 15012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify service Recurring Purchase Orders",
+        "uid" : "82b2f48d2f3799c1",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411594322,
+          "stop" : 1656411609336,
+          "duration" : 15014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Edit Visa & Immigration Application details form",
+        "uid" : "a12bebcd0eff7e26",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411835155,
+          "stop" : 1656411850170,
+          "duration" : 15015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Visa & Immigration person details form",
+        "uid" : "bbbd2e4b0d02d864",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411850170,
+          "stop" : 1656411865187,
+          "duration" : 15017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Go to Services / Visa & Immigration page and check label",
+        "uid" : "14b226daa1fb399f",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411943290,
+          "stop" : 1656411971383,
+          "duration" : 28093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Edit Visa & Immigration person details form",
+        "uid" : "fa4da143f0410c9f",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411984445,
+          "stop" : 1656411999448,
+          "duration" : 15003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify add and save Registration type(s) additional fields",
+        "uid" : "1d1454ece6a72f97",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411999448,
+          "stop" : 1656412014464,
+          "duration" : 15016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify add Registration type(s) additional fields without saving",
+        "uid" : "5de7a8da5245f435",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656412014464,
+          "stop" : 1656412029480,
+          "duration" : 15016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify add and save Documents checklist additional fields",
+        "uid" : "f3d9c563ca4e511",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656412029480,
+          "stop" : 1656412044494,
+          "duration" : 15014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify add Documents checklist fields without saving",
+        "uid" : "b4f941c81793186c",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656412044494,
+          "stop" : 1656412059507,
+          "duration" : 15013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify HomeSearch(Property) section",
+        "uid" : "78c0eca7c92f6444",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656745834013,
+          "stop" : 1656745861461,
+          "duration" : 27448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      }, {
+        "name" : "Verify Visa cancellation Service details form",
+        "uid" : "ab1cd226ca6849f8",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792646502,
+          "stop" : 1657792667418,
+          "duration" : 20916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Visa cancellation Initiate service partner",
+        "uid" : "a037d15a02898e0c",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792671128,
+          "stop" : 1657792686145,
+          "duration" : 15017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Check out Service delivery partner(s) form",
+        "uid" : "be96383a1781af4b",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792686360,
+          "stop" : 1657792708270,
+          "duration" : 21910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Check out Initiate service partner",
+        "uid" : "ab2b8de1de528042",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792743793,
+          "stop" : 1657792758798,
+          "duration" : 15005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Departure cleaning Service delivery partner(s) form",
+        "uid" : "b8a4746a63bad992",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792759037,
+          "stop" : 1657792780461,
+          "duration" : 21424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Departure cleaning Initiate service partner",
+        "uid" : "503578bb3b32131b",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792808916,
+          "stop" : 1657792823930,
+          "duration" : 15014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Dilapidations Service delivery partner(s) form",
+        "uid" : "9f3d7ceddfcbb7c0",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792824151,
+          "stop" : 1657792845568,
+          "duration" : 21417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Dilapidations Initiate service partner",
+        "uid" : "64204fe50eeb890",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792879379,
+          "stop" : 1657792894389,
+          "duration" : 15010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Deposit management delivery partner(s) form",
+        "uid" : "d03b6f7bef5c648c",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792894615,
+          "stop" : 1657792916370,
+          "duration" : 21755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Deposit management Initiate service partner",
+        "uid" : "5458fd677a7589d1",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657792945406,
+          "stop" : 1657792960423,
+          "duration" : 15017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service Sales Order",
+        "uid" : "36659efa149c6b1c",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657867239652,
+          "stop" : 1657867279540,
+          "duration" : 39888
         },
         "flaky" : false,
         "newFailed" : false,
@@ -191,14 +582,31 @@
         "newBroken" : false,
         "retriesCount" : 7,
         "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.115" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service Recurring Purchase Orders",
+        "uid" : "9a8afb6954ddab8b",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657867279543,
+          "stop" : 1657867294558,
+          "duration" : 15015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "7a32765981bcc7398deb824e5d577aab"
     }, {
       "name" : "Timeout of 60000ms exceeded. The execution in the test \"Options_Tasks tab test Verify remove task\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\options\\5.Options_Tasks.spec.ts)",
       "children" : [ {
         "name" : "Verify remove task",
-        "uid" : "3c217f28e7ab4758",
+        "uid" : "79b40d321603b9a",
         "parentUid" : "7421e1a785501ccdfe865c23a169b09f",
         "status" : "broken",
         "time" : {
@@ -216,16 +624,79 @@
       } ],
       "uid" : "7421e1a785501ccdfe865c23a169b09f"
     }, {
-      "name" : "Option with text \"Test Assignee (assignee)\" not found.",
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"SchoolSearch Finance And Delivery Partner test Verify Edit Collection address form\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\schoolSearch_financeAndDeliveryPrtn.spec.ts)",
       "children" : [ {
-        "name" : "Verify SchoolSearch Partner form",
-        "uid" : "cda1bf79c3072f04",
-        "parentUid" : "7bbd73dfaee86a2384625493df1cbe57",
+        "name" : "Verify Edit Collection address form",
+        "uid" : "2261462a683c7e2",
+        "parentUid" : "056072a245af3321e8ea7624c3582655",
         "status" : "broken",
         "time" : {
-          "start" : 1656322368326,
-          "stop" : 1656322368530,
-          "duration" : 204
+          "start" : 1656397000599,
+          "stop" : 1656397060614,
+          "duration" : 60015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "056072a245af3321e8ea7624c3582655"
+    }, {
+      "name" : "No window found with title, url or name matching \"/services\"",
+      "children" : [ {
+        "name" : "Verify service documents",
+        "uid" : "7b55d990076cb4d8",
+        "parentUid" : "93a0d394754bd429afd6f4c47e0ed7a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411537542,
+          "stop" : 1656411549149,
+          "duration" : 11607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Verify Visa & Immigration Application details",
+        "uid" : "3de0ffb48f7a39a9",
+        "parentUid" : "93a0d394754bd429afd6f4c47e0ed7a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656411971385,
+          "stop" : 1656411984445,
+          "duration" : 13060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "93a0d394754bd429afd6f4c47e0ed7a1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Test Assignee (assignee)\"\n                Received: \"Please select...\"",
+      "children" : [ {
+        "name" : "Verify Edit Visa cancellation Service details form",
+        "uid" : "36f1ce88c7ef74b4",
+        "parentUid" : "1d89266a6c07180537e840f47dc4310a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792667418,
+          "stop" : 1657792671128,
+          "duration" : 3710
         },
         "flaky" : false,
         "newFailed" : false,
@@ -233,10 +704,167 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Edit Check out Service delivery partner(s) form",
+        "uid" : "f420d94870a44d4e",
+        "parentUid" : "1d89266a6c07180537e840f47dc4310a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792708270,
+          "stop" : 1657792710670,
+          "duration" : 2400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Edit Departure cleaning Service delivery partner(s) form",
+        "uid" : "f6aebadf4589b515",
+        "parentUid" : "1d89266a6c07180537e840f47dc4310a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792780461,
+          "stop" : 1657792782842,
+          "duration" : 2381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Edit Dilapidations Service delivery partner(s) form",
+        "uid" : "873ac48631b31591",
+        "parentUid" : "1d89266a6c07180537e840f47dc4310a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792845568,
+          "stop" : 1657792847934,
+          "duration" : 2366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Edit Deposit management delivery partner(s) form",
+        "uid" : "995512072338e848",
+        "parentUid" : "1d89266a6c07180537e840f47dc4310a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792916370,
+          "stop" : 1657792918750,
+          "duration" : 2380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
-      "uid" : "7bbd73dfaee86a2384625493df1cbe57"
+      "uid" : "1d89266a6c07180537e840f47dc4310a"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "children" : [ {
+        "name" : "Verify Visa cancellation remove service partner",
+        "uid" : "61c6e8c37b4d4644",
+        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792686145,
+          "stop" : 1657792686359,
+          "duration" : 214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Check out remove service partner",
+        "uid" : "225d3130a629c882",
+        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792758799,
+          "stop" : 1657792759036,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Departure cleaning remove service partner",
+        "uid" : "3f4f3084a0984d6c",
+        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792823930,
+          "stop" : 1657792824151,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Dilapidations remove service partner",
+        "uid" : "332a9b5de43c7da4",
+        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792894389,
+          "stop" : 1657792894615,
+          "duration" : 226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Deposit management remove service partner",
+        "uid" : "99cd40c0d2e6f92e",
+        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657792960425,
+          "stop" : 1657792960631,
+          "duration" : 206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "19a176217a26805f0d44bbfda36ce55c"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
