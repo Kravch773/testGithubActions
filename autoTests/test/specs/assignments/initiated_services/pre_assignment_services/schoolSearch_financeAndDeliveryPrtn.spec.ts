@@ -71,96 +71,96 @@ describe('SchoolSearch Finance And Delivery Partner test', () => {
         expect(await initiatedServicesPage.getServiceName()).toBe("Services / " + serviceName);
 
     });
-    // it('Verify service PurchaseOrder', async () => {
-    //     await financeTransactions.clickAddPurchaseOrderBtn();
-    //     await commonElements.clickDialogWindowSaveBtn();
-    //     expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
-    //     await commonElements.clickDialogWindowCancelBtn();
-    //     await financeTransactions.clickAddPurchaseOrderBtn();
-    //     await financeTransactions.setPurchaseOrder(purchaseOrderDetails_1);
-    //     await commonElements.clickDialogWindowSaveBtn();
-    //     expect(await financeTransactions.isTransactionsAddedMsgDispayed()).toBe(true);
-    //     await financeTransactions.clickEditPurchaseOrderBtn();
-    //     expect(await financeTransactions.getPartnerValue()).toContain(purchaseOrderDetails_1[0]);
-    //     expect(await financeTransactions.getProductValue()).toBe(purchaseOrderDetails_1[1]);
-    //     expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_1[2]);
-    //     expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_1[3]);
-    //     expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_1[4]);
-    //     expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_1[5]);
-    //     await financeTransactions.editPurchaseOrder(purchaseOrderDetails_2);
-    //     await commonElements.clickDialogWindowCancelBtn();
-    //     await financeTransactions.clickEditPurchaseOrderBtn();
-    //     expect(await financeTransactions.getPartnerValue()).toContain(purchaseOrderDetails_1[0]);
-    //     expect(await financeTransactions.getProductValue()).toBe(purchaseOrderDetails_1[1]);
-    //     expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_1[2]);
-    //     expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_1[3]);
-    //     expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_1[4]);
-    //     expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_1[5]);
-    //     await financeTransactions.editPurchaseOrder(purchaseOrderDetails_2);
-    //     await commonElements.clickDialogWindowSaveBtn();
-    //     expect(await financeTransactions.isPurchaseTransactionUpdMsgDispayed()).toBe(true)
-    //     await financeTransactions.clickEditPurchaseOrderBtn();
-    //     expect(await financeTransactions.getPartnerValue()).toContain(purchaseOrderDetails_2[0])
-    //     expect(await financeTransactions.getProductValue()).toBe(purchaseOrderDetails_2[1])
-    //     expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_2[2])
-    //     expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_2[3])
-    //     expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_2[4])
-    //     expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_2[5])
-    //     await commonElements.clickDialogWindowCancelBtn();
-    //     await financeTransactions.cancelPurchaseOrder();
-    //     expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
-    // });
-    // it('Verify service Sales Order', async () => {
-    //     await financeTransactions.clickAddSalesOrderBtn();
-    //     await commonElements.clickDialogWindowSaveBtn();
-    //     expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
-    //     await commonElements.clickDialogWindowCancelBtn();
-    //     await financeTransactions.clickAddSalesOrderBtn();
-    //     await financeTransactions.setSalesOrder(salesOrderDetails_1);
-    //     await commonElements.clickDialogWindowSaveBtn();
-    //     expect(await financeTransactions.isTransactionsAddedMsgDispayed()).toBe(true);
-    //     await financeTransactions.clickEditSalesOrderBtn();
-    //     expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_1[0]);
-    //     expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_1[1]);
-    //     expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_1[2]);
-    //     expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_1[3]);
-    //     await financeTransactions.editSalesOrder(salesOrderDetails_2);
-    //     await commonElements.clickDialogWindowCancelBtn();
-    //     await financeTransactions.clickEditSalesOrderBtn();
-    //     expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_1[0]);
-    //     expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_1[1]);
-    //     expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_1[2]);
-    //     expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_1[3]);
-    //     await financeTransactions.editSalesOrder(salesOrderDetails_2);
-    //     await commonElements.clickDialogWindowSaveBtn();
-    //     expect(await financeTransactions.isSalesOrderUpdMsgDispayed()).toBe(true);
-    //     await financeTransactions.clickEditSalesOrderBtn();
-    //     expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_2[0]);
-    //     expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_2[1]);
-    //     expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_2[2]);
-    //     expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_2[3]);
-    //     await commonElements.clickDialogWindowCancelBtn();
-    //     await financeTransactions.cancelSalesOrder();
-    //     expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
-    // });
-    // it('Verify service Recurring Purchase Orders', async () => {
-    //     let endDate = commonElements.getCurrentDatePlusDaysNo0Format(8);
-    //     await financeTransactions.clickAddRecurringPOBtn();
-    //     await commonElements.clickDialogWindowSaveBtn();
-    //     expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
-    //     await commonElements.clickDialogWindowCancelBtn();
-    //     await financeTransactions.clickAddRecurringPOBtn();
-    //     await financeTransactions.setRecurringPO(recurringPODetails, startDate, endDate);
-    //     await commonElements.clickDialogWindowSaveBtn();
-    //     expect(await financeTransactions.isTransactionsAddedMsgDispayed()).toBe(true);
-    //     expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
-    //     expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[1])).toBe(true);
-    //     expect(await financeTransactions.isRecurringPOLabelDisplayed(await financeTransactions.formRecurringPOPartnerCost(recurringPODetails[2], recurringPODetails[3]))).toBe(true);
-    //     expect(await commonElements.createStandartDateForm(await financeTransactions.getRecurringPOPaymentDueLabel())).toBe(startDate)
-    //     expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[5])).toBe(true);
-    //     await financeTransactions.cancelRecurringPO();
-    //     expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
-    // });
+    it('Verify service PurchaseOrder', async () => {
+        await financeTransactions.clickAddPurchaseOrderBtn();
+        await commonElements.clickDialogWindowSaveBtn();
+        expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
+        await commonElements.clickDialogWindowCancelBtn();
+        await financeTransactions.clickAddPurchaseOrderBtn();
+        await financeTransactions.setPurchaseOrder(purchaseOrderDetails_1);
+        await commonElements.clickDialogWindowSaveBtn();
+        expect(await financeTransactions.isTransactionsAddedMsgDispayed()).toBe(true);
+        await financeTransactions.clickEditPurchaseOrderBtn();
+        expect(await financeTransactions.getPartnerValue()).toContain(purchaseOrderDetails_1[0]);
+        expect(await financeTransactions.getProductValue()).toBe(purchaseOrderDetails_1[1]);
+        expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_1[2]);
+        expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_1[3]);
+        expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_1[4]);
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_1[5]);
+        await financeTransactions.editPurchaseOrder(purchaseOrderDetails_2);
+        await commonElements.clickDialogWindowCancelBtn();
+        await financeTransactions.clickEditPurchaseOrderBtn();
+        expect(await financeTransactions.getPartnerValue()).toContain(purchaseOrderDetails_1[0]);
+        expect(await financeTransactions.getProductValue()).toBe(purchaseOrderDetails_1[1]);
+        expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_1[2]);
+        expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_1[3]);
+        expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_1[4]);
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_1[5]);
+        await financeTransactions.editPurchaseOrder(purchaseOrderDetails_2);
+        await commonElements.clickDialogWindowSaveBtn();
+        expect(await financeTransactions.isPurchaseTransactionUpdMsgDispayed()).toBe(true)
+        await financeTransactions.clickEditPurchaseOrderBtn();
+        expect(await financeTransactions.getPartnerValue()).toContain(purchaseOrderDetails_2[0])
+        expect(await financeTransactions.getProductValue()).toBe(purchaseOrderDetails_2[1])
+        expect(await financeTransactions.getCurrencyValue()).toBe(purchaseOrderDetails_2[2])
+        expect(await financeTransactions.getItemAmountValue()).toBe(purchaseOrderDetails_2[3])
+        expect(await financeTransactions.getDescriptionValue()).toBe(purchaseOrderDetails_2[4])
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getPaymentDueValue())).toBe(purchaseOrderDetails_2[5])
+        await commonElements.clickDialogWindowCancelBtn();
+        await financeTransactions.cancelPurchaseOrder();
+        expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
+    });
+    it('Verify service Sales Order', async () => {
+        await financeTransactions.clickAddSalesOrderBtn();
+        await commonElements.clickDialogWindowSaveBtn();
+        expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
+        await commonElements.clickDialogWindowCancelBtn();
+        await financeTransactions.clickAddSalesOrderBtn();
+        await financeTransactions.setSalesOrder(salesOrderDetails_1);
+        await commonElements.clickDialogWindowSaveBtn();
+        expect(await financeTransactions.isTransactionsAddedMsgDispayed()).toBe(true);
+        await financeTransactions.clickEditSalesOrderBtn();
+        expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_1[0]);
+        expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_1[1]);
+        expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_1[2]);
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_1[3]);
+        await financeTransactions.editSalesOrder(salesOrderDetails_2);
+        await commonElements.clickDialogWindowCancelBtn();
+        await financeTransactions.clickEditSalesOrderBtn();
+        expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_1[0]);
+        expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_1[1]);
+        expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_1[2]);
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_1[3]);
+        await financeTransactions.editSalesOrder(salesOrderDetails_2);
+        await commonElements.clickDialogWindowSaveBtn();
+        expect(await financeTransactions.isSalesOrderUpdMsgDispayed()).toBe(true);
+        await financeTransactions.clickEditSalesOrderBtn();
+        expect(await financeTransactions.getProductValue()).toContain(salesOrderDetails_2[0]);
+        expect(await financeTransactions.getItemAmountValue()).toBe(salesOrderDetails_2[1]);
+        expect(await financeTransactions.getDescriptionValue()).toBe(salesOrderDetails_2[2]);
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getInvoicingDateValue())).toBe(salesOrderDetails_2[3]);
+        await commonElements.clickDialogWindowCancelBtn();
+        await financeTransactions.cancelSalesOrder();
+        expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
+    });
+    it('Verify service Recurring Purchase Orders', async () => {
+        let endDate = commonElements.getCurrentDatePlusDaysNo0Format(8);
+        await financeTransactions.clickAddRecurringPOBtn();
+        await commonElements.clickDialogWindowSaveBtn();
+        expect(await financeTransactions.isInvalidFinanceFormMsgDispayed()).toBe(true);
+        await commonElements.clickDialogWindowCancelBtn();
+        await financeTransactions.clickAddRecurringPOBtn();
+        await financeTransactions.setRecurringPO(recurringPODetails, startDate, endDate);
+        await commonElements.clickDialogWindowSaveBtn();
+        expect(await financeTransactions.isTransactionsAddedMsgDispayed()).toBe(true);
+        expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[0])).toBe(true);
+        expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[1])).toBe(true);
+        expect(await financeTransactions.isRecurringPOLabelDisplayed(await financeTransactions.formRecurringPOPartnerCost(recurringPODetails[2], recurringPODetails[3]))).toBe(true);
+        expect(await commonElements.createStandartDateForm(await financeTransactions.getRecurringPOPaymentDueLabel())).toBe(startDate)
+        expect(await financeTransactions.isRecurringPOLabelDisplayed(recurringPODetails[5])).toBe(true);
+        await financeTransactions.cancelRecurringPO();
+        expect(await financeTransactions.isTransactionsCancelledMsgDispayed()).toBe(true);
+    });
 
     it('Add Partner and Verify SchoolSearch NA form date in Initiation details form', async () => {
         await familyMembers.addFamilyMember("Child");
@@ -178,9 +178,7 @@ describe('SchoolSearch Finance And Delivery Partner test', () => {
         await initiatedServicesPage.waitPartnerFormForDisplayed();
         await commonElements.refreshPage();
     });
-
-
-    // xit('Set Collection address NA form', async () => { // bug or feature
+    // xit('Set Collection address NA form', async () => { // bug 
     //     await schoolSearchServicePage.clickSchoolSrchNAToggle();
     //     await schoolSearchServicePage.clickSchoolSrchNABtn();
     //     await commonElements.setAddress(address_1[0], address_1[1], address_1[2], address_1[3], city_1, state_1, postalCode_1, country_1, "//mat-dialog-content");
@@ -195,7 +193,6 @@ describe('SchoolSearch Finance And Delivery Partner test', () => {
     //     expect(await commonElements.getPostalCodeValue()).toBe(postalCode_1);
     //     expect(await commonElements.getCountryValue()).toBe(country_1);
     // });
-
     it('Verify Set Collection address and budget partner form', async () => {
         await initiatedServicesPage.clickSaveChangesPartnerBtn();
         expect(await commonElements.isErrorPopUpMsgDisplayed()).toBe(true);
@@ -245,7 +242,6 @@ describe('SchoolSearch Finance And Delivery Partner test', () => {
         expect(await initiatedServicesPage.getBudgetCurrencyAmountValue()).toBe(currencyValue_2);
         expect(await initiatedServicesPage.getBudgetcurrencyTermValue()).toBe(currencyTerm_2);
     });
-
     xit('Verify SchoolSearch details NA form match Initiation details form', async () => {
         await schoolSearchServicePage.clickSchoolSrchEditBtn();
         await needAnalysisPage.setSchoolSearchDetails(schoolSearchLabel, schoolYear_2, curriculum_2, specialRequire_2, schoolType_2, schoolType_1, schoolSpecifics_2, schoolTypeState_1, schoolTypeState_2)
@@ -257,7 +253,6 @@ describe('SchoolSearch Finance And Delivery Partner test', () => {
         expect(await schoolSearchServicePage.getSpecificsValue()).toBe(schoolSpecifics_2);
         expect(await schoolSearchServicePage.getSpecialRequirementsValue()).toBe(specialRequire_2);
     });
-
     it('Verify set SchoolSearch Initiation details form ', async () => {
         await initiatedServicesPage.setInitiationDetails(peopleAttending_1, notes_1);
         await schoolSearchServicePage.setSchoolSearchPartnerDetails(schoolSearchLabel, schoolYear_1, curriculum_1, specialRequire_1, schoolType_1, schoolType_2, schoolSpecifics_1);
@@ -274,7 +269,6 @@ describe('SchoolSearch Finance And Delivery Partner test', () => {
         expect(await commonElements.getChbState(schoolType_1)).toBe(true);
         expect(await commonElements.getChbState(schoolType_2)).toBe(false);
         expect(await commonElements.getChbState(peopleAttending_1)).toBe(true);
-
     });
     it('Verify edit SchoolSearch Initiation details form and NA labels', async () => { //NA labels didt changed 
         await initiatedServicesPage.setInitiationDetails(peopleAttending_2, notes_2);
@@ -291,7 +285,6 @@ describe('SchoolSearch Finance And Delivery Partner test', () => {
         expect(await commonElements.getChbState(schoolType_1)).toBe(true);
         expect(await commonElements.getChbState(schoolType_2)).toBe(false);
         expect(await commonElements.getChbState(peopleAttending_1)).toBe(true);
-
         await initiatedServicesPage.setInitiationDetails(peopleAttending_2, notes_2);
         await schoolSearchServicePage.setSchoolSearchPartnerDetails(schoolSearchLabel, schoolYear_2, curriculum_2, specialRequire_2, schoolType_2, schoolType_1, schoolSpecifics_2);
         await commonElements.setChbByLabel(peopleAttending_1, false);
@@ -309,13 +302,6 @@ describe('SchoolSearch Finance And Delivery Partner test', () => {
         expect(await commonElements.getChbState(schoolType_2)).toBe(true);
         expect(await commonElements.getChbState(peopleAttending_1)).toBe(false);
         expect(await commonElements.getChbState(peopleAttending_2)).toBe(true);
-        // await commonElements.refreshPage();
-        // expect(await schoolSearchServicePage.getSchoolSearchChildDetailsAnswerText(schoolSearchLabel[0])).toBe(schoolYear_2);
-        // expect(await schoolSearchServicePage.getSchoolSearchChildDetailsAnswerText(schoolSearchLabel[1])).toBe(curriculum_2);
-        // expect(await schoolSearchServicePage.getSchoolSearchChildDetailsAnswerText(schoolSearchLabel[2])).toBe(specialRequire_2);
-        // expect(await schoolSearchServicePage.isSchoolPreferencesSelected(schoolType_1)).toBe(false);
-        // expect(await schoolSearchServicePage.isSchoolPreferencesSelected(schoolType_2)).toBe(true);
-        // expect(await schoolSearchServicePage.getSchoolSearchChildDetailsAnswerText("Specifics")).toBe(schoolSpecifics_2);
     });
     it('Verify Initiate service partner', async () => {
         await initiatedServicesPage.clickInitiatePartnerBtn();

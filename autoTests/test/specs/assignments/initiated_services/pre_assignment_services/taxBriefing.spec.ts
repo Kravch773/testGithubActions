@@ -36,9 +36,9 @@ describe('Travel booking Service, documents and finance test', () => {
         await initiatedServicesPage.clickInitiatedServicesTab();
         await initiatedServicesPage.clickServiceByName(serviceName);
         expect(await initiatedServicesPage.getServiceName()).toBe("Services / " + serviceName);
+        await familyMembers.addFamilyMember();
     });
     it('Verify Tax Briefing Initiation details form', async () => {
-        await familyMembers.addFamilyMember();
         await initiatedServicesPage.clickAddPartnerToServiceBtn();
         await commonElements.setInputValue(partnerName_1, commonElements.partnerNameInput);
         await browser.pause(2000); // No partner after clicking search btn

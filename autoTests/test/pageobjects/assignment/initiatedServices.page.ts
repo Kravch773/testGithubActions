@@ -84,6 +84,12 @@ class initiatedServicesPage {
     public getAddressBlockByStreetName(streetName): string {
         return `//span[text()="${streetName}"]/ancestor::formatted-address`
     }
+    public get leaseStartDate():string{
+        return '//label[text()=" Lease start date "]/ancestor::field-template//input'
+    }
+    public get leaseEndDate():string{
+        return '//label[text()=" Lease start date "]/ancestor::field-template//input'
+    }
     public async getServiceName(): Promise<string> {
         return await Page.getElementText(this.initiatedServicesLabel);
     }
@@ -224,6 +230,9 @@ class initiatedServicesPage {
     }
     public async clickAddressBlockByStreetName(streetName): Promise<void> {
         await Page.click(this.getAddressBlockByStreetName(streetName));
+    }
+    public async getAddressBlockTextByStreetName(streetName): Promise<void> {
+        await Page.getElementText(this.getAddressBlockByStreetName(streetName));
     }
     public async getNAChbLabelIconState(chbLabel): Promise<boolean> {
         if (await Page.getElementAttribute(this.getHomeSearchNAChbIcon(chbLabel), "mattooltip") == "Yes") { return true; }
