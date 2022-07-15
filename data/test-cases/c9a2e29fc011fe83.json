@@ -1,0 +1,79 @@
+{
+  "uid" : "c9a2e29fc011fe83",
+  "name" : "Verify NA Labels after set partner sections data",
+  "fullName" : "Home search NA test.Verify NA Labels after set partner sections data",
+  "historyId" : "b16bd8557f8ea4a1edd6b791493c5310",
+  "time" : {
+    "start" : 1657879546186,
+    "stop" : 1657879550749,
+    "duration" : 4563
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify NA Labels after set partner sections data"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b37c6cecda1c3bcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657879376076,
+        "stop" : 1657879380481,
+        "duration" : 4405
+      }
+    }, {
+      "uid" : "993b0236951311b",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'length')",
+      "time" : {
+        "start" : 1657879297799,
+        "stop" : 1657879300054,
+        "duration" : 2255
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9a2e29fc011fe83.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
