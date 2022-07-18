@@ -62,7 +62,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/assignments/initiated_services/universal_services/*.spec.ts'
         ],
         onAssignment: [
-            './test/specs/assignments/initiated_services/onAssignment/*.spec.ts'
+            './test/specs/assignments/initiated_services/onAssignment/tenancyManagement.spec.ts'
         ]
         
     },

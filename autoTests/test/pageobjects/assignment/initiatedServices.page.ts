@@ -82,13 +82,40 @@ class initiatedServicesPage {
         return '//a[text()="Select address"]'
     }
     public getAddressBlockByStreetName(streetName): string {
-        return `//span[text()="${streetName}"]/ancestor::formatted-address`
+        return `//span[text()="${streetName}"]/ancestor::address-block`
     }
-    public get leaseStartDate():string{
+    public get leaseStartCalendar(): string {
         return '//label[text()=" Lease start date "]/ancestor::field-template//input'
     }
-    public get leaseEndDate():string{
-        return '//label[text()=" Lease start date "]/ancestor::field-template//input'
+    public get leaseEndCalendar(): string {
+        return '//label[text()=" Lease end date "]/ancestor::field-template//input'
+    }
+    public get tenancyExpiryTriggerCalendar(): string {
+        return '//label[text()=" Tenancy expiry trigger "]/ancestor::field-template//input'
+    }
+    public get noticeRequiredInput(): string {
+        return '//label[text()=" Notice required "]/ancestor::field-template//input'
+    }
+    public get noticeRequiredDD(): string {
+        return '//label[text()=" Notice required "]/ancestor::field-template//select'
+    }
+    public get breakClauseAfterInput(): string {
+        return '//label[text()=" Break clause after "]/ancestor::field-template//input'
+    }
+    public get breakClauseDetailsInput(): string {
+        return '//label[text()=" Break clause details "]/ancestor::field-template//textarea'
+    }
+    public get renewDetailsInput(): string {
+        return '//label[text()=" Renew details "]/ancestor::field-template//textarea'
+    }
+    public get addLeaseDetailsBtn(): string {
+        return '//button[text()="Add lease details"]'
+    }
+    public getBreakClauseRbtByLabel(label): string {
+        return `//label[@for="breakClause"]/ancestor::field-template//span[text()="${label}"]/..//input`
+    }
+    public getRenewOptionRbtByLabel(label): string {
+        return `//label[@for="renewOption"]/ancestor::field-template//span[text()="${label}"]/..//input`
     }
     public async getServiceName(): Promise<string> {
         return await Page.getElementText(this.initiatedServicesLabel);
@@ -231,12 +258,55 @@ class initiatedServicesPage {
     public async clickAddressBlockByStreetName(streetName): Promise<void> {
         await Page.click(this.getAddressBlockByStreetName(streetName));
     }
-    public async getAddressBlockTextByStreetName(streetName): Promise<void> {
-        await Page.getElementText(this.getAddressBlockByStreetName(streetName));
+    public async getAddressBlockTextByStreetName(streetName): Promise<string> {
+        return await Page.getElementText(this.getAddressBlockByStreetName(streetName));
     }
     public async getNAChbLabelIconState(chbLabel): Promise<boolean> {
         if (await Page.getElementAttribute(this.getHomeSearchNAChbIcon(chbLabel), "mattooltip") == "Yes") { return true; }
         if (await Page.getElementAttribute(this.getHomeSearchNAChbIcon(chbLabel), "mattooltip") == "No") { return false; }
+    }
+    public async setNewLeaseDetail(startDate, endDate, tenancyExpiryDate, breakClauseRbt, noticeRequired, noticeRequiredPeriod, renewOptionRbt): Promise<void> {
+        await commonElements.setDateValue(this.leaseStartCalendar, startDate);
+        await commonElements.setDateValue(this.leaseEndCalendar, endDate);
+        await commonElements.setDateValue(this.tenancyExpiryTriggerCalendar, tenancyExpiryDate);
+        await commonElements.setRbt(this.getBreakClauseRbtByLabel(breakClauseRbt));
+        await commonElements.setInputValue(noticeRequired, this.noticeRequiredInput);
+        await commonElements.setDropDownValue(noticeRequiredPeriod, this.noticeRequiredDD);
+        await commonElements.setRbt(this.getRenewOptionRbtByLabel(renewOptionRbt));
+    }
+    public async setLeaseBreakClauseDetail(breakClauseAfter, breakClauseDetails): Promise<void> {
+        await commonElements.setInputValue(breakClauseAfter, this.breakClauseAfterInput);
+        await commonElements.setInputValue(breakClauseDetails, this.breakClauseDetailsInput);
+    }
+    public async setLeaseRenewDetails(renewDetails): Promise<void> {
+        await commonElements.setInputValue(renewDetails, this.renewDetailsInput);
+    }
+    public async clickAddLeaseDetailsBtn(): Promise<void> {
+        await Page.click(this.addLeaseDetailsBtn);
+    }
+    public async getLeaseStartDate():Promise<string> {
+        return await Page.getElementValue(this.leaseStartCalendar);
+    }
+    public async getLeaseEndDate():Promise<string> {
+        return await Page.getElementValue(this.leaseEndCalendar);
+    }
+    public async getTenancyExpiryTriggerDate():Promise<string> {
+        return await Page.getElementValue(this.tenancyExpiryTriggerCalendar);
+    }
+    public async getNoticeRequiredValue():Promise<string> {
+        return await Page.getElementValue(this.noticeRequiredInput);
+    }
+    public async getNoticePeriodUnitsValue():Promise<string> {
+        return await commonElements.getDropDownValueText(this.noticeRequiredDD);
+    }
+    public async getBreakClauseAfterValue():Promise<string> {
+        return await Page.getElementValue(this.breakClauseAfterInput);
+    }
+    public async getBreakClauseDetailsValue():Promise<string> {
+        return await Page.getElementValue(this.breakClauseDetailsInput);
+    }
+    public async getRenewDetailsValue():Promise<string> {
+        return await Page.getElementValue(this.renewDetailsInput);
     }
 }
 export default new initiatedServicesPage();

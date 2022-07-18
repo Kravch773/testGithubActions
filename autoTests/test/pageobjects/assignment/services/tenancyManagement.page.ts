@@ -12,6 +12,12 @@ class tenancyManagementPage {
     public get landlordDetailsInput(): string {
         return '#landlordDetails'
     }
+    public get dialogWindAgentDetailsInput(): string {
+        return '//mat-dialog-content//textarea[@id="agentDetails"]'
+    }
+    public get dialogWindLandlordDetailsInput(): string {
+        return '//mat-dialog-content//textarea[@id="landlordDetails"]'
+    }
     public get existingAddressesDD(): string {
         return '#existingAddressesId'
     }
@@ -29,6 +35,12 @@ class tenancyManagementPage {
     }
     public async clickAddNewAccommodationBtn(): Promise<void> {
         await Page.click(this.addNewAccommodationBtn);
+    }
+    public async setDialogWindAgentDetails(value): Promise<void> {
+        await Page.setValue(this.dialogWindAgentDetailsInput, value);
+    }
+    public async setDialogWindLandlordDetails(value): Promise<void> {
+        await Page.setValue(this.dialogWindLandlordDetailsInput, value);
     }
     public async setAgentDetails(value): Promise<void> {
         await Page.setValue(this.agentDetailsInput, value);
