@@ -6,7 +6,7 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"225\"\n                Received: \"565\"",
       "children" : [ {
         "name" : "Verify service Sales Order",
-        "uid" : "e8a31b4612af370d",
+        "uid" : "8df1c9fecfaaac9a",
         "parentUid" : "ef4a801e7da9b65d6ee244da665fa058",
         "status" : "failed",
         "time" : {
@@ -31,7 +31,7 @@
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
         "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "8bf71fbe34251a29",
+        "uid" : "306ef31121425554",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
@@ -48,6 +48,27 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "7a32765981bcc7398deb824e5d577aab"
+    }, {
+      "name" : "element click intercepted: Element <figure _ngcontent-efd-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Pet move Service, documents and finance test",
+        "uid" : "4e664006a5649dea",
+        "parentUid" : "ee2c5db095fe017f608f9e0a3271591d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658216827377,
+          "stop" : 1658216838037,
+          "duration" : 10660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "ee2c5db095fe017f608f9e0a3271591d"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
