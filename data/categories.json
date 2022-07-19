@@ -1,64 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"225\"\n                Received: \"565\"",
-      "children" : [ {
-        "name" : "Verify service Sales Order",
-        "uid" : "8df1c9fecfaaac9a",
-        "parentUid" : "ef4a801e7da9b65d6ee244da665fa058",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657883266556,
-          "stop" : 1657883280809,
-          "duration" : 14253
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.114" ]
-      } ],
-      "uid" : "ef4a801e7da9b65d6ee244da665fa058"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "waitUntil condition timed out after 15000ms",
+      "name" : "element click intercepted: Element <figure _ngcontent-lpc-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
       "children" : [ {
-        "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "306ef31121425554",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "name" : "\"before all\" hook for Home search Service, documents and finance test",
+        "uid" : "d85f8422d247d751",
+        "parentUid" : "4f7030787201be3d5b24a5586849a54d",
         "status" : "broken",
         "time" : {
-          "start" : 1657883280812,
-          "stop" : 1657883295827,
-          "duration" : 15015
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.114" ]
-      } ],
-      "uid" : "7a32765981bcc7398deb824e5d577aab"
-    }, {
-      "name" : "element click intercepted: Element <figure _ngcontent-efd-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
-      "children" : [ {
-        "name" : "\"before all\" hook for Pet move Service, documents and finance test",
-        "uid" : "4e664006a5649dea",
-        "parentUid" : "ee2c5db095fe017f608f9e0a3271591d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1658216827377,
-          "stop" : 1658216838037,
-          "duration" : 10660
+          "start" : 1658217987474,
+          "stop" : 1658217998836,
+          "duration" : 11362
         },
         "flaky" : false,
         "newFailed" : false,
@@ -68,9 +22,355 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
-      "uid" : "ee2c5db095fe017f608f9e0a3271591d"
+      "uid" : "4f7030787201be3d5b24a5586849a54d"
+    }, {
+      "name" : "element click intercepted: Element <figure _ngcontent-llr-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Home search NA test",
+        "uid" : "dece84ea382b44a2",
+        "parentUid" : "3242475b1afa5b3025e607ff9bc1098d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218112923,
+          "stop" : 1658218123056,
+          "duration" : 10133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "3242475b1afa5b3025e607ff9bc1098d"
+    }, {
+      "name" : "waitUntil condition timed out after 15000ms",
+      "children" : [ {
+        "name" : "\"before all\" hook for SchoolSearch Finance And Delivery Partner test",
+        "uid" : "2c99df988a1a8ae5",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218126537,
+          "stop" : 1658218146038,
+          "duration" : 19501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "\"before all\" hook for Travel booking Service, documents and finance test",
+        "uid" : "6324706b51656f3a",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218490977,
+          "stop" : 1658218510589,
+          "duration" : 19612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "\"before all\" hook for Travel booking Service, flight service test",
+        "uid" : "fc5a6f9d972c9487",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218513533,
+          "stop" : 1658218536924,
+          "duration" : 23391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service PurchaseOrder",
+        "uid" : "1811d09efa0bf34e",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218647208,
+          "stop" : 1658218672081,
+          "duration" : 24873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service Sales Order",
+        "uid" : "a69fd1c81988b90b",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218672083,
+          "stop" : 1658218687088,
+          "duration" : 15005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service Recurring Purchase Orders",
+        "uid" : "1b4c1f3e713ae9f2",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218687088,
+          "stop" : 1658218702092,
+          "duration" : 15004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "7a32765981bcc7398deb824e5d577aab"
+    }, {
+      "name" : "element click intercepted: Element <figure _ngcontent-dep-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Departure services, documents and finance test",
+        "uid" : "d43fdaecfd1a9ab9",
+        "parentUid" : "1a71cb770ed905443b300c6d29dea637",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218149173,
+          "stop" : 1658218159149,
+          "duration" : 9976
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "1a71cb770ed905443b300c6d29dea637"
+    }, {
+      "name" : "element click intercepted: Element <figure _ngcontent-hph-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Temp Accommodation(Origin) Service, Need Analysis Section test",
+        "uid" : "41895754e426e01e",
+        "parentUid" : "86aed44a709fca0bd0c14f845c330966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218451585,
+          "stop" : 1658218461666,
+          "duration" : 10081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "86aed44a709fca0bd0c14f845c330966"
+    }, {
+      "name" : "element click intercepted: Element <figure _ngcontent-dcs-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Travel booking Service Car rental test",
+        "uid" : "ae331428bf42851d",
+        "parentUid" : "b1c09c19a30a2854e59266d84e8da7a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218464723,
+          "stop" : 1658218474625,
+          "duration" : 9902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "b1c09c19a30a2854e59266d84e8da7a3"
+    }, {
+      "name" : "element click intercepted: Element <figure _ngcontent-sny-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Travel booking Service taxi Serivce test",
+        "uid" : "63694813430a979e",
+        "parentUid" : "16113e72e64e61da3975576b0daa75ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658218599380,
+          "stop" : 1658218609372,
+          "duration" : 9992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "16113e72e64e61da3975576b0daa75ce"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.19.2022\"\n                Received: \"7/19/2022\"",
+      "children" : [ {
+        "name" : "Verify set Home search result form",
+        "uid" : "325ae69879f6054e",
+        "parentUid" : "dd62b841400f41aff3218237bc2ce7e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658218012956,
+          "stop" : 1658218032480,
+          "duration" : 19524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify edit Home search result form",
+        "uid" : "18e2f662a4612097",
+        "parentUid" : "dd62b841400f41aff3218237bc2ce7e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658218032481,
+          "stop" : 1658218045367,
+          "duration" : 12886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify set deposit Payment form",
+        "uid" : "c9b3d02b914ad634",
+        "parentUid" : "dd62b841400f41aff3218237bc2ce7e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658218045367,
+          "stop" : 1658218057131,
+          "duration" : 11764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Visa & Immigration person details form",
+        "uid" : "780e5d7d651a8b47",
+        "parentUid" : "dd62b841400f41aff3218237bc2ce7e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658218740108,
+          "stop" : 1658218762413,
+          "duration" : 22305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Edit Visa & Immigration person details form",
+        "uid" : "2bfdad543989489d",
+        "parentUid" : "dd62b841400f41aff3218237bc2ce7e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658218762413,
+          "stop" : 1658218777831,
+          "duration" : 15418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "dd62b841400f41aff3218237bc2ce7e5"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.23.2022\"\n                Received: \"7/23/2022\"",
+      "children" : [ {
+        "name" : "Verify add and save Registration type(s) additional fields",
+        "uid" : "dc430d2be5fe1756",
+        "parentUid" : "3f11ab722e76d8d5bb0d0b37947c2f69",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658218777843,
+          "stop" : 1658218790115,
+          "duration" : 12272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "3f11ab722e76d8d5bb0d0b37947c2f69"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 3\n                Received: 4",
+      "children" : [ {
+        "name" : "Verify add Registration type(s) additional fields without saving",
+        "uid" : "cb4cc544d95c1cba",
+        "parentUid" : "6f6557bf5c4e9afe5faf32d706219469",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658218790116,
+          "stop" : 1658218790369,
+          "duration" : 253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "6f6557bf5c4e9afe5faf32d706219469"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }

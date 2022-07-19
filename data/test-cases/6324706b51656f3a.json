@@ -1,0 +1,86 @@
+{
+  "uid" : "6324706b51656f3a",
+  "name" : "\"before all\" hook for Travel booking Service, documents and finance test",
+  "fullName" : "Travel booking Service, documents and finance test.\"before all\" hook for Travel booking Service, documents and finance test",
+  "historyId" : "c366a676d8bdbc50b62953459876e77e",
+  "time" : {
+    "start" : 1658218490977,
+    "stop" : 1658218510589,
+    "duration" : 19612
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Travel booking Service, documents and finance test"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d26322aada0aa31a",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <figure _ngcontent-mys-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "time" : {
+        "start" : 1658218477835,
+        "stop" : 1658218487776,
+        "duration" : 9941
+      }
+    }, {
+      "uid" : "c2b245061d5549f1",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <figure _ngcontent-anv-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "time" : {
+        "start" : 1658218162418,
+        "stop" : 1658218172379,
+        "duration" : 9961
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6324706b51656f3a.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

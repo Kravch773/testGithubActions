@@ -1,0 +1,76 @@
+{
+  "uid" : "dc430d2be5fe1756",
+  "name" : "Verify add and save Registration type(s) additional fields",
+  "fullName" : "Visa & Immigration Service, Need Analysis Section test.Verify add and save Registration type(s) additional fields",
+  "historyId" : "e44a843e3148e575e664ecfd2135a816",
+  "time" : {
+    "start" : 1658218777843,
+    "stop" : 1658218790115,
+    "duration" : 12272
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.23.2022\"\n                Received: \"7/23/2022\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.23.2022\"\n                Received: \"7/23/2022\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/visaImmigrationAssignee.spec.ts:224:77\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/visaImmigrationAssignee.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/visaImmigrationAssignee.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/visaImmigrationAssignee.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "testClass",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify add and save Registration type(s) additional fields"
+  }, {
+    "name" : "package",
+    "value" : "Visa & Immigration Service, Need Analysis Section test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fca9af763f7ae5a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657883387878,
+        "stop" : 1657883416255,
+        "duration" : 28377
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dc430d2be5fe1756.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

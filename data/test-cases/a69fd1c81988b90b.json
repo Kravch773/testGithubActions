@@ -1,0 +1,102 @@
+{
+  "uid" : "a69fd1c81988b90b",
+  "name" : "Verify service Sales Order",
+  "fullName" : "Travel booking Service, documents and finance test.Verify service Sales Order",
+  "historyId" : "2a7f0a2230d4dbb137bf4657cbcd4d5",
+  "time" : {
+    "start" : 1658218672083,
+    "stop" : 1658218687088,
+    "duration" : 15005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Sales Order"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a6d1bbb0e11405be",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"225\"\n                Received: \"565\"",
+      "time" : {
+        "start" : 1657883266556,
+        "stop" : 1657883280809,
+        "duration" : 14253
+      }
+    }, {
+      "uid" : "28d0aa5942f4babc",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1657883029848,
+        "stop" : 1657883044855,
+        "duration" : 15007
+      }
+    }, {
+      "uid" : "52863f087ed0bed0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657882912057,
+        "stop" : 1657882943436,
+        "duration" : 31379
+      }
+    }, {
+      "uid" : "a0cfe4c474dcbe53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657882429345,
+        "stop" : 1657882459779,
+        "duration" : 30434
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a69fd1c81988b90b.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
