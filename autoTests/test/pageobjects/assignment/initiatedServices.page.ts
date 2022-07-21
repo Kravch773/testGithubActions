@@ -97,7 +97,7 @@ class initiatedServicesPage {
         return '//label[text()=" Notice required "]/ancestor::field-template//input'
     }
     public get noticeRequiredDD(): string {
-        return '//label[text()=" Notice required "]/ancestor::field-template//select'
+        return '#noticePeriodUnits'
     }
     public get breakClauseAfterInput(): string {
         return '//label[text()=" Break clause after "]/ancestor::field-template//input'
@@ -116,6 +116,24 @@ class initiatedServicesPage {
     }
     public getRenewOptionRbtByLabel(label): string {
         return `//label[@for="renewOption"]/ancestor::field-template//span[text()="${label}"]/..//input`
+    }
+    public getLeaseEditBtnByNum(num): string {
+        return `(//tenancy-leases-subsection//a[text()="edit"])[${num}]`
+    }
+    public get originalDepositCurrencySelect(): string {
+        return `//label[contains(text(),"Original deposit amount")]/ancestor::field-template//k2-select`
+    }
+    public get originalDepositAmountInput(): string {
+        return `//label[contains(text(),"Original deposit amount")]/ancestor::field-template//input`
+    }
+    public get depositPaidToDD(): string {
+        return `//label[contains(text(),"Deposit paid to")]/ancestor::field-template//select`
+    }
+    public get depositPaidByDD(): string {
+        return `//label[contains(text(),"Deposit paid by")]/ancestor::field-template//select`
+    }
+    public get depositPaymentSaveBtn(): string {
+        return '//deposit-payment-subsection//button'
     }
     public async getServiceName(): Promise<string> {
         return await Page.getElementText(this.initiatedServicesLabel);
@@ -307,6 +325,36 @@ class initiatedServicesPage {
     }
     public async getRenewDetailsValue():Promise<string> {
         return await Page.getElementValue(this.renewDetailsInput);
+    }
+    public async clickLeaseEditBtnByNum(num): Promise<void> {
+       await Page.click(this.getLeaseEditBtnByNum(num));
+    }
+    public async getBreakClauseRbtStateByLabel(breakClauseRbt): Promise<boolean> { 
+        return await Page.isElementSelected(this.getBreakClauseRbtByLabel(breakClauseRbt));
+    }
+    public async geRenewOptionRbtStateByLabel(breakClauseRbt): Promise<boolean> { 
+        return await Page.isElementSelected(this.getRenewOptionRbtByLabel(breakClauseRbt));
+    }
+    public async setDepositPayment(depositCurrency, depositAmount, payingPerson, paidToPerson): Promise<void> {
+        await commonElements.setSelectValue(depositCurrency, this.originalDepositCurrencySelect);
+        await commonElements.setInputValue(depositAmount, this.originalDepositAmountInput);
+        await commonElements.setDropDownValue(payingPerson, this.depositPaidByDD);
+        await commonElements.setDropDownValue(paidToPerson, this.depositPaidToDD);
+    }
+    public async getOriginalDepositCurrencyValue(): Promise<string> {
+        return await Page.getElementText(this.originalDepositCurrencySelect);
+    }
+    public async getOriginalDepositAmountValue(): Promise<string> {
+        return await Page.getElementValue(this.originalDepositAmountInput);
+    }
+    public async getDepositPaidToValue(): Promise<string> {
+        return await commonElements.getDropDownValueText(this.depositPaidToDD);
+    }
+    public async getDepositPaidByValue(): Promise<string> {
+        return await commonElements.getDropDownValueText(this.depositPaidByDD);
+    }
+    public async clickDepositPaymentSaveBtn(): Promise<void> {
+        await Page.click(this.depositPaymentSaveBtn);
     }
 }
 export default new initiatedServicesPage();

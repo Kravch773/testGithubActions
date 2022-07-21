@@ -30,7 +30,7 @@
     "universalServices": "./node_modules/.bin/wdio ./wdio.conf.ts --suite universalServices",
     "universalServices:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite universalServices",
     "onAssignment": "./node_modules/.bin/wdio ./wdio.conf.ts --suite onAssignment",
-    "onAssignment:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite onAssignment",
+    "onAssignment:headless": "./node_modules/.bin/wdio ./wdio.chrome.headless.conf.ts --suite onAssignment", 
     "allure:serve": "npx allure serve allure-results",
     "allure:generate": "npx allure generate allure-results --clean",
     "allure:open": "allure open"
