@@ -1,0 +1,95 @@
+{
+  "uid" : "c85a9d4007e36d26",
+  "name" : "Verify service Sales Order",
+  "fullName" : "Temp Accommodation(Origin) Service, test.Verify service Sales Order",
+  "historyId" : "2bcf857ea21a4cb6c44aa7597b2912d8",
+  "time" : {
+    "start" : 1658342582209,
+    "stop" : 1658342613969,
+    "duration" : 31760
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Sales Order"
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "73363eec4dc3e255",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658330574090,
+        "stop" : 1658330589106,
+        "duration" : 15016
+      }
+    }, {
+      "uid" : "fd57d04bb24b7ca3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658326477298,
+        "stop" : 1658326508976,
+        "duration" : 31678
+      }
+    }, {
+      "uid" : "d9ee585ab8a5c5a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658324089020,
+        "stop" : 1658324120908,
+        "duration" : 31888
+      }
+    }, {
+      "uid" : "cc92a112ea4c5797",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657882647034,
+        "stop" : 1657882678975,
+        "duration" : 31941
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c85a9d4007e36d26.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

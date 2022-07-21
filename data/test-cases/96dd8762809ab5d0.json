@@ -1,0 +1,95 @@
+{
+  "uid" : "96dd8762809ab5d0",
+  "name" : "Verify Lease extensions remove and no require fields msg error ",
+  "fullName" : "Temp Accommodation(Origin) Service, test.Verify Lease extensions remove and no require fields msg error ",
+  "historyId" : "83d38973d4e661b2d5eec45170339b1c",
+  "time" : {
+    "start" : 1658342663285,
+    "stop" : 1658342675160,
+    "duration" : 11875
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Lease extensions remove and no require fields msg error "
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "87a1da9f058bb0df",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658330619168,
+        "stop" : 1658330634227,
+        "duration" : 15059
+      }
+    }, {
+      "uid" : "422690d33c42cb4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658326557002,
+        "stop" : 1658326568921,
+        "duration" : 11919
+      }
+    }, {
+      "uid" : "71b97c0a9c2f03b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658324169654,
+        "stop" : 1658324181515,
+        "duration" : 11861
+      }
+    }, {
+      "uid" : "6a13085a706002a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657882726090,
+        "stop" : 1657882737997,
+        "duration" : 11907
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96dd8762809ab5d0.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
