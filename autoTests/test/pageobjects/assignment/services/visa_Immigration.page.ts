@@ -109,22 +109,22 @@ class visa_ImmigrationPage {
         await Page.click(this.applicationDetailsSaveBtn);
     }
     public async getPlannedArrivalDateValue(): Promise<string> {
-        return await Page.getElementValue(this.plannedArrivalCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.plannedArrivalCalendar));
     }
     public async getPassportNumberValue(): Promise<string> {
         return await Page.getElementValue(this.passportNumberInput);
     }
     public async getValidFromValue(): Promise<string> {
-        return await Page.getElementValue(this.passportValidFromCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.passportValidFromCalendar));
     }
     public async getValidToValue(): Promise<string> {
-        return await Page.getElementValue(this.passportValidToCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.passportValidToCalendar));
     }
     public async getPassportIssuingCountry(): Promise<string> {
         return await Page.getElementText(this.passportIssuingCountryInput);
     }
     public async getApplicationSubmissionValue(): Promise<string> {
-        return await Page.getElementValue(this.applicationSubmissionCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.applicationSubmissionCalendar));
     }
     public async getTrackingNumberValue(): Promise<string> {
         return await Page.getElementValue(this.trackingNumberInput);
@@ -133,10 +133,10 @@ class visa_ImmigrationPage {
         return await commonElements.getDropDownValueText(this.immigrationStatusTypeDD);
     }
     public async getPermitStartValue(): Promise<string> {
-        return await Page.getElementValue(this.permitStartCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.permitStartCalendar));
     }
     public async getPermitEndValue(): Promise<string> {
-        return await Page.getElementValue(this.permitEndCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.permitEndCalendar));
     }
     public async getGovernmentIdValue(): Promise<string> {
         return await Page.getElementValue(this.governmentIdInput);
@@ -145,7 +145,7 @@ class visa_ImmigrationPage {
         return await Page.getElementValue(this.registrationTypeInput + `[${num}]`);
     }
     public async getRegistrationDateValueByNum(num): Promise<string> {
-        return await Page.getElementValue(this.registrationTypeCalendar + `[${num}]`);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.registrationTypeCalendar + `[${num}]`));
     }
     public async getAdditionalDocumentTypeByNum(num): Promise<string> {
         return await Page.getElementValue(this.additionalDocumentTypeInput + `[${num}]`);
