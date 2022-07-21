@@ -1,0 +1,62 @@
+{
+  "uid" : "b63fc15dae92d1ca",
+  "name" : "\"before all\" hook for Home search Service, documents and finance test",
+  "fullName" : "Home search Service, documents and finance test.\"before all\" hook for Home search Service, documents and finance test",
+  "historyId" : "2add9e32869d03ccb0108648687e358a",
+  "time" : {
+    "start" : 1658392564173,
+    "stop" : 1658392586054,
+    "duration" : 21881
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Home search Service, documents and finance test"
+  }, {
+    "name" : "package",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b63fc15dae92d1ca.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

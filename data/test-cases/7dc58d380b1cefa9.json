@@ -1,0 +1,95 @@
+{
+  "uid" : "7dc58d380b1cefa9",
+  "name" : "\"before all\" hook for Home search NA test",
+  "fullName" : "Home search NA test.\"before all\" hook for Home search NA test",
+  "historyId" : "9efe768567ed4e7edae2df1c514124dc",
+  "time" : {
+    "start" : 1658392652297,
+    "stop" : 1658392671866,
+    "duration" : 19569
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Home search NA test"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "262e4df72d496a60",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658392628041,
+        "stop" : 1658392649082,
+        "duration" : 21041
+      }
+    }, {
+      "uid" : "88e0e948afd00a36",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <figure _ngcontent-chr-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "time" : {
+        "start" : 1658392615000,
+        "stop" : 1658392625089,
+        "duration" : 10089
+      }
+    }, {
+      "uid" : "34f3780c8b610f85",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <figure _ngcontent-ter-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "time" : {
+        "start" : 1658392602117,
+        "stop" : 1658392612010,
+        "duration" : 9893
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7dc58d380b1cefa9.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

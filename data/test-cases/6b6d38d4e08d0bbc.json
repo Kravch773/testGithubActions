@@ -1,0 +1,77 @@
+{
+  "uid" : "6b6d38d4e08d0bbc",
+  "name" : "\"before all\" hook for Travel booking Service, documents and finance test",
+  "fullName" : "Travel booking Service, documents and finance test.\"before all\" hook for Travel booking Service, documents and finance test",
+  "historyId" : "c366a676d8bdbc50b62953459876e77e",
+  "time" : {
+    "start" : 1658392755711,
+    "stop" : 1658392765570,
+    "duration" : 9859
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <figure _ngcontent-joh-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+  "statusTrace" : "#0 0x5575ca6a8b13 <unknown>\n                #1 0x5575ca4af688 <unknown>\n                #2 0x5575ca4ee375 <unknown>\n                #3 0x5575ca4ebf02 <unknown>\n                #4 0x5575ca4e9554 <unknown>\n                #5 0x5575ca4e82e2 <unknown>\n                #6 0x5575ca4dbe59 <unknown>\n                #7 0x5575ca5048b2 <unknown>\n                #8 0x5575ca4db713 <unknown>\n                #9 0x5575ca5049be <unknown>\n                #10 0x5575ca517b94 <unknown>\n                #11 0x5575ca5047a3 <unknown>\n                #12 0x5575ca4da0ea <unknown>\n                #13 0x5575ca4db225 <unknown>\n                #14 0x5575ca6f02dd <unknown>\n                #15 0x5575ca6f42c7 <unknown>\n                #16 0x5575ca6da22e <unknown>\n                #17 0x5575ca6f50a8 <unknown>\n                #18 0x5575ca6cebc0 <unknown>\n                #19 0x5575ca7116c8 <unknown>\n                #20 0x5575ca711848 <unknown>\n                #21 0x5575ca72bc0d <unknown>\n                #22 0x7f19de3c5609 <unknown>\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Travel booking Service, documents and finance test"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "35fddcb267011d05",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <figure _ngcontent-jtt-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "time" : {
+        "start" : 1658392703001,
+        "stop" : 1658392712932,
+        "duration" : 9931
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6b6d38d4e08d0bbc.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
