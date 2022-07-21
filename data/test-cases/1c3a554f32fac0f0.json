@@ -1,0 +1,95 @@
+{
+  "uid" : "1c3a554f32fac0f0",
+  "name" : "Verify edit deposit Payment form",
+  "fullName" : "Home search Service, documents and finance test.Verify edit deposit Payment form",
+  "historyId" : "5f0dc5316704e69da3b5f869611bd3b1",
+  "time" : {
+    "start" : 1658341641412,
+    "stop" : 1658341652876,
+    "duration" : 11464
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit deposit Payment form"
+  }, {
+    "name" : "package",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd248eca47f08b63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658328909360,
+        "stop" : 1658328922000,
+        "duration" : 12640
+      }
+    }, {
+      "uid" : "7ee308aa73ff7cc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658325324234,
+        "stop" : 1658325335648,
+        "duration" : 11414
+      }
+    }, {
+      "uid" : "7f1b0115e8b5cc2d",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"EUR - Euro\"\n                Received string:    \"USD - US Dollar\"",
+      "time" : {
+        "start" : 1658323101310,
+        "stop" : 1658323103995,
+        "duration" : 2685
+      }
+    }, {
+      "uid" : "a37549187b8d5454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657881664017,
+        "stop" : 1657881675377,
+        "duration" : 11360
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c3a554f32fac0f0.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
