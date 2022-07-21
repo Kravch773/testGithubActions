@@ -1,0 +1,62 @@
+{
+  "uid" : "ef1dd2ebeead7014",
+  "name" : "Verify NA Labels after edit partner sections data",
+  "fullName" : "Home search NA test.Verify NA Labels after edit partner sections data",
+  "historyId" : "e6374edfc5b2d1ea17a5b9499a434ca",
+  "time" : {
+    "start" : 1658403804771,
+    "stop" : 1658403807042,
+    "duration" : 2271
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"144\"\n                Received string:    \"USD $500 per week\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"144\"\n                Received string:    \"USD $500 per week\"\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/homeSearchNA_Lease.spec.ts:153:91\n                    at step (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/homeSearchNA_Lease.spec.ts:33:23)\n                    at Object.next (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/homeSearchNA_Lease.spec.ts:14:53)\n                    at fulfilled (/home/runner/work/testGithubActions/testGithubActions/autoTests/test/specs/assignments/initiated_services/pre_assignment_services/homeSearchNA_Lease.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify NA Labels after edit partner sections data"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef1dd2ebeead7014.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "562de4db10422483",
+  "name" : "Verify NA Labels after edit partner sections data",
+  "fullName" : "Home search NA test.Verify NA Labels after edit partner sections data",
+  "historyId" : "e6374edfc5b2d1ea17a5b9499a434ca",
+  "time" : {
+    "start" : 1658403884260,
+    "stop" : 1658403888877,
+    "duration" : 4617
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify NA Labels after edit partner sections data"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ef1dd2ebeead7014",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"144\"\n                Received string:    \"USD $500 per week\"",
+      "time" : {
+        "start" : 1658403804771,
+        "stop" : 1658403807042,
+        "duration" : 2271
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "562de4db10422483.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

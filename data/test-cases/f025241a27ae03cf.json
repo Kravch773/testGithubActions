@@ -1,0 +1,68 @@
+{
+  "uid" : "f025241a27ae03cf",
+  "name" : "Verify service Recurring Purchase Orders",
+  "fullName" : "Home search Service, documents and finance test.Verify service Recurring Purchase Orders",
+  "historyId" : "71a92e27105520d9a8362c58c708f49e",
+  "time" : {
+    "start" : 1658403660745,
+    "stop" : 1658403675747,
+    "duration" : 15002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Recurring Purchase Orders"
+  }, {
+    "name" : "package",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f025241a27ae03cf.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

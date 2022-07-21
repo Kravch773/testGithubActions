@@ -1,18 +1,149 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "No window found with title, url or name matching \"/services\"",
+      "children" : [ {
+        "name" : "Verify Home search Initiation details form",
+        "uid" : "be4b9ec4d478eba7",
+        "parentUid" : "93a0d394754bd429afd6f4c47e0ed7a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658403573214,
+          "stop" : 1658403585728,
+          "duration" : 12514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "93a0d394754bd429afd6f4c47e0ed7a1"
+    }, {
+      "name" : "waitUntil condition timed out after 15000ms",
+      "children" : [ {
+        "name" : "Verify edit Home search Initiation details form",
+        "uid" : "986ede1cecc7c84d",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658403585728,
+          "stop" : 1658403600733,
+          "duration" : 15005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Initiate service partner",
+        "uid" : "52d241ab6e28cf69",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658403600733,
+          "stop" : 1658403615735,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify remove service partner",
+        "uid" : "61a76be76a05e6d7",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658403615736,
+          "stop" : 1658403630739,
+          "duration" : 15003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service PurchaseOrder",
+        "uid" : "1da287bfc92a2cb5",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658403630739,
+          "stop" : 1658403645742,
+          "duration" : 15003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service Sales Order",
+        "uid" : "7c0844f4af170c34",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658403645743,
+          "stop" : 1658403660745,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service Recurring Purchase Orders",
+        "uid" : "f025241a27ae03cf",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658403660745,
+          "stop" : 1658403675747,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "7a32765981bcc7398deb824e5d577aab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.21.2022\"\n                Received: \"7/21/2022\"",
       "children" : [ {
         "name" : "Verify set Home search result form",
-        "uid" : "2af53e47de04c9d0",
+        "uid" : "5b4e275be387d415",
         "parentUid" : "1a673ac0b9166ff269804bde773fb8fe",
         "status" : "failed",
         "time" : {
-          "start" : 1658401422273,
-          "stop" : 1658401440592,
-          "duration" : 18319
+          "start" : 1658403688174,
+          "stop" : 1658403706212,
+          "duration" : 18038
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +154,13 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Verify edit Home search result form",
-        "uid" : "ce334e8a41c209ee",
+        "uid" : "46e7debda5bfd9e6",
         "parentUid" : "1a673ac0b9166ff269804bde773fb8fe",
         "status" : "failed",
         "time" : {
-          "start" : 1658401440597,
-          "stop" : 1658401452507,
-          "duration" : 11910
+          "start" : 1658403706213,
+          "stop" : 1658403717399,
+          "duration" : 11186
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +171,13 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Verify set deposit Payment form",
-        "uid" : "74dfa9bebb16a1e3",
+        "uid" : "21a04ac7983c4038",
         "parentUid" : "1a673ac0b9166ff269804bde773fb8fe",
         "status" : "failed",
         "time" : {
-          "start" : 1658401452507,
-          "stop" : 1658401463025,
-          "duration" : 10518
+          "start" : 1658403717399,
+          "stop" : 1658403727865,
+          "duration" : 10466
         },
         "flaky" : false,
         "newFailed" : false,
@@ -57,13 +188,13 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Verify Partner HomeSearch(Lease) section ",
-        "uid" : "58bbaf660c91f901",
+        "uid" : "f6801ec93520ae92",
         "parentUid" : "1a673ac0b9166ff269804bde773fb8fe",
         "status" : "failed",
         "time" : {
-          "start" : 1658401511385,
-          "stop" : 1658401533789,
-          "duration" : 22404
+          "start" : 1658403773316,
+          "stop" : 1658403794343,
+          "duration" : 21027
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,13 +205,13 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Verify Edit Partner HomeSearch(Lease) section ",
-        "uid" : "3a7870e8bb01faec",
+        "uid" : "3f08772d3f6b6d92",
         "parentUid" : "1a673ac0b9166ff269804bde773fb8fe",
         "status" : "failed",
         "time" : {
-          "start" : 1658401538470,
-          "stop" : 1658401544618,
-          "duration" : 6148
+          "start" : 1658403798850,
+          "stop" : 1658403804771,
+          "duration" : 5921
         },
         "flaky" : false,
         "newFailed" : false,
@@ -91,13 +222,13 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Verify Partner HomeSearch(Planning) section ",
-        "uid" : "cf163a917f9f691f",
+        "uid" : "2e86acc67eb7235e",
         "parentUid" : "1a673ac0b9166ff269804bde773fb8fe",
         "status" : "failed",
         "time" : {
-          "start" : 1658401690689,
-          "stop" : 1658401713452,
-          "duration" : 22763
+          "start" : 1658403941861,
+          "stop" : 1658403963261,
+          "duration" : 21400
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,13 +239,13 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Verify Edit Partner HomeSearch(Planning) section ",
-        "uid" : "3c2185e9a0632e76",
+        "uid" : "74858c696fc2a44f",
         "parentUid" : "1a673ac0b9166ff269804bde773fb8fe",
         "status" : "failed",
         "time" : {
-          "start" : 1658401713452,
-          "stop" : 1658401719536,
-          "duration" : 6084
+          "start" : 1658403963262,
+          "stop" : 1658403968935,
+          "duration" : 5673
         },
         "flaky" : false,
         "newFailed" : false,
@@ -125,13 +256,13 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Verify Visa & Immigration person details form",
-        "uid" : "45fe2de665d81939",
+        "uid" : "cb1973760056e114",
         "parentUid" : "1a673ac0b9166ff269804bde773fb8fe",
         "status" : "failed",
         "time" : {
-          "start" : 1658403022324,
-          "stop" : 1658403043117,
-          "duration" : 20793
+          "start" : 1658405214339,
+          "stop" : 1658405234299,
+          "duration" : 19960
         },
         "flaky" : false,
         "newFailed" : false,
@@ -142,13 +273,13 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Verify Edit Visa & Immigration person details form",
-        "uid" : "567e51936cc15e13",
+        "uid" : "b4de7fbee68dfb59",
         "parentUid" : "1a673ac0b9166ff269804bde773fb8fe",
         "status" : "failed",
         "time" : {
-          "start" : 1658403043117,
-          "stop" : 1658403057755,
-          "duration" : 14638
+          "start" : 1658405234299,
+          "stop" : 1658405248107,
+          "duration" : 13808
         },
         "flaky" : false,
         "newFailed" : false,
@@ -163,13 +294,13 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.25.2022\"\n                Received: \"7/25/2022\"",
       "children" : [ {
         "name" : "Verify add and save Registration type(s) additional fields",
-        "uid" : "2b6266522f4b4b7a",
+        "uid" : "a2b830c8a25f06ef",
         "parentUid" : "c187131cab082cacc295814e35f735f4",
         "status" : "failed",
         "time" : {
-          "start" : 1658403057755,
-          "stop" : 1658403070037,
-          "duration" : 12282
+          "start" : 1658405248107,
+          "stop" : 1658405259744,
+          "duration" : 11637
         },
         "flaky" : false,
         "newFailed" : false,
@@ -184,13 +315,13 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 3\n                Received: 4",
       "children" : [ {
         "name" : "Verify add Registration type(s) additional fields without saving",
-        "uid" : "e7b43e6974289d9f",
+        "uid" : "76457ac10d3f344c",
         "parentUid" : "6f6557bf5c4e9afe5faf32d706219469",
         "status" : "failed",
         "time" : {
-          "start" : 1658403070037,
-          "stop" : 1658403070278,
-          "duration" : 241
+          "start" : 1658405259744,
+          "stop" : 1658405259958,
+          "duration" : 214
         },
         "flaky" : false,
         "newFailed" : false,
