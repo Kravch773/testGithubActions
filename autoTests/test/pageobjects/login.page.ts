@@ -23,9 +23,9 @@ class LoginPage {
         // await Page.click('//button[text()=" Use my local account "]')
         await Page.setValue(this.inputPassword, password);
         await Page.click(this.btnSubmit);
-        // await Page.waitElementForDisplayed("//dashboard-top-menu-nav");
-        //  await Page.click("//dashboard//figure");
-        await Page.click(this.btnClose);
+        await Page.waitElementForDisplayed("//dashboard//figure");
+        (await Page.getElement("//dashboard//figure")).click();
+        // await Page.click(this.btnClose);
     }
     public async openLoginURL(enviromentName) {
         await Page.openURL(enviromentName,'/auth/login');
