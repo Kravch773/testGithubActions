@@ -1,0 +1,62 @@
+{
+  "uid" : "718d791488241999",
+  "name" : "\"before all\" hook for Home search NA test",
+  "fullName" : "Home search NA test.\"before all\" hook for Home search NA test",
+  "historyId" : "9efe768567ed4e7edae2df1c514124dc",
+  "time" : {
+    "start" : 1658329029369,
+    "stop" : 1658329048856,
+    "duration" : 19487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Home search NA test"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "718d791488241999.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

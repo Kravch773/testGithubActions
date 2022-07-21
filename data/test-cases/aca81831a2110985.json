@@ -1,0 +1,62 @@
+{
+  "uid" : "aca81831a2110985",
+  "name" : "Verify service PurchaseOrder",
+  "fullName" : "Travel booking Service, documents and finance test.Verify service PurchaseOrder",
+  "historyId" : "7de82dd51b9c0426f60ddce18c225591",
+  "time" : {
+    "start" : 1658342381541,
+    "stop" : 1658342396164,
+    "duration" : 14623
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"USD - US Dollar\"\n                Received: \"EUR - Euro\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"USD - US Dollar\"\n                Received: \"EUR - Euro\"\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\taxBriefing.spec.ts:109:62\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\taxBriefing.spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\taxBriefing.spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\taxBriefing.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service PurchaseOrder"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aca81831a2110985.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

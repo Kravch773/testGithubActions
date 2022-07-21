@@ -1,0 +1,62 @@
+{
+  "uid" : "b37f1e64c0d31e7",
+  "name" : "Go to Services / Travel booking tab and check label",
+  "fullName" : "Travel booking Service, documents and finance test.Go to Services / Travel booking tab and check label",
+  "historyId" : "43a32528114c56e02ea38fc6116d424a",
+  "time" : {
+    "start" : 1657882968799,
+    "stop" : 1657882990749,
+    "duration" : 21950
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to Services / Travel booking tab and check label"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b37f1e64c0d31e7.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

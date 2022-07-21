@@ -1,0 +1,118 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <figure _ngcontent-kak-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Home search NA test",
+        "uid" : "bc0bc96a165c01c5",
+        "parentUid" : "1fbef749b900e66806a2f40eb3f27607",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658329067016,
+          "stop" : 1658329076567,
+          "duration" : 9551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "1fbef749b900e66806a2f40eb3f27607"
+    }, {
+      "name" : "element click intercepted: Element <figure _ngcontent-euc-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"before all\" hook for SchoolSearch Finance And Delivery Partner test",
+        "uid" : "acb75906176ee54",
+        "parentUid" : "355be1f730828716dc73a3e13336fca7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658329080973,
+          "stop" : 1658329090977,
+          "duration" : 10004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "355be1f730828716dc73a3e13336fca7"
+    }, {
+      "name" : "element click intercepted: Element <figure _ngcontent-rmq-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Departure services, documents and finance test",
+        "uid" : "7cb876715c93ab2a",
+        "parentUid" : "fe32d698ee3327189b462e2d7884829e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658329095420,
+          "stop" : 1658329106638,
+          "duration" : 11218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "fe32d698ee3327189b462e2d7884829e"
+    }, {
+      "name" : "waitUntil condition timed out after 15000ms",
+      "children" : [ {
+        "name" : "Verify service Recurring Purchase Orders",
+        "uid" : "4faba9cd74b59e82",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658343105363,
+          "stop" : 1658343120382,
+          "duration" : 15019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 17,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "7a32765981bcc7398deb824e5d577aab"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"225\"\n                Received: \"565\"",
+      "children" : [ {
+        "name" : "Verify service Sales Order",
+        "uid" : "619946034f40d888",
+        "parentUid" : "ef4a801e7da9b65d6ee244da665fa058",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658343090109,
+          "stop" : 1658343105363,
+          "duration" : 15254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 17,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "ef4a801e7da9b65d6ee244da665fa058"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,215 @@
+{
+  "uid" : "4faba9cd74b59e82",
+  "name" : "Verify service Recurring Purchase Orders",
+  "fullName" : "Travel booking Service, documents and finance test.Verify service Recurring Purchase Orders",
+  "historyId" : "1cf1b52f4056342789046a67e276a99e",
+  "time" : {
+    "start" : 1658343105363,
+    "stop" : 1658343120382,
+    "duration" : 15019
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Recurring Purchase Orders"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b219d22b53672eb3",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658342862924,
+        "stop" : 1658342877927,
+        "duration" : 15003
+      }
+    }, {
+      "uid" : "ef50c8af0d4046dd",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658342411172,
+        "stop" : 1658342426173,
+        "duration" : 15001
+      }
+    }, {
+      "uid" : "5443b5273c89578a",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658331133314,
+        "stop" : 1658331148325,
+        "duration" : 15011
+      }
+    }, {
+      "uid" : "fc57bd65cf8a2f",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658330868703,
+        "stop" : 1658330883713,
+        "duration" : 15010
+      }
+    }, {
+      "uid" : "d981e0ad74d065c0",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Travel booking Service, documents and finance test Verify service Recurring Purchase Orders\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\taxBriefing.spec.ts)",
+      "time" : {
+        "start" : 1658329882881,
+        "stop" : 1658329942884,
+        "duration" : 60003
+      }
+    }, {
+      "uid" : "cc785f70f1369303",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658327132925,
+        "stop" : 1658327147938,
+        "duration" : 15013
+      }
+    }, {
+      "uid" : "a4d2b9c5f577e529",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658326881308,
+        "stop" : 1658326896316,
+        "duration" : 15008
+      }
+    }, {
+      "uid" : "4b7ddd83e9b861e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658326777458,
+        "stop" : 1658326800484,
+        "duration" : 23026
+      }
+    }, {
+      "uid" : "75741d9b3772e377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658326295427,
+        "stop" : 1658326317746,
+        "duration" : 22319
+      }
+    }, {
+      "uid" : "4ae1dc64ff979abb",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658324759436,
+        "stop" : 1658324774454,
+        "duration" : 15018
+      }
+    }, {
+      "uid" : "feaa82930e285c0c",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658324493307,
+        "stop" : 1658324508313,
+        "duration" : 15006
+      }
+    }, {
+      "uid" : "51fe11fedc33952f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658324389374,
+        "stop" : 1658324411591,
+        "duration" : 22217
+      }
+    }, {
+      "uid" : "5b4000d8ecfdb75f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658323906713,
+        "stop" : 1658323928928,
+        "duration" : 22215
+      }
+    }, {
+      "uid" : "3a670f33128b0a20",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1657883280812,
+        "stop" : 1657883295827,
+        "duration" : 15015
+      }
+    }, {
+      "uid" : "e8d1578a17381040",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1657883044855,
+        "stop" : 1657883059861,
+        "duration" : 15006
+      }
+    }, {
+      "uid" : "40d116723cc56a93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657882943437,
+        "stop" : 1657882965734,
+        "duration" : 22297
+      }
+    }, {
+      "uid" : "274958c414361011",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657882459780,
+        "stop" : 1657882483339,
+        "duration" : 23559
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4faba9cd74b59e82.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

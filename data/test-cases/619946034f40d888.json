@@ -1,0 +1,215 @@
+{
+  "uid" : "619946034f40d888",
+  "name" : "Verify service Sales Order",
+  "fullName" : "Travel booking Service, documents and finance test.Verify service Sales Order",
+  "historyId" : "2a7f0a2230d4dbb137bf4657cbcd4d5",
+  "time" : {
+    "start" : 1658343090109,
+    "stop" : 1658343105363,
+    "duration" : 15254
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"225\"\n                Received: \"565\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"225\"\n                Received: \"565\"\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\TravelBooking.spec.ts:101:64\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\TravelBooking.spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\TravelBooking.spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\TravelBooking.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Sales Order"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "320e6cb8c4880cb",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658342847921,
+        "stop" : 1658342862924,
+        "duration" : 15003
+      }
+    }, {
+      "uid" : "39b4142c971de54e",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658342396165,
+        "stop" : 1658342411171,
+        "duration" : 15006
+      }
+    }, {
+      "uid" : "9ff5e84c2b2ca9f",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658331093753,
+        "stop" : 1658331133312,
+        "duration" : 39559
+      }
+    }, {
+      "uid" : "12b69cca713f1a85",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658330853697,
+        "stop" : 1658330868703,
+        "duration" : 15006
+      }
+    }, {
+      "uid" : "4e72f1d1a763cabd",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658329702866,
+        "stop" : 1658329882879,
+        "duration" : 180013
+      }
+    }, {
+      "uid" : "efe5f37bd9023440",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"225\"\n                Received: \"565\"",
+      "time" : {
+        "start" : 1658327117896,
+        "stop" : 1658327132923,
+        "duration" : 15027
+      }
+    }, {
+      "uid" : "e7268a5303fa33ce",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658326866297,
+        "stop" : 1658326881308,
+        "duration" : 15011
+      }
+    }, {
+      "uid" : "3b156d9c8f8394cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658326746247,
+        "stop" : 1658326777457,
+        "duration" : 31210
+      }
+    }, {
+      "uid" : "91f31a7f799c17ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658326264384,
+        "stop" : 1658326295426,
+        "duration" : 31042
+      }
+    }, {
+      "uid" : "ded27f0e93ed1220",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658324719865,
+        "stop" : 1658324759434,
+        "duration" : 39569
+      }
+    }, {
+      "uid" : "138dd378fa4dd6a6",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658324478294,
+        "stop" : 1658324493307,
+        "duration" : 15013
+      }
+    }, {
+      "uid" : "7b1616476a3f13be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658324357845,
+        "stop" : 1658324389372,
+        "duration" : 31527
+      }
+    }, {
+      "uid" : "5a12092e26e719c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658323875393,
+        "stop" : 1658323906712,
+        "duration" : 31319
+      }
+    }, {
+      "uid" : "f096793270f2b26a",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"225\"\n                Received: \"565\"",
+      "time" : {
+        "start" : 1657883266556,
+        "stop" : 1657883280809,
+        "duration" : 14253
+      }
+    }, {
+      "uid" : "ad1ff710ed092fdd",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1657883029848,
+        "stop" : 1657883044855,
+        "duration" : 15007
+      }
+    }, {
+      "uid" : "d59680cb737e391b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657882912057,
+        "stop" : 1657882943436,
+        "duration" : 31379
+      }
+    }, {
+      "uid" : "6770e1565f522d10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657882429345,
+        "stop" : 1657882459779,
+        "duration" : 30434
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "619946034f40d888.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

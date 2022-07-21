@@ -1,0 +1,62 @@
+{
+  "uid" : "f3b687440b82ebca",
+  "name" : "Verify service documents",
+  "fullName" : "Travel booking Service, documents and finance test.Verify service documents",
+  "historyId" : "849b24e2dacd6c6d7fc0f2b4436838db",
+  "time" : {
+    "start" : 1658330814616,
+    "stop" : 1658330823545,
+    "duration" : 8929
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "No window found with title, url or name matching \"/services\"",
+  "statusTrace" : "Error: No window found with title, url or name matching \"/services\"\n                    at Browser.switchWindow (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\webdriverio\\build\\commands\\browser\\switchWindow.js:71:11)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Browser.wrapCommandFn (D:\\Ghactionstest3\\testGithubActions\\autoTests\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service documents"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3b687440b82ebca.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

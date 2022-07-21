@@ -1,0 +1,87 @@
+{
+  "uid" : "d1069299a07d3ace",
+  "name" : "Verify edit HomeSearch(Planning) section",
+  "fullName" : "Home search NA test.Verify edit HomeSearch(Planning) section",
+  "historyId" : "d9570a5994d06aa20f2d0256d19352fd",
+  "time" : {
+    "start" : 1658341850364,
+    "stop" : 1658341868918,
+    "duration" : 18554
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit HomeSearch(Planning) section"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b53bdcefd50eccc9",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Home search NA test Verify edit HomeSearch(Planning) section\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\homeSearchNA_Planning.spec.ts)",
+      "time" : {
+        "start" : 1658325539017,
+        "stop" : 1658325682844,
+        "duration" : 143827
+      }
+    }, {
+      "uid" : "1bd8837dfb65cb7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658323305366,
+        "stop" : 1658323323082,
+        "duration" : 17716
+      }
+    }, {
+      "uid" : "e25c6f81d0f16793",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657881871410,
+        "stop" : 1657881890477,
+        "duration" : 19067
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1069299a07d3ace.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
