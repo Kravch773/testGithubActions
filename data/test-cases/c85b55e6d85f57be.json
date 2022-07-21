@@ -1,18 +1,18 @@
 {
-  "uid" : "e67433b6c0341529",
+  "uid" : "c85b55e6d85f57be",
   "name" : "\"before all\" hook for Home search Service, documents and finance test",
   "fullName" : "Home search Service, documents and finance test.\"before all\" hook for Home search Service, documents and finance test",
   "historyId" : "2add9e32869d03ccb0108648687e358a",
   "time" : {
-    "start" : 1658392589125,
-    "stop" : 1658392599209,
-    "duration" : 10084
+    "start" : 1658393738091,
+    "stop" : 1658393758761,
+    "duration" : 20670
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "broken",
-  "statusMessage" : "element click intercepted: Element <figure _ngcontent-otk-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
-  "statusTrace" : "#0 0x5575ca6a8b13 <unknown>\n                #1 0x5575ca4af688 <unknown>\n                #2 0x5575ca4ee375 <unknown>\n                #3 0x5575ca4ebf02 <unknown>\n                #4 0x5575ca4e9554 <unknown>\n                #5 0x5575ca4e82e2 <unknown>\n                #6 0x5575ca4dbe59 <unknown>\n                #7 0x5575ca5048b2 <unknown>\n                #8 0x5575ca4db713 <unknown>\n                #9 0x5575ca5049be <unknown>\n                #10 0x5575ca517b94 <unknown>\n                #11 0x5575ca5047a3 <unknown>\n                #12 0x5575ca4da0ea <unknown>\n                #13 0x5575ca4db225 <unknown>\n                #14 0x5575ca6f02dd <unknown>\n                #15 0x5575ca6f42c7 <unknown>\n                #16 0x5575ca6da22e <unknown>\n                #17 0x5575ca6f50a8 <unknown>\n                #18 0x5575ca6cebc0 <unknown>\n                #19 0x5575ca7116c8 <unknown>\n                #20 0x5575ca711848 <unknown>\n                #21 0x5575ca72bc0d <unknown>\n                #22 0x7f19de3c5609 <unknown>\n                ",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -56,13 +56,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "b63fc15dae92d1ca",
+      "uid" : "fdc29cb180adec49",
       "status" : "broken",
       "statusDetails" : "waitUntil condition timed out after 15000ms",
       "time" : {
-        "start" : 1658392564173,
-        "stop" : 1658392586054,
-        "duration" : 21881
+        "start" : 1658393713426,
+        "stop" : 1658393735419,
+        "duration" : 21993
       }
     } ],
     "categories" : [ {
@@ -72,6 +72,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "e67433b6c0341529.json",
+  "source" : "c85b55e6d85f57be.json",
   "parameterValues" : [ "chrome-103.0.5060.114" ]
 }

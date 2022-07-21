@@ -1,12 +1,12 @@
 {
-  "uid" : "7dc58d380b1cefa9",
+  "uid" : "af797a268ceb0bbc",
   "name" : "\"before all\" hook for Home search NA test",
   "fullName" : "Home search NA test.\"before all\" hook for Home search NA test",
   "historyId" : "9efe768567ed4e7edae2df1c514124dc",
   "time" : {
-    "start" : 1658392652297,
-    "stop" : 1658392671866,
-    "duration" : 19569
+    "start" : 1658393891149,
+    "stop" : 1658393911903,
+    "duration" : 20754
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,7 +17,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 3,
+  "retriesCount" : 2,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -56,31 +56,22 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "262e4df72d496a60",
+      "uid" : "4473baf0bbda7d99",
       "status" : "broken",
       "statusDetails" : "waitUntil condition timed out after 15000ms",
       "time" : {
-        "start" : 1658392628041,
-        "stop" : 1658392649082,
-        "duration" : 21041
+        "start" : 1658393783531,
+        "stop" : 1658393803894,
+        "duration" : 20363
       }
     }, {
-      "uid" : "88e0e948afd00a36",
+      "uid" : "be808024da38a27f",
       "status" : "broken",
-      "statusDetails" : "element click intercepted: Element <figure _ngcontent-chr-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
       "time" : {
-        "start" : 1658392615000,
-        "stop" : 1658392625089,
-        "duration" : 10089
-      }
-    }, {
-      "uid" : "34f3780c8b610f85",
-      "status" : "broken",
-      "statusDetails" : "element click intercepted: Element <figure _ngcontent-ter-c267=\"\"></figure> is not clickable at point (112, 33). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n                  (Session info: headless chrome=103.0.5060.114)",
-      "time" : {
-        "start" : 1658392602117,
-        "stop" : 1658392612010,
-        "duration" : 9893
+        "start" : 1658393761395,
+        "stop" : 1658393780909,
+        "duration" : 19514
       }
     } ],
     "categories" : [ {
@@ -90,6 +81,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "7dc58d380b1cefa9.json",
+  "source" : "af797a268ceb0bbc.json",
   "parameterValues" : [ "chrome-103.0.5060.114" ]
 }
