@@ -1,0 +1,95 @@
+{
+  "uid" : "a45244e344e33395",
+  "name" : "Verify edit form Accommodation witout saving ",
+  "fullName" : "Temp Accommodation(Origin) Service, test.Verify edit form Accommodation witout saving ",
+  "historyId" : "58787867f60e87acd0ab6c5f0961b843",
+  "time" : {
+    "start" : 1658342511025,
+    "stop" : 1658342519163,
+    "duration" : 8138
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit form Accommodation witout saving "
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b5cb20588fa4ea8b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Temp Accommodation(Origin) Service, test Verify edit form Accommodation witout saving \" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\tempAccommodation(Origin).spec.ts)",
+      "time" : {
+        "start" : 1658330036117,
+        "stop" : 1658330122864,
+        "duration" : 86747
+      }
+    }, {
+      "uid" : "fcd62d76d37389a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658326405157,
+        "stop" : 1658326413521,
+        "duration" : 8364
+      }
+    }, {
+      "uid" : "bf58556f79ff9ee4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658324013645,
+        "stop" : 1658324023240,
+        "duration" : 9595
+      }
+    }, {
+      "uid" : "7fb771fef270ae8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657882574680,
+        "stop" : 1657882583019,
+        "duration" : 8339
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a45244e344e33395.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

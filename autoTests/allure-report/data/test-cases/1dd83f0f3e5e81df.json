@@ -1,0 +1,87 @@
+{
+  "uid" : "1dd83f0f3e5e81df",
+  "name" : "Verify edit HomeSearch(Property) section",
+  "fullName" : "Home search NA test.Verify edit HomeSearch(Property) section",
+  "historyId" : "84b67ae60761c457f13210c9fb0fd23b",
+  "time" : {
+    "start" : 1658341943481,
+    "stop" : 1658341954656,
+    "duration" : 11175
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit HomeSearch(Property) section"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a17a72caa0d36f6b",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658325782558,
+        "stop" : 1658325797569,
+        "duration" : 15011
+      }
+    }, {
+      "uid" : "314c5d9c6f759418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658323397953,
+        "stop" : 1658323409174,
+        "duration" : 11221
+      }
+    }, {
+      "uid" : "27186155ccc2ee17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657881963340,
+        "stop" : 1657881974428,
+        "duration" : 11088
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1dd83f0f3e5e81df.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
