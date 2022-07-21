@@ -1,16 +1,16 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Home purchase assistance Service, documents and finance test",
+    "name" : "Pet move Service, documents and finance test",
     "children" : [ {
-      "name" : "Go to Services / Home purchase assistance page and check label",
-      "uid" : "f2875422cdb244a8",
-      "parentUid" : "666fdd9855bb5242955bfd7601330fd1",
+      "name" : "Go to Services / Pet move page and check label",
+      "uid" : "c8a23daaf564d1f7",
+      "parentUid" : "f802bb856524856ea2201c9329c59bfe",
       "status" : "passed",
       "time" : {
-        "start" : 1658394962683,
-        "stop" : 1658394974356,
-        "duration" : 11673
+        "start" : 1658395216635,
+        "stop" : 1658395229493,
+        "duration" : 12858
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
       "parameters" : [ "chrome-103.0.5060.114" ]
     }, {
       "name" : "Verify service documents",
-      "uid" : "fef4fb572a1b67bf",
-      "parentUid" : "666fdd9855bb5242955bfd7601330fd1",
+      "uid" : "d96ada08e8e473a9",
+      "parentUid" : "f802bb856524856ea2201c9329c59bfe",
       "status" : "passed",
       "time" : {
-        "start" : 1658394974356,
-        "stop" : 1658394986001,
-        "duration" : 11645
+        "start" : 1658395229494,
+        "stop" : 1658395241842,
+        "duration" : 12348
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,64 @@
       "parameters" : [ "chrome-103.0.5060.114" ]
     }, {
       "name" : "Verify remove service document",
-      "uid" : "1c2d4a0dffc0f21",
-      "parentUid" : "666fdd9855bb5242955bfd7601330fd1",
+      "uid" : "daa9c026a983a8bf",
+      "parentUid" : "f802bb856524856ea2201c9329c59bfe",
       "status" : "passed",
       "time" : {
-        "start" : 1658394986001,
-        "stop" : 1658394997669,
-        "duration" : 11668
+        "start" : 1658395241843,
+        "stop" : 1658395254094,
+        "duration" : 12251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.114" ]
+    }, {
+      "name" : "Verify service PurchaseOrder",
+      "uid" : "81a00f8479d6dff2",
+      "parentUid" : "f802bb856524856ea2201c9329c59bfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658395254094,
+        "stop" : 1658395289035,
+        "duration" : 34941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.114" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "97c0735d854309c",
+      "parentUid" : "f802bb856524856ea2201c9329c59bfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658395289037,
+        "stop" : 1658395322619,
+        "duration" : 33582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.114" ]
+    }, {
+      "name" : "Verify service Recurring Purchase Orders",
+      "uid" : "4a5a7046b420bcd9",
+      "parentUid" : "f802bb856524856ea2201c9329c59bfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658395322621,
+        "stop" : 1658395346783,
+        "duration" : 24162
       },
       "flaky" : false,
       "newFailed" : false,
@@ -54,18 +105,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.114" ]
     } ],
-    "uid" : "666fdd9855bb5242955bfd7601330fd1"
+    "uid" : "f802bb856524856ea2201c9329c59bfe"
   }, {
-    "name" : "Home sale assistance Service, documents and finance test",
+    "name" : "Vehicle move Service, documents and finance test",
     "children" : [ {
-      "name" : "Go to Services / Home sale assistance page and check label",
-      "uid" : "91c377c92e1d1a84",
-      "parentUid" : "84bba7cee78885afecc0ed10a0a5be48",
+      "name" : "Go to Services / Vehicle move page and check label",
+      "uid" : "d9b60b6d4fee4cb9",
+      "parentUid" : "fff8c74351e19d42dbff8a5c3ef6d19e",
       "status" : "passed",
       "time" : {
-        "start" : 1658394999973,
-        "stop" : 1658395010550,
-        "duration" : 10577
+        "start" : 1658395349901,
+        "stop" : 1658395362712,
+        "duration" : 12811
       },
       "flaky" : false,
       "newFailed" : false,
@@ -76,13 +127,13 @@
       "parameters" : [ "chrome-103.0.5060.114" ]
     }, {
       "name" : "Verify service documents",
-      "uid" : "c40ee5cd94378bb9",
-      "parentUid" : "84bba7cee78885afecc0ed10a0a5be48",
+      "uid" : "837bcc13220bb9d2",
+      "parentUid" : "fff8c74351e19d42dbff8a5c3ef6d19e",
       "status" : "passed",
       "time" : {
-        "start" : 1658395010550,
-        "stop" : 1658395022547,
-        "duration" : 11997
+        "start" : 1658395362712,
+        "stop" : 1658395375313,
+        "duration" : 12601
       },
       "flaky" : false,
       "newFailed" : false,
@@ -93,13 +144,64 @@
       "parameters" : [ "chrome-103.0.5060.114" ]
     }, {
       "name" : "Verify remove service document",
-      "uid" : "d1264eaf8b14c6b9",
-      "parentUid" : "84bba7cee78885afecc0ed10a0a5be48",
+      "uid" : "b29c0e83a28344b6",
+      "parentUid" : "fff8c74351e19d42dbff8a5c3ef6d19e",
       "status" : "passed",
       "time" : {
-        "start" : 1658395022547,
-        "stop" : 1658395034136,
-        "duration" : 11589
+        "start" : 1658395375313,
+        "stop" : 1658395387562,
+        "duration" : 12249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.114" ]
+    }, {
+      "name" : "Verify service PurchaseOrder",
+      "uid" : "4fc5c6d43ee89f6a",
+      "parentUid" : "fff8c74351e19d42dbff8a5c3ef6d19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658395387562,
+        "stop" : 1658395422613,
+        "duration" : 35051
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.114" ]
+    }, {
+      "name" : "Verify service Sales Order",
+      "uid" : "83da9196f044461a",
+      "parentUid" : "fff8c74351e19d42dbff8a5c3ef6d19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658395422613,
+        "stop" : 1658395456179,
+        "duration" : 33566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.114" ]
+    }, {
+      "name" : "Verify service Recurring Purchase Orders",
+      "uid" : "c6865cc9638630a4",
+      "parentUid" : "fff8c74351e19d42dbff8a5c3ef6d19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658395456181,
+        "stop" : 1658395480550,
+        "duration" : 24369
       },
       "flaky" : false,
       "newFailed" : false,
@@ -109,7 +211,7 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.114" ]
     } ],
-    "uid" : "84bba7cee78885afecc0ed10a0a5be48"
+    "uid" : "fff8c74351e19d42dbff8a5c3ef6d19e"
   } ],
   "name" : "suites"
 }
