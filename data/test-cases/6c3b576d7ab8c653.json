@@ -1,0 +1,77 @@
+{
+  "uid" : "6c3b576d7ab8c653",
+  "name" : "Verify schoolSearch section",
+  "fullName" : "Departure services, documents and finance test.Verify schoolSearch section",
+  "historyId" : "cd46a5bd12bd43daece0bd2c6d2cfb93",
+  "time" : {
+    "start" : 1658484034993,
+    "stop" : 1658484049999,
+    "duration" : 15006
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify schoolSearch section"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2c69a34bb47fd732",
+      "status" : "broken",
+      "statusDetails" : "No window found with title, url or name matching \"/services\"",
+      "time" : {
+        "start" : 1658484007809,
+        "stop" : 1658484019988,
+        "duration" : 12179
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6c3b576d7ab8c653.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

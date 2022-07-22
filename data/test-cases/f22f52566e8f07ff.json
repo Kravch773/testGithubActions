@@ -1,0 +1,68 @@
+{
+  "uid" : "f22f52566e8f07ff",
+  "name" : "Go to Services / Departure services page and check label",
+  "fullName" : "Departure services, documents and finance test.Go to Services / Departure services page and check label",
+  "historyId" : "3e3598062c2687ab3670fa1fb86a52d9",
+  "time" : {
+    "start" : 1658483991394,
+    "stop" : 1658484007808,
+    "duration" : 16414
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <button _ngcontent-gpo-c44=\"\" formnovalidate=\"\" matripple=\"\" class=\"mat-ripple primary ng-star-inserted\" type=\"button\" style=\"\">...</button> is not clickable at point (714, 929). Other element would receive the click: <iframe name=\"ank_widget_du2zxon9z\" allowfullscreen=\"true\" data-announcekit-widget=\"\" sandbox=\"allow-same-origin allow-presentation allow-scripts allow-top-navigation allow-popups allow-popups-to-escape-sandbox allow-forms allow-downloads\" style=\"position: absolute; inset: 0px; border: 0px; width: 100%; height: 100%; background-color: rgb(255, 255, 255);\"></iframe>\n                  (Session info: headless chrome=103.0.5060.114)",
+  "statusTrace" : "#0 0x562e8c17db13 <unknown>\n                #1 0x562e8bf84688 <unknown>\n                #2 0x562e8bfc3375 <unknown>\n                #3 0x562e8bfc0f02 <unknown>\n                #4 0x562e8bfbe554 <unknown>\n                #5 0x562e8bfbd2e2 <unknown>\n                #6 0x562e8bfb0e59 <unknown>\n                #7 0x562e8bfd98b2 <unknown>\n                #8 0x562e8bfb0713 <unknown>\n                #9 0x562e8bfd99be <unknown>\n                #10 0x562e8bfecb94 <unknown>\n                #11 0x562e8bfd97a3 <unknown>\n                #12 0x562e8bfaf0ea <unknown>\n                #13 0x562e8bfb0225 <unknown>\n                #14 0x562e8c1c52dd <unknown>\n                #15 0x562e8c1c92c7 <unknown>\n                #16 0x562e8c1af22e <unknown>\n                #17 0x562e8c1ca0a8 <unknown>\n                #18 0x562e8c1a3bc0 <unknown>\n                #19 0x562e8c1e66c8 <unknown>\n                #20 0x562e8c1e6848 <unknown>\n                #21 0x562e8c200c0d <unknown>\n                #22 0x7f357dd3e609 <unknown>\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to Services / Departure services page and check label"
+  }, {
+    "name" : "package",
+    "value" : "Departure services, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f22f52566e8f07ff.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
