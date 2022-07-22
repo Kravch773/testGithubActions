@@ -1,18 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "waitUntil condition timed out after 15000ms",
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.22.2022\"\n                Received: \"7/22/2022\"",
       "children" : [ {
-        "name" : "Go to Services / Visa & Immigration page and check label",
-        "uid" : "f9117fe27ce7b80b",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
+        "name" : "Verify set Home search result form",
+        "uid" : "227aab10ecb52e10",
+        "parentUid" : "f6a28f1da36b1acb8a2c4e7dee0be5dc",
+        "status" : "failed",
         "time" : {
-          "start" : 1658406170250,
-          "stop" : 1658406195935,
-          "duration" : 25685
+          "start" : 1658472662777,
+          "stop" : 1658472679871,
+          "duration" : 17094
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,14 +22,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
-        "name" : "Verify Visa & Immigration Application details",
-        "uid" : "202c3282da3cbb3c",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
+        "name" : "Verify edit Home search result form",
+        "uid" : "e3e157f0305055c6",
+        "parentUid" : "f6a28f1da36b1acb8a2c4e7dee0be5dc",
+        "status" : "failed",
         "time" : {
-          "start" : 1658406195936,
-          "stop" : 1658406210943,
-          "duration" : 15007
+          "start" : 1658472679871,
+          "stop" : 1658472691668,
+          "duration" : 11797
         },
         "flaky" : false,
         "newFailed" : false,
@@ -39,14 +39,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
-        "name" : "Verify Edit Visa & Immigration Application details form",
-        "uid" : "930a24008e9d7c71",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
+        "name" : "Verify set deposit Payment form",
+        "uid" : "2473ca91fe4b73f3",
+        "parentUid" : "f6a28f1da36b1acb8a2c4e7dee0be5dc",
+        "status" : "failed",
         "time" : {
-          "start" : 1658406210944,
-          "stop" : 1658406225948,
-          "duration" : 15004
+          "start" : 1658472691668,
+          "stop" : 1658472701954,
+          "duration" : 10286
         },
         "flaky" : false,
         "newFailed" : false,
@@ -56,14 +56,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
-        "name" : "Verify Visa & Immigration person details form",
-        "uid" : "5e8b442aea5fcade",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
+        "name" : "Verify Partner HomeSearch(Lease) section ",
+        "uid" : "cd203d8f6968d04b",
+        "parentUid" : "f6a28f1da36b1acb8a2c4e7dee0be5dc",
+        "status" : "failed",
         "time" : {
-          "start" : 1658406225949,
-          "stop" : 1658406240951,
-          "duration" : 15002
+          "start" : 1658472748784,
+          "stop" : 1658472770219,
+          "duration" : 21435
         },
         "flaky" : false,
         "newFailed" : false,
@@ -73,14 +73,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
-        "name" : "Verify Edit Visa & Immigration person details form",
-        "uid" : "3f1718dc6f52ea9",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
+        "name" : "Verify Edit Partner HomeSearch(Lease) section ",
+        "uid" : "fbf7eddc000ab1a5",
+        "parentUid" : "f6a28f1da36b1acb8a2c4e7dee0be5dc",
+        "status" : "failed",
         "time" : {
-          "start" : 1658406240952,
-          "stop" : 1658406255957,
-          "duration" : 15005
+          "start" : 1658472774829,
+          "stop" : 1658472780712,
+          "duration" : 5883
         },
         "flaky" : false,
         "newFailed" : false,
@@ -90,14 +90,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
-        "name" : "Verify add and save Registration type(s) additional fields",
-        "uid" : "d9eea3139aec9966",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
+        "name" : "Verify Partner HomeSearch(Planning) section ",
+        "uid" : "3a99fa514157743d",
+        "parentUid" : "f6a28f1da36b1acb8a2c4e7dee0be5dc",
+        "status" : "failed",
         "time" : {
-          "start" : 1658406255957,
-          "stop" : 1658406270959,
-          "duration" : 15002
+          "start" : 1658472919774,
+          "stop" : 1658472941406,
+          "duration" : 21632
         },
         "flaky" : false,
         "newFailed" : false,
@@ -107,48 +107,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
-        "name" : "Verify add Registration type(s) additional fields without saving",
-        "uid" : "7e65c95d1f91c2d5",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
+        "name" : "Verify Edit Partner HomeSearch(Planning) section ",
+        "uid" : "9b46f16c5287ccf",
+        "parentUid" : "f6a28f1da36b1acb8a2c4e7dee0be5dc",
+        "status" : "failed",
         "time" : {
-          "start" : 1658406270960,
-          "stop" : 1658406285962,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.114" ]
-      }, {
-        "name" : "Verify add and save Documents checklist additional fields",
-        "uid" : "54c2efc57e9b10fc",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1658406285963,
-          "stop" : 1658406300965,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.114" ]
-      }, {
-        "name" : "Verify add Documents checklist fields without saving",
-        "uid" : "7cd1cc974963002b",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1658406300965,
-          "stop" : 1658406315967,
-          "duration" : 15002
+          "start" : 1658472941407,
+          "stop" : 1658472947154,
+          "duration" : 5747
         },
         "flaky" : false,
         "newFailed" : false,
@@ -158,9 +124,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
-      "uid" : "7a32765981bcc7398deb824e5d577aab"
+      "uid" : "f6a28f1da36b1acb8a2c4e7dee0be5dc"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }
