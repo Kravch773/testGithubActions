@@ -56,7 +56,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/assignments/initiated_services/hhg_services/*.spec.ts'
         ],
         preAssignmentServices: [
-            './test/specs/assignments/initiated_services/pre_assignment_services/visa*.spec.ts'
+            './test/specs/assignments/initiated_services/pre_assignment_services/*.spec.ts'
         ],
         universalServices: [
             './test/specs/assignments/initiated_services/universal_services/*.spec.ts'
