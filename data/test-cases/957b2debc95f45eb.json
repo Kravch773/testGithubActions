@@ -1,0 +1,87 @@
+{
+  "uid" : "957b2debc95f45eb",
+  "name" : "Verify edit form Accommodation witout saving ",
+  "fullName" : "Temp Accommodation(Origin) Service, test.Verify edit form Accommodation witout saving ",
+  "historyId" : "3078531bf47e2ae3c2900da0a0ab2e21",
+  "time" : {
+    "start" : 1658490259501,
+    "stop" : 1658490268217,
+    "duration" : 8716
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify edit form Accommodation witout saving "
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Origin) Service, test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "edb885a9b4827cf1",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"testStreet11\"\n                Received: \"testStreet12\"",
+      "time" : {
+        "start" : 1658471676047,
+        "stop" : 1658471683816,
+        "duration" : 7769
+      }
+    }, {
+      "uid" : "c7ac984007c9aceb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408901000,
+        "stop" : 1658408909666,
+        "duration" : 8666
+      }
+    }, {
+      "uid" : "7a0b71b9aa4228f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658400413276,
+        "stop" : 1658400421809,
+        "duration" : 8533
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "957b2debc95f45eb.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

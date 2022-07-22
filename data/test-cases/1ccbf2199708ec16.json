@@ -1,0 +1,84 @@
+{
+  "uid" : "1ccbf2199708ec16",
+  "name" : "Verify HomeSearch(Lease) NA section",
+  "fullName" : "Home search NA test.Verify HomeSearch(Lease) NA section",
+  "historyId" : "5f822778715881c348fe2050c770a368",
+  "time" : {
+    "start" : 1658470892859,
+    "stop" : 1658470901605,
+    "duration" : 8746
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'length' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'length' of undefined\n                    at commonElements.<anonymous> (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:468:27)\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify HomeSearch(Lease) NA section"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cea4bea64c5b3f34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408017604,
+        "stop" : 1658408025251,
+        "duration" : 7647
+      }
+    }, {
+      "uid" : "38bee427ce9728ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399529192,
+        "stop" : 1658399538104,
+        "duration" : 8912
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1ccbf2199708ec16.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

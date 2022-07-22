@@ -1,0 +1,84 @@
+{
+  "uid" : "11bcd8c28c5c568d",
+  "name" : "Verify Initiate service partner",
+  "fullName" : "Home search Service, documents and finance test.Verify Initiate service partner",
+  "historyId" : "c816139d4d6aa3dfd3479dcd88a52c79",
+  "time" : {
+    "start" : 1658470743813,
+    "stop" : 1658470750667,
+    "duration" : 6854
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'length' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'length' of undefined\n                    at commonElements.<anonymous> (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:468:27)\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Initiate service partner"
+  }, {
+    "name" : "package",
+    "value" : "Home search Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e09637b8b1198288",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658407816946,
+        "stop" : 1658407823828,
+        "duration" : 6882
+      }
+    }, {
+      "uid" : "355e1bd26f8244ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399327727,
+        "stop" : 1658399334559,
+        "duration" : 6832
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "11bcd8c28c5c568d.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,0 +1,84 @@
+{
+  "uid" : "52ce07b7c7d7fd46",
+  "name" : "Verify Pickup and Drop off require field error msg ",
+  "fullName" : "Travel booking Service Car rental test.Verify Pickup and Drop off require field error msg ",
+  "historyId" : "17952dc121eef6ce4f08f45aa3c70c91",
+  "time" : {
+    "start" : 1658471866638,
+    "stop" : 1658471870187,
+    "duration" : 3549
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'length' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'length' of undefined\n                    at commonElements.<anonymous> (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:468:27)\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service Car rental test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service Car rental test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Pickup and Drop off require field error msg "
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service Car rental test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "877854a68c9e83dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658409154631,
+        "stop" : 1658409161752,
+        "duration" : 7121
+      }
+    }, {
+      "uid" : "ec2c3914ffb65483",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658400662966,
+        "stop" : 1658400671057,
+        "duration" : 8091
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "52ce07b7c7d7fd46.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

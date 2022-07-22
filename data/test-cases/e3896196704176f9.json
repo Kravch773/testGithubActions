@@ -1,0 +1,87 @@
+{
+  "uid" : "e3896196704176f9",
+  "name" : "Verify service Sales Order",
+  "fullName" : "SchoolSearch Finance And Delivery Partner test.Verify service Sales Order",
+  "historyId" : "64cca586638370f41ba1fa1ac76849ae",
+  "time" : {
+    "start" : 1658489757204,
+    "stop" : 1658489788336,
+    "duration" : 31132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testClass",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Sales Order"
+  }, {
+    "name" : "package",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "339bc0dbe1b8ba5",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658471243176,
+        "stop" : 1658471258184,
+        "duration" : 15008
+      }
+    }, {
+      "uid" : "aa036c5ad955c10b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408404202,
+        "stop" : 1658408435200,
+        "duration" : 30998
+      }
+    }, {
+      "uid" : "2cd54374d21ef4ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399916458,
+        "stop" : 1658399947851,
+        "duration" : 31393
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3896196704176f9.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

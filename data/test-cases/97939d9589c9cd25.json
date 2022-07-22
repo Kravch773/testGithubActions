@@ -1,0 +1,62 @@
+{
+  "uid" : "97939d9589c9cd25",
+  "name" : "Verify service documents",
+  "fullName" : "Travel booking Service, documents and finance test.Verify service documents",
+  "historyId" : "2d112c150fbb2ef43599a552fb16799f",
+  "time" : {
+    "start" : 1658471883651,
+    "stop" : 1658471894691,
+    "duration" : 11040
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'length' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'length' of undefined\n                    at commonElements.<anonymous> (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:468:27)\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service documents"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97939d9589c9cd25.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

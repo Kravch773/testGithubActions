@@ -1,0 +1,84 @@
+{
+  "uid" : "458974a3180f46e0",
+  "name" : "Verify Edit Partner HomeSearch(Planning) section ",
+  "fullName" : "Home search NA test.Verify Edit Partner HomeSearch(Planning) section ",
+  "historyId" : "480ce5518a69987364e60224a354d902",
+  "time" : {
+    "start" : 1658471103677,
+    "stop" : 1658471109059,
+    "duration" : 5382
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.22.2022\"\n                Received: \"\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.22.2022\"\n                Received: \"\"\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\homeSearchNA_Planning.spec.ts:111:88\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\homeSearchNA_Planning.spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\homeSearchNA_Planning.spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\homeSearchNA_Planning.spec.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Edit Partner HomeSearch(Planning) section "
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7a6ae951f90fe67a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408239819,
+        "stop" : 1658408259488,
+        "duration" : 19669
+      }
+    }, {
+      "uid" : "f268ecd0ba0b60cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399752645,
+        "stop" : 1658399771252,
+        "duration" : 18607
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "458974a3180f46e0.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

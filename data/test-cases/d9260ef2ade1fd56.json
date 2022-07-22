@@ -1,0 +1,87 @@
+{
+  "uid" : "d9260ef2ade1fd56",
+  "name" : "Verify Edit Temp accommodation (Origin) Needs analysis form",
+  "fullName" : "Temp Accommodation(Origin) Service, Need Analysis Section test.Verify Edit Temp accommodation (Origin) Needs analysis form",
+  "historyId" : "8c20518cea62ed5075946601a002776a",
+  "time" : {
+    "start" : 1658490445607,
+    "stop" : 1658490463454,
+    "duration" : 17847
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Temp Accommodation(Origin) Service, Need Analysis Section test"
+  }, {
+    "name" : "testClass",
+    "value" : "Temp Accommodation(Origin) Service, Need Analysis Section test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Edit Temp accommodation (Origin) Needs analysis form"
+  }, {
+    "name" : "package",
+    "value" : "Temp Accommodation(Origin) Service, Need Analysis Section test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6bd28bba4a6fc7ea",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1658471822217,
+        "stop" : 1658471827355,
+        "duration" : 5138
+      }
+    }, {
+      "uid" : "4f068790beaa60f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658409090499,
+        "stop" : 1658409109130,
+        "duration" : 18631
+      }
+    }, {
+      "uid" : "545f2b4fb34eb9ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658400600457,
+        "stop" : 1658400619076,
+        "duration" : 18619
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9260ef2ade1fd56.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
