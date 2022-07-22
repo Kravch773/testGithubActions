@@ -1,18 +1,39 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"8.7.2022\"\n                Received: \"8/7/2022\"",
+      "name" : "No window found with title, url or name matching \"/services\"",
       "children" : [ {
-        "name" : "Verify set Home search result form",
-        "uid" : "15054023096b74f2",
-        "parentUid" : "921b6eb410594fc87727c9326b74e098",
-        "status" : "failed",
+        "name" : "Verify Home search Initiation details form",
+        "uid" : "c89c1d0737b0018e",
+        "parentUid" : "93a0d394754bd429afd6f4c47e0ed7a1",
+        "status" : "broken",
         "time" : {
-          "start" : 1658475180355,
-          "stop" : 1658475197638,
-          "duration" : 17283
+          "start" : 1658478886583,
+          "stop" : 1658478899016,
+          "duration" : 12433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "93a0d394754bd429afd6f4c47e0ed7a1"
+    }, {
+      "name" : "waitUntil condition timed out after 15000ms",
+      "children" : [ {
+        "name" : "Verify edit Home search Initiation details form",
+        "uid" : "829b52b46a8b7079",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658478899016,
+          "stop" : 1658478914019,
+          "duration" : 15003
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,14 +43,133 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
-        "name" : "Verify edit Home search result form",
-        "uid" : "1f96614ef4ed08e6",
-        "parentUid" : "921b6eb410594fc87727c9326b74e098",
-        "status" : "failed",
+        "name" : "Verify Initiate service partner",
+        "uid" : "100ca5d6c2787438",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
         "time" : {
-          "start" : 1658475197638,
-          "stop" : 1658475209416,
-          "duration" : 11778
+          "start" : 1658478914019,
+          "stop" : 1658478929021,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify remove service partner",
+        "uid" : "8f44dabc8f7ef655",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658478929022,
+          "stop" : 1658478944023,
+          "duration" : 15001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service PurchaseOrder",
+        "uid" : "31d31f8504dc1da7",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658478944024,
+          "stop" : 1658478959026,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service Sales Order",
+        "uid" : "f7dab93d1b5a6340",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658478959027,
+          "stop" : 1658478974028,
+          "duration" : 15001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify service Recurring Purchase Orders",
+        "uid" : "e85932e7c618b056",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658478974029,
+          "stop" : 1658478989032,
+          "duration" : 15003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Go to Services / Travel booking page and check label",
+        "uid" : "f598f851c7a930fb",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658480468212,
+          "stop" : 1658480490954,
+          "duration" : 22742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Hotel booking service form ",
+        "uid" : "ecc2f9b03f9a9563",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658480490954,
+          "stop" : 1658480505959,
+          "duration" : 15005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "Verify Edit Hotel booking service form ",
+        "uid" : "1ab85e2077339670",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658480505961,
+          "stop" : 1658480520967,
+          "duration" : 15006
         },
         "flaky" : false,
         "newFailed" : false,
@@ -39,30 +179,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
-      "uid" : "921b6eb410594fc87727c9326b74e098"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.30.2022\"\n                Received: \"7/30/2022\"",
-      "children" : [ {
-        "name" : "Verify Edit Partner HomeSearch(Lease) section ",
-        "uid" : "61f6f64d92c69f86",
-        "parentUid" : "0d0c659b902874d1bf63188fd85b22e7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1658475291189,
-          "stop" : 1658475309522,
-          "duration" : 18333
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.114" ]
-      } ],
-      "uid" : "0d0c659b902874d1bf63188fd85b22e7"
+      "uid" : "7a32765981bcc7398deb824e5d577aab"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }
