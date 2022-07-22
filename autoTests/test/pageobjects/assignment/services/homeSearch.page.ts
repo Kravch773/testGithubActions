@@ -109,13 +109,13 @@ class languageTrainingPage {
         await Page.click(this.otherNATabBtn);
     }
     public async getPlannigDateValue(questionLabel): Promise<string> {
-        return initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(questionLabel);
+        return await commonElements.createStandartDateForm(await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(questionLabel));
     }
     public async getArrangedPlaceValue(questionLabel): Promise<string> {
-        return initiatedServicesPage.getServiceNeedAnalysisTextAreaValueByLabel(questionLabel);
+        return await initiatedServicesPage.getServiceNeedAnalysisTextAreaValueByLabel(questionLabel);
     }
     public async getCurrentHomeValue(questionLabel): Promise<string> {
-        return initiatedServicesPage.getServiceNeedAnalysisTextAreaValueByLabel(questionLabel);
+        return await initiatedServicesPage.getServiceNeedAnalysisTextAreaValueByLabel(questionLabel);
     }
     public async getHomeSearchOtherRbtnStateByLabel(questionLabel): Promise<string> {
         if (await Page.isElementSelected(this.getHomeSearchOtherRbtnByLabel(questionLabel, "Yes")) == true) { return "Yes"; }
@@ -138,19 +138,19 @@ class languageTrainingPage {
         await Page.click(this.homeSearchResultSaveBtn);
     }
     public async getFinalOfferDateValue(): Promise<string> {
-        return await Page.getElementValue(this.finalOfferCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.finalOfferCalendar));
     }
     public async getLandlordDateValue(): Promise<string> {
-        return await Page.getElementValue(this.landlordCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.landlordCalendar));
     }
     public async getTenantLeaseDateValue(): Promise<string> {
-        return await Page.getElementValue(this.tenantLeaseCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.tenantLeaseCalendar));
     }
     public async getNegotiatedClausesValue(): Promise<string> {
         return await Page.getElementValue(this.negotiatedClausesInput);
     }
     public async getCheckInDateValue(): Promise<string> {
-        return await Page.getElementValue(this.checkInCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.checkInCalendar));
     }
     public async getCheckInIssuesValue(): Promise<string> {
         return await Page.getElementValue(this.checkInIssuesInput);
@@ -168,7 +168,7 @@ class languageTrainingPage {
         await commonElements.setDateValue(this.k2InvoiceCalendar,k2Date);
     }
     public async getK2InvoiceDateValue():Promise<string>{
-        return await Page.getElementValue(this.k2InvoiceCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.k2InvoiceCalendar));
     }
 }
 export default new languageTrainingPage();

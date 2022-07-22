@@ -103,7 +103,7 @@ describe('Home search NA test', () => {
         expect(await initiatedServicesPage.getBudgetCurrencyAmountValue()).toBe(currencyValue_1);
         expect(await initiatedServicesPage.getBudgetCurrencyValue()).toBe(currency_1);
         expect(await initiatedServicesPage.getBudgetcurrencyTermValue()).toBe(currencyTerm_1);
-        expect(await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(homeLeaseQuestionLabel[1])).toBe(startDate_1);
+        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(homeLeaseQuestionLabel[1]))).toBe(startDate_1);
         expect(await commonElements.getRadioBtnState(leaseName_1)).toBe(true);
         expect(await commonElements.getRadioBtnState(payingPerson_1)).toBe(true);
         expect(await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(homeLeaseQuestionLabel[4])).toBe(leaseSpecifics_1);
@@ -128,7 +128,7 @@ describe('Home search NA test', () => {
         expect(await initiatedServicesPage.getBudgetCurrencyAmountValue()).toBe(currencyValue_1);
         expect(await initiatedServicesPage.getBudgetCurrencyValue()).toBe(currency_1);
         expect(await initiatedServicesPage.getBudgetcurrencyTermValue()).toBe(currencyTerm_1);
-        expect(await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(homeLeaseQuestionLabel[1])).toBe(startDate_1);
+        expect(await commonElements.createStandartDateForm(await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(homeLeaseQuestionLabel[1]))).toBe(startDate_1);
         expect(await commonElements.getRadioBtnState(leaseName_1)).toBe(true);
         expect(await commonElements.getRadioBtnState(payingPerson_1)).toBe(true);
         expect(await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(homeLeaseQuestionLabel[4])).toBe(leaseSpecifics_1);
