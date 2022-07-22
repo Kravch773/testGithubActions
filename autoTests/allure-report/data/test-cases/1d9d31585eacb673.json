@@ -1,0 +1,87 @@
+{
+  "uid" : "1d9d31585eacb673",
+  "name" : "Verify Initiate service partner",
+  "fullName" : "Travel booking Service, documents and finance test.Verify Initiate service partner",
+  "historyId" : "f348b1104959543b9a56b2752c48e02f",
+  "time" : {
+    "start" : 1658490045847,
+    "stop" : 1658490052178,
+    "duration" : 6331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Initiate service partner"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9166cca82293954d",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1658471487894,
+        "stop" : 1658471494225,
+        "duration" : 6331
+      }
+    }, {
+      "uid" : "f86577d832a17213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408687320,
+        "stop" : 1658408693677,
+        "duration" : 6357
+      }
+    }, {
+      "uid" : "a040a330ac48f8de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658400200641,
+        "stop" : 1658400206970,
+        "duration" : 6329
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d9d31585eacb673.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

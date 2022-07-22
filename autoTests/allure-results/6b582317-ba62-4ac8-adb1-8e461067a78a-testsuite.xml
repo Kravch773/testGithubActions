@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658471997601' stop='1658472028494'>
+    <name>Travel booking Service hotel service test</name>
+    <title>Travel booking Service hotel service test</title>
+    <test-cases>
+        <test-case start='1658471997601' status='passed' stop='1658472006486'>
+            <name>Go to Services / Travel booking page and check label</name>
+            <title>Go to Services / Travel booking page and check label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-14'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-14'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1658472006486' status='broken' stop='1658472020518'>
+            <name>Verify Hotel booking service form </name>
+            <title>Verify Hotel booking service form </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-14'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'length' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'length' of undefined
+                    at commonElements.&lt;anonymous> (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:468:27)
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:5:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1658472020520' status='broken' stop='1658472028493'>
+            <name>Verify Edit Hotel booking service form </name>
+            <title>Verify Edit Hotel booking service form </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-14'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'length' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'length' of undefined
+                    at commonElements.&lt;anonymous> (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:468:27)
+                    at step (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:33:23)
+                    at Object.next (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:14:53)
+                    at fulfilled (D:\Ghactionstest3\testGithubActions\autoTests\test\helper\commonElements.ts:5:58)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

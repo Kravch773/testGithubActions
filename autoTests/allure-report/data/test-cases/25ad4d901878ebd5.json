@@ -1,0 +1,112 @@
+{
+  "uid" : "25ad4d901878ebd5",
+  "name" : "Verify service documents",
+  "fullName" : "Travel booking Service, documents and finance test.Verify service documents",
+  "historyId" : "2d112c150fbb2ef43599a552fb16799f",
+  "time" : {
+    "start" : 1658490066062,
+    "stop" : 1658490077203,
+    "duration" : 11141
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service documents"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service, documents and finance test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7392683190aa9194",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1658471883651,
+        "stop" : 1658471894691,
+        "duration" : 11040
+      }
+    }, {
+      "uid" : "d2812f595e0b8e2f",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1658471508061,
+        "stop" : 1658471519683,
+        "duration" : 11622
+      }
+    }, {
+      "uid" : "f74843491da604ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658409186616,
+        "stop" : 1658409197731,
+        "duration" : 11115
+      }
+    }, {
+      "uid" : "42a7725a55cb0881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408707605,
+        "stop" : 1658408718677,
+        "duration" : 11072
+      }
+    }, {
+      "uid" : "c7024a745cb9a72a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658400696074,
+        "stop" : 1658400707597,
+        "duration" : 11523
+      }
+    }, {
+      "uid" : "52587c011f8b7667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658400220805,
+        "stop" : 1658400231754,
+        "duration" : 10949
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25ad4d901878ebd5.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

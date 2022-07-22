@@ -1,0 +1,84 @@
+{
+  "uid" : "7604d7b483f99e6b",
+  "name" : "Verify Edit CarRental booking service form ",
+  "fullName" : "Travel booking Service Car rental test.Verify Edit CarRental booking service form ",
+  "historyId" : "54a9d0744c6eeeef374779fa16ac9c70",
+  "time" : {
+    "start" : 1658471859058,
+    "stop" : 1658471866638,
+    "duration" : 7580
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Home search\"\n                Received: \"Other\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Home search\"\n                Received: \"Other\"\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\travelBooking_carRentalService.spec.ts:78:66\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\travelBooking_carRentalService.spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\travelBooking_carRentalService.spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\travelBooking_carRentalService.spec.ts:5:58)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service Car rental test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service Car rental test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Edit CarRental booking service form "
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service Car rental test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a0c98e0ac2217c64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658409135119,
+        "stop" : 1658409154630,
+        "duration" : 19511
+      }
+    }, {
+      "uid" : "91552d65d5376a5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658400643247,
+        "stop" : 1658400662965,
+        "duration" : 19718
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7604d7b483f99e6b.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

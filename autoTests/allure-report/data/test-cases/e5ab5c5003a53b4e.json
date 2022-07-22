@@ -1,0 +1,84 @@
+{
+  "uid" : "e5ab5c5003a53b4e",
+  "name" : "Verify Partner HomeSearch(Lease) section ",
+  "fullName" : "Home search NA test.Verify Partner HomeSearch(Lease) section ",
+  "historyId" : "e775f3c9c7aaaa569fbdc6aa65abb22d",
+  "time" : {
+    "start" : 1658470904502,
+    "stop" : 1658470925263,
+    "duration" : 20761
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.22.2022\"\n                Received: \"\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"7.22.2022\"\n                Received: \"\"\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\homeSearchNA_Lease.spec.ts:106:112\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\homeSearchNA_Lease.spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\homeSearchNA_Lease.spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\homeSearchNA_Lease.spec.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Partner HomeSearch(Lease) section "
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4af61b374dd79f2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408037040,
+        "stop" : 1658408057765,
+        "duration" : 20725
+      }
+    }, {
+      "uid" : "47b78c8ae28a4e36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399549401,
+        "stop" : 1658399570430,
+        "duration" : 21029
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e5ab5c5003a53b4e.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
