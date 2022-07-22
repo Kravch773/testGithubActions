@@ -141,7 +141,7 @@ describe('Home search NA test', () => {
         expect(await initiatedServicesPage.getBudgetCurrencyAmountValue()).toBe(currencyValue_2);
         expect(await initiatedServicesPage.getBudgetCurrencyValue()).toBe(currency_2);
         expect(await initiatedServicesPage.getBudgetcurrencyTermValue()).toBe(currencyTerm_2);
-        expect(await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(homeLeaseQuestionLabel[1])).toBe(startDate_2);
+        expect(await commonElements.createStandartDateForm((await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(homeLeaseQuestionLabel[1])))).toBe(startDate_2);
         expect(await commonElements.getRadioBtnState(leaseName_2)).toBe(true);
         expect(await commonElements.getRadioBtnState(payingPerson_2)).toBe(true);
         expect(await initiatedServicesPage.getServiceNeedAnalysisInputValueByLabel(homeLeaseQuestionLabel[4])).toBe(leaseSpecifics_2);

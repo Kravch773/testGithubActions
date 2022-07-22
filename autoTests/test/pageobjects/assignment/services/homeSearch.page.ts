@@ -162,7 +162,7 @@ class languageTrainingPage {
         return await commonElements.getDropDownValueText(this.personOngoingUtilitiesPayDD);
     }
     public async getMoveInDate(): Promise<string> {
-        return await Page.getElementValue(this.moveInCalendar);
+        return await commonElements.createStandartDateForm(await Page.getElementValue(this.moveInCalendar));
     }
     public async setK2InvoiceCalendar(k2Date):Promise<void>{
         await commonElements.setDateValue(this.k2InvoiceCalendar,k2Date);
