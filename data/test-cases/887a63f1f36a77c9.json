@@ -1,0 +1,68 @@
+{
+  "uid" : "887a63f1f36a77c9",
+  "name" : "Verify service PurchaseOrder",
+  "fullName" : "SchoolSearch Finance And Delivery Partner test.Verify service PurchaseOrder",
+  "historyId" : "b4972ecbcd7360e44b4e6e18a7a810c3",
+  "time" : {
+    "start" : 1658488261064,
+    "stop" : 1658488276068,
+    "duration" : 15004
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testClass",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service PurchaseOrder"
+  }, {
+    "name" : "package",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "887a63f1f36a77c9.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
