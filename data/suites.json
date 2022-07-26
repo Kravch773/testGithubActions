@@ -1,16 +1,16 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "SchoolSearch Finance And Delivery Partner test",
+    "name" : "Home purchase assistance Service, documents and finance test",
     "children" : [ {
-      "name" : "Go to Services / schoolSearch page and check label",
-      "uid" : "ad487c5db3bf2c16",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
+      "name" : "Go to Services / Home purchase assistance page and check label",
+      "uid" : "1126796a5eeda5d9",
+      "parentUid" : "666fdd9855bb5242955bfd7601330fd1",
       "status" : "broken",
       "time" : {
-        "start" : 1658828576871,
-        "stop" : 1658828605944,
-        "duration" : 29073
+        "start" : 1658829271736,
+        "stop" : 1658829301494,
+        "duration" : 29758
       },
       "flaky" : false,
       "newFailed" : false,
@@ -20,14 +20,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.134" ]
     }, {
-      "name" : "Verify service PurchaseOrder",
-      "uid" : "37f0e32052a790f5",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
+      "name" : "Verify service documents",
+      "uid" : "82d314054f3e29f9",
+      "parentUid" : "666fdd9855bb5242955bfd7601330fd1",
       "status" : "broken",
       "time" : {
-        "start" : 1658828605944,
-        "stop" : 1658828620947,
-        "duration" : 15003
+        "start" : 1658829301495,
+        "stop" : 1658829310952,
+        "duration" : 9457
       },
       "flaky" : false,
       "newFailed" : false,
@@ -37,167 +37,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.134" ]
     }, {
-      "name" : "Verify service Sales Order",
-      "uid" : "a11891570eaea6b1",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
+      "name" : "Verify remove service document",
+      "uid" : "71a5fed820ed988b",
+      "parentUid" : "666fdd9855bb5242955bfd7601330fd1",
       "status" : "broken",
       "time" : {
-        "start" : 1658828620947,
-        "stop" : 1658828635950,
-        "duration" : 15003
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.134" ]
-    }, {
-      "name" : "Verify service Recurring Purchase Orders",
-      "uid" : "d1891a70d30665ba",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
-      "status" : "broken",
-      "time" : {
-        "start" : 1658828635950,
-        "stop" : 1658828650952,
-        "duration" : 15002
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.134" ]
-    }, {
-      "name" : "Add Partner and Verify SchoolSearch NA form date in Initiation details form",
-      "uid" : "c11e08be4877501b",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
-      "status" : "broken",
-      "time" : {
-        "start" : 1658828650952,
-        "stop" : 1658828662832,
-        "duration" : 11880
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.134" ]
-    }, {
-      "name" : "Verify Set Collection address and budget partner form",
-      "uid" : "40e006decff8dddf",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
-      "status" : "broken",
-      "time" : {
-        "start" : 1658828662832,
-        "stop" : 1658828677836,
-        "duration" : 15004
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.134" ]
-    }, {
-      "name" : "Verify Edit Collection address and budget  form",
-      "uid" : "253d0eb7fc19d47",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
-      "status" : "broken",
-      "time" : {
-        "start" : 1658828677836,
-        "stop" : 1658828692839,
-        "duration" : 15003
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.134" ]
-    }, {
-      "name" : "Verify SchoolSearch details NA form match Initiation details form",
-      "uid" : "bdb3f8e3bf5e4ef9",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1658828692839,
-        "stop" : 1658828692839,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Verify set SchoolSearch Initiation details form ",
-      "uid" : "66d60e18ec904a5",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
-      "status" : "broken",
-      "time" : {
-        "start" : 1658828692840,
-        "stop" : 1658828707842,
-        "duration" : 15002
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.134" ]
-    }, {
-      "name" : "Verify edit SchoolSearch Initiation details form and NA labels",
-      "uid" : "8b8827b00bfa3c0b",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
-      "status" : "broken",
-      "time" : {
-        "start" : 1658828707842,
-        "stop" : 1658828722844,
-        "duration" : 15002
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.134" ]
-    }, {
-      "name" : "Verify Initiate service partner",
-      "uid" : "4d044f2fc9fa668e",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
-      "status" : "broken",
-      "time" : {
-        "start" : 1658828722844,
-        "stop" : 1658828737846,
-        "duration" : 15002
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-103.0.5060.134" ]
-    }, {
-      "name" : "Verify remove service partner",
-      "uid" : "987a184afd319bac",
-      "parentUid" : "d5cec2298689765cfd0e166ec54b9203",
-      "status" : "broken",
-      "time" : {
-        "start" : 1658828737846,
-        "stop" : 1658828752850,
-        "duration" : 15004
+        "start" : 1658829310953,
+        "stop" : 1658829326199,
+        "duration" : 15246
       },
       "flaky" : false,
       "newFailed" : false,
@@ -207,18 +54,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.134" ]
     } ],
-    "uid" : "d5cec2298689765cfd0e166ec54b9203"
+    "uid" : "666fdd9855bb5242955bfd7601330fd1"
   }, {
-    "name" : "SchoolSearch , documents and finance test",
+    "name" : "Home sale assistance Service, documents and finance test",
     "children" : [ {
-      "name" : "Go to Services / schoolSearch  page and check label",
-      "uid" : "a6a3c9d0b307fa6b",
-      "parentUid" : "a8db8de221f276a0f53573a28ac74df9",
+      "name" : "Go to Services / Home sale assistance page and check label",
+      "uid" : "32a8c6477f4898f0",
+      "parentUid" : "84bba7cee78885afecc0ed10a0a5be48",
       "status" : "passed",
       "time" : {
-        "start" : 1658828755174,
-        "stop" : 1658828764338,
-        "duration" : 9164
+        "start" : 1658829328441,
+        "stop" : 1658829337672,
+        "duration" : 9231
       },
       "flaky" : false,
       "newFailed" : false,
@@ -228,41 +75,41 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.134" ]
     }, {
-      "name" : "Verify schoolSearch section",
-      "uid" : "c7aef2f8fdcedf7a",
-      "parentUid" : "a8db8de221f276a0f53573a28ac74df9",
+      "name" : "Verify service documents",
+      "uid" : "c26eeff7448df833",
+      "parentUid" : "84bba7cee78885afecc0ed10a0a5be48",
       "status" : "passed",
       "time" : {
-        "start" : 1658828817445,
-        "stop" : 1658828824785,
-        "duration" : 7340
+        "start" : 1658829337675,
+        "stop" : 1658829348099,
+        "duration" : 10424
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.134" ]
     }, {
-      "name" : "Verify edti schoolSearch section",
-      "uid" : "73dfd2a52c77f3f6",
-      "parentUid" : "a8db8de221f276a0f53573a28ac74df9",
+      "name" : "Verify remove service document",
+      "uid" : "a7c67300a6c0c3ea",
+      "parentUid" : "84bba7cee78885afecc0ed10a0a5be48",
       "status" : "passed",
       "time" : {
-        "start" : 1658828824785,
-        "stop" : 1658828842173,
-        "duration" : 17388
+        "start" : 1658829348107,
+        "stop" : 1658829359737,
+        "duration" : 11630
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.134" ]
     } ],
-    "uid" : "a8db8de221f276a0f53573a28ac74df9"
+    "uid" : "84bba7cee78885afecc0ed10a0a5be48"
   } ],
   "name" : "suites"
 }
