@@ -1,0 +1,87 @@
+{
+  "uid" : "471e50c33a36cb99",
+  "name" : "Verify service Recurring Purchase Orders",
+  "fullName" : "SchoolSearch Finance And Delivery Partner test.Verify service Recurring Purchase Orders",
+  "historyId" : "cbc456f16f6735fb0e1765d38ec49179",
+  "time" : {
+    "start" : 1658489788341,
+    "stop" : 1658489810702,
+    "duration" : 22361
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testClass",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify service Recurring Purchase Orders"
+  }, {
+    "name" : "package",
+    "value" : "SchoolSearch Finance And Delivery Partner test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4ed4601ca247f347",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 15000ms",
+      "time" : {
+        "start" : 1658471258184,
+        "stop" : 1658471273187,
+        "duration" : 15003
+      }
+    }, {
+      "uid" : "54db6178a942b120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408435204,
+        "stop" : 1658408457602,
+        "duration" : 22398
+      }
+    }, {
+      "uid" : "ce829ea40c14ab27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399947853,
+        "stop" : 1658399970603,
+        "duration" : 22750
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "471e50c33a36cb99.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

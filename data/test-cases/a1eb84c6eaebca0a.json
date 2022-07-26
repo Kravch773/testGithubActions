@@ -1,0 +1,62 @@
+{
+  "uid" : "a1eb84c6eaebca0a",
+  "name" : "Verify numChildSeats field (min and max value)",
+  "fullName" : "Travel booking Service Car rental test.Verify numChildSeats field (min and max value)",
+  "historyId" : "1a088159bedef5f0a3a08f06c707b9c3",
+  "time" : {
+    "start" : 1658471870187,
+    "stop" : 1658471872620,
+    "duration" : 2433
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"1\"\n                Received: \"0\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"1\"\n                Received: \"0\"\n                    at D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\travelBooking_carRentalService.spec.ts:159:62\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\travelBooking_carRentalService.spec.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\travelBooking_carRentalService.spec.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\specs\\assignments\\initiated_services\\pre_assignment_services\\travelBooking_carRentalService.spec.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service Car rental test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service Car rental test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify numChildSeats field (min and max value)"
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service Car rental test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1eb84c6eaebca0a.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

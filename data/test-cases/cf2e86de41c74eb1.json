@@ -1,0 +1,159 @@
+{
+  "uid" : "cf2e86de41c74eb1",
+  "name" : "Verify Initiate service partner",
+  "fullName" : "Home search NA test.Verify Initiate service partner",
+  "historyId" : "679818356c8c09f760a5938410034685",
+  "time" : {
+    "start" : 1658471194635,
+    "stop" : 1658471201516,
+    "duration" : 6881
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'length' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'length' of undefined\n                    at commonElements.<anonymous> (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:468:27)\n                    at step (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:33:23)\n                    at Object.next (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:14:53)\n                    at fulfilled (D:\\Ghactionstest3\\testGithubActions\\autoTests\\test\\helper\\commonElements.ts:5:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Initiate service partner"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c8e35085aa311ebb",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1658471109060,
+        "stop" : 1658471115932,
+        "duration" : 6872
+      }
+    }, {
+      "uid" : "b0304f09e41371db",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1658471025874,
+        "stop" : 1658471032768,
+        "duration" : 6894
+      }
+    }, {
+      "uid" : "fa5ec97ba80547a9",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1658470945017,
+        "stop" : 1658470951864,
+        "duration" : 6847
+      }
+    }, {
+      "uid" : "70071e77e42f03a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408346257,
+        "stop" : 1658408353110,
+        "duration" : 6853
+      }
+    }, {
+      "uid" : "b43ce00403ca564b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408259490,
+        "stop" : 1658408266339,
+        "duration" : 6849
+      }
+    }, {
+      "uid" : "30dc6e6d0e85c25f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408165604,
+        "stop" : 1658408172466,
+        "duration" : 6862
+      }
+    }, {
+      "uid" : "340a095d18a9a5ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658408085324,
+        "stop" : 1658408092188,
+        "duration" : 6864
+      }
+    }, {
+      "uid" : "3036cd9a35a7034c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399857900,
+        "stop" : 1658399864747,
+        "duration" : 6847
+      }
+    }, {
+      "uid" : "556339ed900c1d8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399771254,
+        "stop" : 1658399778096,
+        "duration" : 6842
+      }
+    }, {
+      "uid" : "9c19f6b107566d06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399677604,
+        "stop" : 1658399684967,
+        "duration" : 7363
+      }
+    }, {
+      "uid" : "6907e04108609346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658399597335,
+        "stop" : 1658399604235,
+        "duration" : 6900
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cf2e86de41c74eb1.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "7af79178808f3a71",
+  "name" : "Verify Hotel booking service form ",
+  "fullName" : "Travel booking Service hotel service test.Verify Hotel booking service form ",
+  "historyId" : "437a38b81bd60a279a5a89689980c697",
+  "time" : {
+    "start" : 1658815680860,
+    "stop" : 1658815694967,
+    "duration" : 14107
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Travel booking Service hotel service test"
+  }, {
+    "name" : "testClass",
+    "value" : "Travel booking Service hotel service test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Hotel booking service form "
+  }, {
+    "name" : "package",
+    "value" : "Travel booking Service hotel service test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d7048231974de2a",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'length' of undefined",
+      "time" : {
+        "start" : 1658472006486,
+        "stop" : 1658472020518,
+        "duration" : 14032
+      }
+    }, {
+      "uid" : "db79bfb7c2287e69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658409357117,
+        "stop" : 1658409371376,
+        "duration" : 14259
+      }
+    }, {
+      "uid" : "e4ed3efcdea59265",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658400867893,
+        "stop" : 1658400881617,
+        "duration" : 13724
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7af79178808f3a71.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
