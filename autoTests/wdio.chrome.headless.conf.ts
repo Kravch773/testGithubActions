@@ -56,11 +56,20 @@ export const config: WebdriverIO.Config = {
             './test/specs/assignments/initiated_services/hhg_services/*.spec.ts'
         ],
         preAssignmentServices: [
-            './test/specs/assignments/initiated_services/pre_assignment_services/schoolSearch/*.spec.ts'
+            './test/specs/assignments/initiated_services/pre_assignment_services/*.spec.ts'
         ],
         universalServices: [
             './test/specs/assignments/initiated_services/universal_services/*.spec.ts'
-        ]
+        ],
+        preAssignmentHomeSearch: [
+            './test/specs/assignments/initiated_services/pre_assignment_services/homeSearch/*.spec.ts'
+        ],
+        preAssignmentSchoolSearch: [
+            './test/specs/assignments/initiated_services/pre_assignment_services/schoolSearch/*.spec.ts'
+        ],
+        preAssignmentTaxBreifing: [
+            './test/specs/assignments/initiated_services/pre_assignment_services/taxBreifing/*.spec.ts'
+        ],
     },
     // Patterns to exclude.
     exclude: [
