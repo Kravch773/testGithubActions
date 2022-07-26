@@ -1,12 +1,12 @@
 {
-  "uid" : "f13754f6585f8503",
-  "name" : "Verify edti schoolSearch section",
-  "fullName" : "SchoolSearch , documents and finance test.Verify edti schoolSearch section",
-  "historyId" : "5cba8d086e376a97f2f506ca84ba8ef4",
+  "uid" : "d27da34a03261c7b",
+  "name" : "Verify schoolSearch section",
+  "fullName" : "SchoolSearch , documents and finance test.Verify schoolSearch section",
+  "historyId" : "70e9ca143cce0328d251f8b8933fe2a9",
   "time" : {
-    "start" : 1658825798146,
-    "stop" : 1658825823694,
-    "duration" : 25548
+    "start" : 1658826284197,
+    "stop" : 1658826291793,
+    "duration" : 7596
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -36,7 +36,7 @@
     "value" : "SchoolSearch , documents and finance test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify edti schoolSearch section"
+    "value" : "Verify schoolSearch section"
   }, {
     "name" : "package",
     "value" : "SchoolSearch , documents and finance test"
@@ -49,12 +49,22 @@
     "value" : "chrome-103.0.5060.114"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3e482771e38e12e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658826229145,
+        "stop" : 1658826258547,
+        "duration" : 29402
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f13754f6585f8503.json",
+  "source" : "d27da34a03261c7b.json",
   "parameterValues" : [ "chrome-103.0.5060.114" ]
 }

@@ -1,16 +1,18 @@
 {
-  "uid" : "5402bf170968733c",
-  "name" : "Verify remove service partner",
-  "fullName" : "SchoolSearch Finance And Delivery Partner test.Verify remove service partner",
-  "historyId" : "2e03fa0321900595d07f713d1827c5b3",
+  "uid" : "8865b13f11b375f",
+  "name" : "Verify Set Collection address and budget partner form",
+  "fullName" : "SchoolSearch Finance And Delivery Partner test.Verify Set Collection address and budget partner form",
+  "historyId" : "5fa093e5535c74486854c3b325a56795",
   "time" : {
-    "start" : 1658825743148,
-    "stop" : 1658825757270,
-    "duration" : 14122
+    "start" : 1658826127189,
+    "stop" : 1658826142192,
+    "duration" : 15003
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "passed",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -36,7 +38,7 @@
     "value" : "SchoolSearch Finance And Delivery Partner test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify remove service partner"
+    "value" : "Verify Set Collection address and budget partner form"
   }, {
     "name" : "package",
     "value" : "SchoolSearch Finance And Delivery Partner test"
@@ -54,9 +56,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "5402bf170968733c.json",
+  "source" : "8865b13f11b375f.json",
   "parameterValues" : [ "chrome-103.0.5060.114" ]
 }
