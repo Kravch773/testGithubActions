@@ -29,7 +29,7 @@ const homeOtherQuestionLabel = ["Will you require a property that", "Will you re
 const needAnalysisUpdMsg = "Home search details have been updated. Thank you."
 
 
-describe('Home search NA test', () => {
+describe('Home search NA Other test', () => {
 
     before(async () => {
         await passSignIn.signIn();

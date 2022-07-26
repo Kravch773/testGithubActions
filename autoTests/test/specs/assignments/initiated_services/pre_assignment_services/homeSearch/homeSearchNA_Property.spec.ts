@@ -37,7 +37,7 @@ const postalCode_1 = "045453"
 const country_1 = "United Kingdom"
 const partnerName_1 = "Roebuck"
 
-describe('Home search NA test', () => {
+describe('Home search NA Property test', () => {
 
     before(async () => {
         await passSignIn.signIn();

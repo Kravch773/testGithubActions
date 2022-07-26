@@ -29,7 +29,7 @@ const homePlanningQuestionLabel = ["Date(s) you would like to", "who will be att
 const needAnalysisUpdMsg = "Home search planning details have been updated. Thank you."
 
 
-describe('Home search NA test', () => {
+describe('Home search NA Planning test', () => {
 
     before(async () => {
         await passSignIn.signIn();

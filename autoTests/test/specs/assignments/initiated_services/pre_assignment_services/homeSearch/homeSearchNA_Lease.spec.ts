@@ -32,7 +32,7 @@ const homeLeaseQuestionLabel = ["Budget", "What date would you like", "Whose nam
 const needAnalysisUpdMsg = "Home search details have been updated. Thank you."
 
 
-describe('Home search NA test', () => {
+describe('Home search NA Lease test', () => {
 
     before(async () => {
         await passSignIn.signIn();

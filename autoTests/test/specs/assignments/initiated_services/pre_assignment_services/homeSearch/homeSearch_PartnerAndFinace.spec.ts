@@ -30,7 +30,7 @@ const postalCode_2 = "654321"
 const country_1 = "United Kingdom"
 const country_2 = "United States"
 
-describe('Home search Service, documents and finance test', () => {
+describe('Home search partner, documents and finance test', () => {
 
     before(async () => {
         await passSignIn.signIn();

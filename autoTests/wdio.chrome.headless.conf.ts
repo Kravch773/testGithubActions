@@ -47,7 +47,7 @@ export const config: WebdriverIO.Config = {
             './test/specs/assignments/initiated_services/*/*.spec.ts'
         ],
         arrivalServices: [
-            './test/specs/assignments/initiated_services/*.spec.ts'
+            './test/specs/assignments/initiated_services/schoolSearch/*.spec.ts'
         ],
         departureServices: [
             './test/specs/assignments/initiated_services/departure_services/*.spec.ts'
