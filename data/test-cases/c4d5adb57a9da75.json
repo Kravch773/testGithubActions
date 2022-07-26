@@ -1,0 +1,84 @@
+{
+  "uid" : "c4d5adb57a9da75",
+  "name" : "Verify NA Labels after set partner sections data",
+  "fullName" : "Home search NA test.Verify NA Labels after set partner sections data",
+  "historyId" : "b16bd8557f8ea4a1edd6b791493c5310",
+  "time" : {
+    "start" : 1658821825405,
+    "stop" : 1658821842924,
+    "duration" : 17519
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 15000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 15000ms\n                    at /home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/webdriverio/build/commands/browser/waitUntil.js:68:19\n                    at async Browser.wrapCommandFn (/home/runner/work/testGithubActions/testGithubActions/autoTests/node_modules/@wdio/utils/build/shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testClass",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify NA Labels after set partner sections data"
+  }, {
+    "name" : "package",
+    "value" : "Home search NA test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f100dc561f734bf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658821621234,
+        "stop" : 1658821625951,
+        "duration" : 4717
+      }
+    }, {
+      "uid" : "25312e5a4714d06d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658821529615,
+        "stop" : 1658821534282,
+        "duration" : 4667
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c4d5adb57a9da75.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
