@@ -1,12 +1,12 @@
 {
-  "uid" : "f0d178486efac7ab",
-  "name" : "Verify Initiate service partner",
-  "fullName" : "Home search NA Property test.Verify Initiate service partner",
-  "historyId" : "e0eefbc54fe2067f2a8db2ebbe776264",
+  "uid" : "c7aef2f8fdcedf7a",
+  "name" : "Verify schoolSearch section",
+  "fullName" : "SchoolSearch , documents and finance test.Verify schoolSearch section",
+  "historyId" : "d3d048a96f44286870efab2cf0f35ba8",
   "time" : {
-    "start" : 1658828396319,
-    "stop" : 1658828403170,
-    "duration" : 6851
+    "start" : 1658828817445,
+    "stop" : 1658828824785,
+    "duration" : 7340
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -27,19 +27,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-5"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "Home search NA Property test"
+    "value" : "SchoolSearch , documents and finance test"
   }, {
     "name" : "testClass",
-    "value" : "Home search NA Property test"
+    "value" : "SchoolSearch , documents and finance test"
   }, {
     "name" : "testMethod",
-    "value" : "Verify Initiate service partner"
+    "value" : "Verify schoolSearch section"
   }, {
     "name" : "package",
-    "value" : "Home search NA Property test"
+    "value" : "SchoolSearch , documents and finance test"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,10 +53,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "411254402e5931cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658828764339,
+        "stop" : 1658828792678,
+        "duration" : 28339
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f0d178486efac7ab.json",
+  "source" : "c7aef2f8fdcedf7a.json",
   "parameterValues" : [ "chrome-103.0.5060.134" ]
 }

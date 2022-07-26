@@ -5,65 +5,14 @@
     "children" : [ {
       "name" : "waitUntil condition timed out after 15000ms",
       "children" : [ {
-        "name" : "Go to Services / Home search page and check label",
-        "uid" : "184ba755e9f130d2",
+        "name" : "Go to Services / schoolSearch page and check label",
+        "uid" : "ad487c5db3bf2c16",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1658827836392,
-          "stop" : 1658827862775,
-          "duration" : 26383
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      }, {
-        "name" : "Verify edit Home search Initiation details form",
-        "uid" : "cbc8e6b79f9fa561",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1658827874894,
-          "stop" : 1658827889896,
-          "duration" : 15002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      }, {
-        "name" : "Verify Initiate service partner",
-        "uid" : "f8097147f6669ab3",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1658827889896,
-          "stop" : 1658827904899,
-          "duration" : 15003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      }, {
-        "name" : "Verify remove service partner",
-        "uid" : "e9a4c7403249a319",
-        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
-        "status" : "broken",
-        "time" : {
-          "start" : 1658827904900,
-          "stop" : 1658827919902,
-          "duration" : 15002
+          "start" : 1658828576871,
+          "stop" : 1658828605944,
+          "duration" : 29073
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,12 +23,12 @@
         "parameters" : [ "chrome-103.0.5060.134" ]
       }, {
         "name" : "Verify service PurchaseOrder",
-        "uid" : "c7d6ec2b83732812",
+        "uid" : "37f0e32052a790f5",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1658827919902,
-          "stop" : 1658827934905,
+          "start" : 1658828605944,
+          "stop" : 1658828620947,
           "duration" : 15003
         },
         "flaky" : false,
@@ -91,13 +40,13 @@
         "parameters" : [ "chrome-103.0.5060.134" ]
       }, {
         "name" : "Verify service Sales Order",
-        "uid" : "edd6f38c04500847",
+        "uid" : "a11891570eaea6b1",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1658827934905,
-          "stop" : 1658827949907,
-          "duration" : 15002
+          "start" : 1658828620947,
+          "stop" : 1658828635950,
+          "duration" : 15003
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,13 +57,115 @@
         "parameters" : [ "chrome-103.0.5060.134" ]
       }, {
         "name" : "Verify service Recurring Purchase Orders",
-        "uid" : "d647af56a88b1d4a",
+        "uid" : "d1891a70d30665ba",
         "parentUid" : "7a32765981bcc7398deb824e5d577aab",
         "status" : "broken",
         "time" : {
-          "start" : 1658827949907,
-          "stop" : 1658827964909,
+          "start" : 1658828635950,
+          "stop" : 1658828650952,
           "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Verify Set Collection address and budget partner form",
+        "uid" : "40e006decff8dddf",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658828662832,
+          "stop" : 1658828677836,
+          "duration" : 15004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Verify Edit Collection address and budget  form",
+        "uid" : "253d0eb7fc19d47",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658828677836,
+          "stop" : 1658828692839,
+          "duration" : 15003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Verify set SchoolSearch Initiation details form ",
+        "uid" : "66d60e18ec904a5",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658828692840,
+          "stop" : 1658828707842,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Verify edit SchoolSearch Initiation details form and NA labels",
+        "uid" : "8b8827b00bfa3c0b",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658828707842,
+          "stop" : 1658828722844,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Verify Initiate service partner",
+        "uid" : "4d044f2fc9fa668e",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658828722844,
+          "stop" : 1658828737846,
+          "duration" : 15002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Verify remove service partner",
+        "uid" : "987a184afd319bac",
+        "parentUid" : "7a32765981bcc7398deb824e5d577aab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658828737846,
+          "stop" : 1658828752850,
+          "duration" : 15004
         },
         "flaky" : false,
         "newFailed" : false,
@@ -128,14 +179,14 @@
     }, {
       "name" : "No window found with title, url or name matching \"/services\"",
       "children" : [ {
-        "name" : "Verify Home search Initiation details form",
-        "uid" : "3509dbea4246dafe",
+        "name" : "Add Partner and Verify SchoolSearch NA form date in Initiation details form",
+        "uid" : "c11e08be4877501b",
         "parentUid" : "93a0d394754bd429afd6f4c47e0ed7a1",
         "status" : "broken",
         "time" : {
-          "start" : 1658827862776,
-          "stop" : 1658827874894,
-          "duration" : 12118
+          "start" : 1658828650952,
+          "stop" : 1658828662832,
+          "duration" : 11880
         },
         "flaky" : false,
         "newFailed" : false,
